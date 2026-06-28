@@ -222,6 +222,22 @@
 
   .vp-credit{margin:-6px 0 16px;font-size:14px;color:var(--ink-soft);font-weight:600}
   .vp-credit a{color:var(--mc-orange);font-weight:800}
+  .vp-mapwrap{margin:8px 0 10px;border:1.5px solid var(--rule-2)}
+  .vp-mapframe{display:block;width:100%;height:460px;border:0;background:var(--paper-3)}
+  @media(max-width:620px){.vp-mapframe{height:380px}}
+  .vp-osm{position:relative;height:460px;border:1.5px solid var(--rule-2);overflow:hidden;background:var(--paper-3);touch-action:none;cursor:grab}
+  .vp-osm.grab{cursor:grabbing}
+  .vp-tiles,.vp-pins{position:absolute;inset:0}
+  .vp-tile{position:absolute;width:256px;height:256px;user-select:none;pointer-events:none}
+  .vp-pin{position:absolute;width:14px;height:14px;margin:-14px 0 0 -7px;background:var(--pc,#0E5FA0);border:2px solid #fff;border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 1px 2px rgba(0,0,0,.45);pointer-events:none}
+  .vp-mapctl{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:6px;z-index:5}
+  .vp-mapctl button{width:38px;height:38px;border:1.5px solid var(--ink);background:#fff;color:var(--ink);font-weight:800;font-size:18px;line-height:1;cursor:pointer}
+  .vp-mapnote{position:absolute;left:10px;bottom:10px;background:rgba(255,253,246,.92);border:1px solid var(--rule-2);font-size:12px;font-weight:700;color:var(--ink);padding:4px 8px;max-width:70%;z-index:5}
+  .vp-attrib{position:absolute;right:0;bottom:0;background:rgba(255,253,246,.85);font-size:9px;color:var(--ink-soft);padding:1px 5px;z-index:4}
+  .vp-maprow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 6px}
+  .vp-mapbtn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 15px;font-weight:800;font-size:14px;border:2px solid var(--mc-orange);background:var(--mc-orange);color:#fff;text-decoration:none;cursor:pointer}
+  .vp-mapbtn.alt{background:var(--paper-2);color:var(--ink);border-color:var(--ink)}
+  .vp-mapbtn:hover{filter:brightness(1.06)}
 </style>
 </head>
 <body>
@@ -342,7 +358,6 @@ function rPrint(){
   let h=`<section class="ve-print"><h2><i class="sn">01</i>${esc(ui("print_h"))}</h2><p class="vp-lead">${esc(ui("print_lead"))}</p>`;
   if(p.credit){h+=`<p class="vp-credit">${esc(ui("print_credit"))} <a href="${esc(p.credit.url)}" target="_blank" rel="noopener"><b>${esc(p.credit.name)}</b></a>${p.credit.ig?` &middot; <a href="${esc(p.credit.ig)}" target="_blank" rel="noopener">Instagram</a>`:""}</p>`;}
   h+=`<div class="vp-cta"><h3>${esc(ui("print_cta_h"))}</h3><div class="vp-groups">`+p.groups.map(g=>`<a class="vp-wa" data-ev="wa" href="${esc(g.url)}" target="_blank" rel="noopener"><b>${esc(g.name)}</b><span>${esc(pick(g,"note"))}</span></a>`).join("")+`</div></div>`;
-  if(p.map&&p.map.url) h+=`<a class="vp-map" data-ev="ushahidi-map" href="${esc(p.map.url)}" target="_blank" rel="noopener">${esc(ui("print_map"))} &#8599;</a>`;
   h+=`<div class="vp-block"><h3>${esc(ui("print_files_h"))}</h3><div class="vp-files">`+p.files.map(f=>`<a class="vp-file" data-ev="download" href="${esc(f.href)}" download>${esc(f.label)}<i>${esc(ui("print_download"))} &#8595;</i></a>`).join("")+`</div></div>`;
   h+=`<div class="vp-block"><h3>${esc(ui("print_models_h"))}</h3><div class="vp-models">`+p.models.map(m=>`<span class="vp-model">${esc(m)}</span>`).join("")+`</div></div>`;
   h+=`<div class="vp-block"><h3>${esc(ui("print_use_h"))}</h3><ol class="vp-steps">`+steps.map(s=>`<li>${esc(s)}</li>`).join("")+`</ol><p class="vp-caveat">${esc(ui("print_caveat"))}</p></div>`;
@@ -359,7 +374,11 @@ function rPrint(){
     });
     h+=`<p class="vp-caveat">${esc(ui("fr_note"))}</p></div>`;
   }
-  h+=`<details class="vp-centers"><summary>${esc(ui("print_centers_h"))} &middot; ${p.centers.length}+</summary><ul>`+p.centers.map(c=>`<li><b>${esc(c.city)}</b> — ${esc(c.detail)}</li>`).join("")+`</ul><a class="vp-doc" href="${esc(p.centers_doc)}" download>${esc(ui("print_centers_all"))} &#8595;</a></details>`;
+  var _murl=(p.map&&p.map.url)||"https://vzla.ushahidi.io/map";
+  var _madd=(p.map&&p.map.add)||"https://vzla.ushahidi.io/post/create";
+  h+=`<div class="vp-block"><h3>${esc(ui("print_centers_h"))}</h3>`
+    +`<div class="vp-mapwrap"><iframe class="vp-mapframe" src="${esc(_murl)}" title="${esc(ui("print_centers_h"))}" loading="lazy" allowfullscreen></iframe></div>`
+    +`<div class="vp-maprow"><a class="vp-mapbtn alt" href="${esc(_madd)}" target="_blank" rel="noopener" data-ev="map/add">${esc(ui("map_add"))}</a><a class="vp-doc" href="${esc(_murl)}" target="_blank" rel="noopener">${esc(ui("print_map"))} &#8599;</a>${p.centers_doc?` &middot; <a class="vp-doc" href="${esc(p.centers_doc)}" download>${esc(ui("print_centers_all"))} &#8595;</a>`:""}</div></div>`;
   return h+`</section>`;
 }
 function rArchive(){
