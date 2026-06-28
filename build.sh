@@ -18,7 +18,8 @@ import os, zipfile
 v="deploy/venezuela"; fer="deploy/files/ferulas"
 lean=["ferula-pequena.3mf","ferula-mediana.3mf","ferula-grande.3mf",
       "ferula-guia-uso.pdf","ferula-identificador.pdf","ferula-instrucciones-ostec.pdf",
-      "ferula-corte-laser-s-m-l.pdf"]
+      "ferula-corte-laser-s-m-l.pdf",
+      "ferula-mascotas.3mf"]
 z=v+"/venezuela-offline.zip"
 if os.path.exists(z): os.remove(z)
 with zipfile.ZipFile(z,"w",zipfile.ZIP_DEFLATED) as f:
