@@ -127,7 +127,7 @@
     "need": "Health",
     "phase": ["acute-72h", "days-after"],
     "source": "WHO (cold chain principles)",
-    "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/delivery-systems/cold-chain",
+    "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/essential-programme-on-immunization/supply-chain",
     "caveat": "Check each product's labelled temperatures; if the cold chain is broken, ask a clinician before using or discarding.",
     "tags": ["health", "cold-chain", "insulin", "energy"]
   },
@@ -151,7 +151,7 @@
     "need": "Sanitation",
     "phase": ["days-after", "prolonged"],
     "source": "Hesperian / Sphere",
-    "source_url": "https://en.hesperian.org/hhg/Sanitation_and_Cleanliness_for_a_Healthy_Environment",
+    "source_url": "https://en.hesperian.org/hhg/A_Community_Guide_to_Environmental_Health:Sanitation_for_Emergencies",
     "caveat": "Site latrines at least the recommended distance from wells and water; protect children's contact with waste.",
     "tags": ["sanitation", "latrine", "excreta"]
   },
@@ -187,7 +187,7 @@
     "need": "Food",
     "phase": ["days-after", "prolonged"],
     "source": "MIT D-Lab / Appropedia",
-    "source_url": "https://d-lab.mit.edu/research/work-themes/biomass-fuel-cookstoves",
+    "source_url": "https://d-lab.mit.edu/research/biomass-fuels-cookstoves",
     "caveat": "Never burn charcoal or fuel indoors without ventilation.",
     "tags": ["energy", "cooking", "rocket-stove", "solar"]
   },
@@ -271,7 +271,7 @@
     "need": "Coordination",
     "phase": ["days-after", "prolonged"],
     "source": "IFRC / Sphere",
-    "source_url": "https://www.ifrc.org/our-work/disasters-climate-and-crises/community-engagement-and-accountability",
+    "source_url": "https://www.ifrc.org/our-work/inclusion-protection-and-engagement/community-engagement-and-accountability",
     "caveat": "",
     "tags": ["coordination", "mutual-aid", "community"]
   },
