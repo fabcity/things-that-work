@@ -1266,6 +1266,8 @@ _fa_needs = []
 for _nk,_en,_es,_idn,_doms,_kws in _VE_NEEDS:
     _matched = []
     for e in dataset["entries"]:
+        if e.get("source_body") == "fieldready":
+            continue  # Field Ready entries have no source_url → dead links; they live in their own linked block
         _dom = set(e.get("domain") or [])
         if (_doms and (_dom & _doms)) or any(k in _ehay(e) for k in _kws):
             _matched.append(e)
