@@ -212,7 +212,7 @@
   footer{position:relative;background:var(--ink);color:#E9E2D0;margin-top:34px;padding:30px 0 44px;font-size:14px}
   footer::before{content:"";position:absolute;left:0;right:0;top:0;height:12px;background:"repeating-linear-gradient(180deg,#141414 0 1.5px,#1C9DD6 1.5px 4px,#141414 4px 5.5px,#F1543C 5.5px 8px,#141414 8px 9.5px,#AFC81E 9.5px 12px,#141414 12px 13.5px,#F4C20D 13.5px 16px)";background-size:100% 16px}
   footer a{color:#E9E2D0;text-decoration:underline;text-underline-offset:2px}
-  .footcontact{margin-top:8px} .planetai-line{margin-top:10px;font-size:13.5px;max-width:760px;color:#C9BFA6} #footstamp{color:#9b927e}
+  .footcontact{margin-top:8px} .planetai-line{margin-top:10px;font-size:13.5px;max-width:760px;color:#C9BFA6} .footrepo{margin-top:8px;font-size:13.5px} #footstamp{color:#9b927e}
 
   @media(prefers-reduced-motion:reduce){*{transition:none!important}}
   @media(max-width:620px){
@@ -264,6 +264,7 @@
 
 <footer><div class="wrap"><p id="footer-line"></p>
   <p class="planetai-line" id="planetai-line"></p>
+  <p class="footrepo" id="footrepo"></p>
   <p class="footcontact">Contacto / Contact: <a href="mailto:tomas@fab.city">tomas@fab.city</a></p>
   <p class="mono" style="font-size:11px;margin-top:6px" id="footstamp"></p>
 </div></footer>
@@ -467,6 +468,7 @@ function applyLang(){
   document.getElementById("home-title").textContent=ui("title");
   document.getElementById("footer-line").innerHTML=ui("footer_line");
   document.getElementById("planetai-line").innerHTML=ui("planetai_line");
+  document.getElementById("footrepo").innerHTML=ui("repo_line");
   document.getElementById("footstamp").textContent="· "+DATA.meta.generated;
   try{document.title=ui("title")+" · Venezuela";}catch(e){}
   buildVE();

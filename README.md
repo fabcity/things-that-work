@@ -6,7 +6,7 @@ A queryable index of working solutions, plus a live **emergency‑response layer
 Venezuela.
 
 🌐 Live: **https://ttw.fab.city** · Emergency page: **https://ttw.fab.city/venezuela**
-A project of the **Fab City Foundation** · the community‑response layer of **PLANETAI**.
+A project of the **Fab City Foundation**.
 
 ---
 
@@ -41,9 +41,7 @@ repo/
 │  ├─ files/ferulas/         #   printable splint files (designs © Ostec3D)
 │  └─ _headers               #   Cloudflare headers
 ├─ SCHEMA.md                 # the data model + the nine "disobedience moves"
-├─ CONTRIBUTING.md           # how to add solutions, translations, or design changes
-├─ ABOUT-THE-ARCHIVE.md      # the longer story of the archive + the Whole Earth pipeline
-└─ CONTRIBUTE-TTW.md         # the outreach / campaign kit
+└─ CONTRIBUTING.md           # how to add solutions, translations, or design changes
 ```
 
 ## Quick start
@@ -87,21 +85,20 @@ See **CONTRIBUTING.md**.
 
 ## Deploy
 
-The site is **Cloudflare Pages** serving the `deploy/` folder.
+The site is **Cloudflare Pages** serving the `deploy/` folder, connected directly to this
+repository: every push to `main` publishes automatically (output directory `deploy`, no
+build command). No CI secrets or workflow files are required.
 
-- **Manual:** upload `things-that-work-cloudflare.zip` (regenerate it from `deploy/`),
-  or `npx wrangler pages deploy deploy --project-name=things-that-work`.
-- **Automatic:** a GitHub Actions workflow (`.github/workflows/deploy.yml`) deploys
-  `deploy/` on every push to `main` once the `CLOUDFLARE_API_TOKEN` and
-  `CLOUDFLARE_ACCOUNT_ID` repo secrets are set — or connect the repo in the Cloudflare
-  Pages dashboard (output directory `deploy`, no build command).
+To publish manually instead, upload `things-that-work-cloudflare.zip` (regenerate it from
+`deploy/`) in the Cloudflare dashboard, or run
+`npx wrangler pages deploy deploy --project-name=things-that-work`.
 
 ## Contributing
 
 The repository is the invitation; the network is what makes it alive. The fastest,
 most valuable contribution is **five things that work from your city**. See
-**CONTRIBUTING.md** for solutions, translations, and design changes, **SCHEMA.md** for
-the data model, and **CONTRIBUTE-TTW.md** for the outreach campaign.
+**CONTRIBUTING.md** for solutions, translations, and design changes, and **SCHEMA.md**
+for the data model.
 
 ## Credits & license
 

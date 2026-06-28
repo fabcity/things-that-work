@@ -1,8 +1,8 @@
 # Crisis & degraded-services — vetted repositories
 
 The disaster-response knowledge bases the Crisis section draws from. All verified live
-June 2026. The section is grounded in the Venezuelan reality — the **2025 Zulia
-earthquakes** (24 Sept 2025, ~M6.0–6.3) on top of years of *apagones* (rolling blackouts
+June 2026. The section is grounded in the Venezuelan reality — the **June 2026
+Morón–Yumare earthquake** (24 June 2026, magnitude 7.2 then 7.5) on top of years of *apagones* (rolling blackouts
 since the 2019 grid collapse), water rationing and medicine scarcity — but written to
 serve any Fab City when services fail.
 

@@ -1212,6 +1212,15 @@ PLANETAI_UI = {
 for _lg in ("en","es","id"):
     UI[_lg].update(PLANETAI_UI[_lg])
 
+# --- Open-source repo link (footer) ---
+REPO_UI = {
+ "en":'Open source — improve it at <a href="https://github.com/fabcity/things-that-work" target="_blank" rel="noopener">github.com/fabcity/things-that-work</a>.',
+ "es":'Código abierto — mejóralo en <a href="https://github.com/fabcity/things-that-work" target="_blank" rel="noopener">github.com/fabcity/things-that-work</a>.',
+ "id":'Sumber terbuka — bantu perbaiki di <a href="https://github.com/fabcity/things-that-work" target="_blank" rel="noopener">github.com/fabcity/things-that-work</a>.',
+}
+for _lg in ("en","es","id"):
+    UI[_lg]["repo_line"] = REPO_UI[_lg]
+
 # --- Standalone /venezuela: action-first hero + "what happened" moved to the foot ---
 VE_FOOT_UI = {
  "en":{"ve_help_lead":"Tools and help for the days after — report, print a part, contribute. What happened and the latest figures are at the foot of the page.",
