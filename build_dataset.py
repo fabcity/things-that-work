@@ -1156,61 +1156,13 @@ for _lg,_h,_l in [("en","Community designs","Shared by makers in Venezuela for t
                   ("id","Desain komunitas","Dibagikan oleh maker di Venezuela untuk respons ini — cetak dan donasikan.")]:
     UI[_lg]["community_h"]=_h; UI[_lg]["community_lead"]=_l
 dataset["venezuela"]["community"] = {"items":[
+ {"name":"Férula de corte láser S·M·L","what":"Laser-cut temporary immobilisation splint — 3 mm MDF (also 5 mm, plywood, cardboard). S/M/L sizes with measurements and recommended uses; 100% editable, open Illustrator file.","what_es":"Férula de inmovilización temporal cortada a láser — MDF de 3 mm (también 5 mm, contrachapado, cartón). Tallas S/M/L con medidas y usos recomendados; archivo de Illustrator 100% editable y abierto.","what_id":"Bidai imobilisasi sementara potong laser — MDF 3 mm (juga 5 mm, tripleks, kardus). Ukuran S/M/L dengan ukuran & penggunaan; berkas Illustrator 100% dapat diedit & terbuka.","author":"Carlos Torres · @Cato_dg","download":"/files/ferulas/ferula-corte-laser-s-m-l.pdf","laser":True},
  {"name":"Emergencia Venezuela — paquete","what":"Ready-to-print bundle of medical parts.","what_es":"Paquete listo para imprimir (varias piezas médicas).","what_id":"Paket siap cetak (beberapa komponen medis).","author":"Férulas 3D Venezuela","download":"/files/ferulas/emergencia-venezuela.3mf","tag":"3MF"},
  {"name":"Gancho para suero (doble)","what":"Hang two IV bags with no pole.","what_es":"Cuelga dos bolsas de suero sin soporte.","what_id":"Gantung dua kantong infus tanpa tiang.","author":"Salvador Aguilera","url":"https://makerworld.com/en/models/2984757-hook-for-double-medical-solution","tag":"MakerWorld"},
  {"name":"Gancho para suero (individual)","what":"Hang one IV bag with no pole.","what_es":"Cuelga una bolsa de suero sin soporte.","what_id":"Gantung satu kantong infus tanpa tiang.","author":"Salvador Aguilera","url":"https://makerworld.com/en/models/2984932-hook-for-individual-medical-solution","tag":"MakerWorld"},
  {"name":"Rigidizador de cuello (S·M·L)","what":"Cervical brace, 3 sizes, PETG + velcro.","what_es":"Férula cervical, 3 tallas, PETG + velcro.","what_id":"Penyangga leher, 3 ukuran, PETG + velcro.","author":"fernandoarmas","url":"https://makerworld.com/en/models/2984480-neck-splint","tag":"MakerWorld"},
  {"name":"Férulas 3D — guía de uso","what":"How to fit six splints, step by step.","what_es":"Cómo colocar seis férulas, paso a paso.","what_id":"Cara memasang enam bidai, langkah demi langkah.","author":"CapasUp","url":"https://bio.capasup.xyz/ferulas","tag":"Guía"},
 ]}
-
-# --- Laser-cut splint (Carlos Torres, @Cato_dg) — MDF / plywood / cardboard alternative ---
-LASER_UI = {
- "en":{
-  "laser_h":"Laser-cut splint — S·M·L",
-  "laser_by":"Design by",
-  "laser_lead":"This design is meant to be cut mainly in 3 mm MDF and used as a temporary immobilisation splint in emergencies. It can also be made in 5 mm MDF, plywood, or even corrugated cardboard, depending on the materials you have and the intended use.",
-  "laser_contains_h":"Inside the file you will find:",
-  "laser_c1":"The S, M and L models.",
-  "laser_c2":"The measurements of each one.",
-  "laser_c3":"The recommended use for each size.",
-  "laser_editable":"The file was made in Adobe Illustrator but is 100% editable, so feel free to modify it for your needs, adapt it to your machine's specifications, or improve it with new ideas. The intention is for this to be an open, collaborative project.",
-  "laser_dev":"This project is still in development. We are building a Drive where we will add new models and measurements for different parts of the body. Before publishing them, we want the review and advice of a trauma or orthopaedics specialist to validate that the dimensions and applications are the most appropriate.",
-  "laser_collab":"In the meantime, anyone who wants to help can already start cutting and making these first models. If you run tests, find improvements, or develop new versions, please share them — together we can make this project grow and be useful for support in emergencies.",
-  "laser_file":"Laser-cut splint S·M·L (PDF)",
- },
- "es":{
-  "laser_h":"Corte láser — férula S·M·L",
-  "laser_by":"Diseño de",
-  "laser_lead":"Este diseño está pensado para ser fabricado principalmente en MDF de 3 mm y utilizarse como férula de inmovilización temporal en situaciones de emergencia. Sin embargo, también hemos comprobado que puede fabricarse en MDF de 5 mm, contrachapado (plywood) e incluso cartón corrugado, dependiendo de la disponibilidad de materiales y del uso previsto.",
-  "laser_contains_h":"Dentro del archivo encontrarán:",
-  "laser_c1":"Los modelos S, M y L.",
-  "laser_c2":"Las medidas de cada uno.",
-  "laser_c3":"Los usos recomendados para cada tamaño.",
-  "laser_editable":"El archivo fue hecho en Adobe Illustrator pero es 100% editable, así que siéntanse libres de modificarlo según sus necesidades, adaptarlo a las especificaciones de sus máquinas o mejorarlo con nuevas ideas. La intención es que este sea un proyecto abierto y colaborativo.",
-  "laser_dev":"Este proyecto aún está en desarrollo. Estamos trabajando en un Drive donde iremos incorporando nuevos modelos y medidas para distintas zonas del cuerpo. Antes de publicarlos, queremos contar con la revisión y asesoría de un traumatólogo o especialista en ortopedia, para validar que las dimensiones y aplicaciones sean las más adecuadas.",
-  "laser_collab":"Mientras tanto, quienes deseen colaborar ya pueden comenzar a cortar y fabricar estos primeros modelos. Si realizan pruebas, encuentran mejoras o desarrollan nuevas versiones, les agradeceré mucho que las compartan. Entre todos podemos hacer que este proyecto evolucione y sea de utilidad para brindar apoyo en situaciones de emergencia.",
-  "laser_file":"Férula corte láser S·M·L (PDF)",
- },
- "id":{
-  "laser_h":"Potong laser — bidai S·M·L",
-  "laser_by":"Desain oleh",
-  "laser_lead":"Desain ini ditujukan untuk dipotong terutama pada MDF 3 mm dan dipakai sebagai bidai imobilisasi sementara saat darurat. Namun, kami juga telah memastikan bahwa ia bisa dibuat dari MDF 5 mm, tripleks (plywood), bahkan kardus bergelombang, tergantung ketersediaan bahan dan kebutuhan.",
-  "laser_contains_h":"Di dalam berkas terdapat:",
-  "laser_c1":"Model S, M, dan L.",
-  "laser_c2":"Ukuran masing-masing.",
-  "laser_c3":"Penggunaan yang disarankan untuk tiap ukuran.",
-  "laser_editable":"Berkas dibuat di Adobe Illustrator tetapi 100% dapat diedit, jadi silakan ubah sesuai kebutuhan, sesuaikan dengan spesifikasi mesin Anda, atau tingkatkan dengan ide baru. Tujuannya agar ini menjadi proyek yang terbuka dan kolaboratif.",
-  "laser_dev":"Proyek ini masih dalam pengembangan. Kami sedang menyiapkan Drive untuk menambahkan model dan ukuran baru bagi berbagai bagian tubuh. Sebelum dipublikasikan, kami ingin tinjauan dan saran dari dokter ortopedi/traumatologi untuk memastikan dimensi dan penggunaannya paling tepat.",
-  "laser_collab":"Sementara itu, siapa pun yang ingin membantu sudah bisa mulai memotong dan membuat model-model awal ini. Jika Anda menguji, menemukan perbaikan, atau membuat versi baru, mohon bagikan — bersama-sama kita bisa membuat proyek ini berkembang dan berguna untuk membantu saat darurat.",
-  "laser_file":"Bidai potong laser S·M·L (PDF)",
- },
-}
-for _lg in ("en","es","id"):
-    UI[_lg].update(LASER_UI[_lg])
-dataset["venezuela"]["printing"]["laser"] = {
-  "name":"Carlos Torres","ig":"https://instagram.com/cato_dg","ig_label":"@Cato_dg",
-  "href":"/files/ferulas/ferula-corte-laser-s-m-l.pdf",
-}
 
 VE_CONTEXT = [
  {"v":("M7.2 → M7.5 · 24 Jun 2026","M7,2 → M7,5 · 24 jun 2026","M7,2 → M7,5 · 24 Jun 2026"),

@@ -131,11 +131,10 @@
   .vp-mat{margin:0 0 4px;max-width:74ch;font-size:15px}
   .vp-community{background:var(--paper-3);border:1.5px solid var(--mc-orange);padding:14px 16px;margin:12px 0 0}
   .vp-community>h3{margin-top:0;color:var(--mc-orange)}
-  .vp-laser{background:var(--paper-2);border:1.5px solid var(--c-energy);border-left:5px solid var(--c-energy);padding:14px 16px;margin:18px 0 0}
-  .vp-laser>h3{margin-top:0;color:var(--c-energy)}
-  .vp-laser-sub{margin:12px 0 4px;font-weight:800;font-size:13.5px}
-  .vp-laser-list{margin:0;padding-left:18px;font-size:14px} .vp-laser-list li{margin:4px 0}
-  .vp-laser-dl{margin-top:14px;max-width:360px;border-left-color:var(--c-energy)} .vp-laser-dl i{color:var(--c-energy)}
+  .vp-fr .vp-fritem-laser{border-left:5px solid var(--c-energy);background:#FBF3E6}
+  .vp-fr .vp-fritem-laser em{color:var(--c-energy)}
+  .vp-pill{align-self:flex-start;font-style:normal;font-size:10px;font-weight:800;letter-spacing:.1em;background:var(--c-energy);color:#fff;padding:2px 7px;margin:0 0 3px}
+  @media(min-width:560px){.vp-fr .vp-fritem-laser{grid-column:span 2}}
   .vp-cat{margin:16px 0 8px;font-size:11.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-soft);font-weight:800}
   .vp-fr{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
   .vp-fritem{display:flex;flex-direction:column;gap:3px;padding:11px 13px;background:var(--paper);border:1.5px solid var(--rule-2);text-decoration:none;color:var(--ink)}
@@ -381,12 +380,11 @@ function rPrint(){
   h+=p.country_groups&&p.country_groups.length?`<div class="vp-countries-wrap"><h3 class="vp-countries-h">${esc(ui("print_country_h"))}</h3><div class="vp-countries">`+p.country_groups.map(c=>`<a class="vp-country" data-ev="wa-country" href="${esc(c.url)}" target="_blank" rel="noopener"><b>${esc(pick(c,"country"))}</b><span>WhatsApp &#8594;</span></a>`).join("")+`</div></div>`:"";
   h+=`<div class="vp-block vp-labs"><h3>${esc(ui("fl_h"))}</h3><p class="vp-mat">${esc(ui("fl_lead"))}</p><button type="button" class="vp-mapbtn" onclick="veFindLabs(this)" data-ev="fablabs">${esc(ui("fl_btn"))}</button><div id="veLabsOut" class="vp-labsout"></div></div>`;
   h+=`<div class="vp-block"><h3>${esc(ui("print_files_h"))}</h3><div class="vp-files">`+p.files.map(f=>`<a class="vp-file" data-ev="download" href="${esc(f.href)}" download>${esc(f.label)}<i>${esc(ui("print_download"))} &#8595;</i></a>`).join("")+`</div></div>`;
-  if(p.laser){var L=p.laser; h+=`<div class="vp-block vp-laser"><h3>${esc(ui("laser_h"))}</h3><p class="vp-credit">${esc(ui("laser_by"))} <a href="${esc(L.ig)}" target="_blank" rel="noopener"><b>${esc(L.name)}</b></a> &middot; <a href="${esc(L.ig)}" target="_blank" rel="noopener">${esc(L.ig_label)}</a></p><p class="vp-mat">${esc(ui("laser_lead"))}</p><p class="vp-laser-sub">${esc(ui("laser_contains_h"))}</p><ul class="vp-laser-list"><li>${esc(ui("laser_c1"))}</li><li>${esc(ui("laser_c2"))}</li><li>${esc(ui("laser_c3"))}</li></ul><p class="vp-mat">${esc(ui("laser_editable"))}</p><p class="vp-caveat">${esc(ui("laser_dev"))}</p><p class="vp-mat">${esc(ui("laser_collab"))}</p><a class="vp-file vp-laser-dl" data-ev="download" href="${esc(L.href)}" download>${esc(ui("laser_file"))}<i>${esc(ui("print_download"))} &#8595;</i></a></div>`;}
   h+=`<div class="vp-block"><h3>${esc(ui("print_models_h"))}</h3><div class="vp-models">`+p.models.map(m=>`<span class="vp-model">${esc(m)}</span>`).join("")+`</div></div>`;
   h+=`<div class="vp-block"><h3>${esc(ui("print_use_h"))}</h3><ol class="vp-steps">`+steps.map(s=>`<li>${esc(s)}</li>`).join("")+`</ol><p class="vp-caveat">${esc(ui("print_caveat"))}</p></div>`;
   const com=DATA.venezuela&&DATA.venezuela.community;
   if(com&&com.items&&com.items.length){
-    h+=`<div class="vp-block vp-community"><h3>${esc(ui("community_h"))}</h3><p class="vp-mat">${esc(ui("community_lead"))}</p><div class="vp-fr">`+com.items.map(function(x){var href=x.download||x.url||"#";var tag=x.download?(esc(ui("print_download"))+" &#8595;"):(esc(x.tag||"")+" &#8599;");return `<a class="vp-fritem" data-ev="${x.download?'download':'community'}" href="${esc(href)}"${x.download?' download':' target="_blank" rel="noopener"'}><b>${esc(x.name)}</b><span>${esc(pick(x,"what"))}${x.author?(" &middot; "+esc(x.author)):""}</span><em>${tag}</em></a>`;}).join("")+`</div></div>`;
+    h+=`<div class="vp-block vp-community"><h3>${esc(ui("community_h"))}</h3><p class="vp-mat">${esc(ui("community_lead"))}</p><div class="vp-fr">`+com.items.map(function(x){var href=x.download||x.url||"#";var tag=x.download?(esc(ui("print_download"))+" &#8595;"):(esc(x.tag||"")+" &#8599;");return `<a class="vp-fritem${x.laser?' vp-fritem-laser':''}" data-ev="${x.download?'download':'community'}" href="${esc(href)}"${x.download?' download':' target="_blank" rel="noopener"'}>${x.laser?'<i class="vp-pill">LÁSER</i>':''}<b>${esc(x.name)}</b><span>${esc(pick(x,"what"))}${x.author?(" &middot; "+esc(x.author)):""}</span><em>${tag}</em></a>`;}).join("")+`</div></div>`;
   }
   h+=`<div class="vp-block"><h3>${esc(ui("print_materials_h"))}</h3><p class="vp-mat">${esc(ui("print_materials"))}</p></div>`;
   const fr=DATA.venezuela.fieldready;
