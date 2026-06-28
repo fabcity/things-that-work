@@ -1,0 +1,27 @@
+{
+ "name": "Cosas que sirven · Venezuela",
+ "short_name": "Cosas que sirven",
+ "description": "Herramientas abiertas para los días después: agua, energía, salud, impresión 3D.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#FAF4E6",
+ "theme_color": "#E2580E",
+ "lang": "es",
+ "dir": "ltr",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

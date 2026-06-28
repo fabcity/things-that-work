@@ -1,0 +1,2706 @@
+[
+ {
+  "pageid": 8071,
+  "title": "Old Growth Cellar rainwater catchment",
+  "url": "https://www.appropedia.org/Old_Growth_Cellar_rainwater_catchment",
+  "extract": "Rainwater catchment is a method of capturing and storing rainwater in a tank for later use. This catchment system is designed and constructed for Old Growth Cellars in Freshwater, CA. This system will collect water off of a 482 square foot roof...",
+  "length": 17799,
+  "domain": "water"
+ },
+ {
+  "pageid": 33340,
+  "title": "Open Solar Outdoors Test Field",
+  "url": "https://www.appropedia.org/Open_Solar_Outdoors_Test_Field",
+  "extract": "The solar photovoltaic industry in Ontario and around the world is growing at an unprecedented rate, creating the jobs that underpin a green economy and a sustainable power grid. With this growth came an increased demand from industry for high...",
+  "length": 24692,
+  "domain": "energy"
+ },
+ {
+  "pageid": 58856,
+  "title": "One Way Ratchet",
+  "url": "https://www.appropedia.org/One_Way_Ratchet",
+  "extract": "The ratchet is a fairly common tool in today's world. A major advantage of a ratchet is that many tool attachments can be put on the ratchet to perform many different functions. One issue with the ratchet though is that it can oftentimes be...",
+  "length": 5401,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 64597,
+  "title": "Open Source Fume Extractor",
+  "url": "https://www.appropedia.org/Open_Source_Fume_Extractor",
+  "extract": "This project was intended to remove soldering fumes from the air. Recent articles suggest that fumes may also be a result of 3D printing, so it may be used as an application for that as well.",
+  "length": 2729,
+  "domain": "water"
+ },
+ {
+  "pageid": 69456,
+  "title": "Open Source Laboratory Sample Rotator Mixer and Shaker",
+  "url": "https://www.appropedia.org/Open_Source_Laboratory_Sample_Rotator_Mixer_and_Shaker",
+  "extract": "An open-source 3-D printable laboratory sample rotator mixer is developed here in two variants that allow users to opt for the level of functionality, cost saving and associated complexity needed in their laboratories. First, a laboratory sample...",
+  "length": 4682,
+  "domain": "other"
+ },
+ {
+  "pageid": 69931,
+  "title": "Open Source 3D printed water pump",
+  "url": "https://www.appropedia.org/Open_Source_3D_printed_water_pump",
+  "extract": "poor geometric design for function\nIn much of the developing world it is very common to collect water in a bucket this water is then used for around the house needs. Having the water in a bucket however can make it somewhat difficult to use...",
+  "length": 3726,
+  "domain": "water"
+ },
+ {
+  "pageid": 72242,
+  "title": "Open Source 3-D Printed Nutating Mixer",
+  "url": "https://www.appropedia.org/Open_Source_3-D_Printed_Nutating_Mixer",
+  "extract": "As the open source development of additive manufacturing has led to low-cost desktop three-dimensional (3-D) printing, a number of scientists throughout the world have begun to share digital designs of free and open source scientific hardware...",
+  "length": 4376,
+  "domain": "other"
+ },
+ {
+  "pageid": 80824,
+  "title": "Open Source Completely 3-D Printable Centrifuge",
+  "url": "https://www.appropedia.org/Open_Source_Completely_3-D_Printable_Centrifuge",
+  "extract": "Centrifuges are commonly required devices in medical diagnostics facilities as well as scientific laboratories. Although there are commercial and open source centrifuges, the costs of the former and the required electricity to operate the latter...",
+  "length": 4066,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 83116,
+  "title": "Open Source Bike Brake",
+  "url": "https://www.appropedia.org/Open_Source_Bike_Brake",
+  "extract": "This project is an attempt to create a simple bicycle brake for the open source community. This brake relies on minimal hardware and uses scarp rubber for the brake pad material. If the users budget allows, conventional bike brake pads could...",
+  "length": 2943,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 83969,
+  "title": "Open Source Computer Vision-based Layer-wise 3D Printing Analysis",
+  "url": "https://www.appropedia.org/Open_Source_Computer_Vision-based_Layer-wise_3D_Printing_Analysis",
+  "extract": "The paper describes an open source computer vision-based hardware structure and software algorithm, which analyzes layer-wise the 3-D printing processes, tracks printing errors, and generates appropriate printer actions to improve reliability...",
+  "length": 6504,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 84950,
+  "title": "Open Source Digitally Replicable Lab-Grade Scales",
+  "url": "https://www.appropedia.org/Open_Source_Digitally_Replicable_Lab-Grade_Scales",
+  "extract": "This study provides designs for a low-cost, easily replicable open-source lab-grade digital scale that can be used as a precision balance. The design is such that it can be manufactured for use in most labs throughout the world with open-source...",
+  "length": 12112,
+  "domain": "other"
+ },
+ {
+  "pageid": 85150,
+  "title": "Open Source High-Temperature Reprap for 3-D Printing Heat-Sterilizable PPE and Other Applications",
+  "url": "https://www.appropedia.org/Open_Source_High-Temperature_Reprap_for_3-D_Printing_Heat-Sterilizable_PPE_and_Other_Applications",
+  "extract": "Thermal sterilization is generally avoided for 3-D printed components because of the relatively low deformation temperatures for common thermoplastics used for material extrusion-based additive manufacturing. 3-D printing materials required...",
+  "length": 6347,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 85287,
+  "title": "Open Source Arc Analyzer: Multi-Sensor Monitoring of Wire Arc Additive Manufacturing",
+  "url": "https://www.appropedia.org/Open_Source_Arc_Analyzer:_Multi-Sensor_Monitoring_of_Wire_Arc_Additive_Manufacturing",
+  "extract": "Low-cost high-resolution metal 3-D printing remains elusive for the scientific community. Low-cost gas metal arc wire (GMAW)-based 3-D printing enables wire arc additive manufacturing (WAAM) for near net shape applications, but has limited resolution...",
+  "length": 4711,
+  "domain": "other"
+ },
+ {
+  "pageid": 87775,
+  "title": "Open Source 3-D Printed ISO 8655 Compliant Multichannel Pipette",
+  "url": "https://www.appropedia.org/Open_Source_3-D_Printed_ISO_8655_Compliant_Multichannel_Pipette",
+  "extract": "Multichannel pipettes are used widely to accelerate research and testing in life sciences laboratories and within the biomedical industry. Commercial multichannel pipettes cost several hundred to thousand U.S. dollars and are not accessible...",
+  "length": 4390,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 89543,
+  "title": "Open Source 3-D Filament Diameter Sensor for Recycling, Winding and Additive Manufacturing Machines",
+  "url": "https://www.appropedia.org/Open_Source_3-D_Filament_Diameter_Sensor_for_Recycling,_Winding_and_Additive_Manufacturing_Machines",
+  "extract": "To overcome the challenge of upcycling plastic waste into 3D printing filament in the distributed recycling and additive manufacturing systems, this study designs, builds, tests and validates an open source 3D filament diameter sensor for recycling...",
+  "length": 4766,
+  "domain": "energy"
+ },
+ {
+  "pageid": 89897,
+  "title": "Open Source Cinematography Quadcopter",
+  "url": "https://www.appropedia.org/Open_Source_Cinematography_Quadcopter",
+  "extract": "The goal of this Cinematography Quadcopter is to create an open source platform that can be used for areal photography and cinematography, and provide a platform that can be adjusted or manipulated based on the objectives of the quadcopter.",
+  "length": 6983,
+  "domain": "other"
+ },
+ {
+  "pageid": 112529,
+  "title": "Open Source Framework for a Broadly Expandable and Reconfigurable Data Acquisition and Automation Device (BREAD)",
+  "url": "https://www.appropedia.org/Open_Source_Framework_for_a_Broadly_Expandable_and_Reconfigurable_Data_Acquisition_and_Automation_Device_(BREAD)",
+  "extract": "Though open source data acquisition (DAQ) systems have been published, closed source, proprietary systems are used extensively despite often being prohibitively expensive. High costs limit access to high-quality DAQ in low-resource settings...",
+  "length": 5107,
+  "domain": "food"
+ },
+ {
+  "pageid": 122394,
+  "title": "Open Source Cold and Hot Scientific Sheet Press for Investigating Polymer-Based Material Properties",
+  "url": "https://www.appropedia.org/Open_Source_Cold_and_Hot_Scientific_Sheet_Press_for_Investigating_Polymer-Based_Material_Properties",
+  "extract": "To produce samples for both material testing and molded sheets/parts, this article details an open source scientific cold and hot press design. It consists of two independent and modular upper and lower plate (929 cm2) assemblies each containing...",
+  "length": 4056,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 136127,
+  "title": "Open Source Inert Gas Glove Box",
+  "url": "https://www.appropedia.org/Open_Source_Inert_Gas_Glove_Box",
+  "extract": "A glove box is a controlled environment used for a wide range of scientific experiments. While glove boxes provide significant advantages, their high economic costs ranging from over $1,000 to over $15,000 limits their accessibility in under...",
+  "length": 4243,
+  "domain": "other"
+ },
+ {
+  "pageid": 68318,
+  "title": "Open Source Laser Polymer Welding System: Design and Characterization of Linear Low-Density Polyethylene Multilayer Welds",
+  "url": "https://www.appropedia.org/Open_Source_Laser_Polymer_Welding_System:_Design_and_Characterization_of_Linear_Low-Density_Polyethylene_Multilayer_Welds",
+  "extract": "The use of lasers to weld polymer sheets provides a means of highly-adaptive and custom additive manufacturing for a wide array of industrial, medical, and end user/consumer applications. This paper provides an open source design for a laser...",
+  "length": 3832,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 77430,
+  "title": "Open Source Low-Cost Power Monitoring System",
+  "url": "https://www.appropedia.org/Open_Source_Low-Cost_Power_Monitoring_System",
+  "extract": "This study presents an entirely open-source, low-cost power monitoring system capable of many types of measurements including both loads and supplies such as solar photovoltaic systems. In addition, the system can be fabricated using only open...",
+  "length": 3711,
+  "domain": "energy"
+ },
+ {
+  "pageid": 64435,
+  "title": "Open Source Monochromator",
+  "url": "https://www.appropedia.org/Open_Source_Monochromator",
+  "extract": "Monochromators are used in optics to isolate certain wavelengths from a light source made up of many wavelengths. Monochromators on the market are anywhere from $2000 to $10,000. Our monochromator is made for less than $100.",
+  "length": 5660,
+  "domain": "other"
+ },
+ {
+  "pageid": 71876,
+  "title": "Open Source Multi-Head 3D Printer for Polymer-Metal Composite Component Manufacturing",
+  "url": "https://www.appropedia.org/Open_Source_Multi-Head_3D_Printer_for_Polymer-Metal_Composite_Component_Manufacturing",
+  "extract": "As low-cost desktop 3D printing is now dominated by free and open source self-replicating rapid prototype (RepRap) derivatives, there is an intense interest in extending the scope of potential applications to manufacturing. This study describes...",
+  "length": 4296,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 133651,
+  "title": "Open Source Neonatal Light Therapy Device",
+  "url": "https://www.appropedia.org/Open_Source_Neonatal_Light_Therapy_Device",
+  "extract": "Severe neonatal hyperbilirubinemia (SNH) (jaundice) is responsible for over 114,000 preventable neonatal deaths annually, as the technology that can treat the condition is cost-prohibitive for low- and middle-income countries. In this study...",
+  "length": 3773,
+  "domain": "other"
+ },
+ {
+  "pageid": 83458,
+  "title": "Open Source Pellet Extruder Tool Head for a Desktop 3D Printer",
+  "url": "https://www.appropedia.org/Open_Source_Pellet_Extruder_Tool_Head_for_a_Desktop_3D_Printer",
+  "extract": "To create an open source pellet extruder for an open source desktop 3D Printer.",
+  "length": 1878,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 58923,
+  "title": "Open Source Rope Pump Valve",
+  "url": "https://www.appropedia.org/Open_Source_Rope_Pump_Valve",
+  "extract": "Rope pumps are an incredibly easy and cost effective way of raising water to the surface. The main hindrance is the valves that go on the rope. the previous versions were made from tire sidewalls and metal washers or small scale injection molded...",
+  "length": 2472,
+  "domain": "water"
+ },
+ {
+  "pageid": 64497,
+  "title": "Open Source Salt Spray Chamber",
+  "url": "https://www.appropedia.org/Open_Source_Salt_Spray_Chamber",
+  "extract": "This project was first designed to upgrade a salt spray chamber on Michigan Technological Universities campus. The project has been expanded to convert all designs of the salt spay chamber to open source design.",
+  "length": 2952,
+  "domain": "food"
+ },
+ {
+  "pageid": 110956,
+  "title": "Open Source Scientific Bottle Roller",
+  "url": "https://www.appropedia.org/Open_Source_Scientific_Bottle_Roller",
+  "extract": "Proprietary bottle rolling systems automate some laboratory applications, however, their high costs limit accessibility. This study provides designs of an open source bottle roller that is compatible with distributed digital manufacturing using...",
+  "length": 5385,
+  "domain": "other"
+ },
+ {
+  "pageid": 51144,
+  "title": "Open Source Solar CITIES biodigestor system",
+  "url": "https://www.appropedia.org/Open_Source_Solar_CITIES_biodigestor_system",
+  "extract": "This is a biodigester built using commonly available IBC containers",
+  "length": 8704,
+  "domain": "energy"
+ },
+ {
+  "pageid": 64694,
+  "title": "Open Source Ultrasonic Whistle",
+  "url": "https://www.appropedia.org/Open_Source_Ultrasonic_Whistle",
+  "extract": "Wolves are a problem with reindeer husbandry. This 3D-printed ultrasonic whistle is a cheap method to be used as a wolf preventative. As problems grow worse, this solution loses it's use; however, as an initial preventative the whistle can provide...",
+  "length": 4047,
+  "domain": "other"
+ },
+ {
+  "pageid": 65859,
+  "title": "Open Source User Interface",
+  "url": "https://www.appropedia.org/Open_Source_User_Interface",
+  "extract": "This page lists the documentation, progress and results for Open Source User Interface Project of Open Source Hardware Enterprise at Michigan Technological University",
+  "length": 12156,
+  "domain": "other"
+ },
+ {
+  "pageid": 90696,
+  "title": "Open Source Vacuum Oven Design for Low-Temperature Drying: Performance Evaluation for Recycled PET and Biomass",
+  "url": "https://www.appropedia.org/Open_Source_Vacuum_Oven_Design_for_Low-Temperature_Drying:_Performance_Evaluation_for_Recycled_PET_and_Biomass",
+  "extract": "Vacuum drying can dehydrate materials further than dry heat methods, while protecting sensitive materials from thermal degradation. Many industries have shifted to vacuum drying as cost- or time-saving measures. Small-scale vacuum drying, however...",
+  "length": 4611,
+  "domain": "food"
+ },
+ {
+  "pageid": 82135,
+  "title": "Open Source Waste Plastic Granulator",
+  "url": "https://www.appropedia.org/Open_Source_Waste_Plastic_Granulator",
+  "extract": "In order to accelerate deployment of distributed recycling by providing low-cost feed stocks of granulated post-consumer waste plastic, this study analyzes an open source waste plastic granulator system. It is designed, built, and tested for...",
+  "length": 3827,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 63195,
+  "title": "Open house/Microfarm",
+  "url": "https://www.appropedia.org/Open_house/Microfarm",
+  "extract": "The Microfarm is the other key feature of the Open Home that helps it function as an engine of self-sufficiency. A Microfarm is a small integrated farming complex that uses urban and vertical farming techniques and hydroponics/aquaponics technology...",
+  "length": 2380,
+  "domain": "food"
+ },
+ {
+  "pageid": 40626,
+  "title": "Open source Inkjet printers",
+  "url": "https://www.appropedia.org/Open_source_Inkjet_printers",
+  "extract": "DIY open source inkjet printers offer a sustainable and customizable printing solution. They eliminate the need for unnecessary plastic and reduce carbon emissions from shipping. With these printers, you only replace what's broken, avoiding...",
+  "length": 3297,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 39807,
+  "title": "Open source cellulose insulation manufacturing",
+  "url": "https://www.appropedia.org/Open_source_cellulose_insulation_manufacturing",
+  "extract": "The goal of this project is to create an open source cellulose insulation manufacturing machine for the goal of local production of cellulose insulation from post consumer paper waste. Local manufacturing would reduce embodied energy of transportation...",
+  "length": 4429,
+  "domain": "energy"
+ },
+ {
+  "pageid": 58611,
+  "title": "Open source hoe",
+  "url": "https://www.appropedia.org/Open_source_hoe",
+  "extract": "One of the most important farm tools is the hoe. It has the ability to cultivate and aerate soil. This tool can also dig out weeds in farms. Up until now options of very low cost hoes was very limited. This hoe is very customizable, especially...",
+  "length": 2236,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 97918,
+  "title": "Open source smart thermostat",
+  "url": "https://www.appropedia.org/Open_source_smart_thermostat",
+  "extract": "This is a start of a page on open source smart thermostats. This is the start - https://opensource.com/article/21/3/thermostat-raspberry-pi What needs to happen is to make this easy enough that a homeowner can install - have control over their...",
+  "length": 1545,
+  "domain": "other"
+ },
+ {
+  "pageid": 34804,
+  "title": "Open source solar spectrum project",
+  "url": "https://www.appropedia.org/Open_source_solar_spectrum_project",
+  "extract": "The goal for this Open Source Solar Spectrum Analyzer was to collaboratively design the mechanical and electronic controls for a direct/diffuse data acquisition of wavelength and tilt angle dependent solar flux. In this project we built and...",
+  "length": 32819,
+  "domain": "energy"
+ },
+ {
+  "pageid": 102043,
+  "title": "Open source surgical fracture table for digitally distributed manufacturing",
+  "url": "https://www.appropedia.org/Open_source_surgical_fracture_table_for_digitally_distributed_manufacturing",
+  "extract": "Roughly a third of the surgical procedures the World Bank is prioritizing as essential and cost-effective are orthopedic procedures. Yet in much of the developing world, prohibitive costs are a substantial barrier to universal access. One area...",
+  "length": 3833,
+  "domain": "other"
+ },
+ {
+  "pageid": 68227,
+  "title": "Open source syringe pump 3-D printer",
+  "url": "https://www.appropedia.org/Open_source_syringe_pump_3-D_printer",
+  "extract": "3D printers have come a long way. This project hopes to push the field of 3D printing into even greater endeavors. This printer moves away from using solid material deposition and towards a liquid material(effectively printing with inks). The...",
+  "length": 6797,
+  "domain": "water"
+ },
+ {
+  "pageid": 71270,
+  "title": "Open sustainability",
+  "url": "https://www.appropedia.org/Open_sustainability",
+  "extract": "A better way to eat. Everyone eats, some eat with their hands, and some eat with utensils. This is a project focusing around bringing the best utensils to people worldwide, without the usual cost involved. This is the creation of a utensil that...",
+  "length": 3489,
+  "domain": "other"
+ },
+ {
+  "pageid": 70525,
+  "title": "Open-Source Automated Mapping Four-Point Probe",
+  "url": "https://www.appropedia.org/Open-Source_Automated_Mapping_Four-Point_Probe",
+  "extract": "Scientists have begun using self-replicating rapid prototyper (RepRap) 3-D printers to manufacture open source digital designs of scientific equipment. This approach is refined here to develop a novel instrument capable of performing automated...",
+  "length": 11505,
+  "domain": "other"
+ },
+ {
+  "pageid": 123615,
+  "title": "Open-Source DC-DC Converter Enabling Direct Integration of Solar Photovoltaics with Anion Exchange Membrane Electrolyzer for Green Hydrogen Production",
+  "url": "https://www.appropedia.org/Open-Source_DC-DC_Converter_Enabling_Direct_Integration_of_Solar_Photovoltaics_with_Anion_Exchange_Membrane_Electrolyzer_for_Green_Hydrogen_Production",
+  "extract": "Fully sustainable hydrogen production demands renewable energy sources. This study uses an approach that combines solar photovoltaic (PV) systems with batteries to tailor the energy supply to the unique demands of anion exchange membrane (AEM...",
+  "length": 3781,
+  "domain": "energy"
+ },
+ {
+  "pageid": 101732,
+  "title": "Open-Source Design and Economics of Manual Variable-Tilt Angle DIY Wood-Based Solar Photovoltaic Racking System",
+  "url": "https://www.appropedia.org/Open-Source_Design_and_Economics_of_Manual_Variable-Tilt_Angle_DIY_Wood-Based_Solar_Photovoltaic_Racking_System",
+  "extract": "Fixed-tilt mechanical racking, consisting of proprietary aluminum extrusions, can dominate the capital costs of small-scale solar photovoltaic (PV) systems. Recent design research has shown that wood-racking can decrease the capital costs of...",
+  "length": 3863,
+  "domain": "energy"
+ },
+ {
+  "pageid": 140653,
+  "title": "Open-Source Design of Solar-Powered Picnic Table for Outdoor Device Charging",
+  "url": "https://www.appropedia.org/Open-Source_Design_of_Solar-Powered_Picnic_Table_for_Outdoor_Device_Charging",
+  "extract": "The ubiquitous use of electronic devices requires outdoor charging capabilities. A successful approach uses solar photovoltaic (PV)-powered picnic tables, but the existing designs share several limitations including proprietary designs that...",
+  "length": 3939,
+  "domain": "energy"
+ },
+ {
+  "pageid": 110739,
+  "title": "Open-Source Designs for Distributed Manufacturing of Low-Cost Customized Walkers",
+  "url": "https://www.appropedia.org/Open-Source_Designs_for_Distributed_Manufacturing_of_Low-Cost_Customized_Walkers",
+  "extract": "To improve accessibility, this article describes a static, four-legged walker that can be constructed from materials and fasteners commonly available from hardware stores coupled by open-source 3D-printed joints. The designs are described in...",
+  "length": 6189,
+  "domain": "materials"
+ },
+ {
+  "pageid": 118497,
+  "title": "Open-Source Flexible Materials Tensile Testing Apparatus",
+  "url": "https://www.appropedia.org/Open-Source_Flexible_Materials_Tensile_Testing_Apparatus",
+  "extract": "Alternative food sources are essential in both low-resource settings and during emergencies like abrupt sunlight reduction scenarios. Seaweed presents a promising option but requires investigation into the viability of unconventionally sourced...",
+  "length": 3327,
+  "domain": "food"
+ },
+ {
+  "pageid": 125507,
+  "title": "Open-Source Food Service Research Synthesizer",
+  "url": "https://www.appropedia.org/Open-Source_Food_Service_Research_Synthesizer",
+  "extract": "The restaurant research synthesizer is an open-source relational data base architecture designed for storing and analyzing large amounts of demographic and economic data. The focus of this project is understanding how immigration effects the...",
+  "length": 1710,
+  "domain": "food"
+ },
+ {
+  "pageid": 84866,
+  "title": "Open-Source Grinding Machine for Compression Screw Manufacturing",
+  "url": "https://www.appropedia.org/Open-Source_Grinding_Machine_for_Compression_Screw_Manufacturing",
+  "extract": "Some of the most promising distributed recycling and additive manufacturing (DRAM) technical systems use fused particle fabrication (FPF) or fused granular fabrication (FGF), where compression screws force post-consumer waste plastic through...",
+  "length": 5182,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 123695,
+  "title": "Open-Source Indoor Horizontal Grow Structure Designs",
+  "url": "https://www.appropedia.org/Open-Source_Indoor_Horizontal_Grow_Structure_Designs",
+  "extract": "Agrivoltaic agrotunnels are currently designed for high-density grow walls that are not amenable to bush berries or root crops. Commercial grow bins provide deeper substrates for produce with more root systems but have high costs per unit growing...",
+  "length": 2858,
+  "domain": "food"
+ },
+ {
+  "pageid": 137829,
+  "title": "Open-Source Light Calibration System for Hyperbilirubinemia Phototherapy Treatments",
+  "url": "https://www.appropedia.org/Open-Source_Light_Calibration_System_for_Hyperbilirubinemia_Phototherapy_Treatments",
+  "extract": "Aim: Neonatal jaundice or neonatal hyperbilirubinemia is a common medical condition impacting newborns and pathological jaundice if left untreated, leads to neurological encephalopathy and/or death. The majority of pathological jaundice cases...",
+  "length": 4414,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 63014,
+  "title": "Open-Source Photometric System for Enzymatic Nitrate Quantification",
+  "url": "https://www.appropedia.org/Open-Source_Photometric_System_for_Enzymatic_Nitrate_Quantification",
+  "extract": "Nitrate, the most oxidized form of nitrogen, is regulated to protect people and animals from harmful levels as there is a large over abundance due to anthropogenic factors. Widespread field testing for nitrate could begin to address the nitrate...",
+  "length": 13496,
+  "domain": "other"
+ },
+ {
+  "pageid": 129492,
+  "title": "Open-Source Photosynthetically Active Radiation Sensor for Enhanced Agricultural and Agrivoltaics Monitoring",
+  "url": "https://www.appropedia.org/Open-Source_Photosynthetically_Active_Radiation_Sensor_for_Enhanced_Agricultural_and_Agrivoltaics_Monitoring",
+  "extract": "Photosynthetically active radiation (PAR) is crucial for plant growth, influencing photosynthesis efficiency and crop yield. The increasing adoption of controlled-environment agriculture (CEA) necessitates precise PAR monitoring. The high cost...",
+  "length": 3377,
+  "domain": "food"
+ },
+ {
+  "pageid": 127610,
+  "title": "Open-Source Portable Solar Power Supply for Plasma Generators",
+  "url": "https://www.appropedia.org/Open-Source_Portable_Solar_Power_Supply_for_Plasma_Generators",
+  "extract": "Non thermal plasmas created by dielectric barrier discharge can break down methane directly to constituent elements without carbon dioxide emissions to produce a high-purity hydrogen and byproduct of solid carbon. To fulfill the environmental...",
+  "length": 3312,
+  "domain": "energy"
+ },
+ {
+  "pageid": 79789,
+  "title": "Open-Source Three-Dimensional Printable Infant Clubfoot Brace",
+  "url": "https://www.appropedia.org/Open-Source_Three-Dimensional_Printable_Infant_Clubfoot_Brace",
+  "extract": "Open-source, self-replicating rapid prototypers (RepRaps) have radically reduced the costs of three-dimensional (3D) printing while expanding its access. Three-dimensional printing's model of distributed manufacturing can produce medical technologies...",
+  "length": 3958,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 107496,
+  "title": "Open-Source Vertical Swinging Wood-Based Solar Photovoltaic Racking Systems",
+  "url": "https://www.appropedia.org/Open-Source_Vertical_Swinging_Wood-Based_Solar_Photovoltaic_Racking_Systems",
+  "extract": "Vertical bifacial solar photovoltaic (PV) racking systems offer the opportunity for large-scale agrivoltaics to be employed at farms producing field crops with conventional farming equipment. Unfortunately, commercial proprietary vertical racks...",
+  "length": 3942,
+  "domain": "energy"
+ },
+ {
+  "pageid": 65820,
+  "title": "Open-source 3-D Platform for Low-cost Scientific Instrument Ecosystem",
+  "url": "https://www.appropedia.org/Open-source_3-D_Platform_for_Low-cost_Scientific_Instrument_Ecosystem",
+  "extract": "The combination of open-source software and hardware provide technically feasible methods to create low-cost, highly-customized scientific research equipment. Open-source 3-D printers have proven useful for fabricating scientific tools. Here...",
+  "length": 3251,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 111462,
+  "title": "Open-source 3-D printable autoinjector: Design, testing, and regulatory limitations",
+  "url": "https://www.appropedia.org/Open-source_3-D_printable_autoinjector:_Design,_testing,_and_regulatory_limitations",
+  "extract": "Autoinjectors have become popular modern injectable medical devices used as drug delivery systems. Due to their ease, capability and reliability compared to other conventional injectable medical devices, the market and manufacturing demand for...",
+  "length": 5187,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 127182,
+  "title": "Open-source 3D Printable Forearm Crutch",
+  "url": "https://www.appropedia.org/Open-source_3D_Printable_Forearm_Crutch",
+  "extract": "Although there has been considerable progress in distributed manufacturing of open-source designs for mobility aids, there is a notable lack of affordable, open-source crutches. Crutches are a vital tool for many individuals with mobility impairments...",
+  "length": 3777,
+  "domain": "food"
+ },
+ {
+  "pageid": 46828,
+  "title": "Open-source 3D-printable optics equipment",
+  "url": "https://www.appropedia.org/Open-source_3D-printable_optics_equipment",
+  "extract": "Just as the power of the open-source design paradigm has driven down the cost of software to the point that it is accessible to most people, the rise of open-source hardware is poised to drive down the cost of doing experimental science to expand...",
+  "length": 9295,
+  "domain": "other"
+ },
+ {
+  "pageid": 123343,
+  "title": "Open-source Hardware Design of Modular Solar DC Nanogrid",
+  "url": "https://www.appropedia.org/Open-source_Hardware_Design_of_Modular_Solar_DC_Nanogrid",
+  "extract": "The technical feasibility of solar photovoltaic (PV) direct current (DC) nanogrids is well established, but the components of nanogrids are primarily commercially focused on alternating current (AC)-based systems. Thus, DC converter-based designs...",
+  "length": 3688,
+  "domain": "water"
+ },
+ {
+  "pageid": 104986,
+  "title": "Open-source Photovoltaic - Electrical Vehicle Carport Designs",
+  "url": "https://www.appropedia.org/Open-source_Photovoltaic_-_Electrical_Vehicle_Carport_Designs",
+  "extract": "Solar powering the increasing fleet of electrical vehicles (EV) demands more surface area than may be available for photovoltaic (PV)-powered buildings. Parking lot solar canopies can provide the needed area to charge EVs but are substantially...",
+  "length": 4299,
+  "domain": "energy"
+ },
+ {
+  "pageid": 65819,
+  "title": "Open-source Wax RepRap 3-D Printer for Rapid Prototyping Paper-Based Microfluidics",
+  "url": "https://www.appropedia.org/Open-source_Wax_RepRap_3-D_Printer_for_Rapid_Prototyping_Paper-Based_Microfluidics",
+  "extract": "The open-source release of self-replicating rapid prototypers (RepRaps), has created a rich opportunity for low-cost distributed digital fabrication of complex three dimensional objects such as scientific equipment. For example, 3-D printable...",
+  "length": 3737,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 42651,
+  "title": "Open-source chopper wheel",
+  "url": "https://www.appropedia.org/Open-source_chopper_wheel",
+  "extract": "This project is part of a collection on open source optics meant to radically reduce the cost of experimental optical equipment. This is a parametric chopper wheel - so you can choose how many holes, their sizes, and the overall size of the...",
+  "length": 1350,
+  "domain": "other"
+ },
+ {
+  "pageid": 45134,
+  "title": "Open-source colorimeter",
+  "url": "https://www.appropedia.org/Open-source_colorimeter",
+  "extract": "This project details an open-source colorimeter, which is made from open source electronics and 3-D printable components. This is part of a larger project to reduce the cost of scientific equipment using open-source hardware. Source Anzalone...",
+  "length": 7592,
+  "domain": "other"
+ },
+ {
+  "pageid": 42684,
+  "title": "Open-source fiber optic cable holder",
+  "url": "https://www.appropedia.org/Open-source_fiber_optic_cable_holder",
+  "extract": "This project is part of a collection on open source optics meant to radically reduce the cost of experimental optical equipment. The fiber optic cable holder consists of three components: the metal rod, the plastic base, and the fiber optic...",
+  "length": 2095,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 51630,
+  "title": "Open-source hardware for science in Ecuador",
+  "url": "https://www.appropedia.org/Open-source_hardware_for_science_in_Ecuador",
+  "extract": "Ecuador has an opportunity to radically reduce the cost of experimental research in the sciences while improving scientific tools by implementing five policies to support open-source hardware for science. Exorbitant prices of primarily imported...",
+  "length": 6621,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 42716,
+  "title": "Open-source lab jack",
+  "url": "https://www.appropedia.org/Open-source_lab_jack",
+  "extract": "This project is part of a collection on open source optics meant to radically reduce the cost of experimental optical equipment. This is a lab jack, which is a height adjustable platform ideal for mounting optomechanical sub-assemblies, which...",
+  "length": 1531,
+  "domain": "other"
+ },
+ {
+  "pageid": 42367,
+  "title": "Open-source lens holder",
+  "url": "https://www.appropedia.org/Open-source_lens_holder",
+  "extract": "This project is part of a collection on open source optics meant to radically reduce the cost of experimental optical equipment. This open source lens holder is designed to hold a 1 inch diameter lens and is comparable but more flexible than...",
+  "length": 2487,
+  "domain": "other"
+ },
+ {
+  "pageid": 50540,
+  "title": "Open-source metal 3-D printer",
+  "url": "https://www.appropedia.org/Open-source_metal_3-D_printer",
+  "extract": "Technical progress in the open-source self replicating rapid prototyper (RepRap) community has enabled a distributed form of additive manufacturing to expand rapidly using polymer-based materials. However, the lack of an open-source metal alternative...",
+  "length": 31139,
+  "domain": "materials"
+ },
+ {
+  "pageid": 42540,
+  "title": "Open-source mirror mount",
+  "url": "https://www.appropedia.org/Open-source_mirror_mount",
+  "extract": "This project is part of a collection on open source optics meant to radically reduce the cost of experimental optical equipment. See: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) Open-Source 3D-Printable Optics Equipment. PLoS ONE 8(3):...",
+  "length": 2529,
+  "domain": "other"
+ },
+ {
+  "pageid": 55397,
+  "title": "Open-source mobile water quality testing platform",
+  "url": "https://www.appropedia.org/Open-source_mobile_water_quality_testing_platform",
+  "extract": "This project details an open source water testing platform derived from the open-source colorimeter, which is made from open source electronics and 3-D printable components. This is part of a larger project to reduce the cost of scientific equipment...",
+  "length": 9786,
+  "domain": "water"
+ },
+ {
+  "pageid": 43416,
+  "title": "Open-source optical rail",
+  "url": "https://www.appropedia.org/Open-source_optical_rail",
+  "extract": "This project is part of a collection on open source optics meant to radically reduce the cost of experimental optical equipment. See: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) Open-Source 3D-Printable Optics Equipment. PLoS ONE 8(3):...",
+  "length": 2884,
+  "domain": "other"
+ },
+ {
+  "pageid": 42662,
+  "title": "Open-source optics base",
+  "url": "https://www.appropedia.org/Open-source_optics_base",
+  "extract": "This project is part of a collection on open source optics meant to radically reduce the cost of experimental optical equipment. See: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) Open-Source 3D-Printable Optics Equipment. PLoS ONE 8(3):...",
+  "length": 1853,
+  "domain": "other"
+ },
+ {
+  "pageid": 73388,
+  "title": "Open-source parametric 3-D printed slot die system for thin film semiconductor processing",
+  "url": "https://www.appropedia.org/Open-source_parametric_3-D_printed_slot_die_system_for_thin_film_semiconductor_processing",
+  "extract": "Slot die coating is growing in popularity because it is a low operational cost and easily scaled processing technique for depositing thin and uniform films rapidly, while minimizing material waste. The complex inner geometry of conventional...",
+  "length": 5428,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 42539,
+  "title": "Open-source simple semiconductor sample holder",
+  "url": "https://www.appropedia.org/Open-source_simple_semiconductor_sample_holder",
+  "extract": "This project is part of a collection on open source optics meant to radically reduce the cost of experimental optical equipment. See: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) Open-Source 3D-Printable Optics Equipment. PLoS ONE 8(3):...",
+  "length": 2951,
+  "domain": "other"
+ },
+ {
+  "pageid": 56614,
+  "title": "Open-source syringe pump",
+  "url": "https://www.appropedia.org/Open-source_syringe_pump",
+  "extract": "This article explores a new open-source method for developing and manufacturing high-quality scientific equipment suitable for use in virtually any laboratory. A syringe pump was designed using freely available open-source computer aided design...",
+  "length": 22305,
+  "domain": "water"
+ },
+ {
+  "pageid": 129515,
+  "title": "Open-source three-dimensional IoT anemometer for indoor air quality monitoring",
+  "url": "https://www.appropedia.org/Open-source_three-dimensional_IoT_anemometer_for_indoor_air_quality_monitoring",
+  "extract": "Ventilation in an enclosed space can significantly influence people's comfort, health, and safety. Poor ventilation can generate temperatures dangerous to health or obstruct the dispersion of environmental pollutants, such as toxic gases or...",
+  "length": 4905,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 64097,
+  "title": "Open-source, self-replicating 3-D printer factory for small-business manufacturing",
+  "url": "https://www.appropedia.org/Open-source,_self-replicating_3-D_printer_factory_for_small-business_manufacturing",
+  "extract": "Additive manufacturing with 3-D printers may be a key technology enabler for entrepreneurs seeking to use disruptive innovations such as business models utilizing distributed manufacturing. Unlike centralized manufacturing, distributed manufacturing...",
+  "length": 5860,
+  "domain": "other"
+ },
+ {
+  "pageid": 40364,
+  "title": "OpenCCS",
+  "url": "https://www.appropedia.org/OpenCCS",
+  "extract": "openCCS is a wiki-style knowledge base for carbon capture and storage (CCS), located at globalccsinstitute.com/openccs. openCCS is a project of the Global CCS Institute, an independent nonprofit established by the Australian government to accelerate...",
+  "length": 1972,
+  "domain": "other"
+ },
+ {
+  "pageid": 91542,
+  "title": "OpenDrop Digital Microfluidics Platform",
+  "url": "https://www.appropedia.org/OpenDrop_Digital_Microfluidics_Platform",
+  "extract": "OpenDrop is a modular, open source digital microfludics platform for research purposes. The device uses recent electro-wetting technology to control small droplets of liquids. Potential applications are lab on a chip devices for automating processes...",
+  "length": 2215,
+  "domain": "other"
+ },
+ {
+  "pageid": 131402,
+  "title": "OpenRAMAN",
+  "url": "https://www.appropedia.org/OpenRAMAN",
+  "extract": "Open source raman spectrometer. OpenRAMAN is an open-source, 100% free, Raman Spectrometer designed by professional optical engineers to bring Raman spectroscopy to your lab at the lowest cost without sacrificing on performances. All the CAD...",
+  "length": 733,
+  "domain": "other"
+ },
+ {
+  "pageid": 109432,
+  "title": "Operation of large scale waste Hangprinter, Christopher De Bruyn",
+  "url": "https://www.appropedia.org/Operation_of_large_scale_waste_Hangprinter,_Christopher_De_Bruyn",
+  "extract": "This page offers a comprehensive introduction to the operational aspects of an impressive project led by Christopher De Bruyn.",
+  "length": 6503,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 101902,
+  "title": "Optimal inverter and wire selection for solar photovoltaic fencing applications",
+  "url": "https://www.appropedia.org/Optimal_inverter_and_wire_selection_for_solar_photovoltaic_fencing_applications",
+  "extract": "Despite the benefits and the economic advantages of agrivoltaics, capital costs limit deployment velocity. One recent potential solution to this challenge is to radically reduce the cost of racking materials by using existing farm fencing as...",
+  "length": 4307,
+  "domain": "energy"
+ },
+ {
+  "pageid": 25558,
+  "title": "Optimization and CFD analysis of wind-powered water pump system",
+  "url": "https://www.appropedia.org/Optimization_and_CFD_analysis_of_wind-powered_water_pump_system",
+  "extract": "Access to safe water is an issue for 884 million people worldwide, and a part of this problem stems from inability to pump water from wells and difficulties in moving water from one area to another. Improved blade design in wind-powered water...",
+  "length": 24149,
+  "domain": "water"
+ },
+ {
+  "pageid": 25508,
+  "title": "Optimized Blade Design for Homemade Windmills",
+  "url": "https://www.appropedia.org/Optimized_Blade_Design_for_Homemade_Windmills",
+  "extract": "The intent of this project, created in collaboration with Mech425, is to identify the best angle for flat, uniform blades in relationship to the air stream. The angle of the blades should be optimized to convert the most amount of energy into...",
+  "length": 18685,
+  "domain": "energy"
+ },
+ {
+  "pageid": 25157,
+  "title": "Optimized Water Catchment System",
+  "url": "https://www.appropedia.org/Optimized_Water_Catchment_System",
+  "extract": "A water catchment system is a system used to capture clean water from rainfall and direct it into a storage container. It is an easy method of obtaining potable water and storing it for future use. One of the requirements of a water catchment...",
+  "length": 20089,
+  "domain": "water"
+ },
+ {
+  "pageid": 117408,
+  "title": "Optimizing HVAC effeciency with IOT application",
+  "url": "https://www.appropedia.org/Optimizing_HVAC_effeciency_with_IOT_application",
+  "extract": "This project represents a significant step forward in residential HVAC system efficiency, leveraging the power of IoT technology to address the prevalent issue of uneven temperature distribution in homes. Traditional HVAC systems often struggle...",
+  "length": 5562,
+  "domain": "other"
+ },
+ {
+  "pageid": 51957,
+  "title": "Optimizing limited solar roof access by exergy analysis of solar thermal, photovoltaic, and hybrid photovoltaic thermal systems",
+  "url": "https://www.appropedia.org/Optimizing_limited_solar_roof_access_by_exergy_analysis_of_solar_thermal,_photovoltaic,_and_hybrid_photovoltaic_thermal_systems",
+  "extract": "When trying to decide what type of renewable energy makes the most sense for a given application - thermodynamics should be our guide. Specifically, exergy is the energy that is available to be used - the useful energy and should be the figure...",
+  "length": 3607,
+  "domain": "energy"
+ },
+ {
+  "pageid": 44552,
+  "title": "Outdoor Umbrella Clothes Dryer",
+  "url": "https://www.appropedia.org/Outdoor_Umbrella_Clothes_Dryer",
+  "extract": "Abstract Looking at the uses for appropriate technology, the household clothes dryer is near the top of the list for one of the least efficient appliances. The cloths dryer uses roughly 5.8% of the energy from an individual household. It typically...",
+  "length": 2930,
+  "domain": "energy"
+ },
+ {
+  "pageid": 108557,
+  "title": "Overcoming Chip Shortages: Low-cost Open-source Parametric 3-D Printable Solderless SOIC to DIP Breakout Adapters",
+  "url": "https://www.appropedia.org/Overcoming_Chip_Shortages:_Low-cost_Open-source_Parametric_3-D_Printable_Solderless_SOIC_to_DIP_Breakout_Adapters",
+  "extract": "The COVID-19 pandemic exposed the vulnerability of global supply chains of many products. One area that requires improved supply chain resilience and that is of particular importance to electronic designers is the shortage of basic dual in-line...",
+  "length": 4323,
+  "domain": "other"
+ },
+ {
+  "pageid": 97908,
+  "title": "Overcoming Supply Chain Disruptions During Pandemics by Utilizing Found Hardware for Open Source Gentle Ventilation",
+  "url": "https://www.appropedia.org/Overcoming_Supply_Chain_Disruptions_During_Pandemics_by_Utilizing_Found_Hardware_for_Open_Source_Gentle_Ventilation",
+  "extract": "This article details the design of an open source emergency gentle ventilator (gentle-vent) framework that can be used in periods of scarcity. Although it is not a medical device, the system utilizes a wide range of commonly-available components...",
+  "length": 4266,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 57337,
+  "title": "PET preparation protocol:MOST",
+  "url": "https://www.appropedia.org/PET_preparation_protocol:MOST",
+  "extract": "THIS METHOD IS CURRENTLY A WORK IN PROGRESS Here is outlined the method to shred, clean and dry PET at the MOST lab at Michigan Technological University. For more information on PET mechanisms please see the PET Extrusion literature review.",
+  "length": 5280,
+  "domain": "other"
+ },
+ {
+  "pageid": 96633,
+  "title": "PV development in Iran",
+  "url": "https://www.appropedia.org/PV_development_in_Iran",
+  "extract": "University of Kashan introduced this project and Seyyed Ali Sadat was the senior researcher in this work.",
+  "length": 4639,
+  "domain": "other"
+ },
+ {
+  "pageid": 21815,
+  "title": "PV on Golf Course Rd, Bayside",
+  "url": "https://www.appropedia.org/PV_on_Golf_Course_Rd,_Bayside",
+  "extract": "On site Photovoltaic & Solar Heating system on Golf Course Rd, Bayside Presented by Ben Scurfield This site displayed a grid-tied photovoltaic and thermal heating system. Net metering is used on grid tied systems. This means that the excesses...",
+  "length": 2037,
+  "domain": "energy"
+ },
+ {
+  "pageid": 30916,
+  "title": "PVTOM",
+  "url": "https://www.appropedia.org/PVTOM",
+  "extract": "PV-Trigeneration Optimization Model (PVTOM) was developed to simulate and optimize hybrid photovoltaic and trigeneration energy systems based on technical, economic, and emissions performance. The theory and development of the model is documented...",
+  "length": 21029,
+  "domain": "energy"
+ },
+ {
+  "pageid": 72819,
+  "title": "Package for black silicon photodiode",
+  "url": "https://www.appropedia.org/Package_for_black_silicon_photodiode",
+  "extract": "The goal of this project is to design a similar photodiode package that could be fabricated with a 3D printer and thus avoiding the huge tool costs. A fully parametrized OpenSCAD code is designed which allows easy fabrication of packages for...",
+  "length": 6912,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 23974,
+  "title": "Pakistan sustainable cotton",
+  "url": "https://www.appropedia.org/Pakistan_sustainable_cotton",
+  "extract": "Cotton is historically one of Pakistan's top cash crops, along with oil seeds and fruit. [1] Pakistan's economy is reliant on the cotton industry, which accounts for 11 percent of GDP and 60 percent of total exports. [2] It is the fourth-largest...",
+  "length": 4192,
+  "domain": "food"
+ },
+ {
+  "pageid": 77784,
+  "title": "Pandemic Ventilator",
+  "url": "https://www.appropedia.org/Pandemic_Ventilator",
+  "extract": "The pandemic Ventilator, designed by Michigan Technological Universitie's Innovative Global Solutions Enterprise, was made to assist those in developing countries. There was a previous version, but after some research, a new team came in and...",
+  "length": 2429,
+  "domain": "other"
+ },
+ {
+  "pageid": 12506,
+  "title": "Papasan chair solar cooker",
+  "url": "https://www.appropedia.org/Papasan_chair_solar_cooker",
+  "extract": "The word \"Synergy\" comes from the Greek words for \"to work together\". This project combines the existing parabolic shape and comfortable sitting cushion of the Papasan chair with the natural-source energy utilization of the solar cooker. My...",
+  "length": 31718,
+  "domain": "energy"
+ },
+ {
+  "pageid": 94433,
+  "title": "Paper Based Biosensor",
+  "url": "https://www.appropedia.org/Paper_Based_Biosensor",
+  "extract": "This research aims to miniaturize sensing devices, reduce manufacturing costs, and improve analytical performance.",
+  "length": 2532,
+  "domain": "other"
+ },
+ {
+  "pageid": 47076,
+  "title": "Paper Making",
+  "url": "https://www.appropedia.org/Paper_Making",
+  "extract": "It goes without saying that paper has many uses and can be created with little effort. It's a useful material that can often be made using recycled or damaged materials, and can be made with materials found in almost any non-desert environment...",
+  "length": 4846,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 23673,
+  "title": "Paper versus plastic bags",
+  "url": "https://www.appropedia.org/Paper_versus_plastic_bags",
+  "extract": "A Life Cycle Analysis (LCA) is a \"cradle to grave\" analysis of a product. It is a way of looking at the total effects on the environment of a product. This assessment usually investigates the energy, materials, and water requirements; and the...",
+  "length": 7906,
+  "domain": "water"
+ },
+ {
+  "pageid": 49941,
+  "title": "Paper-Clay Retaining Wall",
+  "url": "https://www.appropedia.org/Paper-Clay_Retaining_Wall",
+  "extract": "Using local materials such as clay, recycled paper, river sand and straw a series of test brick were made by the Green Building class at CCAT in the spring of 2013. There were multiple different percent combinations of these various materials...",
+  "length": 5116,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 16458,
+  "title": "Papercrete vs. StrawBale",
+  "url": "https://www.appropedia.org/Papercrete_vs._StrawBale",
+  "extract": "We have researched and compared papercrete and straw bale as alternatives to the most common types of building material based on criteria such as r-value, cost of production and pollution concerns. The purpose is to see how appropriate these...",
+  "length": 9929,
+  "domain": "materials"
+ },
+ {
+  "pageid": 1457,
+  "title": "Papermaking",
+  "url": "https://www.appropedia.org/Papermaking",
+  "extract": "Papermaking is an ancient art and science. Some new research is rejuvenating the art and science of hand made paper (HMP) to a new and exciting level of quality. Leslie Westerlund (BSc.MEnvSc) is also researching a new smooth/textured LHMP that...",
+  "length": 7545,
+  "domain": "other"
+ },
+ {
+  "pageid": 8497,
+  "title": "Parabolic basket and tin can solar cooker",
+  "url": "https://www.appropedia.org/Parabolic_basket_and_tin_can_solar_cooker",
+  "extract": "The objective of this project is to create a solar cooker out of local invasive species and waste materials. We want to create a device that can pasteurize water and be an alternative to the use of fossil fuels for cooking food. Our criteria...",
+  "length": 16901,
+  "domain": "water"
+ },
+ {
+  "pageid": 72963,
+  "title": "Parallel-axis syringe pump concept design",
+  "url": "https://www.appropedia.org/Parallel-axis_syringe_pump_concept_design",
+  "extract": "Concept design for syringe pump; non-functional",
+  "length": 3416,
+  "domain": "water"
+ },
+ {
+  "pageid": 29960,
+  "title": "Parameters for rainwater quality testing at Isla Urbana and the Ajusco Lab",
+  "url": "https://www.appropedia.org/Parameters_for_rainwater_quality_testing_at_Isla_Urbana_and_the_Ajusco_Lab",
+  "extract": "The following is a list of parameters for testing rainwater quality at The Laboratory of Community Alternative Technologies at Ajusco in conjunction with Isla Urbana. Both groups are non profits located in Mexico City. Isla Urbana is a group...",
+  "length": 18003,
+  "domain": "water"
+ },
+ {
+  "pageid": 127161,
+  "title": "Parametric Design of Easy-Connect Pipe Fitting Components Using Open-Source CAD and Fabrication Using 3D Printing",
+  "url": "https://www.appropedia.org/Parametric_Design_of_Easy-Connect_Pipe_Fitting_Components_Using_Open-Source_CAD_and_Fabrication_Using_3D_Printing",
+  "extract": "The amount of non-revenue water, mostly due to leakage, is around 126 billion cubic meters annually worldwide. A more efficient wastewater management strategy would use a parametric design for on-demand, customized pipe fittings, following the...",
+  "length": 4636,
+  "domain": "water"
+ },
+ {
+  "pageid": 84784,
+  "title": "Parametric Nasopharyngeal Swab for Sampling COVID-19 and Other Respiratory Viruses: Open Source Design, SLA 3-D Printing and UV Curing System",
+  "url": "https://www.appropedia.org/Parametric_Nasopharyngeal_Swab_for_Sampling_COVID-19_and_Other_Respiratory_Viruses:_Open_Source_Design,_SLA_3-D_Printing_and_UV_Curing_System",
+  "extract": "Access to nasopharyngeal swabs for sampling remain a bottleneck in some regions for COVID-19 testing. This study develops a distributed manufacturing solution using only an open source manufacturing tool chain consisting of two types of open...",
+  "length": 4500,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 82826,
+  "title": "Parametric Vertical Storage",
+  "url": "https://www.appropedia.org/Parametric_Vertical_Storage",
+  "extract": "This device is meant to help 3rd world countries who do not have access to small containers. This device could be used to protect from animals and have a more sanitary place to put items like spices, pills, or any other small valuable object...",
+  "length": 3813,
+  "domain": "other"
+ },
+ {
+  "pageid": 42182,
+  "title": "Parametric automated filter wheel changer",
+  "url": "https://www.appropedia.org/Parametric_automated_filter_wheel_changer",
+  "extract": "This project is part of a collection on open source optics meant to radically reduce the cost of experimental optical equipment. See: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) Open-Source 3D-Printable Optics Equipment. PLoS ONE 8(3):...",
+  "length": 8171,
+  "domain": "water"
+ },
+ {
+  "pageid": 83056,
+  "title": "Parametric elbow splint",
+  "url": "https://www.appropedia.org/Parametric_elbow_splint",
+  "extract": "Arm injuries are a very common occurrence, especially with children and younger adults that are working in manual labor. In order to heal the injured elbow, an elbow splint is used and these tend to vary in price -starting from $16.59 [1] all...",
+  "length": 2663,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 69784,
+  "title": "Parametric quick release buckles",
+  "url": "https://www.appropedia.org/Parametric_quick_release_buckles",
+  "extract": "Buckles are very useful and found on a wide variety of items; however, if one breaks, it is hard to find a cheap replacement. Since buckle sizes vary depending on the application, I made a fully parametric OpenSCAD design. There are several...",
+  "length": 3528,
+  "domain": "materials"
+ },
+ {
+  "pageid": 1802,
+  "title": "Parras passive solar design gallery",
+  "url": "https://www.appropedia.org/Parras_passive_solar_design_gallery",
+  "extract": "This page contains information on passive solar designs from the Parras 2006 program.",
+  "length": 3887,
+  "domain": "energy"
+ },
+ {
+  "pageid": 1807,
+  "title": "Parras solar gallery",
+  "url": "https://www.appropedia.org/Parras_solar_gallery",
+  "extract": "This page contains information on different uses of solar energy studied in the Parras 2006 program.",
+  "length": 4322,
+  "domain": "energy"
+ },
+ {
+  "pageid": 85177,
+  "title": "Partially RepRapable Automated Open Source Bag Valve Mask-based Ventilator",
+  "url": "https://www.appropedia.org/Partially_RepRapable_Automated_Open_Source_Bag_Valve_Mask-based_Ventilator",
+  "extract": "This study describes the development of a simple and easy-to-build portable automated bag valve mask (BVM) compression system, which, during acute shortages and supply chain disruptions can serve as a temporary emergency ventilator. The resuscitation...",
+  "length": 5633,
+  "domain": "other"
+ },
+ {
+  "pageid": 105279,
+  "title": "Particle Swarm Optimization of Printing Parameters for Open-Source TIG-Based Metal 3D Printing",
+  "url": "https://www.appropedia.org/Particle_Swarm_Optimization_of_Printing_Parameters_for_Open-Source_TIG-Based_Metal_3D_Printing",
+  "extract": "Proprietary metal 3D printing is still relegated to relatively expensive systems that have been constructed over years of expensive trial-and-error to obtain optimum 3D printing settings. Low-cost open-source metal 3D printers can potentially...",
+  "length": 4891,
+  "domain": "food"
+ },
+ {
+  "pageid": 44540,
+  "title": "Passive Solar Greenhouse",
+  "url": "https://www.appropedia.org/Passive_Solar_Greenhouse",
+  "extract": "Passive Solar Greenhouse in Lake Tahoe, Ca (Half Soil/Half Aquaponics).",
+  "length": 2717,
+  "domain": "energy"
+ },
+ {
+  "pageid": 27362,
+  "title": "Patsari Cookstove",
+  "url": "https://www.appropedia.org/Patsari_Cookstove",
+  "extract": "The Patsari Cookstove, an improved cook stove is an adaption and improvement of the Lorena Cookstove which has been in use in Guatemala and Mexico since the early 1990's. It is designed and distributed by the Interdisciplinary Group of Rural...",
+  "length": 5105,
+  "domain": "energy"
+ },
+ {
+  "pageid": 9667,
+  "title": "Peak flow meter",
+  "url": "https://www.appropedia.org/Peak_flow_meter",
+  "extract": "This page contains the work of University of Michigan - Dearborn students Tom Silka, Chris Marquette, Anthony Darkangelo, and Ryan Kiblawi. Their final design project for the Spring 2007 session of ME 379 Thermal-Fluids Lab is based on an experimental...",
+  "length": 13219,
+  "domain": "other"
+ },
+ {
+  "pageid": 78907,
+  "title": "Peanut Mill",
+  "url": "https://www.appropedia.org/Peanut_Mill",
+  "extract": "This hand powered machine is a food processing tool that will grind peanuts down so they can be made into peanut butter. There aren't many 3D printable milling devices out there. This entire mill is 3D printed and was designed with all open...",
+  "length": 4350,
+  "domain": "food"
+ },
+ {
+  "pageid": 56885,
+  "title": "Pearce publications in energy conservation",
+  "url": "https://www.appropedia.org/Pearce_publications_in_energy_conservation",
+  "extract": "Alessia Romani, Abolfazl Taherzadeh Finib, Megan R. Cockburn, Anthony G. Straatman, and Joshua M. Pearce. Design and Validation of Cost-effective Customizable 3-D Printed Phase-Change Material-based Thermal Energy Storage Modules. The International...",
+  "length": 13342,
+  "domain": "energy"
+ },
+ {
+  "pageid": 14193,
+  "title": "Pearl Millet thresher",
+  "url": "https://www.appropedia.org/Pearl_Millet_thresher",
+  "extract": "The purpose of this project is to design and build an affordable, efficient thresher for pearl millet.\nOur summary presentation can be downloaded here: Idds1.pdf.",
+  "length": 1689,
+  "domain": "other"
+ },
+ {
+  "pageid": 89823,
+  "title": "Pedal desk",
+  "url": "https://www.appropedia.org/Pedal_desk",
+  "extract": "El Pedal Desk es una herramienta creada para que los estudiantes puedan tener actividad física y hacer sus tareas diarias, mientras generan energía limpia para sus hogares o escuelas.",
+  "length": 7304,
+  "domain": "energy"
+ },
+ {
+  "pageid": 132316,
+  "title": "Performance of Off-grid Floating Photovoltaic-Battery System Powering an Anion Exchange Membrane Electrolyser for Green Hydrogen Production",
+  "url": "https://www.appropedia.org/Performance_of_Off-grid_Floating_Photovoltaic-Battery_System_Powering_an_Anion_Exchange_Membrane_Electrolyser_for_Green_Hydrogen_Production",
+  "extract": "This study investigates the integration of floating photovoltaic (FPV) systems with an anion exchange membrane (AEM) electrolyser for green hydrogen production. The experimental setup involves a 5 kW FPV system that powers an AEM electrolyser...",
+  "length": 4454,
+  "domain": "energy"
+ },
+ {
+  "pageid": 64295,
+  "title": "Permablitz",
+  "url": "https://www.appropedia.org/Permablitz",
+  "extract": "At a Permablitz you're learning by doing, while getting ideas for your own garden, participating in free workshops, while meeting good people, helping to reduce food miles and water use, beautifying underused spaces, sharing resources, eating...",
+  "length": 1699,
+  "domain": "water"
+ },
+ {
+  "pageid": 64296,
+  "title": "Permaculture education",
+  "url": "https://www.appropedia.org/Permaculture_education",
+  "extract": "Self learning. If you're comfortable doing a bit of research and applying plenty of trial and error then this is a great option and thanks to the Internet there are a ton of resources out there about permaculture. It's a good idea to get in...",
+  "length": 3489,
+  "domain": "other"
+ },
+ {
+  "pageid": 16415,
+  "title": "Permaculture garden in Cook County",
+  "url": "https://www.appropedia.org/Permaculture_garden_in_Cook_County",
+  "extract": "How do you go about installing a permaculture garden in Chicago and Cook County? See Beginners permaculture garden for general guidelines for starting a permaculture garden. That's fine for general guidelines. What are the specifics for Chicago...",
+  "length": 4077,
+  "domain": "food"
+ },
+ {
+  "pageid": 23494,
+  "title": "Phantom power reducing power bars",
+  "url": "https://www.appropedia.org/Phantom_power_reducing_power_bars",
+  "extract": "Phantom power is the power consumed by electrical appliances when they are switched off or not in use, but remain plugged in to an electrical socket. It is also known as standby power, the minimum amount of power required by an electrical device...",
+  "length": 13297,
+  "domain": "other"
+ },
+ {
+  "pageid": 2347,
+  "title": "Photovoltaic vaccine refrigeration at Centro De Salud",
+  "url": "https://www.appropedia.org/Photovoltaic_vaccine_refrigeration_at_Centro_De_Salud",
+  "extract": "This photovoltaic system was designed to power a DC Vaccine Refrigerator at the hospital Centro De Salud in Parras, Mexico. Centro De Salud had a list of items that needed to be purchased at their hospital. Among these was a new vaccine refrigerator...",
+  "length": 22005,
+  "domain": "other"
+ },
+ {
+  "pageid": 11005,
+  "title": "Photovoltaic system at St. Jude's church",
+  "url": "https://www.appropedia.org/Photovoltaic_system_at_St._Jude%27s_church",
+  "extract": "This report provides a summary of the motivation, design, and installation of a solar photovoltaic (PV) generation system at St. Jude the Apostle Episcopal Church, Cupertino, CAhttp://web.archive.org/web/20201026073046/https://saintjudes.org/",
+  "length": 6485,
+  "domain": "energy"
+ },
+ {
+  "pageid": 21780,
+  "title": "Photovoltaic & solar heating system on Golf Course Rd, Bayside",
+  "url": "https://www.appropedia.org/Photovoltaic_%26_solar_heating_system_on_Golf_Course_Rd,_Bayside",
+  "extract": "A grid tied solar photovoltaic and thermal heating system was installed at a home in Arcata, CA which uses a heat recovery system to heat the home (that includes an expansion tank). Radiant floor heating was installed and heats the floor using...",
+  "length": 2954,
+  "domain": "energy"
+ },
+ {
+  "pageid": 69710,
+  "title": "Pico-hydro Turgo Turbine - Rwanda DIY",
+  "url": "https://www.appropedia.org/Pico-hydro_Turgo_Turbine_-_Rwanda_DIY",
+  "extract": "A low-cost DIY hydroelectric Turgo turbine made from household tablespoons and optimized to achieve 1.5 kW mechanical power at over 60% efficiency. \nThrough a grant from the UC Davis Blum Center for Developing Economies, a student-led team was...",
+  "length": 5286,
+  "domain": "energy"
+ },
+ {
+  "pageid": 14438,
+  "title": "Picohydro generator",
+  "url": "https://www.appropedia.org/Picohydro_generator",
+  "extract": "We propose the use of picoHydro power systems in Guatemala and Honduras to meet rural electricity demands, cleanly and efficiently. Specifically we've developed tools that can be used to easily convert a car alternator into an electric generator...",
+  "length": 21288,
+  "domain": "energy"
+ },
+ {
+  "pageid": 82772,
+  "title": "Pharmaceutical Bottle Caps",
+  "url": "https://www.appropedia.org/Pharmaceutical_Bottle_Caps",
+  "extract": "This is a parametric FreeCAD model that can be adapted to a variety of threaded or unthreaded pharmaceutical pill/medication bottles. This was requested as part of the Requests for 3-D printable open source appropriate technology#KIJENZI.2F...",
+  "length": 6391,
+  "domain": "other"
+ },
+ {
+  "pageid": 50750,
+  "title": "Piezoelectric Energy Harvesting Shoe",
+  "url": "https://www.appropedia.org/Piezoelectric_Energy_Harvesting_Shoe",
+  "extract": "The goal is to construct a piezoelectric energy harvesting device that can generate enough energy to create a noticeable charge in a battery.",
+  "length": 4210,
+  "domain": "energy"
+ },
+ {
+  "pageid": 83298,
+  "title": "Pineapple Self-Watering Planter",
+  "url": "https://www.appropedia.org/Pineapple_Self-Watering_Planter",
+  "extract": "Big Money Project. This is a pineapple self-watering planter remixed with FreeCAD. It was taken from an original pineapple planter created by DasMia (Cults3D Link) and remixed into a self-watering planter. The top piece has a hole in the bottom...",
+  "length": 2682,
+  "domain": "water"
+ },
+ {
+  "pageid": 72093,
+  "title": "Pinhole Bifocal Eyeglasses",
+  "url": "https://www.appropedia.org/Pinhole_Bifocal_Eyeglasses",
+  "extract": "A simple, ultra low cost, do it yourself type of corrective eyeglasses, made from an aluminum soda can and capable of simultaneously correcting myopia (nearsightedness) and hyperopia (farsightedness) using the pinhole lens principle. See for...",
+  "length": 14361,
+  "domain": "other"
+ },
+ {
+  "pageid": 117389,
+  "title": "Pioreactor",
+  "url": "https://www.appropedia.org/Pioreactor",
+  "extract": "Pioreactor is a low-cost bioreactor that runs open source software. https://pioreactor.com/",
+  "length": 277,
+  "domain": "other"
+ },
+ {
+  "pageid": 82644,
+  "title": "Pipe T-fitting",
+  "url": "https://www.appropedia.org/Pipe_T-fitting",
+  "extract": "Accessing clean water is still a struggle for many people throughout the world. In areas devastated by natural disasters, it can take years for the infrastructure to be rebuilt. Makeshift water piping has been a massive undertaking in Nepal...",
+  "length": 4728,
+  "domain": "water"
+ },
+ {
+  "pageid": 82954,
+  "title": "Pipette Carousel",
+  "url": "https://www.appropedia.org/Pipette_Carousel",
+  "extract": "This Open Source Appropriate Technology (OSAT) fulfills a request for pipette accessories on the \"Requests for 3-D printable open source appropriate technology\" Appropedia page. I chose this OSAT because sanitation in any type of healthcare...",
+  "length": 3217,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 21491,
+  "title": "Plant nursing",
+  "url": "https://www.appropedia.org/Plant_nursing",
+  "extract": "This article discusses the nursing of plants, which means taking care for plants from when they are seed to when they a few months-1 year old and the period of acclimating plants to the cold weather (the period in which you put the plant outside...",
+  "length": 19712,
+  "domain": "food"
+ },
+ {
+  "pageid": 90181,
+  "title": "Planter with Water Catcher",
+  "url": "https://www.appropedia.org/Planter_with_Water_Catcher",
+  "extract": "This is a planter with a water collection point. This removable cup allows for the easy collection of water to reuse for whatever is planted in this planter. This also has the modular capabilities to connect with another print of itself with...",
+  "length": 1791,
+  "domain": "water"
+ },
+ {
+  "pageid": 69376,
+  "title": "Plasmonic enhancement of amorphous silicon solar photovoltaic cells with hexagonal silver arrays made with nanosphere lithography",
+  "url": "https://www.appropedia.org/Plasmonic_enhancement_of_amorphous_silicon_solar_photovoltaic_cells_with_hexagonal_silver_arrays_made_with_nanosphere_lithography",
+  "extract": "Nanosphere lithography (NSL) provides an opportunity for a low-cost and scalable method to optically engineer solar photovoltaic (PV) cells. For PV applications, NSL is widely used in rear contact scenarios to excite surface plasmon polariton...",
+  "length": 5255,
+  "domain": "energy"
+ },
+ {
+  "pageid": 44593,
+  "title": "Plastic Bottle Greenhouse",
+  "url": "https://www.appropedia.org/Plastic_Bottle_Greenhouse",
+  "extract": "4 x 2 ft greenhouse structure using recycled 500 mL bottles that I collected from a local recycling center.",
+  "length": 2086,
+  "domain": "food"
+ },
+ {
+  "pageid": 9882,
+  "title": "Plastic water bottle solar water heater",
+  "url": "https://www.appropedia.org/Plastic_water_bottle_solar_water_heater",
+  "extract": "This method of making a solar water heater was devised by Herminio Hernandez Ortiz in Mexico (milito1960@yahoo.com.mx).",
+  "length": 397,
+  "domain": "water"
+ },
+ {
+  "pageid": 20686,
+  "title": "Plastics recovery manual",
+  "url": "https://www.appropedia.org/Plastics_recovery_manual",
+  "extract": "This is the table of contents of the Plastics recovery manual, made by ISF-IAI.",
+  "length": 2950,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 31822,
+  "title": "PlayPump",
+  "url": "https://www.appropedia.org/PlayPump",
+  "extract": "The PlayPump is intended to give children in South Africa a place to play and simultaneously provides their community with a much needed sustainable water source. The concept is that rather than blood, sweat, and tears being shed to obtain water...",
+  "length": 10484,
+  "domain": "water"
+ },
+ {
+  "pageid": 20038,
+  "title": "Plough construction manual",
+  "url": "https://www.appropedia.org/Plough_construction_manual",
+  "extract": "Construction manual of an animal-driven plough\nEquipment designed and manufactured in Haiti by the Camp Perrin Workshops-schools\nDeveloped in cooperation with Codéart\nWorkshops and schools of Camp Perrin\nPhilippe Carlier\nProject engineer of...",
+  "length": 23530,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 82783,
+  "title": "Pocket Wrench",
+  "url": "https://www.appropedia.org/Pocket_Wrench",
+  "extract": "The pocket wrench is an excellent example of OSAT. Wrenches are a universal necessity, especially in third world countries where buying something new, rather than repairing something, is seldom an option. In addition to this, this wrench is...",
+  "length": 3060,
+  "domain": "other"
+ },
+ {
+  "pageid": 82929,
+  "title": "Pointer Trowel",
+  "url": "https://www.appropedia.org/Pointer_Trowel",
+  "extract": "A pointer trowel is used in masonry to fill in joints. It has an angled, pointed end that can be used to get mortar into tight spaces. This tool was designed with appropriate technology in mind. The trowel is a simple design that can be easily...",
+  "length": 3634,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 29879,
+  "title": "Polyculture Planting at Sembradores Urbanos",
+  "url": "https://www.appropedia.org/Polyculture_Planting_at_Sembradores_Urbanos",
+  "extract": "Polyculture is a type of gardening where various crops are planted interspersed among each other. As opposed to monoculture, polyculture mimics natures diversity providing the benefit of better pest management, provides better protection against...",
+  "length": 6548,
+  "domain": "food"
+ },
+ {
+  "pageid": 40442,
+  "title": "Pop-Up-Farm",
+  "url": "https://www.appropedia.org/Pop-Up-Farm",
+  "extract": "Pop-up farms bring fresh food to cities and teach people about sustainable farming. Learn how these farms support local communities and promote healthy living.\nPop-up farms are a creative way to grow fresh food in cities. These temporary farms...",
+  "length": 3413,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 10888,
+  "title": "Practical Action/Run-off rainwater harvesting",
+  "url": "https://www.appropedia.org/Practical_Action/Run-off_rainwater_harvesting",
+  "extract": "Even though agriculture is an integral part of rural livelihoods of communities all over the world, there are many instances when farmers in water scarce areas are unable to succeed in their agricultural ventures due to the unavailability of...",
+  "length": 14767,
+  "domain": "water"
+ },
+ {
+  "pageid": 11190,
+  "title": "Practical Action/The 'A' frame",
+  "url": "https://www.appropedia.org/Practical_Action/The_%27A%27_frame",
+  "extract": "The A Frame is an A shaped structure made from wooden poles or thin metal poles that can be easily constructed and used to peg flat or graded contours or water drains. These contours are mostly used as soil and water conservation structures...",
+  "length": 6120,
+  "domain": "water"
+ },
+ {
+  "pageid": 11980,
+  "title": "Practical Action/Food processing building design",
+  "url": "https://www.appropedia.org/Practical_Action/Food_processing_building_design",
+  "extract": "While it is obviously very nice to have a brand new building to house any food production unit, this is of course not always possible. The following notes are therefore intended as a guide for those either starting-up from the beginning or converting...",
+  "length": 6220,
+  "domain": "food"
+ },
+ {
+  "pageid": 12420,
+  "title": "Practical Action/Packaging Foods in Glass",
+  "url": "https://www.appropedia.org/Practical_Action/Packaging_Foods_in_Glass",
+  "extract": "This technical brief is intended to advise small-scale producers on the methods and equipment needed to package foods in glass jars and bottles. For a more detailed account of the types of foods that can be packaged in glass, the properties...",
+  "length": 19562,
+  "domain": "food"
+ },
+ {
+  "pageid": 14411,
+  "title": "Power generation from treadle pumps (IDDS)",
+  "url": "https://www.appropedia.org/Power_generation_from_treadle_pumps_(IDDS)",
+  "extract": "This project describes the conversion of a treadle pump into a power generation device by a team from the International Development Design Summit",
+  "length": 10115,
+  "domain": "water"
+ },
+ {
+  "pageid": 15569,
+  "title": "Potawot stormwater treatment pond",
+  "url": "https://www.appropedia.org/Potawot_stormwater_treatment_pond",
+  "extract": "As a part of a much larger storm water treatment system at Potawot, the storm water treatment pond treats 100 percent of the water that is channeled into the system. This water comes from parking lot and building runoff from storms. The water...",
+  "length": 9413,
+  "domain": "water"
+ },
+ {
+  "pageid": 15584,
+  "title": "Potawot Health Village Solar Energy: Installation and History",
+  "url": "https://www.appropedia.org/Potawot_Health_Village_Solar_Energy:_Installation_and_History",
+  "extract": "Potawot Health Village is a non-profit organization built by the United Indian Health Services (UIHS) \"to integrate individual, community, and environmental health\". Located in Arcata, California, Potawot provides medical, dental, and mental...",
+  "length": 7659,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 15651,
+  "title": "Potawot Wellness Garden",
+  "url": "https://www.appropedia.org/Potawot_Wellness_Garden",
+  "extract": "Encircled by the Gathering Room and the main offices at Potawot, the Wellness Garden (Header) is filled with various native plants from the Northwestern region of the U.S. These plants are used to educate the patients at Potawot about traditional...",
+  "length": 15732,
+  "domain": "water"
+ },
+ {
+  "pageid": 16936,
+  "title": "Portable bike powered AC/DC generation stand",
+  "url": "https://www.appropedia.org/Portable_bike_powered_AC/DC_generation_stand",
+  "extract": "Before introducing the project I have chosen to put my efforts towards, I first need to introduce a larger project that will take my smaller project upon it's completion and introduce it--among additional projects--to others. The larger project...",
+  "length": 1924,
+  "domain": "other"
+ },
+ {
+  "pageid": 20431,
+  "title": "Practical Action/Permanent magnet alternator construction",
+  "url": "https://www.appropedia.org/Practical_Action/Permanent_magnet_alternator_construction",
+  "extract": "This research on small wind energy systems for battery charging is the result of a collaborative effort involving numerous contributors. The project was managed by Intermediate Technology (known as The Intermediate Technology Development Group...",
+  "length": 57797,
+  "domain": "energy"
+ },
+ {
+  "pageid": 25936,
+  "title": "Portable Wheelchair Ramp Design",
+  "url": "https://www.appropedia.org/Portable_Wheelchair_Ramp_Design",
+  "extract": "A complete force analysis of a simple plank ramp was conducted in order to determine the forces, stresses and moments acting on it. From these, a minimum thickness can be determined based on the strength properties of the material used in construction...",
+  "length": 23991,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 28184,
+  "title": "Practivistas Chiapas rainwater catchment",
+  "url": "https://www.appropedia.org/Practivistas_Chiapas_rainwater_catchment",
+  "extract": "Directing and capturing rainwater is an ancient science that is still in practice today. In regions where water is scarce during a few or all seasons, maximizing the collection and storage of rainwater is useful. Rainwater catchment systems...",
+  "length": 17109,
+  "domain": "water"
+ },
+ {
+  "pageid": 45382,
+  "title": "Pour flush toilet",
+  "url": "https://www.appropedia.org/Pour_flush_toilet",
+  "extract": "A Pour Flush Toilet is like a regular Flush Toilet except that instead of the water coming from the cistern above, it is poured in by the user. When the water supply is not continuous, any cistern Flush Toilet can become a Pour Flush Toilet...",
+  "length": 6799,
+  "domain": "water"
+ },
+ {
+  "pageid": 54040,
+  "title": "Powered easel",
+  "url": "https://www.appropedia.org/Powered_easel",
+  "extract": "The Powered Easel is designed to be used by individuals who have minimal mobility of their upper extremities.\nThe drawing surface is moved with the use of a joystick. The joystick controls two small DC motors that in turn drive a set of power...",
+  "length": 1863,
+  "domain": "other"
+ },
+ {
+  "pageid": 69814,
+  "title": "Potato Ricer",
+  "url": "https://www.appropedia.org/Potato_Ricer",
+  "extract": "To be practical this must be scaled up\nIncrease support in mech-stressed regions\nReduce plastic on non-mech stressed components\nErgo handle needed",
+  "length": 3420,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 78924,
+  "title": "Powder maker - Chilies and herbs",
+  "url": "https://www.appropedia.org/Powder_maker_-_Chilies_and_herbs",
+  "extract": "Herbs, spices and chillies are produced in India and Brazil extensively. But lack of simple and cost-effective technology is a big issue in rural regions of such developing countries. Usually, herbs and dried chillies are made into a powdered...",
+  "length": 3032,
+  "domain": "other"
+ },
+ {
+  "pageid": 88967,
+  "title": "Potawot solar fans for greenhouse",
+  "url": "https://www.appropedia.org/Potawot_solar_fans_for_greenhouse",
+  "extract": "This page details the journey that Team Pelican took to design a solar powered fan system for Potawot Community Health Garden.",
+  "length": 31657,
+  "domain": "health-veterinary"
+ },
+ {
+  "pageid": 28004,
+  "title": "Practivistas Chiapas/Projects/Improved cookstoves",
+  "url": "https://www.appropedia.org/Practivistas_Chiapas/Projects/Improved_cookstoves",
+  "extract": "In Mexico, one household in four still cooks with biomass fuel. As of 2008 almost half of the humans in the world used solid fuels like traditional biomass or coal for cooking, heat, and/ or lighting. Complete combustion of these fuels includes...",
+  "length": 55180,
+  "domain": "energy"
+ },
+ {
+  "pageid": 28001,
+  "title": "Practivistas Chiapas/Projects/Windbelt",
+  "url": "https://www.appropedia.org/Practivistas_Chiapas/Projects/Windbelt",
+  "extract": "The objective of the project is to design, build and implement multiple versions of the windbelt generator for Otros Mundos. Our initial goal was to power Otros Mundos' telecommunication devices in the field, using wind energy. However, the...",
+  "length": 20689,
+  "domain": "energy"
+ },
+ {
+  "pageid": 28618,
+  "title": "Practivistas Chiapas/Proyectos/Windbelt",
+  "url": "https://www.appropedia.org/Practivistas_Chiapas/Proyectos/Windbelt",
+  "extract": "Esta página esta diseña con el proposósito de inspirar a la gente que hable español a diseñar su propio generador de viento sin turbina. Enseñaremos a construir y entender todo lo necesario para construir un Windbelt.",
+  "length": 7801,
+  "domain": "energy"
+ },
+ {
+  "pageid": 62146,
+  "title": "Practivistas solar 2015",
+  "url": "https://www.appropedia.org/Practivistas_solar_2015",
+  "extract": "This project is a follow-up to the solar panel systems installed in La Yuca and Ghetto2Garden, in addition to the installation of a new system completed in Las Malvinas. The following page will cover system assessments, costs, and how to install...",
+  "length": 36015,
+  "domain": "energy"
+ },
+ {
+  "pageid": 23380,
+  "title": "Preliminary Review of Geothermal Solar Assisted Heat Pumps",
+  "url": "https://www.appropedia.org/Preliminary_Review_of_Geothermal_Solar_Assisted_Heat_Pumps",
+  "extract": "For original PDF version click here\nPRELIMINARY REVIEW OF GEOTHERMAL SOLAR ASSISTED HEAT PUMPS\nAyon M. Shahedand Stephen J. Harrison\nSolar Calorimetry Laboratory, Department of Mechanical and Materials Engineering\nQueen's University\nKingston...",
+  "length": 46452,
+  "domain": "water"
+ },
+ {
+  "pageid": 48938,
+  "title": "Pressure Retarded Osmosis (PRO) Education",
+  "url": "https://www.appropedia.org/Pressure_Retarded_Osmosis_(PRO)_Education",
+  "extract": "To increase awareness of pressure retarded osmosis (PRO) as a potential source of renewable energy, an interactive device that demonstrates power generation and osmosis through a semipermeable membrane was developed by a group of students from...",
+  "length": 9903,
+  "domain": "energy"
+ },
+ {
+  "pageid": 84911,
+  "title": "Principia Filament Extruder 2019",
+  "url": "https://www.appropedia.org/Principia_Filament_Extruder_2019",
+  "extract": "One of the biggest hurdles in developing nations is locating locally sources and affordable parts and expendables, including filament for use at tech labs in rural Africa. To solve this problem, Principia students created a preliminary design...",
+  "length": 6742,
+  "domain": "other"
+ },
+ {
+  "pageid": 109684,
+  "title": "Principia Graduate Coaster",
+  "url": "https://www.appropedia.org/Principia_Graduate_Coaster",
+  "extract": "This is a 3D-printed custom coaster designed to showcase school spirit and provide an affordable and personalized solution for protecting surfaces from moisture and stains. The coaster is designed with the Principia school logo and Class of...",
+  "length": 4804,
+  "domain": "other"
+ },
+ {
+  "pageid": 32734,
+  "title": "Printable non-puncturing textile fastener",
+  "url": "https://www.appropedia.org/Printable_non-puncturing_textile_fastener",
+  "extract": "This two piece device allows you to get a firm hold on any type of textile without puncturing them. The first part of the device, which we will call the lock (shown in blue), fits closely into the base, which we will call the star because of...",
+  "length": 3692,
+  "domain": "other"
+ },
+ {
+  "pageid": 74590,
+  "title": "Printed boltable strain gage with neural network calibration",
+  "url": "https://www.appropedia.org/Printed_boltable_strain_gage_with_neural_network_calibration",
+  "extract": "Create a method to print a flexible base for a strain gage, radically reducing the cost of structural measurements.",
+  "length": 6022,
+  "domain": "other"
+ },
+ {
+  "pageid": 30282,
+  "title": "Process for testing biodigester effluent fertilizer quality in lab with IRRI",
+  "url": "https://www.appropedia.org/Process_for_testing_biodigester_effluent_fertilizer_quality_in_lab_with_IRRI",
+  "extract": "Biodigesters are a technology used to help small farmers treat animal and human waste, while providing fertilizer with reduced pathogens for safer crop consumption and gas for their stove, boilers, and electricity generation. The result is a...",
+  "length": 15760,
+  "domain": "energy"
+ },
+ {
+  "pageid": 29624,
+  "title": "Producer responsibility and recycling solar photovoltaic modules",
+  "url": "https://www.appropedia.org/Producer_responsibility_and_recycling_solar_photovoltaic_modules",
+  "extract": "Rapid expansion of the solar photovoltaic (PV) industry is quickly causing solar to play a growing\nimportance in the energy mix of the world. Over the full life cycle, although to a smaller degree than\ntraditional energy sources, PV also creates...",
+  "length": 5252,
+  "domain": "energy"
+ },
+ {
+  "pageid": 32815,
+  "title": "Programming a CR1000 Datalogger",
+  "url": "https://www.appropedia.org/Programming_a_CR1000_Datalogger",
+  "extract": "CRBasic is the programming language which controls the functionality of a Campbell Scientific Datalogger. The program controls all processes in the logger related to the collection of data, including variable names, data table layouts, transducer...",
+  "length": 22267,
+  "domain": "other"
+ },
+ {
+  "pageid": 31840,
+  "title": "Proyecto Tití Cotton-top Tamarin conservation program",
+  "url": "https://www.appropedia.org/Proyecto_Tit%C3%AD_Cotton-top_Tamarin_conservation_program",
+  "extract": "Proyecto Titi is the name of an environmental program centered in Colombia with a special focus on the conservation of a critically endangered primate species endemic to the country, the Cotton-top Tamarin (Saguinus oedpipus). Due mainly to...",
+  "length": 5687,
+  "domain": "other"
+ },
+ {
+  "pageid": 111192,
+  "title": "Pruebas del Community Microscope",
+  "url": "https://www.appropedia.org/Pruebas_del_Community_Microscope",
+  "extract": "The following is a transcript of a report made by Let's Do It! El Salvador for a demonstration of Public Lab lab equipment in 2019.\nMuchos de los procesos biológicos, químicos y físicos que suceden en la naturaleza pasan desapercibidos de nuestro...",
+  "length": 4376,
+  "domain": "other"
+ },
+ {
+  "pageid": 65251,
+  "title": "Pruning hook",
+  "url": "https://www.appropedia.org/Pruning_hook",
+  "extract": "Pruning hooks are usually used to cut branches down from trees, but in Ghana pruning hooks are used to cut down cocoa pods from tall trees. The pruning hook saves time so the farmers do not have to climb the trees with machetes. This 3D printed...",
+  "length": 3578,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 82463,
+  "title": "Prusa SL1 Resin Funnel",
+  "url": "https://www.appropedia.org/Prusa_SL1_Resin_Funnel",
+  "extract": "The goal of this project is to make a funnel that for pouring used resin back into the bottle. There is a space for a filter to be inserted as well since there are sometimes chunks in used resin. This funnel is modeled after the funnel that...",
+  "length": 1924,
+  "domain": "water"
+ },
+ {
+  "pageid": 11043,
+  "title": "Pulser pump",
+  "url": "https://www.appropedia.org/Pulser_pump",
+  "extract": "The pulser pump is a simple, water powered mechanical device, also known as a bubble pump. Components of this pump have been used for various purposes, including the extraction of oil or in refrigeration cycles. Heat driven bubble pumps are...",
+  "length": 31439,
+  "domain": "water"
+ },
+ {
+  "pageid": 50800,
+  "title": "Pumani bCPAP",
+  "url": "https://www.appropedia.org/Pumani_bCPAP",
+  "extract": "Respiratory distress syndrome (RDS) is a major cause of child mortality. It is often treated using bubble CPAP (bCPAP), but these devices can cost thousands of dollars and are too expensive for low-resource settings.",
+  "length": 2557,
+  "domain": "other"
+ },
+ {
+  "pageid": 37867,
+  "title": "Pump'n Power Handcar Generator instructions",
+  "url": "https://www.appropedia.org/Pump%27n_Power_Handcar_Generator_instructions",
+  "extract": "The following is a brief overview of the steps the create your own Pump'n Power generator. Given the complexity of the design for this project, the finer details of the project are left to the builder to specify. Such details include the placement...",
+  "length": 7436,
+  "domain": "water"
+ },
+ {
+  "pageid": 99153,
+  "title": "Pumps for Peace",
+  "url": "https://www.appropedia.org/Pumps_for_Peace",
+  "extract": "This project is to develop a low-cost open source heat pump for the purposes of reducing fossil fuel use for heating to reduce climate forcing and funding of the Russian military. Installing a heat pump is one of the top three things people...",
+  "length": 15891,
+  "domain": "water"
+ },
+ {
+  "pageid": 3699,
+  "title": "Quake Safe",
+  "url": "https://www.appropedia.org/Quake_Safe",
+  "extract": "The Quake Safe is a method of making adobe houses safer in earthquakes. It is a frame made from string, bamboo (or other available wood; ie eucalyptus, ...) and wire. It can be retrofitted to an existing adobe (mud brick) house or incorporated...",
+  "length": 1574,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 109285,
+  "title": "Quantifying the Intermittency and Variability of Photovoltaic Systems through Probabilistic Methods",
+  "url": "https://www.appropedia.org/Quantifying_the_Intermittency_and_Variability_of_Photovoltaic_Systems_through_Probabilistic_Methods",
+  "extract": "The growth of renewable power generation has experienced a significant upsurge in recent years, primarily due to its environmentally sustainable nature and negligible fuel costs. Nevertheless, many renewable energy sources, including wind and...",
+  "length": 8199,
+  "domain": "energy"
+ },
+ {
+  "pageid": 18933,
+  "title": "Queens Green IT",
+  "url": "https://www.appropedia.org/Queens_Green_IT",
+  "extract": "The Queen's Applied Sustainability Research Group and the Webster Group of Queen's University are collaborating on a project to improve the energy efficiency of IT/S.",
+  "length": 7372,
+  "domain": "energy"
+ },
+ {
+  "pageid": 82811,
+  "title": "Quick Square",
+  "url": "https://www.appropedia.org/Quick_Square",
+  "extract": "This quick square or carpenter's triangle is a product that can be found relatively cheap at most hardware stores. This product allows the user to make lines perpendicular or 45 degrees from an existing edge. The advantage of making this 3D...",
+  "length": 2524,
+  "domain": "other"
+ },
+ {
+  "pageid": 31525,
+  "title": "R.O.S.E. Drop Box",
+  "url": "https://www.appropedia.org/R.O.S.E._Drop_Box",
+  "extract": "For this project I made a box out papercrete for an on-campus office supply recycling service called R.O.S.E.. The goal of the project is to create a drop box out of recycled materials to be used as a receptacle on campus to increase the amount...",
+  "length": 14245,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 103420,
+  "title": "RC Ultimate v1.0",
+  "url": "https://www.appropedia.org/RC_Ultimate_v1.0",
+  "extract": "When creating projects and robots, no one likes to keep a cable connected at all times. It creates a feeling of something being unfinished, that your creation relies on something, that your precious peak of performance is limited by a simple...",
+  "length": 8065,
+  "domain": "other"
+ },
+ {
+  "pageid": 19151,
+  "title": "RCEA A Bright Idea",
+  "url": "https://www.appropedia.org/RCEA_A_Bright_Idea",
+  "extract": "The objective of our design project is to create an interactive, educational display model that demonstrates the importance of energy conservation. The model will be displayed by the Redwood Coast Energy Authority (RCEA) who set forth criteria...",
+  "length": 5030,
+  "domain": "energy"
+ },
+ {
+  "pageid": 19163,
+  "title": "RCEA Biggest Little Thing",
+  "url": "https://www.appropedia.org/RCEA_Biggest_Little_Thing",
+  "extract": "A Tankless Water Heater Display for the Redwood Coast Energy Authority\nOur objective is to design an interactive display promoting energy conservation awareness for Humboldt County residents. This display shall be constructed to fit criteria...",
+  "length": 2680,
+  "domain": "water"
+ },
+ {
+  "pageid": 26544,
+  "title": "RCEA Climate Crusaders",
+  "url": "https://www.appropedia.org/RCEA_Climate_Crusaders",
+  "extract": "This webpage is about the Redwood Coast Energy Authority (RCEA) Educational Box project. The purpose of this project was to create an educational box with teaching material for high school teachers in Humboldt County. The teaching material provided...",
+  "length": 10251,
+  "domain": "energy"
+ },
+ {
+  "pageid": 26592,
+  "title": "RCEA Seas of Change",
+  "url": "https://www.appropedia.org/RCEA_Seas_of_Change",
+  "extract": "The Seas of Change project models the process of global climate change melting polar ice caps and raising sea levels that will eventually cover cities and destroy polar bear habitat.",
+  "length": 9202,
+  "domain": "other"
+ },
+ {
+  "pageid": 20702,
+  "title": "RCEA Solar thermal vs Heat pump",
+  "url": "https://www.appropedia.org/RCEA_Solar_thermal_vs_Heat_pump",
+  "extract": "This project examines two hot water heating systems that are commonly used on residential buildings; Solar Thermal Collectors and Air source Heat Pumps. A spreadsheet comparing factors such as system cost, efficiency, operating costs, maintenance...",
+  "length": 37749,
+  "domain": "water"
+ },
+ {
+  "pageid": 19165,
+  "title": "RCEA Thermal Curtain",
+  "url": "https://www.appropedia.org/RCEA_Thermal_Curtain",
+  "extract": "The Rag Doll Thermal Curtain Display\nThe objective of this project is to educate people about Energy conservation. This will be accomplished by designing an interactive demonstration displaying one or more aspects of energy conservation, for...",
+  "length": 3001,
+  "domain": "energy"
+ },
+ {
+  "pageid": 26599,
+  "title": "RCEA Weather Warnings",
+  "url": "https://www.appropedia.org/RCEA_Weather_Warnings",
+  "extract": "Team Cubic, under the Redwood Coast Energy Authority, set out to design a curriculum to educate 3rd and 4th grade students about the science of climate change. This curriculum will be used by classes in the Humboldt County area.",
+  "length": 8215,
+  "domain": "energy"
+ },
+ {
+  "pageid": 19686,
+  "title": "RCEA energy audit reviews",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews",
+  "extract": "The Redwood Coast Energy Authority retrofit analysis project is a class project to determine the effectiveness of RCEA energy retrofits at a range of businesses in Humboldt County, CA. Students created pages to determine the amount of energy...",
+  "length": 849,
+  "domain": "energy"
+ },
+ {
+  "pageid": 19995,
+  "title": "RCEA energy audit reviews/Arcata Recycling Center",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Arcata_Recycling_Center",
+  "extract": "The Arcata Community Recycling Center (ACRC) (Figure 1) has been serving the community of Arcata, CA for the last thirty years. Mark Loughmiller, director of operations, agreed to have the ACRC participate in a light retrofit program sponsored...",
+  "length": 10383,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20051,
+  "title": "RCEA energy audit reviews/Arcata Used Tire and Wheel",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Arcata_Used_Tire_and_Wheel",
+  "extract": "Arcata Used Tire and Wheel (Figure 1) is a Mom and Pop company that will replace worn out wheels and tires with used wheels and tires. Like most other companies, it uses electricity and produces CO2 each year. \"The company had been running on...",
+  "length": 6460,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20022,
+  "title": "RCEA energy audit reviews/Boll Weaver",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Boll_Weaver",
+  "extract": "Boll Weaver (Figure 1) is owned by Crystal Dobbs (Figure 2) and has been in Eureka, California for 15 years. Boll Weaver is a textiles center, offering classes and materials for felting, weaving, crocheting, knitting, dyeing and spinning looms...",
+  "length": 9310,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20063,
+  "title": "RCEA energy audit reviews/Booklegger",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Booklegger",
+  "extract": "Booklegger has been one of the many shops in downtown Eureka for many years. The owner of Booklegger, Nancy Short, explained to us in her interview that she was not happy with the lighting in her shop before the retrofits were installed. According...",
+  "length": 5316,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20066,
+  "title": "RCEA energy audit reviews/Coast Central Credit Union",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Coast_Central_Credit_Union",
+  "extract": "The Coast Central Credit Union is a financial institution in Eureka and the surrounding with 19 ATMS and 11 member service branches throughout Humboldt County. The Eureka branch worked with Redwood Coast Energy Authority (RCEA) in getting light...",
+  "length": 6117,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20162,
+  "title": "RCEA energy audit reviews/Companion Animal Foundation",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Companion_Animal_Foundation",
+  "extract": "Redwood Coast Energy Authority offered many local businesses an opportunity to achieve higher energy efficiency. By tracking a company's energy use through an audit, the Redwood Coast Energy Authority was able to propose achievable savings in...",
+  "length": 9075,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20333,
+  "title": "RCEA energy audit reviews/EUREKA CENTRAL RESIDENCE",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/EUREKA_CENTRAL_RESIDENCE",
+  "extract": "In late August of 2008 Eureka Central Residence, a low income housing complex located in Eureka, CA, underwent a lighting retrofit. This retrofit was in response to an offer made by the Redwood Coast Energy Authority, or RCEA. Their offer consisted...",
+  "length": 7245,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20270,
+  "title": "RCEA energy audit reviews/Eureka Floor Carpet One",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Eureka_Floor_Carpet_One",
+  "extract": "Eureka Floor Carpet One (Figure 1) sells floor coverings and performs installments to homes and commercial businesses across Humboldt County. Eureka Floor Carpet One experiences customer visits sporadically throughout the day, sometimes several...",
+  "length": 11106,
+  "domain": "energy"
+ },
+ {
+  "pageid": 19990,
+  "title": "RCEA energy audit reviews/Food for People",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Food_for_People",
+  "extract": "Food For People is designated as Humboldt County California's food bank. Food For People operates 13 food distribution programs throughout Humboldt County, including The After School Snack Program, Backpacks for Kids Program, The Gleaning Program...",
+  "length": 6855,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20126,
+  "title": "RCEA energy audit reviews/Honest Engine",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Honest_Engine",
+  "extract": "The Redwood Coast Energy Authority (RCEA) is an organization that improves energy efficiency and reduces the use of energy at businesses in Humboldt County, CA. One of the businesses that RCEA has worked with is Honest Engine in Eureka, California...",
+  "length": 10491,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20105,
+  "title": "RCEA energy audit reviews/Hospice of Humboldt",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Hospice_of_Humboldt",
+  "extract": "The purpose of this page is to inform the reader on retrofits done by RCEA (Redwood Coast Energy Authority) at the Hospice of Humboldt. Additional information will include the effect of the retrofits on the energy bill and how much energy was...",
+  "length": 6829,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20386,
+  "title": "RCEA energy audit reviews/Japhy's",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Japhy%27s",
+  "extract": "Japhy's is a soup restaurant. Japhy's is located at 1563 G St., Arcata, CA and run by Miwa and Josh Solomon. With the guidance of the Redwood Coast Energy Authority, Japhy's converted 50 lighting fixtures to more energy efficient bulbs.",
+  "length": 5662,
+  "domain": "energy"
+ },
+ {
+  "pageid": 19833,
+  "title": "RCEA energy audit reviews/Leon's Car Care Center",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Leon%27s_Car_Care_Center",
+  "extract": "In June 2008 the Redwood Coast Energy Authority (RCEA) completed a lighting retrofit for Leon's Car Care Center to increase energy efficiency.",
+  "length": 14098,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20302,
+  "title": "RCEA energy audit reviews/McMurray",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/McMurray",
+  "extract": "Thomas J McMurray, founder of McMurray's roofing company originated in Des Moines Iowa in 1919. Twenty nine years later his company expanded across the country to Eureka, California! Eureka is a very rainy place so the roofing business absolutely...",
+  "length": 5243,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20182,
+  "title": "RCEA energy audit reviews/Mckinleyville Community Services District",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Mckinleyville_Community_Services_District",
+  "extract": "The Redwood Coast Energy Authority(RCEA) worked in partnership with Pacific Gas and Electric Company(PG&E) to implement the Energy Watch 2006-2008 program. The program was designed to help a wide range of Humboldt County PG&E customers increase...",
+  "length": 14201,
+  "domain": "energy"
+ },
+ {
+  "pageid": 19989,
+  "title": "RCEA energy audit reviews/RREDC",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/RREDC",
+  "extract": "The purpose of this Appropedia page is to show how the Redwood Region Economic Development Commission saved on their electrical bill as a result of retrofits.",
+  "length": 9780,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20283,
+  "title": "RCEA energy audit reviews/Ramone's Bakery",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Ramone%27s_Bakery",
+  "extract": "This page is an analysis of an energy audit and lighting retrofit performed by the Redwood Coast Energy Authority (RCEA) on Ramone's Bakery.",
+  "length": 4836,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20065,
+  "title": "RCEA energy audit reviews/Richard E Benoit DDS",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Richard_E_Benoit_DDS",
+  "extract": "Richard E. Benoit DDS is a local dentist who is interested in being more environmentally conscious. He was contacted by the Redwood Coast Energy Authority (RCEA) whose purpose is to develop and implement sustainable energy initiatives that reduce...",
+  "length": 8659,
+  "domain": "energy"
+ },
+ {
+  "pageid": 19997,
+  "title": "RCEA energy audit reviews/Rookery Books",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Rookery_Books",
+  "extract": "This webpage is an energy retrofit analysis of a local bookstore in Arcata, CA that was completed by Redwood Coast Energy Authority.",
+  "length": 6827,
+  "domain": "energy"
+ },
+ {
+  "pageid": 19778,
+  "title": "RCEA energy audit reviews/Scrapper's Edge",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Scrapper%27s_Edge",
+  "extract": "The purpose of this page is to present an analysis of the effectiveness of the Redwood Coast Energy Authority (RCEA) lighting retrofit performed at Scrapper's Edge.",
+  "length": 17682,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20027,
+  "title": "RCEA energy audit reviews/Sequoia Humane Society",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Sequoia_Humane_Society",
+  "extract": "Sequoia Humane Society (Figure 1) is a non-profit animal shelter dedicated to animal welfare. In 2007 the Redwood Coast Energy Authority (RCEA) assisted the shelter in upgrading their lighting fixtures in order to reduce their energy consumption...",
+  "length": 5661,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20083,
+  "title": "RCEA energy audit reviews/Tailwaggers Thrift Shop",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Tailwaggers_Thrift_Shop",
+  "extract": "Tailwaggers Thrift Shop, as seen in Figure 1, is a small retail thrift store located in Eureka, California. The store sells used merchandise such as books, jewelry, men and women clothing, silverware and dishware, arts and crafts, music, furniture...",
+  "length": 8264,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20045,
+  "title": "RCEA energy audit reviews/Vellutini Baking Company",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Vellutini_Baking_Company",
+  "extract": "This page contains an analysis of the Redwood Coast Energy Authority's (RCEA) lighting retrofit of the Vellutini Baking Company (Figure 1). The purpose of the analysis is to determine the effectiveness of the retrofit by calculating the energy...",
+  "length": 6171,
+  "domain": "energy"
+ },
+ {
+  "pageid": 19724,
+  "title": "RCEA energy audit reviews/Wildberries Marketplace",
+  "url": "https://www.appropedia.org/RCEA_energy_audit_reviews/Wildberries_Marketplace",
+  "extract": "Wildberries Marketplace is a grocery store in Arcata, California, and has been operational for over fifteen years. In early 2008, the store had a vast majority of its lighting retrofitted with the help of the not-for-profit organization Redwood...",
+  "length": 10595,
+  "domain": "energy"
+ },
+ {
+  "pageid": 98742,
+  "title": "RMWSSS Plastic Recycling Mobile Kiosk Competition",
+  "url": "https://www.appropedia.org/RMWSSS_Plastic_Recycling_Mobile_Kiosk_Competition",
+  "extract": "The Rob and Melani Walton Sustainability Solutions Service (RMWSS) is calling on students to help develop a mobile plastic processing education kiosk. RMWSSS's Circular Living Lab (CLL) was created to research and apply material recycling solutions...",
+  "length": 8976,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 68444,
+  "title": "Radical Technology (1976 book)",
+  "url": "https://www.appropedia.org/Radical_Technology_(1976_book)",
+  "extract": "Radical Technology: Food and Shelter, Tools and Materials, Energy and Communications, Autonomy and Community is a 1976 book edited by Godfrey Boyle and Peter Harper, and the editors of the Undercurrents magazine. Radical Technology is a large...",
+  "length": 6743,
+  "domain": "energy"
+ },
+ {
+  "pageid": 26280,
+  "title": "Rain Gutter Design",
+  "url": "https://www.appropedia.org/Rain_Gutter_Design",
+  "extract": "Rain gutters are installed on buildings to catch rain water and direct it to a specific location. The most critical use of this water is for potable rain water catchment systems. Downstream of gutter systems will not be addressed here but should...",
+  "length": 19308,
+  "domain": "water"
+ },
+ {
+  "pageid": 82928,
+  "title": "Rain Water Purification and Storage",
+  "url": "https://www.appropedia.org/Rain_Water_Purification_and_Storage",
+  "extract": "Rainwater harvesting is one of the efficient ways of utilizing rain water for household purposes. Many of the underdeveloped and developing nations in Africa and South Asia rely majorly on these harvests since many years. While many of the rain...",
+  "length": 4339,
+  "domain": "water"
+ },
+ {
+  "pageid": 82742,
+  "title": "Rain chain",
+  "url": "https://www.appropedia.org/Rain_chain",
+  "extract": "I have created a rain chain for gutters of houses. I have seen these used on houses before when a gutter continuously overflows and water puddles up in bad places. The rain chain directs the water down the chain from the spout and can be collected...",
+  "length": 3728,
+  "domain": "water"
+ },
+ {
+  "pageid": 45182,
+  "title": "Rainwater Catchment J Gnarly",
+  "url": "https://www.appropedia.org/Rainwater_Catchment_J_Gnarly",
+  "extract": "A rainwater catchment system will be built on a house in Blue Lake of Humboldt Country in California. The rainwater will be carried from the gutters to storage tanks for use in flushing the indoor toilet and watering the garden. Kyle Basnett...",
+  "length": 23941,
+  "domain": "water"
+ },
+ {
+  "pageid": 29956,
+  "title": "Rainwater Quality Testing Procedures at Isla Urbana and Ajusco Labs",
+  "url": "https://www.appropedia.org/Rainwater_Quality_Testing_Procedures_at_Isla_Urbana_and_Ajusco_Labs",
+  "extract": "The following is a list of goals, procedures, equipment needed, and abstracts for four different rainwater quality testing procedures at The Laboratory of Community Alternative Technologies at Ajusco in conjunction with Isla Urbana. Both groups...",
+  "length": 10430,
+  "domain": "water"
+ },
+ {
+  "pageid": 29455,
+  "title": "Rainwater catchment at Isla Urbana",
+  "url": "https://www.appropedia.org/Rainwater_catchment_at_Isla_Urbana",
+  "extract": "Isla Urbana is a nonprofit working in Mexico City as well as in other areas of Mexico to improve water quality and water accessibility to people who have no reliable access to clean water. They coordinate efforts with different communities to...",
+  "length": 17983,
+  "domain": "water"
+ },
+ {
+  "pageid": 29299,
+  "title": "Rainwater catchment at Pedregal",
+  "url": "https://www.appropedia.org/Rainwater_catchment_at_Pedregal",
+  "extract": "Rain catchment systems can be constructed in many areas, both to increase the regeneration of the local aquifer with rainwater and to reduce the soil erosion from rainfall. Rain catchment during wet periods can also help full fill needs during...",
+  "length": 14824,
+  "domain": "water"
+ },
+ {
+  "pageid": 30038,
+  "title": "Rainwater harvesting system and component water quality analysis in the field with Isla Urbana",
+  "url": "https://www.appropedia.org/Rainwater_harvesting_system_and_component_water_quality_analysis_in_the_field_with_Isla_Urbana",
+  "extract": "The following is a list of goals, test procedures, survey questions, equipment needed, and abstracts for testing systemwater quality in the field, the effectivness of different components in the field, and the effect of different rainwater harvesting...",
+  "length": 8981,
+  "domain": "water"
+ },
+ {
+  "pageid": 29782,
+  "title": "Rainwater quality testing with Isla Urbana",
+  "url": "https://www.appropedia.org/Rainwater_quality_testing_with_Isla_Urbana",
+  "extract": "Rainwater is relatively free of impurities except for those pollutants from the atmosphere that settle on the roof, organic matter and bird and animal droppings entering the system, and possible pollutants from system materials. In Mexico City...",
+  "length": 3036,
+  "domain": "water"
+ },
+ {
+  "pageid": 29653,
+  "title": "Raised Beds at Sembradores Urbanos",
+  "url": "https://www.appropedia.org/Raised_Beds_at_Sembradores_Urbanos",
+  "extract": "Urban soils are often either paved over and not available or they are heavily contaminated. They are also often compacted, clayey, and contain a high metal content. In response to the problems faced with poor soil available in urban spaces Sembradores...",
+  "length": 6860,
+  "domain": "other"
+ },
+ {
+  "pageid": 82812,
+  "title": "Ram rump (project)",
+  "url": "https://www.appropedia.org/Ram_rump_(project)",
+  "extract": "This OSAT project is the design and prototyping of a hydraulic ram pump. This pump features no motorized parts and can be left unattended for extended duration with minimal upkeep. This pump is designed to allow someone in an area with hills...",
+  "length": 3418,
+  "domain": "water"
+ },
+ {
+  "pageid": 56492,
+  "title": "Rancho Mastatal Ceiba lounge",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_Ceiba_lounge",
+  "extract": "The Ceiba lounge at Rancho Mastatal was built using various natural building techniques, including cob, wattle and daub, earthen plaster, chorizo, taquezal, clay paint, earth bag, and a nylon web technique. It serves as an example for many of...",
+  "length": 2768,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 56480,
+  "title": "Rancho Mastatal Starboard Cork house",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_Starboard_Cork_house",
+  "extract": "The Starboard Cork house at Rancho Mastatal was built using various natural building techniques, including mortise and tenon, wattle and daub, earthen plaster, manure schmear, bamboo, and natural finishes. It was constructed with local, student...",
+  "length": 4337,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 56548,
+  "title": "Rancho Mastatal aquaponics",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_aquaponics",
+  "extract": "An aquaponics system at Rancho Mastatal grows edible plants and raises fish for consumption. The fish waste provides nutrients for the plants, and the plants clean the water for the fish. The system has four plant beds and the fish tank can...",
+  "length": 2366,
+  "domain": "water"
+ },
+ {
+  "pageid": 57115,
+  "title": "Rancho Mastatal biochar stove",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_biochar_stove",
+  "extract": "The biochar stove at Rancho Mastatal is used to create biochar and cook food. Biochar can be used to improve soil fertility while also sequestering carbon. Cooking with the heat produced makes the overall use of the stove more energy efficient...",
+  "length": 2063,
+  "domain": "energy"
+ },
+ {
+  "pageid": 56513,
+  "title": "Rancho Mastatal biodigester toilets",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_biodigester_toilets",
+  "extract": "Rancho Mastatal in Costa Rica has an award winning floating drum biodigester toilet. Jose Luis Zuñiga of Rancho Montezumo, a coffee producing ranch near Puriscal, Costa Rica, helped Rancho Mastatal with the design and construction of the biodigester...",
+  "length": 4454,
+  "domain": "water"
+ },
+ {
+  "pageid": 56541,
+  "title": "Rancho Mastatal composting toilets",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_composting_toilets",
+  "extract": "The composting toilets at Rancho Mastatal convert human waste into fertilizer for plants. It has two large compartments to store waste, and it uses sawdust produced either from the onsite workshop, or from another local sawdust resource. The...",
+  "length": 2516,
+  "domain": "water"
+ },
+ {
+  "pageid": 57070,
+  "title": "Rancho Mastatal earthen rocket oven",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_earthen_rocket_oven",
+  "extract": "The earthen rocket oven at Rancho Mastatal was originally built as a standard earthen oven. Overtime, they decided that the cooking style of the earthen oven did not fit their needs. Quicker cooking methods were needed. Instead of deconstructing...",
+  "length": 1925,
+  "domain": "other"
+ },
+ {
+  "pageid": 56526,
+  "title": "Rancho Mastatal manure biodigester",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_manure_biodigester",
+  "extract": "The manure biodigester at Rancho Mastatal converts animal waste into fertilizer and cooking fuel. It also provides extra waste material to the nearby floating drum biodigester toilets if the biodigester toilet use is not frequent enough to keep...",
+  "length": 2486,
+  "domain": "water"
+ },
+ {
+  "pageid": 57037,
+  "title": "Rancho Mastatal rocket stove",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_rocket_stove",
+  "extract": "An adobe rocket stove cooks many of the meals at Rancho Mastatal. The rocket stove was built using the justa stove design. Rocket stoves are improved cookstoves that usually use fuel more efficiently and produce less emissions than a three stone...",
+  "length": 1473,
+  "domain": "energy"
+ },
+ {
+  "pageid": 57014,
+  "title": "Rancho Mastatal showers",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_showers",
+  "extract": "The showers at Rancho Mastatal were made using natural building techniques including lime plaster, tadelakt plaster, clay paint, and mortise and tenon. They were constructed in 2007 by local, volunteer, and student labor. It took about 6 months...",
+  "length": 1684,
+  "domain": "other"
+ },
+ {
+  "pageid": 57015,
+  "title": "Rancho Mastatal the Hankey House",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_the_Hankey_House",
+  "extract": "The Hankey House at Rancho Mastatal was designed by Rob Hankey and utilized various natural building techniques in its design including post and beam construction, cob, wattle and daub, and bamboo construction. It was built in 2005 by local...",
+  "length": 2152,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 57030,
+  "title": "Rancho Mastatal the Hooch bamboo house",
+  "url": "https://www.appropedia.org/Rancho_Mastatal_the_Hooch_bamboo_house",
+  "extract": "The Hooch bamboo house is a structure at Rancho Mastatal designed by Joe Scheer. It is made almost entirely of bamboo. The Hooch was constructed in 2003 with local and volunteer labor, and it took about a year to complete. The bamboo came from...",
+  "length": 2346,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 95438,
+  "title": "Rapid repurposing of pulp and paper mills, biorefineries, and breweries for lignocellulosic sugar production in global food catastrophes",
+  "url": "https://www.appropedia.org/Rapid_repurposing_of_pulp_and_paper_mills,_biorefineries,_and_breweries_for_lignocellulosic_sugar_production_in_global_food_catastrophes",
+  "extract": "Producing sugar from lignocellulosic biomass is a promising resilient food solution to counter the near-total global failure of food production due to the agricultural collapse that would likely follow an abrupt sunlight reduction catastrophe...",
+  "length": 3775,
+  "domain": "food"
+ },
+ {
+  "pageid": 70041,
+  "title": "Raspberry Pi Control and Wireless Interface",
+  "url": "https://www.appropedia.org/Raspberry_Pi_Control_and_Wireless_Interface",
+  "extract": "The Raspberry Pi is an affordable computing solution, with the Raspberry Pi 3 Model B, power supply, and MicroSD card for OS costing a total of $60. The Pi is able to connect to the Melzi Board through the ethernet port. Since the Pi has wi...",
+  "length": 10278,
+  "domain": "other"
+ },
+ {
+  "pageid": 85172,
+  "title": "Real-Time Eye State Detection System for Driver Drowsiness Using Convolutional Neural Network",
+  "url": "https://www.appropedia.org/Real-Time_Eye_State_Detection_System_for_Driver_Drowsiness_Using_Convolutional_Neural_Network",
+  "extract": "One of the top reasons for road accidents that result in injuries and deaths is the dozing off of drivers. In this study eye tracking using a novel open source Internet of Things (IoT)-based system has been developed. This study evaluated three...",
+  "length": 3406,
+  "domain": "food"
+ },
+ {
+  "pageid": 36920,
+  "title": "Recyclebot",
+  "url": "https://www.appropedia.org/Recyclebot",
+  "extract": "A RecycleBot is a waste plastic extruder that creates 3-D printer filament from waste plastic and natural polymers.\nNotice: Check out the new Open Source 3-D Filament Diameter Sensor for Recycling, Winding and Additive Manufacturing Machines...",
+  "length": 45146,
+  "domain": "energy"
+ },
+ {
+  "pageid": 78775,
+  "title": "Recyclebot Cooling Fan Section",
+  "url": "https://www.appropedia.org/Recyclebot_Cooling_Fan_Section",
+  "extract": "This project is an upgrade on the current Recyclebot v5.0 cooling section. The previous design uses a top-down approach at cooling off the filament post extrusion, this was rather annoying to initially feed the filament through. To get rid of...",
+  "length": 4781,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 70220,
+  "title": "Recyclebot v5.0",
+  "url": "https://www.appropedia.org/Recyclebot_v5.0",
+  "extract": "DESIGN NOT FULLY FUNCTIONAL-- use instead RepRapable Recyclebot: Open source 3-D printable extruder for converting plastic to 3-D printing filament\n\nRecyclebot V5.0 3d printer filament extruder is under development by Michigan Tech's Open Source...",
+  "length": 9160,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 70372,
+  "title": "Recycled Concentrated Solar Heater",
+  "url": "https://www.appropedia.org/Recycled_Concentrated_Solar_Heater",
+  "extract": "As part of my high school pre-engineering class for our final assignment we had come up with a final design project. An old water heater was also donated to this class. After watching an episode of \"The Cosmos,\" in which a farm of parabolic...",
+  "length": 5903,
+  "domain": "water"
+ },
+ {
+  "pageid": 3412,
+  "title": "Recycling agricultural wastes to produce hot water",
+  "url": "https://www.appropedia.org/Recycling_agricultural_wastes_to_produce_hot_water",
+  "extract": "Two composting systems which use waste biomass (such as kitchen refuse and agricultural wastes) and human wastes for heating water are described. Since they are simple and inexpensive to construct, use widely available materials, and require...",
+  "length": 12431,
+  "domain": "water"
+ },
+ {
+  "pageid": 2237,
+  "title": "Recycling and dengue fever in Sukunan, Indonesia",
+  "url": "https://www.appropedia.org/Recycling_and_dengue_fever_in_Sukunan,_Indonesia",
+  "extract": "Dengue fever is a serious, sometimes fatal illness, which has been increasing in recent years in Indonesia. It is spread by a type of mosquito which can breeds in very small amounts of water - including rainwater captured by litter, such as...",
+  "length": 1839,
+  "domain": "water"
+ },
+ {
+  "pageid": 20718,
+  "title": "Recycling of wind turbine blades",
+  "url": "https://www.appropedia.org/Recycling_of_wind_turbine_blades",
+  "extract": "Wind Power is a prominent \"green\" solution to the global energy crisis. Wind power was the most rapid growing source of usable energy from 1990-2002 in 2003, and its strong growth continues. Currently the majority of wind farms are in European...",
+  "length": 17920,
+  "domain": "energy"
+ },
+ {
+  "pageid": 127386,
+  "title": "Recycling silicon photovoltaic cells into silicon anodes for Li-ion batteries using 3D printing",
+  "url": "https://www.appropedia.org/Recycling_silicon_photovoltaic_cells_into_silicon_anodes_for_Li-ion_batteries_using_3D_printing",
+  "extract": "With the increasing adoption of solar energy, the disposal of end-of-life photovoltaic modules has become a growing environmental concern. As crystalline silicon has significant potential as an anode material for lithium-ion batteries, this...",
+  "length": 4556,
+  "domain": "energy"
+ },
+ {
+  "pageid": 58587,
+  "title": "Redwood Coast Montessori climbing wall",
+  "url": "https://www.appropedia.org/Redwood_Coast_Montessori_climbing_wall",
+  "extract": "Building a Traverse Climbing Wall to help educate students at Redwood Montessori. The purpose of this project is to replace the current play structure at the Redwood Coast Montessori School (RCMS) and the Manila Community Center, located in...",
+  "length": 9856,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 58591,
+  "title": "Redwood Coast Montessori greenhouse",
+  "url": "https://www.appropedia.org/Redwood_Coast_Montessori_greenhouse",
+  "extract": "The purpose of this project is to renovate a greenhouse located at the Redwood Coast Montessori School (RCMS) and the Manila Community Center, located in Manila, CA.",
+  "length": 8129,
+  "domain": "food"
+ },
+ {
+  "pageid": 58578,
+  "title": "Redwood Coast Montessori rainwater catchment",
+  "url": "https://www.appropedia.org/Redwood_Coast_Montessori_rainwater_catchment",
+  "extract": "The purpose of this project was to design and construct a rainwater harvesting system for Redwood Coast Montessori school in an effort to inspire and educate the students and community on the subject of renewable water sources that can be used...",
+  "length": 10265,
+  "domain": "water"
+ },
+ {
+  "pageid": 58590,
+  "title": "Redwood Coast Montessori solar charging station",
+  "url": "https://www.appropedia.org/Redwood_Coast_Montessori_solar_charging_station",
+  "extract": "The Solar Charging Station is a solar powered system that charges cell phones and other small electronics via a USB port.The purpose for the charging station is to educate the students and staff of Redwood Coast Montessori of solar power. It...",
+  "length": 12540,
+  "domain": "energy"
+ },
+ {
+  "pageid": 105583,
+  "title": "Redwood Discovery Museum Archimedes screw and pulleys",
+  "url": "https://www.appropedia.org/Redwood_Discovery_Museum_Archimedes_screw_and_pulleys",
+  "extract": "Team Innovations Explained has been set out on a quest to make two simple machines for the Redwood Children's Museum in the Fall semester of 2022. Stephanie Carter is the executive director of the Redwood Discovery Museum. She aims to bring...",
+  "length": 11732,
+  "domain": "food"
+ },
+ {
+  "pageid": 73184,
+  "title": "Redwood Discovery Museum Pythagorean theorem demonstration",
+  "url": "https://www.appropedia.org/Redwood_Discovery_Museum_Pythagorean_theorem_demonstration",
+  "extract": "The Discovery Museum in Eureka are looking forward to being presented with projects that are suitable, hands-on, and engaging for young children. One of the projects requested is a Pythagorean Theorem model that helps children to visualize how...",
+  "length": 4063,
+  "domain": "other"
+ },
+ {
+  "pageid": 73172,
+  "title": "Redwood Discovery Museum around the world in twenty digits",
+  "url": "https://www.appropedia.org/Redwood_Discovery_Museum_around_the_world_in_twenty_digits",
+  "extract": "\"Around the World In Twenty Digits\" is an interactive number systems exhibit designed for the Redwood Discovery Museum in Eureka, CA.",
+  "length": 3961,
+  "domain": "other"
+ },
+ {
+  "pageid": 73220,
+  "title": "Redwood Discovery Museum inspirograph",
+  "url": "https://www.appropedia.org/Redwood_Discovery_Museum_inspirograph",
+  "extract": "The purpose of this project was to create an interactive exhibit based on the original children's Spirograph toy using both new and upcycled materials. The design was to be a table top spirograph system that children could use to create geometric...",
+  "length": 9755,
+  "domain": "materials"
+ },
+ {
+  "pageid": 73198,
+  "title": "Redwood Discovery Museum sound garden",
+  "url": "https://www.appropedia.org/Redwood_Discovery_Museum_sound_garden",
+  "extract": "The purpose of the Sound Garden is to demonstrate to the user the physical relationships between wavelength and sound in a safe, interactive, and understandable way. The Sound Garden satisfies the weighted criteria specified by the client for...",
+  "length": 4582,
+  "domain": "food"
+ },
+ {
+  "pageid": 25926,
+  "title": "Reflector for bare light bulb",
+  "url": "https://www.appropedia.org/Reflector_for_bare_light_bulb",
+  "extract": "The goal of this project is to increase the lighting intensity of a single light bulb by adding a reflective shield to the bulb that would direct the light downwards. This would hopefully improve the quality of lighting in households where a...",
+  "length": 12568,
+  "domain": "energy"
+ },
+ {
+  "pageid": 29425,
+  "title": "Reforestation at Pedregal",
+  "url": "https://www.appropedia.org/Reforestation_at_Pedregal",
+  "extract": "Forests help stabilize soil, prevent erosion into water ways, and slows water flow from rain so that there is increased time for percolation into aquifers as well as offering many other ecosystem services. To regenerate ecosystems it is useful...",
+  "length": 6608,
+  "domain": "water"
+ },
+ {
+  "pageid": 65206,
+  "title": "Reindeer Snaffle",
+  "url": "https://www.appropedia.org/Reindeer_Snaffle",
+  "extract": "Snaffles, or more commonly referred to bits, are the metal pieces that riders use to give commands to their mount. For this particular page, reindeer are the intended animal to be used here, however there is no reason why a correctly sized bit...",
+  "length": 6316,
+  "domain": "other"
+ },
+ {
+  "pageid": 6489,
+  "title": "Relocalization",
+  "url": "https://www.appropedia.org/Relocalization",
+  "extract": "Relocalization is a strategy which aims to rebuild societies based on the local provisioning of food and energy, and the relocalization of currency, governance and culture. The main goals of relocalization are to increase community energy security...",
+  "length": 2231,
+  "domain": "energy"
+ },
+ {
+  "pageid": 27962,
+  "title": "Reprap Build and Test at Queen's University",
+  "url": "https://www.appropedia.org/Reprap_Build_and_Test_at_Queen%27s_University",
+  "extract": "RepRap[1] is an open-source 3D printer, presently under community development. It is being designed to produce as many of it's own parts as possible, and hence self-replicate. This appropedia page describes the build process that Queen's Applied...",
+  "length": 50555,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 20768,
+  "title": "Request for assistance: Making nut cracker tools for village workers",
+  "url": "https://www.appropedia.org/Request_for_assistance:_Making_nut_cracker_tools_for_village_workers",
+  "extract": "My name is Teffera Tesfaye, Ethiopian,50years old,father of 5 children wants really help women in my village town Harer (Harery),thinking my help will be useful for development of the world hereby approaching my demand.Women of my village are...",
+  "length": 1124,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 78777,
+  "title": "Retractive Cooling for recyclebot",
+  "url": "https://www.appropedia.org/Retractive_Cooling_for_recyclebot",
+  "extract": "This is a retractable cooling mechanism for the Recyclebot. Recyclebot can be a showcase example for OSAT - Open Source Appropriate Technology. It uses waste plastic from water bottles, soda bottles, Milk cans, etc., to turn into filament for...",
+  "length": 5145,
+  "domain": "water"
+ },
+ {
+  "pageid": 59327,
+  "title": "Reversing the Trend of Large Scale and Centralization in Manufacturing: The Case of Distributed Manufacturing of Customizable 3-D-Printable Self-Adjustable Glasses",
+  "url": "https://www.appropedia.org/Reversing_the_Trend_of_Large_Scale_and_Centralization_in_Manufacturing:_The_Case_of_Distributed_Manufacturing_of_Customizable_3-D-Printable_Self-Adjustable_Glasses",
+  "extract": "Although the trend in manufacturing has been towards centralization to leverage economies of scale, the recent rapid technical development of open-source 3-D printers enables low-cost distributed bespoke production. This paper explores the potential...",
+  "length": 4575,
+  "domain": "food"
+ },
+ {
+  "pageid": 60817,
+  "title": "Review of low cost synthesis of perovskite solar cells",
+  "url": "https://www.appropedia.org/Review_of_low_cost_synthesis_of_perovskite_solar_cells",
+  "extract": "This literature review is meant to provide an understanding of the usefulness and properties of perovskites as a material for 3D printing solar cells.\nThis lit review needs to be reorganized into categories related to each layer and the materials...",
+  "length": 28847,
+  "domain": "energy"
+ },
+ {
+  "pageid": 100750,
+  "title": "Review of low cost synthesis of perovskite solar cells/Fully spray-coated ITO-free organic solar cells for low-cost power generation",
+  "url": "https://www.appropedia.org/Review_of_low_cost_synthesis_of_perovskite_solar_cells/Fully_spray-coated_ITO-free_organic_solar_cells_for_low-cost_power_generation",
+  "extract": "Review of low cost synthesis of perovskite solar cells",
+  "length": 38653,
+  "domain": "energy"
+ },
+ {
+  "pageid": 20042,
+  "title": "Rice husker construction manual",
+  "url": "https://www.appropedia.org/Rice_husker_construction_manual",
+  "extract": "Ingenieurs Assistance Internationale - Ingenieurs sans Frontieres Construction manual of a rice husker Equipment designed and manufactured in Haiti by the workshops-schools of Camp Perrin Developed in cooperation with Codeart and the workshops...",
+  "length": 37571,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 8372,
+  "title": "Robin deterrent for solar charger",
+  "url": "https://www.appropedia.org/Robin_deterrent_for_solar_charger",
+  "extract": "Robins were causing shading on the solar panel. This shading was interfering with the efficiency of the panel. This was causing extra work for the farmer, it is a long walk back to replace the battery with a fresh one from the barn where there...",
+  "length": 1323,
+  "domain": "energy"
+ },
+ {
+  "pageid": 6159,
+  "title": "Rocket Lorena Stove",
+  "url": "https://www.appropedia.org/Rocket_Lorena_Stove",
+  "extract": "The rocket-lorena stove is a two-pot rest stove and has an efficient conversion chamber which requires very little fuel. It has a firewood chamber and a chimney which further improves efficient burning. It can be made from locally available...",
+  "length": 5644,
+  "domain": "energy"
+ },
+ {
+  "pageid": 17873,
+  "title": "Rocket stove mass heater",
+  "url": "https://www.appropedia.org/Rocket_stove_mass_heater",
+  "extract": "Building a rocket stove mass heater (including research).",
+  "length": 8667,
+  "domain": "energy"
+ },
+ {
+  "pageid": 57786,
+  "title": "Rockwall hold",
+  "url": "https://www.appropedia.org/Rockwall_hold",
+  "extract": "The first project within MY4777 was to design and print a rockwall hold. The STL file was created in openSCAD and printed using the MOST 3D printed constructed for class. The picture of the final part and the STL file were uploaded to Thingiverse...",
+  "length": 592,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 44490,
+  "title": "Rooftop PV System for the NAC Building of CCNY",
+  "url": "https://www.appropedia.org/Rooftop_PV_System_for_the_NAC_Building_of_CCNY",
+  "extract": "CCNY is a full participant in The City University of New York (CUNY) Sustainability Initiative, which is part of Mayor Bloomberg's PlaNYC for a sustainable city. CUNY has pledged to reduce carbon emissions 30% by 2017 to satisfy PlaNYC and CCNY...",
+  "length": 17495,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 14318,
+  "title": "Ropeway in the Himalayas",
+  "url": "https://www.appropedia.org/Ropeway_in_the_Himalayas",
+  "extract": "This Project stems from the need of an Indian community in the state of Uttarakhand. A women's cooperative in the village of Ranikhet produces roof tiles and various preserves. However, to bring them to the market they must carry heavy loads...",
+  "length": 10173,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 10757,
+  "title": "Rotating Drum Biofilter for air pollutants",
+  "url": "https://www.appropedia.org/Rotating_Drum_Biofilter_for_air_pollutants",
+  "extract": "ERDC's Kim receives USACE, ERDC Researcher of the Year Awards. Dr. Byung J. Kim, U.S. Army Engineer Research and Development Center's (ERDC) Construction Engineering Research Laboratory (CERL) in Champaign, Ill., has received both Corps' and...",
+  "length": 2561,
+  "domain": "water"
+ },
+ {
+  "pageid": 18225,
+  "title": "Rowan's portable pedal power generator",
+  "url": "https://www.appropedia.org/Rowan%27s_portable_pedal_power_generator",
+  "extract": "The idea behind the project is relatively simple. A stand allows the back wheel of a bike to spin freely (usually used for indoor exercise) supports a bike that powers a generator. The generated energy (actually it's converted) is stored in...",
+  "length": 19550,
+  "domain": "energy"
+ },
+ {
+  "pageid": 33241,
+  "title": "Rowing Machine Blender Instructions",
+  "url": "https://www.appropedia.org/Rowing_Machine_Blender_Instructions",
+  "extract": "Instructions for Locally Delicious rowing machine blender for schools",
+  "length": 16181,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 95456,
+  "title": "Rusty lump hammer restoration",
+  "url": "https://www.appropedia.org/Rusty_lump_hammer_restoration",
+  "extract": "Simple restoration of a rusty lump hammer bought in a job lot of old tools. A page showing the process.\n\nAngle grinder, 40 grit flapper wheel, and a portable 4\" vice with soft jaws. Goodbye rust.\n\nFilling any holes with hardwood wedge offcuts...",
+  "length": 1717,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 45141,
+  "title": "SALIRAJA Yurt Project",
+  "url": "https://www.appropedia.org/SALIRAJA_Yurt_Project",
+  "extract": "We are a group of four Environmental Science Students who constructed a shingled yurt roof by reusing old cans that would have otherwise been thrown away or recycled. This project was done for our client Campus Center for Appropriate Technology...",
+  "length": 18567,
+  "domain": "food"
+ },
+ {
+  "pageid": 19017,
+  "title": "SAPL TLUD gasifier stove",
+  "url": "https://www.appropedia.org/SAPL_TLUD_gasifier_stove",
+  "extract": "The TLUD stove is a simple wood Stove that is green and of low carbon emission. It is a project of SERVALS Automation Pvt LTD This project is the winner of the Sankalp 2010 award in the Clean Energy Sector - Established Enterprise Category...",
+  "length": 4964,
+  "domain": "energy"
+ },
+ {
+  "pageid": 47239,
+  "title": "SCRAP Humboldt community tinker desk",
+  "url": "https://www.appropedia.org/SCRAP_Humboldt_community_tinker_desk",
+  "extract": "Our team's objective was to create the most appealing workbench possible with limited funds. The desk is currently being used to create art projects from up-cycled materials, which can easily be found at SCRAP Humboldt. The desk must be sturdy...",
+  "length": 6473,
+  "domain": "materials"
+ },
+ {
+  "pageid": 47249,
+  "title": "SCRAP Humboldt solar wax melter with 3D printed molds",
+  "url": "https://www.appropedia.org/SCRAP_Humboldt_solar_wax_melter_with_3D_printed_molds",
+  "extract": "Solar Wax Melter with 3D Printed Molds utilizes 3-D printing capabilities and the energy produced from the Sun to heat and re-purpose crayons, candles, and other waxes. The Solar Wax Melter is constructed out of common waste stream items and...",
+  "length": 7345,
+  "domain": "energy"
+ },
+ {
+  "pageid": 47607,
+  "title": "SCRAP Humboldt upcycled bicycle trailer instructions",
+  "url": "https://www.appropedia.org/SCRAP_Humboldt_upcycled_bicycle_trailer_instructions",
+  "extract": "These are the steps that our team The Trailer Park Boys used to construct our bicycle trailer. The components below include a wheel chair, a conduit frame, a road sign tub, a cover, the tongue, and hitch. Instructions are listed below for each...",
+  "length": 6614,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 47245,
+  "title": "SCRAP Humboldt upcycled checkout desk",
+  "url": "https://www.appropedia.org/SCRAP_Humboldt_upcycled_checkout_desk",
+  "extract": "The objective of Team Checkout Us was to build a desk for the SCRAP Humboldt nonprofit to compliment their new location on H and G Streets in Arcata. The client wanted the desk to inspire customers that enter the shop to start their own creative...",
+  "length": 6836,
+  "domain": "other"
+ },
+ {
+  "pageid": 32908,
+  "title": "SEARC OSOTF Design and Operations Manual",
+  "url": "https://www.appropedia.org/SEARC_OSOTF_Design_and_Operations_Manual",
+  "extract": "The Applied Sustainability Group at Queen's University in conjunction with the Sustainable Energy Applied Research Centre (SEARC) at St.Lawrence College has developed an Outdoors Test Field (OTF) which allows for the real world testing of a...",
+  "length": 55427,
+  "domain": "energy"
+ },
+ {
+  "pageid": 45899,
+  "title": "SECU - Sustainable Emerging City Unit",
+  "url": "https://www.appropedia.org/SECU_-_Sustainable_Emerging_City_Unit",
+  "extract": "The SECU building is a double-storey experimental prototype to present a provocative and innovative design for housing for emerging settlements, as well as inspiring the construction industry and the government and decision makers at large....",
+  "length": 2042,
+  "domain": "water"
+ },
+ {
+  "pageid": 115492,
+  "title": "SHTF Pedal Generator",
+  "url": "https://www.appropedia.org/SHTF_Pedal_Generator",
+  "extract": "This pedal powered generator is based on a windshield wiper motor, a cheap voltage regulator from Aliexpress, a scrap bicycle and other scrap parts.\nPedaling is quite comfortable from a chair, like in a recumbent bicycle.\nYou could even assemble...",
+  "length": 13739,
+  "domain": "energy"
+ },
+ {
+  "pageid": 40578,
+  "title": "SIGN Hip Construct",
+  "url": "https://www.appropedia.org/SIGN_Hip_Construct",
+  "extract": "[[[File:Hipconstruct.jpg|thumb]]",
+  "length": 2008,
+  "domain": "other"
+ },
+ {
+  "pageid": 127475,
+  "title": "Safe Paediatric Male Circumcision Simulator",
+  "url": "https://www.appropedia.org/Safe_Paediatric_Male_Circumcision_Simulator",
+  "extract": "Paediatric male circumcision is one of the most commonly performed surgical procedures in low- and middle-income countries, often carried out by non-physician providers and non-specialist physicians. Complication rates can be as high as 20%...",
+  "length": 3800,
+  "domain": "other"
+ },
+ {
+  "pageid": 24002,
+  "title": "Safe and Sustainable Transport Project",
+  "url": "https://www.appropedia.org/Safe_and_Sustainable_Transport_Project",
+  "extract": "The Peruvian government has asked the World Bank to aid, through loans and management, the development of a better transportation infrastructure-namely in the form of road repair, continual maintenance (the creation and institutionalization...",
+  "length": 5466,
+  "domain": "other"
+ },
+ {
+  "pageid": 71046,
+  "title": "Safety Switch Cover",
+  "url": "https://www.appropedia.org/Safety_Switch_Cover",
+  "extract": "Safety Switch Cover for Power Strip. This object was created using FreeCAD for the use of the Principia College Science Department. Its initial use is for their optics lab. One of their power strips is connected to various sensitive light equipment...",
+  "length": 2919,
+  "domain": "other"
+ },
+ {
+  "pageid": 58792,
+  "title": "Saline Water Filter",
+  "url": "https://www.appropedia.org/Saline_Water_Filter",
+  "extract": "The idea of evaporating sea water in order to turn it into freshwater has been around for centuries or more. The technology has been used on ocean-going vessels that often spend months at sea without access to freshwater.\nI developed this saline...",
+  "length": 3722,
+  "domain": "water"
+ },
+ {
+  "pageid": 30511,
+  "title": "Samoa Hostel Insulation Station",
+  "url": "https://www.appropedia.org/Samoa_Hostel_Insulation_Station",
+  "extract": "The Samoa Hostel is a joint effort of DANCO and the Humboldt Bay Center for Sustainable Living. Their goal is to incorporate sustainable living solutions into a hostel. They seek to do so by educating visitors about energy efficiency and sustainability...",
+  "length": 6270,
+  "domain": "energy"
+ },
+ {
+  "pageid": 30469,
+  "title": "Samoa Hostel Pain in the Axle",
+  "url": "https://www.appropedia.org/Samoa_Hostel_Pain_in_the_Axle",
+  "extract": "\"Pain in the Axle\" is a bicycle-powered electrical generator that makes use of a modified recumbent exercise bicycle to drive a generator that powers a television and DVD player. \"Pain in the Axle\" will reside in the common area of the Samoa...",
+  "length": 11363,
+  "domain": "energy"
+ },
+ {
+  "pageid": 30513,
+  "title": "Samoa Hostel Thermosyphon Solar Shower System",
+  "url": "https://www.appropedia.org/Samoa_Hostel_Thermosyphon_Solar_Shower_System",
+  "extract": "In 2010, Danco and The Humboldt Bay Center for Sustainable Living were in the process of restoring the upstairs of the Samoa Cookhouse and surrounding property into an environmentally friendly, overnight housing facility and campground that...",
+  "length": 7311,
+  "domain": "energy"
+ },
+ {
+  "pageid": 30372,
+  "title": "Samoa Hostel Truth Tank",
+  "url": "https://www.appropedia.org/Samoa_Hostel_Truth_Tank",
+  "extract": "The Truth Tank Greywater System was designed to provide a greywater treatment system for a satellite solar shower located on the grounds of the Somoa Hostel. The system was designed to follow California greywater standards while also meeting...",
+  "length": 16604,
+  "domain": "water"
+ },
+ {
+  "pageid": 30371,
+  "title": "Samoa Hostel greywater island",
+  "url": "https://www.appropedia.org/Samoa_Hostel_greywater_island",
+  "extract": "The Greywater Island project is a proposed Greywater treatment system for the Samoa Cookhouse and Hostel. As part of the sustainable operations of the Hostel, the greywater island functions as the largest implemented greywater treatment system...",
+  "length": 10543,
+  "domain": "water"
+ },
+ {
+  "pageid": 65496,
+  "title": "Sample Rotator Mixer",
+  "url": "https://www.appropedia.org/Sample_Rotator_Mixer",
+  "extract": "Bold text",
+  "length": 3687,
+  "domain": "other"
+ },
+ {
+  "pageid": 70205,
+  "title": "Sanctuary Arcata",
+  "url": "https://www.appropedia.org/Sanctuary_Arcata",
+  "extract": "The Sanctuary Arcata is project of Creative Sanctuary, a 501(c)3 non-profit in Arcata, CA. It is community space of art, music, food, and making. They hold workshops, events, performances, and more. The Arcata Sanctuary is located at 1301 J...",
+  "length": 2490,
+  "domain": "food"
+ },
+ {
+  "pageid": 69708,
+  "title": "Sanctuary abundant free food kiosk",
+  "url": "https://www.appropedia.org/Sanctuary_abundant_free_food_kiosk",
+  "extract": "The purpose of this project is to create a new way for The Sanctuary to distribute donated food to the public in a free, convenient way. The project successfully met all of the weighted criterion set for the abundant free kiosk. The A-Team designed...",
+  "length": 15969,
+  "domain": "food"
+ },
+ {
+  "pageid": 69679,
+  "title": "Sanctuary greywater system",
+  "url": "https://www.appropedia.org/Sanctuary_greywater_system",
+  "extract": "The purpose of this project was to build a greywater filtration system to reduce fresh water use and inspire other to create reusable water resources. Our client hosts large parties and events regularly meaning many people from the community...",
+  "length": 13290,
+  "domain": "water"
+ },
+ {
+  "pageid": 69678,
+  "title": "Sanctuary improved compost",
+  "url": "https://www.appropedia.org/Sanctuary_improved_compost",
+  "extract": "In today's world of American waste, it is more important than ever to re-use and re-purpose food scraps in a way that is environmentally conscientious and of use for enriching local soils. The Sanctuary, a community arts and learning non-profit...",
+  "length": 14160,
+  "domain": "food"
+ },
+ {
+  "pageid": 84599,
+  "title": "Sara June 2 bay pallet system",
+  "url": "https://www.appropedia.org/Sara_June_2_bay_pallet_system",
+  "extract": "This compost was to tend to the waste of a 4 person household in Arcata, California. The house had a garden beginning and produced a fair amount of green-waste. My goal was to have a flowing system that would produce finished compost over time...",
+  "length": 6008,
+  "domain": "food"
+ },
+ {
+  "pageid": 79242,
+  "title": "Scalable honeycomb top contact to increase the light absorption and reduce the series resistance of thin film solar cells",
+  "url": "https://www.appropedia.org/Scalable_honeycomb_top_contact_to_increase_the_light_absorption_and_reduce_the_series_resistance_of_thin_film_solar_cells",
+  "extract": "This paper presents a novel design for the top contact of thin film photovoltaic (PV) solar cells. The new top contact is formed by fabricating a 20nm thin honeycomb shaped silver mesh on top of an ultra-thin 13nm of indium tin oxide. The new...",
+  "length": 4455,
+  "domain": "energy"
+ },
+ {
+  "pageid": 27586,
+  "title": "Schatzari Cookstove",
+  "url": "https://www.appropedia.org/Schatzari_Cookstove",
+  "extract": "A Patsari cookstove, nicknamed the Schatzari was built at the Schatz Energy Research Center (SERC) laboratory on May 27, 2010.\nThe purpose of this Appropredia page is to describe the construction process of the Patsari, with a particular focus...",
+  "length": 13271,
+  "domain": "energy"
+ },
+ {
+  "pageid": 140475,
+  "title": "School Maker Faires as a Method for Activating Local Innovation Ecosystems",
+  "url": "https://www.appropedia.org/School_Maker_Faires_as_a_Method_for_Activating_Local_Innovation_Ecosystems",
+  "extract": "Conducting a School Maker Faire is a method to activate creativity and collaboration within schools. By creating a space where pstudents build, test, learn, and share, the approach turns schools into hubs of open innovation as opposed to classroom...",
+  "length": 2627,
+  "domain": "other"
+ },
+ {
+  "pageid": 83095,
+  "title": "Scrub Brush",
+  "url": "https://www.appropedia.org/Scrub_Brush",
+  "extract": "This is a scrub brush for cleaning what ever it is that needs a little elbow grease. It costs a fraction of commercially available scrub brushes. In less developed regions cleaning tools such as a scrub brush are indispensable. This brush is...",
+  "length": 6219,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 83025,
+  "title": "Seat",
+  "url": "https://www.appropedia.org/Seat",
+  "extract": "A bike seat is a simple, but necessary part of a bike that holds most of the weight of the biker. In many developing countries, biking is the most common mode of transport. Additionally, a mud flap is important for keeping the rider clean, especially...",
+  "length": 3196,
+  "domain": "other"
+ },
+ {
+  "pageid": 36252,
+  "title": "Semiconductor recycling plant case study of CIGS photovoltaic manufacturing",
+  "url": "https://www.appropedia.org/Semiconductor_recycling_plant_case_study_of_CIGS_photovoltaic_manufacturing",
+  "extract": "CIGS solar cells are based on chalcopyrite materials (copper iron sulfide mineral that crystallizes in the tetragonal system) which are produced from thin-film layers on inexpensive glass substrates. CIGS contains about 10% Cu, 28% In, 10% Ga...",
+  "length": 34867,
+  "domain": "energy"
+ },
+ {
+  "pageid": 36388,
+  "title": "Semiconductor recycling plant case study of CIS photovoltaic manufacturing",
+  "url": "https://www.appropedia.org/Semiconductor_recycling_plant_case_study_of_CIS_photovoltaic_manufacturing",
+  "extract": "Copper indium (di)selenide (CIS) is a semiconductor material composed of copper, indium, and selenium. CIS is one of the better material choices for solar cells using a chalcopyrite-structured, which generally are produced by from thin-film...",
+  "length": 41596,
+  "domain": "energy"
+ },
+ {
+  "pageid": 36316,
+  "title": "Semiconductor recycling plant case study of CdTe photovoltaic manufacturing",
+  "url": "https://www.appropedia.org/Semiconductor_recycling_plant_case_study_of_CdTe_photovoltaic_manufacturing",
+  "extract": "Cadmium Telluride (CdTe) photovoltaic modules consist of five primary layers. These layers, especially the CdTe layer, are applied using a variety of deposition methods. Figure 1 depicts a basic flow diagram for the steps to produce these solar...",
+  "length": 42130,
+  "domain": "energy"
+ },
+ {
+  "pageid": 36174,
+  "title": "Semiconductor recycling plant case study of GaAs photovoltaic manufacturing",
+  "url": "https://www.appropedia.org/Semiconductor_recycling_plant_case_study_of_GaAs_photovoltaic_manufacturing",
+  "extract": "General Facts about Gallium Arsenide\n\nGallium = rarer than gold\nArsenic = poisonous\n5 cents per gram, $45,000 per ton.\nProduct highly efficient photovoltaic cells\nBand gap = 1.43 eV\nDensity = 5.316 g/cm^3\n10x cost of Si at 50 cents to $1.50...",
+  "length": 17238,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 36324,
+  "title": "Semiconductor recycling plant case study of GaAs photovoltaic manufacturing - case study",
+  "url": "https://www.appropedia.org/Semiconductor_recycling_plant_case_study_of_GaAs_photovoltaic_manufacturing_-_case_study",
+  "extract": "Gallium arsenide (GaAs) is a semiconductor material that is used in a wide variety of applications ranging from circuits to solar cells. Solar cells of GaAs can be produced using both bulk and thin film growth methods.",
+  "length": 30913,
+  "domain": "energy"
+ },
+ {
+  "pageid": 36343,
+  "title": "Semiconductor recycling plant case study of InGaN photovoltaic manufacturing",
+  "url": "https://www.appropedia.org/Semiconductor_recycling_plant_case_study_of_InGaN_photovoltaic_manufacturing",
+  "extract": "The primary method for deposition of InGaN is Metal-organic Chemical Vapor Deposition (MOCVD), a form of chemical vapor deposition (CVD), pictorially discribed in Figure 1. This method creates layers of material with a thickness ranging between...",
+  "length": 21330,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 36419,
+  "title": "Semiconductor recycling plant case study of a-Si:H photovoltaic manufacturing",
+  "url": "https://www.appropedia.org/Semiconductor_recycling_plant_case_study_of_a-Si:H_photovoltaic_manufacturing",
+  "extract": "Hydrogenated amorphous silicon (a-Si:H) is a semiconductor material that is primarily used in industry for the production of photovoltaic cells. A-Si:H is deposited on a substrate by the process known as Plasma Enhanced Chemical Vapour Deposition...",
+  "length": 14817,
+  "domain": "fabrication-tools"
+ },
+ {
+  "pageid": 3743,
+  "title": "Separating the people and the threat",
+  "url": "https://www.appropedia.org/Separating_the_people_and_the_threat",
+  "extract": "Regardless of the risks involved, people do and will continue to live in the floodplain, both upstream and downstream from dams. And, as scientists and river managers have discovered, many of the dams constructed for flood management are no...",
+  "length": 13196,
+  "domain": "other"
+ },
+ {
+  "pageid": 2727,
+  "title": "Sequatchie Valley Institute cobb houses",
+  "url": "https://www.appropedia.org/Sequatchie_Valley_Institute_cobb_houses",
+  "extract": "Sequatchie Valley Institute is a community in Sequatchie Valley, Tennessee, USA. It started as a homestead in 1971, when Carol, Johnny and their children moved onto the land and began making it their home. A log cabin was built first. A main...",
+  "length": 4680,
+  "domain": "shelter"
+ },
+ {
+  "pageid": 27414,
+  "title": "Servals' Energy Efficient Kerosene Burners",
+  "url": "https://www.appropedia.org/Servals%27_Energy_Efficient_Kerosene_Burners",
+  "extract": "Energy Efficient Kerosene Burners is a project by Servals Automation Pvt Ltd.\nIt addresses an economic and global priority - conservation in the use of kerosene, a fossil fuel.\nWith millions of people below the poverty line in the developing...",
+  "length": 4320,
+  "domain": "energy"
+ }
+]

@@ -1,0 +1,188 @@
+{
+  "crisis-boil-water": {
+    "title": "Hervir el agua para hacerla segura",
+    "summary": "Hervir es la forma más confiable de matar los gérmenes que causan enfermedades en el agua cuando el suministro no es seguro.",
+    "how_it_works": "Primero filtra el agua turbia a través de un paño limpio. Lleva el agua clara a un hervor fuerte durante 1 minute (3 minutes en altitudes superiores a ~2,000 m / 6,500 ft), luego déjala enfriar y guárdala tapada.",
+    "caveat": "Mata los gérmenes, pero NO elimina la contaminación química, el combustible ni los metales pesados."
+  },
+  "crisis-bleach-chlorination-cdc": {
+    "title": "Desinfectar el agua con cloro doméstico (CDC)",
+    "summary": "El cloro doméstico común, sin perfume, hace que el agua sea segura para beber cuando no puedes hervirla.",
+    "how_it_works": "Usa cloro doméstico sin perfume (5–9% de hipoclorito de sodio). Agrega 2 drops por litro/cuarto de galón, 8 drops por galón (un poco menos de 1/8 teaspoon), o 40 drops (1/2 teaspoon) por cada 5 galones. Revuelve y deja reposar al menos 30 minutes: el agua debe tener un ligero olor a cloro. Duplica la dosis si el agua está turbia, con color o muy fría.",
+    "caveat": "Mide con exactitud; el cloro debe ser sin perfume y fresco. El exceso de cloro es peligroso. No sustituye un suministro seguro de la red pública."
+  },
+  "crisis-bleach-chlorination-epa": {
+    "title": "Dosificación de cloro según la concentración (EPA)",
+    "summary": "Si tu cloro indica su concentración, dosifícalo según la concentración para mayor exactitud.",
+    "how_it_works": "Por cada 1 galón de agua: 8 drops de cloro al 6%, O 6 drops de cloro al 8.25%. Revuelve y deja reposar 30 minutes; si no hay un ligero olor a cloro, repite la dosis y espera otros 15 minutes. Duplica la dosis si el agua está turbia o fría.",
+    "caveat": "Las cifras de la EPA suponen cloro estadounidense al 6% / 8.25%. Si tu botella es distinta, usa en su lugar el método del CDC de 5–9%."
+  },
+  "crisis-sodis-solar": {
+    "title": "SODIS — desinfectar el agua con la luz del sol",
+    "summary": "El agua clara en una botella plástica, dejada bajo un sol fuerte, se vuelve segura para beber: sin combustible, sin químicos.",
+    "how_it_works": "Llena botellas plásticas PET transparentes e incoloras de 1–2 litros (con el agua a no más de ~10 cm de profundidad) con agua clara y de baja turbidez. Acuéstalas de lado bajo el sol directo durante al menos 6 hours con cielo brillante a parcialmente nublado; si está completamente nublado, déjalas afuera a lo largo de 2 days consecutivos.",
+    "caveat": "Solo funciona con agua clara: prefiltra el agua turbia. No elimina la contaminación química."
+  },
+  "crisis-cloth-prefiltration": {
+    "title": "Prefiltrar el agua turbia antes de desinfectarla",
+    "summary": "Elimina primero la tierra y las partículas para que la desinfección realmente funcione.",
+    "how_it_works": "Vierte el agua turbia a través de un paño limpio, una toalla de papel o un filtro de café para quitar el sedimento antes de hervirla, clorarla o usar SODIS. Los filtros de cerámica/membrana necesitan un tamaño de poro de aproximadamente 1 micrón o menos para eliminar parásitos y de 0.3 micrón para bacterias, y aun así no eliminan los virus, así que después de filtrar realiza una desinfección química.",
+    "caveat": "Filtrar por sí solo no basta contra los virus: desinfecta siempre después de filtrar."
+  },
+  "crisis-calcium-hypochlorite-stock": {
+    "title": "Preparar una solución madre de cloro con granulado de piscina (alternativa)",
+    "summary": "Cuando ya no queda cloro líquido, el granulado de hipoclorito de calcio puede convertirse en una solución madre desinfectante.",
+    "how_it_works": "En un área ventilada, usando protección para los ojos, disuelve alrededor de 1 heaping teaspoon (~1/4 oz) de hipoclorito de calcio granulado (HTH) en 2 galones de agua para preparar una solución madre (~500 mg/L). Luego desinfecta el agua para beber mezclando 1 parte de esta solución madre por cada 100 partes de agua (aproximadamente 1 pinta de solución madre por cada 12.5 galones).",
+    "caveat": "El HTH es un oxidante fuerte: manéjalo y guárdalo estrictamente según la etiqueta; no es para usuarios sin experiencia; nunca lo mezcles con otros químicos."
+  },
+  "crisis-safe-water-storage": {
+    "title": "Almacenar de forma segura el agua tratada",
+    "summary": "El agua tratada se mantiene segura solo en recipientes limpios y tapados.",
+    "how_it_works": "Guarda el agua hervida o tratada en recipientes limpios y desinfectados, con tapas que cierren bien. Desinfecta los recipientes antes de llenarlos, mantenlos lejos del piso y rota con regularidad el agua que almacenes tú mismo. Reemplaza el agua comercial sellada según su fecha.",
+    "caveat": "La recontaminación es común: nunca metas manos ni vasos sucios en el agua almacenada; mejor sírvela vertiéndola."
+  },
+  "crisis-water-minimums": {
+    "title": "Planificar con base en las cantidades mínimas de agua",
+    "summary": "Saber cuánta agua por persona al día debes procurar para racionar de forma realista.",
+    "how_it_works": "La planificación humanitaria usa alrededor de 15 litres por persona al día como estándar básico de supervivencia (beber, cocinar e higiene en conjunto). En escasez aguda, 7.5 litres por persona al día puede tolerarse por un tiempo corto, pero nunca tomes los 15 litres como un máximo por debajo del cual apuntar.",
+    "caveat": "Estos son mínimos de supervivencia, no metas para la vida normal; prioriza el agua para beber de los enfermos, los bebés y las personas embarazadas."
+  },
+  "crisis-ors-home-recipe": {
+    "title": "Solución de rehidratación oral — receta casera",
+    "summary": "Una bebida de sal y azúcar que trata la deshidratación causada por la diarrea, el mayor asesino después de que fallan los servicios.",
+    "how_it_works": "Solo si no hay SRO en sobre disponible: lávate las manos, luego, en un recipiente limpio, mezcla 1 litro de agua segura + media medida pequeña rasa (cucharadita) de sal (3.5 g) + 8 cucharadas pequeñas / 4 cucharadas grandes de azúcar (40 g). Revuelve hasta que se disuelva. Da sorbos pequeños y frecuentes.",
+    "caveat": "Los sobres de SRO de la OMS/UNICEF son más seguros y preferibles. NO excedas la cantidad de sal. Busca atención médica con urgencia si se trata de bebés, deshidratación grave, sangre en las heces, o si no hay mejoría."
+  },
+  "crisis-ors-commercial": {
+    "title": "Usar SRO en sobre de la OMS/UNICEF cuando puedas",
+    "summary": "Los sobres de SRO de baja osmolaridad, ya preparados, son la primera opción más segura para la rehidratación.",
+    "how_it_works": "Disuelve un sobre en exactamente 1 litro de agua limpia. La fórmula estándar de la OMS/UNICEF por litro es 2.6 g de cloruro de sodio, 13.5 g de glucosa anhidra, 1.5 g de cloruro de potasio y 2.9 g de citrato trisódico (245 mOsm/L). Ten sobres almacenados en el botiquín del hogar antes de una crisis.",
+    "caveat": "Estas son cantidades del fabricante para referencia/compra: no intentes pesarlas en casa; compra los sobres."
+  },
+  "crisis-cold-chain": {
+    "title": "Mantener fríos la insulina y las vacunas sin energía de la red",
+    "summary": "Una cava aislante con paquetes de hielo acondicionados protege los medicamentos sensibles a la temperatura durante un apagón.",
+    "how_it_works": "Una nevera cerrada mantiene temperaturas seguras solo por unas pocas horas. Pasa los medicamentos sensibles a la temperatura a una cava aislante con paquetes de hielo acondicionados o ladrillos de gel (pueden mantener el frío alrededor de 48 horas) y vigila un termómetro. Apunta a 2–8 °C; la insulina no debe congelarse y se degrada por encima de unos 25–30 °C, así que nunca pongas los frascos directamente contra el hielo.",
+    "caveat": "Revisa las temperaturas indicadas en cada producto; si se rompió la cadena de frío, consulta a un médico antes de usarlo o desecharlo."
+  },
+  "crisis-hand-hygiene": {
+    "title": "Higiene de manos para frenar la propagación de enfermedades",
+    "summary": "Lavarse las manos con jabón es la acción de mayor impacto cuando el saneamiento colapsa.",
+    "how_it_works": "Lávate las manos con jabón y agua segura en los momentos clave: después de defecar, después de limpiar a un niño y antes de manipular o comer alimentos. Donde el agua es muy escasa, usa un gel a base de alcohol. Un sencillo tippy-tap (una jarra colgada que se inclina con una palanca accionada por el pie) hace que rinda mucho un poco de agua.",
+    "caveat": ""
+  },
+  "crisis-latrine-excreta": {
+    "title": "Contener las excretas cuando falla el alcantarillado",
+    "summary": "Mantener los desechos humanos lejos del agua y los alimentos previene brotes mortales.",
+    "how_it_works": "Cuando los inodoros dejan de funcionar, usa una letrina de balde tapado o de bolsa, o cava una fosa sencilla ubicada bien lejos y pendiente abajo de cualquier fuente de agua. Cubre los desechos después de cada uso y lávate las manos después. Desecha los residuos contenidos de forma segura, lejos de las zonas de vivienda y de agua.",
+    "caveat": "Ubica las letrinas al menos a la distancia recomendada de los pozos y del agua; protege a los niños del contacto con los desechos."
+  },
+  "crisis-greywater": {
+    "title": "Manejar las aguas grises para que no te enfermen",
+    "summary": "El agua usada de lavar y cocinar no debe acumularse cerca de las casas ni llegar al agua para beber.",
+    "how_it_works": "Evita que el agua usada de lavar y cocinar se acumule cerca de las viviendas, donde cría mosquitos, y que llegue a cualquier fuente de agua para beber. Reutilízala para descargar el inodoro o para limpiar, y drena el resto hacia un sencillo pozo de absorción.",
+    "caveat": "No reutilices las aguas grises en cultivos de alimentos sin un tratamiento adecuado."
+  },
+  "crisis-lighting-small-power": {
+    "title": "Iluminación y energía pequeña durante los apagones",
+    "summary": "Mantén luces, teléfonos y dispositivos médicos funcionando con baterías, un inversor o energía solar.",
+    "how_it_works": "Sortea los cortes con lámparas LED, baterías portátiles USB, una batería de 12 V más un inversor, o un pequeño panel solar con un controlador de carga. Prioriza las cargas que importan (luz, carga del teléfono, un dispositivo médico) y dimensiona la batería y el inversor según esas cargas.",
+    "caveat": "NUNCA hagas funcionar un generador de combustible dentro de la casa ni en un espacio cerrado: el monóxido de carbono mata."
+  },
+  "crisis-cooking-without-gas": {
+    "title": "Cocinar cuando no hay gas ni electricidad",
+    "summary": "Las cocinas eficientes en combustible y las cocinas solares te permiten seguir cocinando y hirviendo agua fuera de la red.",
+    "how_it_works": "Usa una cocina mejorada eficiente en combustible, una cocina cohete de carbón o leña, o una cocina solar donde el sol sea fuerte. El mismo fuego también hierve agua para desinfectarla. Ventila siempre para evitar la acumulación de humo y de monóxido de carbono.",
+    "caveat": "Nunca quemes carbón ni combustible dentro de la casa sin ventilación."
+  },
+  "crisis-food-without-fridge": {
+    "title": "Mantener los alimentos seguros sin refrigeración",
+    "summary": "Come, conserva o protege los alimentos perecederos antes de que se dañen cuando la nevera está apagada.",
+    "how_it_works": "Cuando la nevera está apagada, come primero los alimentos más perecederos y conserva el resto secándolo, salándolo, fermentándolo, o cocinándolo y comiéndolo el mismo día. Mantén cerradas las puertas de la nevera y el congelador para conservar el frío el mayor tiempo posible; congelar botellas de agua de antemano te da horas extra.",
+    "caveat": "En caso de duda, deséchalo: bota los alimentos perecederos que hayan estado por encima de 4 °C durante más de 2 hours."
+  },
+  "crisis-keep-phones-alive": {
+    "title": "Mantener vivos los teléfonos y el contacto",
+    "summary": "Alarga la batería y acuerden cómo localizarse antes de que las redes se congestionen.",
+    "how_it_works": "Baja el brillo de la pantalla, cambia a modo avión entre cada contacto, y compartan baterías portátiles. Descarga mapas sin conexión de antemano. Acuerden un protocolo familiar de contacto y un único contacto fuera de la zona al que todos le escriban, ya que las líneas locales se saturan primero.",
+    "caveat": ""
+  },
+  "crisis-meshtastic": {
+    "title": "Mensajería en malla fuera de la red (Meshtastic)",
+    "summary": "Radios de bajo costo transmiten textos cifrados sin red celular ni internet.",
+    "how_it_works": "Meshtastic usa radios LoRa de largo alcance y bajo costo que forman una malla punto a punto, retransmitiendo mensajes de texto cifrados entre dispositivos sin red celular ni internet. El alcance suele ser de varios kilómetros, y mayor con una antena elevada.",
+    "caveat": "Requiere hardware y configuración conseguidos ANTES de la crisis: déjalo listo con anticipación."
+  },
+  "crisis-briar": {
+    "title": "Mensajería de teléfono a teléfono cuando fallan las redes (Briar)",
+    "summary": "Una aplicación que conecta los teléfonos directamente por Bluetooth o Wi-Fi durante los cortes.",
+    "how_it_works": "Briar es una aplicación de Android que conecta los teléfonos directamente por Bluetooth o Wi-Fi (y a través de Tor cuando hay internet disponible), de modo que la mensajería sigue funcionando durante los cortes de red o los apagones de internet. Instálala y agrega tus contactos antes de necesitarla.",
+    "caveat": "El alcance del Bluetooth es corto (decenas de metros); configura los contactos con anticipación."
+  },
+  "crisis-ushahidi": {
+    "title": "Mapeo colaborativo de necesidades (Ushahidi)",
+    "summary": "Recopila reportes de incidentes y necesidades en un mapa en vivo para dirigir la ayuda.",
+    "how_it_works": "Ushahidi es un software de código abierto que recopila de forma colaborativa reportes de incidentes y necesidades (por SMS o web) en un mapa en vivo, de modo que una comunidad o los equipos de respuesta puedan ver dónde se necesita agua, medicinas o rescate y dirigir la ayuda mutua.",
+    "caveat": ""
+  },
+  "crisis-hot-maps": {
+    "title": "Mapas base abiertos para la respuesta (HOT)",
+    "summary": "Voluntarios trazan edificios y vías para que los equipos de respuesta tengan mapas utilizables.",
+    "how_it_works": "El Humanitarian OpenStreetMap Team coordina a voluntarios para trazar edificios, vías e infraestructura a partir de imágenes satelitales, produciendo mapas libres y abiertos de las zonas afectadas que los grupos del barrio y los equipos de respuesta sí pueden usar.",
+    "caveat": ""
+  },
+  "crisis-mutual-aid": {
+    "title": "Comité vecinal de ayuda mutua",
+    "summary": "Una cuadra organizada mantiene a todos con vida durante servicios degradados prolongados.",
+    "how_it_works": "Conforma un comité de cuadra o de edificio: lleva un registro de los residentes vulnerables, monta un punto compartido de agua y de carga de teléfonos, mantén una cartelera de mensajes y acuerden señales sencillas. Esta columna comunitaria es lo que sostiene a la gente a lo largo de semanas de servicios degradados.",
+    "caveat": ""
+  },
+  "crisis-secure-building-after-quake": {
+    "title": "Revisar un edificio antes de volver a entrar tras un sismo",
+    "summary": "Una evaluación rápida de los peligros estructurales y de gas antes de volver a entrar.",
+    "how_it_works": "Antes de volver a entrar después de un terremoto, revisa si hay olor a gas, paredes inclinadas, grietas grandes y pisos o techos hundidos. Si sospechas una fuga de gas, cierra el gas; y NO enciendas ni apagues nada eléctrico si hueles gas. Mantente fuera de cualquier estructura visiblemente dañada hasta que sea inspeccionada.",
+    "caveat": "Esto es solo una evaluación rápida: la verdadera seguridad estructural requiere un inspector calificado."
+  },
+  "oshwa-umbilical-cord-clamp": {
+    "title": "Pinza para cordón umbilical impresa en 3D",
+    "summary": "Una pinza imprimible que sella el cordón umbilical de un recién nacido para prevenir infecciones.",
+    "how_it_works": "Reemplaza la pinza plástica comercial para cordón que se les agota a los hospitales después de un desastre, cuando el personal improvisa con cordones de zapatos o dedos de guantes. Impresa de una sola pieza de filamento en cualquier impresora FDM de escritorio, se cierra de golpe sobre el cordón para detener el sangrado y reducir el riesgo de sepsis en los primeros minutos de vida.",
+    "caveat": "Dispositivo clínico para personal capacitado en atención del parto; imprímela en un material limpio y sigue prácticas de esterilización/asepsia antes de usarla en un recién nacido."
+  },
+  "oshwa-oxygen-supply-fitting": {
+    "title": "Conector para suministro de oxígeno",
+    "summary": "Un adaptador que conecta las mangueras de oxígeno a los sistemas de oxígeno estándar.",
+    "how_it_works": "Cuando el suministro de oxígeno de una clínica falla por falta de un pequeño conector propietario, este adaptador impreso une las mangueras de suministro al equipo de oxígeno estándar. Es una pieza impresa en 3D que permite que los cilindros, concentradores y mangueras existentes sigan funcionando en vez de quedar inservibles.",
+    "caveat": "Componente de suministro de oxígeno; verifica el ajuste, la hermeticidad y la compatibilidad del material con un médico antes de usarlo en un paciente."
+  },
+  "oshwa-oropharyngeal-airway": {
+    "title": "Cánula orofaríngea (OPA)",
+    "summary": "Un dispositivo de vía aérea imprimible que mantiene abierta la vía aérea de un paciente inconsciente.",
+    "how_it_works": "Una OPA mantiene la lengua apartada de la garganta para que un paciente que no responde pueda seguir respirando: un artículo básico de atención de emergencia que se les agota a las reservas después de eventos con muchas víctimas. Se imprime según las tallas estándar de vía aérea en una impresora de escritorio, dando a los equipos de respuesta un suministro de fabricación local cuando se acaba el material importado.",
+    "caveat": "Dispositivo de manejo de la vía aérea; para uso únicamente por personal capacitado, con la talla correcta y un material biocompatible y bien acabado."
+  },
+  "oshwa-otoscope-specula": {
+    "title": "Espéculos para otoscopio",
+    "summary": "Espéculos óticos imprimibles para examinar el canal auditivo y el tímpano.",
+    "how_it_works": "Las puntas de otoscopio son desechables y se agotan rápido en las clínicas de campo, deteniendo los exámenes básicos de oído. Estos espéculos se imprimen de forma económica por lotes en una impresora de escritorio y se acoplan a un otoscopio para que un médico pueda seguir inspeccionando el canal externo y el tímpano.",
+    "caveat": "Pieza en contacto con el paciente; limpia y desinfecta de forma adecuada entre pacientes y usa un material apropiado."
+  },
+  "oshwa-syphon-handwash-station": {
+    "title": "Estación de lavado de manos con sifón",
+    "summary": "Una unidad portátil de lavado de manos accionada con el pie, construida a partir de un sencillo sifón de balde.",
+    "how_it_works": "Después de un desastre, el lavado de manos sin contacto frena la propagación de enfermedades, pero los lavamanos con tubería son escasos. Esta unidad convierte un balde común en un sifón accionado con el pie: piezas impresas en 3D más un balde permiten que la gente se lave sin tocar una llave, y puede instalarse en cualquier lugar al que se pueda llevar agua.",
+    "caveat": ""
+  },
+  "oshwa-foot-operated-tap": {
+    "title": "Grifo accionado con el pie",
+    "summary": "Un grifo sin contacto que se instala debajo de un lavamanos existente y se enrosca a la tubería.",
+    "how_it_works": "Adapta un lavamanos común para uso sin manos, reduciendo la contaminación en el grifo durante los brotes y en condiciones de escasez de agua. La unidad impresa en 3D se ubica debajo del lavamanos y se enrosca a la tubería existente, de modo que un pedal controla el flujo en lugar de las manos sobre una llave.",
+    "caveat": ""
+  },
+  "oshwa-pipe-t-piece": {
+    "title": "Pieza en T para tubería de agua",
+    "summary": "Una unión en T imprimible que une tres tubos flexibles.",
+    "how_it_works": "Reparar o ramificar una línea de agua se detiene cuando falta un solo conector y no se puede comprar ninguno. Esta pieza en T se imprime en una impresora de escritorio y une tres tubos flexibles (silicona o PVC, de 4-7 mm de diámetro interno), permitiendo que las comunidades reparen y extiendan localmente sus líneas de agua y mangueras.",
+    "caveat": ""
+  }
+}

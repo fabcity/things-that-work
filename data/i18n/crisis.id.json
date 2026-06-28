@@ -1,0 +1,188 @@
+{
+  "crisis-boil-water": {
+    "title": "Rebus air agar aman",
+    "summary": "Merebus adalah cara paling andal untuk membunuh kuman penyebab penyakit dalam air ketika pasokan tidak aman.",
+    "how_it_works": "Saring dulu air keruh melalui kain bersih. Didihkan air jernih hingga mendidih bergolak selama 1 minute (3 minutes pada ketinggian di atas ~2,000 m / 6,500 ft), lalu biarkan dingin dan simpan dalam wadah tertutup.",
+    "caveat": "Membunuh kuman tetapi TIDAK menghilangkan kontaminasi kimia, bahan bakar, atau logam berat."
+  },
+  "crisis-bleach-chlorination-cdc": {
+    "title": "Desinfeksi air dengan pemutih rumah tangga (CDC)",
+    "summary": "Pemutih rumah tangga biasa tanpa pewangi membuat air aman untuk diminum ketika Anda tidak bisa merebusnya.",
+    "how_it_works": "Gunakan pemutih rumah tangga tanpa pewangi (5–9% natrium hipoklorit). Tambahkan 2 drops per liter/quart, 8 drops per galon (sedikit kurang dari 1/8 sendok teh), atau 40 drops (1/2 sendok teh) per 5 galon. Aduk dan diamkan setidaknya 30 minutes — air seharusnya berbau klorin samar. Gandakan dosisnya jika air keruh, berwarna, atau sangat dingin.",
+    "caveat": "Takar secara tepat; pemutih harus tanpa pewangi dan masih segar. Klorinasi berlebihan tidak aman. Bukan pengganti pasokan air bersih dari penyedia layanan resmi."
+  },
+  "crisis-bleach-chlorination-epa": {
+    "title": "Pemberian dosis pemutih berdasarkan konsentrasi (EPA)",
+    "summary": "Jika pemutih Anda mencantumkan kekuatannya, beri dosis berdasarkan konsentrasi agar akurat.",
+    "how_it_works": "Per 1 galon air: 8 drops pemutih 6%, ATAU 6 drops pemutih 8.25%. Aduk dan diamkan 30 minutes; jika tidak ada bau klorin samar, ulangi dosisnya dan tunggu 15 minutes lagi. Gandakan dosis untuk air keruh atau dingin.",
+    "caveat": "Angka EPA mengasumsikan pemutih AS 6% / 8.25%. Jika botol Anda berbeda, gunakan metode CDC 5–9% sebagai gantinya."
+  },
+  "crisis-sodis-solar": {
+    "title": "SODIS — desinfeksi air dengan sinar matahari",
+    "summary": "Air jernih dalam botol plastik yang dibiarkan di bawah sinar matahari kuat menjadi aman untuk diminum — tanpa bahan bakar, tanpa bahan kimia.",
+    "how_it_works": "Isi botol plastik PET yang jernih dan tidak berwarna berukuran 1–2 liter (kedalaman air tidak lebih dari ~10 cm) dengan air jernih berkekeruhan rendah. Baringkan botol pada sisinya di bawah sinar matahari langsung selama setidaknya 6 hours di bawah langit cerah hingga berawan sebagian; jika langit tertutup awan sepenuhnya, biarkan botol di luar selama 2 hari berturut-turut.",
+    "caveat": "Hanya bekerja pada air jernih — saring dulu air yang keruh. Tidak menghilangkan kontaminasi kimia."
+  },
+  "crisis-cloth-prefiltration": {
+    "title": "Saring dulu air keruh sebelum desinfeksi",
+    "summary": "Hilangkan kotoran dan partikel terlebih dahulu agar desinfeksi benar-benar bekerja.",
+    "how_it_works": "Tuang air keruh melalui kain bersih, tisu dapur, atau filter kopi untuk menghilangkan sedimen sebelum merebus, mengklorinasi, atau menggunakan SODIS. Filter keramik/membran memerlukan ukuran pori sekitar 1 mikron atau kurang untuk menghilangkan parasit dan 0,3 mikron untuk bakteri — dan filter itu tetap tidak akan menghilangkan virus, jadi lanjutkan penyaringan dengan desinfeksi kimia.",
+    "caveat": "Penyaringan saja tidak cukup untuk virus — selalu lakukan desinfeksi setelah menyaring."
+  },
+  "crisis-calcium-hypochlorite-stock": {
+    "title": "Buat larutan induk klorin dari butiran kolam renang (alternatif)",
+    "summary": "Ketika tidak ada lagi pemutih cair, butiran kalsium hipoklorit dapat dibuat menjadi larutan induk untuk desinfeksi.",
+    "how_it_works": "Di area berventilasi, dengan memakai pelindung mata, larutkan sekitar 1 sendok teh munjung (~1/4 oz) butiran kalsium hipoklorit (HTH) dalam 2 galon air untuk membuat larutan induk (~500 mg/L). Lalu lakukan desinfeksi air minum dengan mencampur 1 bagian larutan induk ini ke dalam 100 bagian air (sekitar 1 pint larutan induk per 12.5 galon).",
+    "caveat": "HTH adalah pengoksidasi kuat — tangani dan simpan sepenuhnya sesuai label; tidak untuk pengguna yang belum berpengalaman; jangan pernah mencampurnya dengan bahan kimia lain."
+  },
+  "crisis-safe-water-storage": {
+    "title": "Simpan air yang sudah diolah dengan aman",
+    "summary": "Air yang sudah diolah tetap aman hanya dalam wadah yang bersih dan tertutup.",
+    "how_it_works": "Simpan air yang sudah direbus atau diolah dalam wadah bersih yang sudah disanitasi dengan penutup rapat. Sanitasi wadah sebelum mengisinya, jauhkan dari lantai, dan rotasi air yang Anda simpan sendiri secara teratur. Ganti air kemasan komersial sebelum tanggal kedaluwarsanya.",
+    "caveat": "Kontaminasi ulang sering terjadi — jangan pernah mencelupkan tangan atau gelas kotor ke dalam air yang disimpan; tuangkan saja."
+  },
+  "crisis-water-minimums": {
+    "title": "Rencanakan berdasarkan jumlah air minimum",
+    "summary": "Ketahui berapa banyak air per orang per hari yang harus dituju agar Anda menjatah secara realistis.",
+    "how_it_works": "Perencanaan kemanusiaan menggunakan sekitar 15 litres per orang per hari sebagai standar dasar untuk bertahan hidup (gabungan minum, memasak, dan kebersihan). Dalam kelangkaan akut, 7.5 litres per orang per hari mungkin dapat ditoleransi untuk waktu singkat, tetapi jangan pernah menganggap 15 litres sebagai batas maksimum untuk dituju ke bawahnya.",
+    "caveat": "Ini adalah minimum untuk bertahan hidup, bukan target untuk kehidupan normal; utamakan air minum untuk yang sakit, bayi, dan orang yang sedang hamil."
+  },
+  "crisis-ors-home-recipe": {
+    "title": "Larutan rehidrasi oral — resep buatan rumah",
+    "summary": "Minuman garam-dan-gula yang mengatasi dehidrasi akibat diare, pembunuh terbesar setelah layanan publik gagal.",
+    "how_it_works": "Hanya jika ORS kemasan tidak tersedia: cuci tangan, lalu dalam wadah bersih campurkan 1 liter air aman + setengah takaran kecil (sendok teh) rata garam (3.5 g) + 8 sendok kecil / 4 sendok besar gula (40 g). Aduk hingga larut. Berikan dalam tegukan kecil yang sering.",
+    "caveat": "Sachet ORS kemasan WHO/UNICEF lebih aman dan lebih disarankan. JANGAN melebihi takaran garam. Segera cari pertolongan medis untuk bayi, dehidrasi berat, darah dalam tinja, atau jika tidak ada perbaikan."
+  },
+  "crisis-ors-commercial": {
+    "title": "Gunakan ORS kemasan WHO/UNICEF jika memungkinkan",
+    "summary": "Sachet ORS osmolaritas-rendah yang sudah dikemas adalah pilihan pertama paling aman untuk rehidrasi.",
+    "how_it_works": "Larutkan satu sachet dalam tepat 1 liter air bersih. Formula standar WHO/UNICEF per liter adalah 2.6 g natrium klorida, 13.5 g glukosa anhidrat, 1.5 g kalium klorida, dan 2.9 g trinatrium sitrat (245 mOsm/L). Sediakan sachet dalam kotak persediaan rumah tangga sebelum krisis terjadi.",
+    "caveat": "Ini adalah jumlah dari pabrikan untuk rujukan/pengadaan — jangan mencoba menimbangnya di rumah; belilah sachet."
+  },
+  "crisis-cold-chain": {
+    "title": "Jaga insulin dan vaksin tetap dingin tanpa listrik dari jaringan",
+    "summary": "Kotak pendingin berinsulasi dengan kantong es yang sudah dikondisikan melindungi obat yang sensitif terhadap suhu selama pemadaman listrik.",
+    "how_it_works": "Kulkas yang tertutup hanya mempertahankan suhu aman selama beberapa jam. Pindahkan obat yang sensitif terhadap suhu ke dalam kotak pendingin berinsulasi dengan kantong es atau gel beku yang sudah dikondisikan (dapat menahan dingin kira-kira 48 jam) dan pantau termometer. Targetkan 2–8 °C; insulin tidak boleh membeku dan rusak di atas sekitar 25–30 °C, jadi jangan pernah meletakkan vial langsung menempel pada es.",
+    "caveat": "Periksa suhu yang tertera pada setiap produk; jika rantai dingin terputus, tanyakan kepada klinisi sebelum menggunakan atau membuangnya."
+  },
+  "crisis-hand-hygiene": {
+    "title": "Kebersihan tangan untuk menghentikan penyebaran penyakit",
+    "summary": "Mencuci tangan dengan sabun adalah tindakan tunggal dengan dampak tertinggi ketika sanitasi rusak.",
+    "how_it_works": "Cuci tangan dengan sabun dan air aman pada momen-momen penting — setelah buang air besar, setelah membersihkan anak, dan sebelum menyiapkan atau menyantap makanan. Di tempat yang airnya sangat langka, gunakan cairan pembersih tangan berbasis alkohol. Tippy-tap sederhana (kendi yang digantung dan dimiringkan dengan tuas kaki) membuat sedikit air dapat dimanfaatkan secara maksimal.",
+    "caveat": ""
+  },
+  "crisis-latrine-excreta": {
+    "title": "Tampung kotoran manusia ketika saluran pembuangan gagal",
+    "summary": "Menjauhkan limbah manusia dari air dan makanan mencegah wabah yang mematikan.",
+    "how_it_works": "Ketika toilet berhenti berfungsi, gunakan jamban ember atau kantong bertutup, atau gali lubang sederhana yang letaknya jauh dari dan lebih rendah daripada sumber air mana pun. Tutup limbah setiap selesai digunakan, dan cuci tangan setelahnya. Buang limbah yang sudah ditampung secara aman jauh dari area tempat tinggal dan air.",
+    "caveat": "Tempatkan jamban setidaknya pada jarak yang dianjurkan dari sumur dan sumber air; lindungi anak-anak dari kontak dengan limbah."
+  },
+  "crisis-greywater": {
+    "title": "Kelola air bekas agar tidak membuat Anda sakit",
+    "summary": "Air bekas mencuci dan memasak tidak boleh menggenang di dekat rumah atau mencapai air minum.",
+    "how_it_works": "Cegah air bekas mencuci dan memasak menggenang di dekat tempat tinggal, tempat air itu menjadi sarang nyamuk, dan jauhkan dari sumber air minum mana pun. Gunakan kembali untuk menyiram atau membersihkan, dan alirkan sisanya ke lubang resapan sederhana.",
+    "caveat": "Jangan menggunakan kembali air bekas pada tanaman pangan tanpa pengolahan yang tepat."
+  },
+  "crisis-lighting-small-power": {
+    "title": "Penerangan dan listrik kecil saat pemadaman",
+    "summary": "Jaga lampu, ponsel, dan perangkat medis tetap menyala dengan baterai, inverter, atau tenaga surya.",
+    "how_it_works": "Atasi pemadaman dengan lampu LED, power bank USB, baterai 12 V ditambah inverter, atau panel surya kecil dengan pengendali pengisian. Utamakan beban yang penting — penerangan, pengisian ponsel, perangkat medis — dan sesuaikan ukuran baterai serta inverter dengan beban tersebut.",
+    "caveat": "JANGAN PERNAH menjalankan generator berbahan bakar di dalam ruangan atau ruang tertutup — karbon monoksida mematikan."
+  },
+  "crisis-cooking-without-gas": {
+    "title": "Memasak ketika tidak ada gas atau listrik",
+    "summary": "Kompor hemat bahan bakar dan kompor surya memungkinkan Anda tetap memasak dan merebus air tanpa jaringan listrik.",
+    "how_it_works": "Gunakan kompor hemat bahan bakar yang lebih baik, kompor roket arang atau kayu, atau kompor surya di tempat yang sinar mataharinya kuat. Api yang sama juga merebus air untuk desinfeksi. Selalu beri ventilasi untuk menghindari penumpukan asap dan karbon monoksida.",
+    "caveat": "Jangan pernah membakar arang atau bahan bakar di dalam ruangan tanpa ventilasi."
+  },
+  "crisis-food-without-fridge": {
+    "title": "Jaga makanan tetap aman tanpa pendinginan",
+    "summary": "Makan, awetkan, atau lindungi makanan yang mudah busuk sebelum rusak ketika kulkas mati.",
+    "how_it_works": "Ketika kulkas mati, makan dulu makanan yang paling mudah busuk, dan awetkan sisanya dengan mengeringkan, menggarami, memfermentasi, atau memasak dan menyantapnya pada hari yang sama. Jaga pintu kulkas dan freezer tetap tertutup untuk mempertahankan dingin selama mungkin; membekukan botol berisi air sebelumnya memberi waktu tambahan beberapa jam.",
+    "caveat": "Jika ragu, buang saja — buang makanan mudah busuk yang disimpan di atas 4 °C selama lebih dari 2 hours."
+  },
+  "crisis-keep-phones-alive": {
+    "title": "Jaga ponsel dan komunikasi tetap hidup",
+    "summary": "Hemat baterai dan sepakati cara saling menghubungi sebelum jaringan menjadi padat.",
+    "how_it_works": "Turunkan kecerahan layar, beralih ke mode pesawat di antara waktu saling mengabari, dan berbagi power bank. Unduh peta luring sebelumnya. Sepakati protokol saling mengabari keluarga dan satu kontak di luar wilayah yang dihubungi semua orang lewat pesan, karena saluran lokal akan tersumbat lebih dulu.",
+    "caveat": ""
+  },
+  "crisis-meshtastic": {
+    "title": "Pesan mesh tanpa jaringan (Meshtastic)",
+    "summary": "Radio murah meneruskan pesan teks terenkripsi tanpa jaringan seluler atau internet.",
+    "how_it_works": "Meshtastic menggunakan radio LoRa jangkauan-jauh yang murah yang membentuk jaringan mesh peer-to-peer, meneruskan pesan teks terenkripsi antarperangkat tanpa jaringan seluler atau internet. Jangkauannya biasanya beberapa kilometer, lebih jauh lagi dengan antena yang ditinggikan.",
+    "caveat": "Memerlukan perangkat keras dan pengaturan yang diperoleh SEBELUM krisis — siapkan terlebih dahulu."
+  },
+  "crisis-briar": {
+    "title": "Pesan antarponsel ketika jaringan gagal (Briar)",
+    "summary": "Aplikasi yang menghubungkan ponsel secara langsung lewat Bluetooth atau Wi-Fi selama pemadaman.",
+    "how_it_works": "Briar adalah aplikasi Android yang menghubungkan ponsel secara langsung lewat Bluetooth atau Wi-Fi (dan lewat Tor ketika internet tersedia), sehingga perpesanan tetap berfungsi selama pemadaman jaringan atau pemblokiran. Pasang aplikasinya dan tambahkan kontak Anda sebelum Anda membutuhkannya.",
+    "caveat": "Jangkauan Bluetooth pendek (puluhan meter); siapkan kontak terlebih dahulu."
+  },
+  "crisis-ushahidi": {
+    "title": "Pemetaan kebutuhan dari urun daya (Ushahidi)",
+    "summary": "Kumpulkan laporan insiden dan kebutuhan ke dalam peta langsung untuk mengarahkan bantuan.",
+    "how_it_works": "Ushahidi adalah perangkat lunak sumber terbuka yang mengurun-dayakan laporan insiden dan kebutuhan — lewat SMS atau web — ke dalam peta langsung, sehingga komunitas atau petugas tanggap darurat dapat melihat di mana air, obat, atau penyelamatan dibutuhkan dan mengarahkan bantuan gotong royong.",
+    "caveat": ""
+  },
+  "crisis-hot-maps": {
+    "title": "Peta dasar terbuka untuk tanggap darurat (HOT)",
+    "summary": "Relawan menggambar bangunan dan jalan sehingga petugas tanggap darurat memiliki peta yang dapat digunakan.",
+    "how_it_works": "Humanitarian OpenStreetMap Team mengoordinasikan relawan untuk menggambar bangunan, jalan, dan infrastruktur dari citra satelit, menghasilkan peta terbuka dan gratis dari area terdampak yang benar-benar dapat digunakan oleh kelompok lingkungan dan petugas tanggap darurat.",
+    "caveat": ""
+  },
+  "crisis-mutual-aid": {
+    "title": "Komite gotong royong lingkungan",
+    "summary": "Lingkungan yang terorganisir menjaga semua orang tetap hidup melalui layanan yang menurun secara berkepanjangan.",
+    "how_it_works": "Bentuk komite blok atau gedung: simpan daftar warga rentan, siapkan titik berbagi air dan pengisian ponsel, jalankan papan pesan, dan sepakati isyarat sederhana. Tulang punggung komunitas inilah yang membawa orang-orang melewati berminggu-minggu layanan yang menurun.",
+    "caveat": ""
+  },
+  "crisis-secure-building-after-quake": {
+    "title": "Periksa bangunan sebelum masuk kembali setelah gempa",
+    "summary": "Triase cepat terhadap bahaya struktural dan gas sebelum Anda masuk kembali ke dalam.",
+    "how_it_works": "Sebelum masuk kembali setelah gempa bumi, periksa adanya bau gas, dinding yang miring, retakan besar, dan lantai atau langit-langit yang melendut. Jika Anda mencurigai ada kebocoran gas, tutup katup gas — dan JANGAN menyalakan atau mematikan listrik jika Anda mencium bau gas. Tetaplah di luar bangunan yang terlihat rusak sampai diperiksa.",
+    "caveat": "Ini hanya triase — keamanan struktural yang sebenarnya memerlukan pemeriksa yang berkualifikasi."
+  },
+  "oshwa-umbilical-cord-clamp": {
+    "title": "Klem tali pusar cetak-3D",
+    "summary": "Klem yang dapat dicetak yang menutup tali pusar bayi baru lahir untuk mencegah infeksi.",
+    "how_it_works": "Klem ini menggantikan klem tali pusar plastik komersial yang habis stoknya di rumah sakit setelah bencana, ketika petugas terpaksa berimprovisasi dengan tali sepatu atau jari sarung tangan. Dicetak dari satu potong filamen pada printer FDM desktop mana pun, klem ini menutup rapat pada tali pusar untuk menghentikan pendarahan dan mengurangi risiko sepsis pada menit-menit pertama kehidupan.",
+    "caveat": "Perangkat klinis untuk penolong persalinan terampil; cetak dengan material yang bersih dan ikuti praktik sterilisasi/aseptik sebelum digunakan pada bayi baru lahir."
+  },
+  "oshwa-oxygen-supply-fitting": {
+    "title": "Sambungan pasokan oksigen",
+    "summary": "Adaptor yang menghubungkan selang oksigen ke sistem oksigen standar.",
+    "how_it_works": "Ketika pengiriman oksigen di klinik gagal karena kurangnya satu konektor kepemilikan kecil, adaptor cetak ini menjembatani selang pasokan ke peralatan oksigen standar. Ini adalah bagian cetak-3D yang membuat tabung, konsentrator, dan selang yang ada tetap berfungsi alih-alih dibiarkan menganggur.",
+    "caveat": "Komponen pengiriman oksigen; verifikasi kecocokan, kerapatan terhadap kebocoran, dan kompatibilitas material dengan klinisi sebelum digunakan pada pasien."
+  },
+  "oshwa-oropharyngeal-airway": {
+    "title": "Jalan napas orofaringeal (OPA)",
+    "summary": "Perangkat jalan napas yang dapat dicetak yang menjaga jalan napas pasien tidak sadar tetap terbuka.",
+    "how_it_works": "OPA menahan lidah agar tidak menutup tenggorokan sehingga pasien yang tidak responsif dapat terus bernapas — barang perawatan darurat dasar yang stoknya kerap habis setelah peristiwa korban massal. Perangkat ini dicetak sesuai ukuran jalan napas standar pada printer desktop, memberi petugas tanggap darurat pasokan buatan lokal ketika stok impor sudah habis.",
+    "caveat": "Perangkat pengelolaan jalan napas; hanya untuk digunakan oleh personel terlatih, dengan ukuran yang tepat dan material yang biokompatibel serta diselesaikan dengan benar."
+  },
+  "oshwa-otoscope-specula": {
+    "title": "Spekulum otoskop",
+    "summary": "Spekulum telinga yang dapat dicetak untuk memeriksa saluran telinga dan gendang telinga.",
+    "how_it_works": "Ujung otoskop bersifat sekali pakai dan cepat habis di klinik lapangan, menghentikan pemeriksaan telinga dasar. Spekulum ini dicetak murah dalam jumlah banyak pada printer desktop dan dipasang pada otoskop sehingga klinisi dapat terus memeriksa saluran telinga luar dan gendang telinga.",
+    "caveat": "Bagian yang bersentuhan dengan pasien; bersihkan dan disinfeksi secara tepat di antara pasien dan gunakan material yang sesuai."
+  },
+  "oshwa-syphon-handwash-station": {
+    "title": "Stasiun cuci tangan sifon",
+    "summary": "Unit cuci tangan portabel yang dioperasikan dengan kaki, dibuat dari sifon ember sederhana.",
+    "how_it_works": "Setelah bencana, cuci tangan tanpa sentuh memperlambat penyebaran penyakit tetapi wastafel berpipa langka. Unit ini mengubah ember biasa menjadi sifon yang dioperasikan dengan kaki: bagian cetak-3D ditambah ember memungkinkan orang mencuci tangan tanpa menyentuh keran, dan dapat dipasang di mana saja air bisa dibawa.",
+    "caveat": ""
+  },
+  "oshwa-foot-operated-tap": {
+    "title": "Keran yang dioperasikan dengan kaki",
+    "summary": "Keran tanpa sentuh yang dipasang di bawah wastafel yang ada dan disekrupkan ke pipa.",
+    "how_it_works": "Keran ini memodifikasi wastafel biasa untuk penggunaan tanpa sentuh, mengurangi kontaminasi di keran selama wabah dan kondisi kelangkaan air. Unit cetak-3D ini diletakkan di bawah wastafel dan disekrupkan ke pipa yang ada, sehingga pedal kaki mengendalikan aliran alih-alih tangan pada gagang keran.",
+    "caveat": ""
+  },
+  "oshwa-pipe-t-piece": {
+    "title": "Sambungan T pipa air",
+    "summary": "Sambungan-T yang dapat dicetak yang menyatukan tiga pipa fleksibel.",
+    "how_it_works": "Memperbaiki atau mencabangkan saluran air terhambat ketika satu sambungan hilang dan tidak ada yang bisa dibeli. Sambungan-T ini dicetak pada printer desktop dan menyatukan tiga pipa fleksibel (silikon atau PVC, diameter dalam 4-7 mm), memungkinkan komunitas memperbaiki dan memperpanjang jalur air dan selang secara lokal.",
+    "caveat": ""
+  }
+}

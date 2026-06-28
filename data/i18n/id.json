@@ -1,0 +1,275 @@
+{
+  "cuba-malanga-seeder-machine": {
+    "title": "Mesin tanam malanga tarikan traktor yang dibuat dari rangka gerobak pipa bekas",
+    "summary": "Mesin tanam tarikan traktor untuk umbi malanga (talas) yang dirakit hampir seluruhnya dari komponen yang sudah dipensiunkan.",
+    "how_it_works": "Rangkanya memanfaatkan kembali sasis gerobak pengangkut pipa buatan dalam negeri, ditambah rantai, pin, dan badan kerja pembuat alur yang diambil dari mesin-mesin yang sudah tidak terpakai. Sabuk rantai yang dilengkapi sendok ciduk hasil las (diameter 3 cm, kedalaman 6,5 cm, berjarak 5 mata rantai) mengambil umbi dan menjatuhkannya ke dalam alur, sementara mekanisme pembuat dan penutup alur terpasang pada rangka. Mesin ini bekerja selebar 90 cm, menanam pada kedalaman 10-15 cm, dan hoppernya menampung 50 kg.",
+    "problem": "Penanaman malanga secara mekanis dibutuhkan tanpa akses ke mesin pertanian khusus atau impor.",
+    "fabcity_relevance": "Sebuah contoh kanonik pembuatan mesin pertanian dari daftar bahan hasil rongsokan -- sangat relevan bagi sebuah fab lab yang merakit alat pertanian khusus dari rongsokan lokal alih-alih mengimpor mesin utuh."
+  },
+  "cuba-multiuse-tractor-cultivator": {
+    "title": "Penggarap tanah serbaguna untuk traktor dengan badan kerja yang dapat ditukar",
+    "summary": "Satu perkakas traktor yang tangguh dan mampu mengerjakan banyak pekerjaan di lahan dengan cara mengganti organ kerjanya.",
+    "how_it_works": "Perkakas ini menggarap, membuat alur, menyiapkan tanah, menggarap silang, dan menggaru tergantung organ kerja yang dipasang. Lebar kerjanya 2,5 m dan mampu bekerja hingga kedalaman 12 inci. Dalam sehari ia dapat menggarap, membumbun, atau menggaru satu caballeria lahan (dan sekitar separuhnya saat membuka lahan baru), melayani tanaman mulai dari pisang dan singkong hingga tomat, cabai, dan labu.",
+    "problem": "Banyak mesin lahan terpisah tidak tersedia, sehingga satu perkakas yang dapat menyesuaikan diri harus menanggung beragam tugas pengolahan tanah.",
+    "fabcity_relevance": "Pertukaran kepala alat secara modular pada satu sasis untuk menggantikan satu gudang penuh mesin berfungsi-tunggal merupakan strategi inti manufaktur terdistribusi yang dapat diterapkan sebuah fab lab pada peralatan pertanian dan bengkel."
+  },
+  "cuba-animal-traction-grain-seeder": {
+    "title": "Mesin tanam biji tiga baris tarikan sapi dari komponen hasil pulihan",
+    "summary": "Mesin tanam biji presisi yang ringan dan ditarik sapi, telah digunakan sejak 1991, dibuat sebagian besar dari bahan hasil pulihan.",
+    "how_it_works": "Tiga seksi masing-masing membawa pembuat alur berartikulasi yang dapat disetel, mekanisme pengantar dengan piringan takar berlubang, tutup penimbun dua-flap yang dapat disetel, dan roda pemadat yang dapat disetel. Suspensi kabel-katrol-dan-batang memungkinkan operator mengangkat organ kerja keluar dari alur selama pengangkutan. Jarak baris (70/80/90 cm) dan jarak tanam diatur dengan menukar set piringan melalui rasio transmisi sederhana; seluruh rangkaian ditarik dengan kuk sapi dan dikendalikan oleh satu operator yang duduk.",
+    "problem": "Mesin tanam bertenaga dan impor tidak tersedia serta mahal, sehingga dibutuhkan mesin tanam berbiaya rendah yang ditarik hewan.",
+    "fabcity_relevance": "Mesin tanam presisi yang menukar piringan takar murah untuk tanaman berbeda dan berjalan dengan tenaga hewan menunjukkan cara merancang alat pertanian yang mandiri energi dan komponennya dapat ditukar -- cocok untuk produksi pangan terdistribusi dengan input rendah."
+  },
+  "cuba-low-cost-windmill-water-pump": {
+    "title": "Pompa air kincir angin berbiaya rendah tanpa bantalan atau roda gigi",
+    "summary": "Kincir angin sederhana berbiaya sangat rendah yang memompa air sambil sengaja menghindari bantalan dan roda gigi yang sulit didapat.",
+    "how_it_works": "Rancangan ini tidak menggunakan bantalan, roda gigi, atau komponen lain yang sulit diperoleh. Ia terdiri dari tiang, bilah/baling-baling, dan komponen hisap (katup searah, piston, dll.), ditopang dengan tali tegang (stay), dengan bilah disetel sesuai arah dan kekuatan angin. Ia menyedot air sebesar 0,4 liter per detik dan mampu menangani head setinggi 70 meter.",
+    "problem": "Pemompaan air dibutuhkan di tempat yang bantalan, roda gigi, dan komponen penggerak pabrikan lain mustahil diperoleh.",
+    "fabcity_relevance": "Merancang agar bantalan dan kotak roda gigi hilang dari sebuah pompa angin demi menghindari komponen paling sulit didapat adalah persis jenis perancangan ulang berbasis kendala yang dipakai sebuah fab lab untuk membuat mesin dapat dibangun dan diperbaiki secara lokal."
+  },
+  "cuba-mtz80-brake-discs-from-clutch-fiber": {
+    "title": "Cakram rem traktor MTZ-80 yang dipotong dari cakram gesek kopling yang sudah aus",
+    "summary": "Cakram rem pengganti untuk traktor MTZ-80 yang dibuat dengan memotong ulang bahan gesek dari cakram koplingnya.",
+    "how_it_works": "Para pekerja mengambil bahan serat gesek dari cakram kopling traktor lalu melubangi/memotongnya mengikuti pola atau cetakan, sehingga menghasilkan cakram rem untuk MTZ-80 dari bahan hasil pulihan tersebut.",
+    "problem": "Cakram rem pengganti untuk traktor MTZ-80 tidak bisa diimpor atau dibeli selama masa kelangkaan.",
+    "fabcity_relevance": "Memanen bahan rekayasa yang masih bisa dipakai (pelapis gesek) dari satu komponen aus untuk mencetak komponen lain adalah pola pemulihan-material yang konkret bagi sebuah fab lab yang menjaga kendaraan dan mesin tetap berjalan tanpa rantai pasok."
+  },
+  "cuba-creole-cane-harvester-blade-segments": {
+    "title": "Bilah pemotong panen tebu kreol yang dibuat dengan mengasah kedua sisinya",
+    "summary": "Segmen bilah piringan-potong buatan lokal ('criollo') untuk mesin pemanen tebu, diproduksi dengan mengasah kedua sisinya untuk menggantikan komponen impor Soviet yang langka.",
+    "how_it_works": "Tekniknya adalah memberikan ketajaman pada kedua sisi segmen bilah kreol, untuk segmen yang digunakan pada mesin gabung pemanen tebu. Hal ini mengatasi kelangkaan komponen asli yang dulu diimpor dari bekas Uni Soviet. Tiga peleton mesin gabung menjalankan panen menggunakan bilah kreol ini dengan hasil yang baik, dan beberapa di antaranya diproduksi di Bengkel Pusat Brigade Kompleks milik MINAZ di Cienfuegos.",
+    "problem": "Bilah pemotong asli untuk mesin gabung tebu yang diimpor dari Uni Soviet menjadi tidak tersedia setelah runtuhnya Soviet.",
+    "fabcity_relevance": "Mengembalikan produksi komponen aus pakai-habis yang kritis (bilah pemanen) ke bengkel lokal ketika jalur impor mati adalah persis langkah ketahanan yang ditawarkan jaringan fab lab bagi sistem pangan sebuah kota."
+  },
+  "cuba-aluminum-tube-cutting-machine": {
+    "title": "Pemotong pipa aluminium manual yang dapat disetel",
+    "summary": "Perkakas tangan berbentuk cangkang kerang yang memotong pipa aluminium beragam diameter dengan bilah melingkar yang dapat disetel.",
+    "how_it_works": "Alat ini terdiri dari dua belahan cangkang ('genteng') yang disambung dengan engsel; cangkang depan membawa bilah pemotong melingkar setebal 8 mm berdiameter 40 mm yang kedalamannya diatur dengan ulir sekrup sesuai keliling pipa. Tiga kotak bantalan bola 204 memungkinkan cangkang depan meluncur melingkar di dalam alur pada cangkang belakang yang lebih berat (diameter dalam 200 mm), dan dua gagang memungkinkan operator mengoperasikannya. Cangkang belakang bagian bawah dilas ke sebuah meja yang menopang alat tersebut.",
+    "problem": "Dibutuhkan cara yang rapi dan dapat diulang untuk memotong pipa aluminium sesuai ukuran tanpa alat pemotong pipa komersial.",
+    "fabcity_relevance": "Pemotong pipa berpemandu bantalan buatan bengkel adalah jenis mesin perkakas bootstrap yang dibuat sebuah fab lab untuk memfabrikasi benda lain -- perkakas yang melahirkan perkakas."
+  },
+  "cuba-manual-bench-grinder-from-scrap": {
+    "title": "Gerinda duduk manual yang dibuat dari komponen kendaraan hasil pulihan",
+    "summary": "Gerinda/pengasah perkakas yang diputar dengan tangan, dirakit dari roda gila ZIL-130, bantalan, dan besi siku.",
+    "how_it_works": "Alat ini dibangun di atas dasar besi siku 1,5 inci dengan 4 bantalan duduk (pillow-block) yang menopang poros tempat roda amplas abrasif terpasang. Roda gila ZIL-130 yang dikopel dengan bendix dari kendaraan yang sama menyalurkan 200-600 rpm untuk memutar batu asah guna menajamkan perkakas. Semua komponen yang dipakai untuk membangun mesin ini adalah hasil pulihan.",
+    "problem": "Dibutuhkan cara untuk menajamkan dan menggerinda perkakas tanpa gerinda duduk pabrikan.",
+    "fabcity_relevance": "Mengubah roda gila truk dan roda gigi starter hasil rongsokan menjadi gerinda yang berfungsi adalah langkah baku 'memulung sistem penggerak untuk membuat mesin perkakas' bagi bengkel dengan sumber daya terbatas."
+  },
+  "cuba-handmade-axe-pick-handles": {
+    "title": "Gagang kapak dan beliung yang dibentuk dengan tangan dari kayu kasar",
+    "summary": "Gagang kapak (dan beliung) yang dibuat dengan tangan dari sepotong tongkat kayu keras hanya dengan perkakas pemotong dasar.",
+    "how_it_works": "Pembuatannya dilakukan secara manual menggunakan sepotong kayu keras bulat sepanjang 90 cm ('tongkat kuat'), yang diserut dengan parang, ketam, atau pecahan kaca botol hingga pas dengan mata kapak. Gagang beliung dibuat di bengkel kerajinan yang sama dengan mengikuti prosedur yang serupa.",
+    "problem": "Gagang perkakas pengganti buatan pabrik tidak tersedia, menghentikan penggunaan kapak dan beliung.",
+    "fabcity_relevance": "Pengingat bahwa 'fabrikasi' yang paling berdaya ungkit kadang adalah membentuk dengan tangan sebuah komponen aus pakai-habis dari biomaterial lokal -- garis dasar tanpa-mesin yang tetap harus diajarkan sebuah fab lab."
+  },
+  "cuba-majagua-bark-rope": {
+    "title": "Tali yang dipilin dengan tangan dari serat kulit pohon majagua",
+    "summary": "Tali yang dibuat dengan tangan dari serat kulit kayu (bast) pohon majagua, dipanen di dekat sungai dan pesisir.",
+    "how_it_works": "Pohon majagua yang lurus dan tidak rusak di dekat sungai dan pesisir dipilih. Untuk melepaskan seratnya, kayu dipukul dengan tongkat dari bahan yang sama hingga menjadi 'berair', lalu seratnya dijemur selama tiga hari. Setelah itu serat dianyam/dipilin dengan tangan, dipotong dengan lebar sekitar dua sentimeter.",
+    "problem": "Tali dan tambang buatan pabrik langka, sehingga dibutuhkan sumber serat lokal.",
+    "fabcity_relevance": "Tali serat kulit kayu dari pohon lokal adalah bahan baku biomaterial terbarukan -- relevan bagi fab lab yang menjajaki bahan tumbuhan lokal sebagai pengganti bahan sintetis impor."
+  },
+  "cuba-fly-larvae-animal-feed": {
+    "title": "Produksi protein larva lalat untuk pakan babi dan unggas",
+    "summary": "Metode terkendali untuk membiakkan larva lalat pada limbah pertanian guna menghasilkan pakan ternak tinggi protein.",
+    "how_it_works": "Bedeng beratap setinggi 3-5 cm berukuran 1 x 3 m diisi dengan media berupa sekam padi giling (untuk babi) atau ampas tebu/bagasse giling (untuk unggas dan babi) lalu dibasahi hingga kelembapan sedang. Penarik lalat -- limbah ikan, sedikit air tebu, cangkang telur atau telur busuk, darah yang dicampur air, serta whey -- ditaburkan, dan bedeng dibalik dua kali sehari agar tidak memadat. Pada jam ke-72 larva harus dipanen sebelum berubah menjadi lalat; jika diberikan langsung, kandungan proteinnya mencapai 63%, atau 28-33% setelah dikeringkan melalui penggilingan.",
+    "problem": "Pakan ternak kaya protein impor menghilang, mengancam produksi babi dan unggas.",
+    "fabcity_relevance": "Biokonversi protein serangga dari limbah pangan dan pertanian mendahului sistem pakan ekonomi sirkular masa kini dan dapat dibangun pada skala lingkungan tanpa teknologi tinggi."
+  },
+  "cuba-cacao-husk-animal-feed": {
+    "title": "Kulit buah kakao yang digiling menjadi pakan ternak",
+    "summary": "Bahan pakan ternak yang diproduksi dengan mengeringkan dan menggiling kulit buah kakao, sebuah hasil sampingan pengolahan.",
+    "how_it_works": "Kulit buah kakao dijemur di lantai semen sebanyak 30 kg per meter persegi hingga mencapai kadar air 12-15%, lalu digiling hingga partikelnya di bawah 2 mm dalam penggiling palu (hammer mill). Produk hasilnya memiliki kadar air sekitar 13,5%, serat kasar 32%, dan protein kasar 7,85%, serta dapat diberikan dengan aman ke semua jenis ternak dalam batas pencampuran 40% untuk sapi, 25% untuk babi, dan 10% untuk unggas.",
+    "problem": "Pakan konvensional langka, sementara pengolahan kakao membuang kulit dalam jumlah besar.",
+    "fabcity_relevance": "Memvalorisasi aliran limbah agroindustri menjadi bahan pakan yang terkuantifikasi dan berspesifikasi adalah templat yang bersih untuk loop limbah-menjadi-produk lokal yang dapat dipetakan dan dijalankan sebuah fab city."
+  },
+  "cuba-cane-guarapo-pig-feed": {
+    "title": "Air tebu segar (guarapo) sebagai pakan babi di lokasi",
+    "summary": "Air tebu yang diperas di lokasi untuk menggantikan pakan babi komersial, ditambah dengan residu pertanian.",
+    "how_it_works": "Guarapo yang diekstrak langsung dari tebu menggantikan pakan komersial yang digunakan dalam pemeliharaan babi, dan secara nyata menambah bobot babi. Penggilingan tebu (trapiche) dibangun tepat di samping kandang ternak; tebu dibawa ke sana dan 2-3 pekerja mengoperasikan penggiling serta unit pengolahan. Residu pertanian seperti tetes purga (purge molasses), batang ubi jalar, dan batang pisang juga digunakan, dan hewan diberi makan dua kali sehari.",
+    "problem": "Pakan babi buatan pabrik tidak tersedia, tetapi tebu dan residu pertanian berlimpah secara lokal.",
+    "fabcity_relevance": "Menempatkan pemeras tebu sederhana berdampingan dengan ternak untuk memberinya makan dari hasil tanaman lokal adalah pola produksi pangan terdistribusi berloop pendek yang dapat direplikasi sebuah fab city."
+  },
+  "cuba-multinutritional-blocks-livestock": {
+    "title": "Blok multinutrisi tetes-kapur untuk sapi",
+    "summary": "Balok 'jilat' besar yang mengeras dari tetes tebu, kapur, dan aditif yang melengkapi pakan sapi berpola makan buruk atau yang membutuhkan pengobatan.",
+    "how_it_works": "Blok ini merupakan pakan tambahan untuk sapi yang berpola makan berkualitas rendah atau yang memerlukan pengobatan medis. Prinsipnya adalah pengerasan (pematangan) campuran tetes tebu halus, kapur tohor (slaked lime), dan aditif lain, dengan campuran aditif ditentukan oleh teknisi dan insinyur sesuai tujuan dan kebutuhan kawanan ternak. Setiap blok atau bal mencapai sekitar 250 kg.",
+    "problem": "Pakan dan suplemen sapi yang seimbang langka, terutama bagi hewan yang berpola makan hijauan buruk atau yang membutuhkan pengobatan.",
+    "fabcity_relevance": "Blok suplemen yang dapat disetel dan diformulasikan dari bahan baku lokal serta kebutuhan kawanan menunjukkan bagaimana sebuah produk standar dapat direkayasa ulang di seputar input apa pun yang sebenarnya dimiliki suatu wilayah."
+  },
+  "cuba-periwinkle-bovine-keratoconjunctivitis": {
+    "title": "Tapak dara Madagaskar untuk keratokonjungtivitis pada sapi",
+    "summary": "Obat hewan berbahan tumbuhan: tapak dara Madagaskar yang ditumbuk dioleskan untuk mengobati pinkeye (mata merah) pada sapi.",
+    "how_it_works": "Tumbuhan (vicaria blanca / tapak dara Madagaskar) ditumbuk dan dioleskan ke mata hewan untuk mengobati keratokonjungtivitis pada sapi.",
+    "problem": "Obat-obatan hewan untuk mengobati infeksi mata sapi tidak tersedia.",
+    "fabcity_relevance": "Substitusi etnoveteriner yang terdokumentasi adalah sumber pengetahuan bagi sistem kesehatan bioregional di tempat sebuah fab city tidak bisa (dan tidak seharusnya) memproduksi obat-obatannya sendiri."
+  },
+  "cuba-guasima-bark-hemoparasitosis": {
+    "title": "Rebusan kulit kayu guasima untuk penyakit parasit darah sapi",
+    "summary": "Rebusan kulit kayu guasima yang direbus dan diberikan kepada sapi untuk mengobati hemoparasitosis (babesia dan anaplasma).",
+    "how_it_works": "Persiapan: rebus 150-200 gram kulit kayu guasima dalam satu liter air selama 20 menit. Dosis: berikan 500 ml kepada hewan, satu hingga dua kali.",
+    "problem": "Obat-obatan buatan pabrik untuk parasit darah sapi yang ditularkan kutu (babesia, anaplasma) tidak tersedia.",
+    "fabcity_relevance": "Protokol botani yang presisi dalam dosis dan persiapan adalah jenis pengetahuan veteriner yang dapat ditindaklanjuti secara lokal yang bisa dilestarikan dan disebarkan oleh repositori terbuka sebuah fab city."
+  },
+  "cuba-concrete-block-poultry-incubator": {
+    "title": "Inkubator unggas dari pasangan bata yang dipasangi peralatan penetas standar",
+    "summary": "Inkubator unggas yang dibangun dari balok beton dan ubin, berukuran sesuai untuk menampung komponen penetas Universal 55.",
+    "how_it_works": "Inkubator ini dibangun dari balok semen 10 cm (sebaiknya dilapisi ubin) dan pelat beton setebal 6 cm yang disisakan lubang untuk damper dan bohlam. Dimensi interior yang kritis (tinggi 1,90 m, lebar 1,60 m, panjang 2,16 m) harus cocok dengan penetas Universal 55 agar peralatannya dapat dipindahkan ke unit pasangan bata. Sebuah bingkai terpisah berukuran 42 x 65 x 5 cm yang menahan cincin damper dan motor penyedot kelembapan dicor untuk bagian belakang, dan ketebalan ubin harus diperhitungkan saat memasang balok agar dimensi interiornya tetap terjaga.",
+    "problem": "Lemari inkubator buatan pabrik tidak tersedia, tetapi bagian dalam yang masih berfungsi dari penetas yang ada dapat diselamatkan.",
+    "fabcity_relevance": "Membangun ulang cangkang mesin yang tahan lama dari pasangan bata lokal di sekeliling bagian dalam hasil pulihan adalah strategi fabrikasi hibrida yang cerdas ketika hanya komponen presisinya saja yang langka."
+  },
+  "cuba-rustic-multifuel-heater": {
+    "title": "Pemanas/kompor multi-bahan bakar sederhana",
+    "summary": "Pemanas/kompor yang sangat sederhana dan dapat membakar kayu hijau atau kering, arang, atau bahan bakar lain.",
+    "how_it_works": "Pembuatannya sangat sederhana dan ia dapat diberi bahan bakar berupa kayu bakar hijau atau kering, arang, atau sumber pembakaran lain.",
+    "problem": "Kompor buatan pabrik dan bahan bakar masak/pemanas yang andal langka, sehingga dibutuhkan pembakar sederhana yang fleksibel terhadap bahan bakar.",
+    "fabcity_relevance": "Rancangan pembakar yang tak peduli jenis bahan bakar (bakar apa pun yang ada) adalah prinsip ketahanan bagi perangkat keras energi dan memasak terdistribusi yang dapat diprototipekan sebuah fab lab dengan biaya murah."
+  },
+  "cuba-manual-honey-extractor": {
+    "title": "Ekstraktor madu bertenaga tangan untuk peternakan lebah",
+    "summary": "Ekstraktor madu sentrifugal bertenaga manusia yang dibuat dari lembaran logam galvanis dan komponen cor yang dimesin.",
+    "how_it_works": "Alat ini adalah tangki dari lembaran logam galvanis yang menampung elemen internal tempat bingkai sarang madu ditaruh; elemen ini berputar dengan kecepatan tinggi melalui mekanisme transmisi untuk melemparkan madu keluar. Alat ini terbuat dari lembaran logam, komponen cor yang dimesin, dan struktur las, dan energi penggeraknya adalah tenaga manusia.",
+    "problem": "Ekstraktor madu bertenaga komersial tidak tersedia bagi peternak lebah.",
+    "fabcity_relevance": "Sentrifuse putar-tangan dari lembaran logam dan lasan adalah hasil rakitan fab lab yang bersih yang menjaga kerajinan produksi pangan lokal (peternakan lebah) tetap layak tanpa jaringan listrik."
+  },
+  "cuba-fence-staple-making-machine": {
+    "title": "Mesin pembuat staples pagar otomatis",
+    "summary": "Mesin yang dapat dibuat di bengkel dan secara otomatis membentuk staples pagar dari gulungan kawat.",
+    "how_it_works": "Mesin ini dapat dibuat di bengkel mana pun dan digunakan oleh perusahaan pertanian mana pun. Operator hanya perlu memuat gulungan kawat; selebihnya dikerjakan mesin secara otomatis, menghasilkan staples jadi yang siap digunakan untuk membangun pagar.",
+    "problem": "Staples pagar buatan pabrik tidak tersedia untuk kebutuhan pemagaran di seluruh lahan pertanian.",
+    "fabcity_relevance": "Mesin yang dapat direplikasi secara lokal yang mengubah kawat curah menjadi pengikat jadi adalah persis kemampuan 'buat barang pakai-habisnya, jangan impor' yang disebarkan sebuah fab city."
+  },
+  "cuba-tilapia-ham": {
+    "title": "'Ham' tilapia (charcuterie daging ikan)",
+    "summary": "'Ham' yang diawetkan dan dicetak, dibuat dari tilapia giling yang diperbanyak dengan lemak babi, darah, dan tepung.",
+    "how_it_works": "Sepuluh kg tilapia beku yang digiling hingga 2 mm dicampur dengan 2 kg lemak babi yang dipotong dadu, 4 kg sel darah babi (atau domba jantan) yang dikocok dengan garam agar tidak menggumpal, 2 g garam pengawet (natrium nitrit) untuk warna, 40 tetes humus cair untuk menghilangkan bau dan rasa amis, serta 2 kg tepung terigu atau kedelai. Campuran tersebut dimasukkan ke dalam cetakan berlubang termometer dan dimasak dengan teknik bain-marie pada suhu 75-80 C selama 45 menit tanpa mendidih, lalu dipres, diselesaikan pada suhu 90 C ke atas, didinginkan dalam cetakan, dan disimpan dalam lemari pendingin.",
+    "problem": "Ham dan daging babi konvensional langka, sementara tilapia budidaya dan hasil sampingan pemotongan tersedia.",
+    "fabcity_relevance": "Memformulasi ulang produk yang sudah dikenal (ham) di seputar ikan budidaya lokal dan darah limbah adalah panduan kedaulatan pangan untuk menggantikan input langka dengan yang melimpah secara lokal."
+  },
+  "cuba-canavalia-coffee-substitute": {
+    "title": "Pengganti kopi dari kacang canavalia ('nescafe')",
+    "summary": "Pengganti kopi (atau bahan perpanjang) yang dibuat dengan menyangrai kacang canavalia (kara pedang) kering seperti kopi.",
+    "how_it_works": "Canavalia adalah tanaman sepanjang tahun (panen terbaik pada musim dingin) dengan varietas kacang putih, hitam, dan merah muda, yang merah muda berhasil tertinggi. Setelah polongnya kering, kacangnya dikupas dan disangrai persis seperti kopi dalam wadah tertutup. Rasanya sangat enak diminum dengan susu, dan mencampur kopi alami dengan tanaman ini lebih disukai daripada memperpanjangnya dengan kacang arab karena warna, hasil, dan citarasanya lebih unggul.",
+    "problem": "Kopi langka dan perlu diperpanjang atau digantikan dengan tanaman yang ditumbuhkan secara lokal.",
+    "fabcity_relevance": "Substitusi tanaman sangrai-dan-seduh untuk bahan pokok yang bergantung impor (kopi) adalah pola ketahanan pangan teknologi-rendah yang selaras dengan strategi tanaman bioregional."
+  },
+  "cuba-mixed-picadillo-extenders": {
+    "title": "Picadillo babi campuran yang diperbanyak dengan vianda dan sayuran",
+    "summary": "Hidangan daging giling yang memperbanyak potongan sisa dan hasil sampingan babi dengan umbi bertepung dan sayuran.",
+    "how_it_works": "Daging has babi dan lacon (bahu yang diasinkan) dipisahkan dari tulang dan digiling bersama hasil sampingan babi pada piringan sedang; tidak ada garam ditambahkan karena potongan asinan sudah mengandungnya. Cincangan ditumis dalam 20 g lemak selama 6 menit, lalu saus kreol (bawang bombai, cabai, tomat, jintan, anggur kering) ditambahkan bersama vianda atau sayuran yang dimasak terpisah dan dimasak 5 menit lagi, memperbanyak sedikit daging dengan ~580 g sayuran dan ~1160 g garnish bertepung.",
+    "problem": "Daging langka, sehingga sedikit daging babi dan hasil sampingannya harus mencukupi untuk lebih banyak orang.",
+    "fabcity_relevance": "Strategi 'pemerbanyak' di tingkat resep yang menambah massa protein langka dengan pati lokal adalah pola ketahanan sistem pangan yang layak dikatalogkan berdampingan dengan perangkat keras dalam sebuah repositori kota."
+  },
+  "homemade-electrical-tester": {
+    "title": "Penguji kontinuitas listrik buatan sendiri",
+    "summary": "Lampu uji sederhana yang dibuat dari bohlam, fitting, sepotong kabel ganda, dan isolasi untuk menemukan kerusakan pada peralatan rumah tangga apa pun.",
+    "how_it_works": "Kupas kedua ujung kabel; sambungkan satu ujung ke fitting bohlam; sisakan dua ujung probe lainnya dalam keadaan terkupas dan telanjang. Dengan peralatan terhubung ke listrik, sentuhkan kedua probe ke titik masuk arusnya -- jika bohlam menyala, kerusakannya ada di dalam peralatan; jika tetap gelap, putusnya ada di kabel. Alat ini memungkinkan Anda mendiagnosis setrika, kipas, dan sebagainya tanpa membongkarnya tanpa perlu.",
+    "problem": "Tidak ada alat uji komersial yang tersedia untuk mendiagnosis peralatan rumah tangga yang rusak di rumah.",
+    "fabcity_relevance": "Alat diagnostik nyaris tanpa biaya yang dibuat dari rongsokan, mewujudkan prinsip 'pahami dan perbaiki sebelum mengganti' yang menjadi inti kota sirkular dan produktif secara lokal."
+  },
+  "electric-iron-repair": {
+    "title": "Perbaikan mandiri setrika listrik rumah tangga",
+    "summary": "Prosedur langkah demi langkah untuk membuka, mendiagnosis, dan merakit kembali setrika -- memperbaiki kabel, termostat, dan resistansinya alih-alih membuangnya.",
+    "how_it_works": "Dengan menggunakan penguji buatan sendiri, pengguna memisahkan apakah kerusakannya ada di kabel atau di dalam setrika, lalu melepas penutup belakang, kenop termostat, dan mur dengan kunci kubus untuk mencapai komponennya. Kabel yang putus dipotong, dikupas ulang, dan disambungkan kembali ke sekrup (atau disambung dan diisolasi); termostat diperiksa dari bunyi klik samar bilah bimetalnya. Buku ini mencatat bahwa hanya ketika resistansinya sendiri yang mati barulah seseorang harus pergi ke bengkel untuk mendapatkan komponennya.",
+    "problem": "Setrika pengganti langka, sehingga satu peralatan harus dijaga tetap berfungsi selama bertahun-tahun.",
+    "fabcity_relevance": "Pengetahuan membongkar dan memperbaiki yang rinci yang memperpanjang usia produk dan menjaga pemeliharaan tetap di tangan rumah tangga, kebalikan dari ketertinggalan yang dirancang sengaja (designed disposability)."
+  },
+  "orbita-fan-rebuild": {
+    "title": "Membangun ulang dan melumasi kipas listrik ORBITA",
+    "summary": "Panduan pembongkaran total, pelumasan, dan perbaikan komponen untuk kipas Cuba ORBITA/Predon yang umum, dengan diagram terurai gambar tangan dari motor, stator, bantalan luncur (bushing), dan roda gigi osilasi.",
+    "how_it_works": "Karena bantalan luncur 'memiliki umur terbatas tetapi dengan pelumasan yang baik kita dapat memperpanjang masa pakainya secara nyata', panduan ini mengajarkan pembersihan dan pelumasan rutin pada bantalan luncur, kotak osilasi, dan poros. Ia mendiagnosis kerusakan-kerusakan tertentu -- kenop kecepatan yang longgar, rotor yang macet, pinion osilasi yang aus, bilah yang tidak sejajar ('paleta desajustada') -- dan menunjukkan cara membebaskan rotor dengan mengetuk stator menggunakan palu sambil memutar poros dengan tangan, serta menyetel ulang posisi atau memasang ulang bilah. Kabel internal yang putus dari lilitan ke sakelar disolder atau cukup disambung dan diisolasi.",
+    "problem": "Kipas sangat penting dalam iklim Cuba dan tak tergantikan, sehingga motor yang aus harus dihidupkan kembali alih-alih dirongsokkan.",
+    "fabcity_relevance": "Menunjukkan literasi pemeliharaan untuk sebuah produk lokal tertentu -- persis etos terbuka dan dapat-diperbaiki-sesuai-rancangan yang dibutuhkan sebuah kota produktif secara lokal untuk menggantikan konsumsi sekali buang."
+  },
+  "wood-ash-lye-and-soap": {
+    "title": "Air abu kayu dan sabun batangan buatan sendiri",
+    "summary": "Metode untuk melarutkan air abu (lye) dari abu kayu melalui corong sederhana dan menggabungkannya dengan lemak hewani atau nabati untuk membuat sabun ketika sabun industri tidak tersedia.",
+    "how_it_works": "Corong sederhana yang dianyam dari cabang bambu tahan alkali dan dilapisi setebal ~3 cm dengan jerami rumput kering tanpa biji berfungsi sebagai penyaring; abu dijejalkan ke dalamnya dan air ditambahkan secara bertahap (mis. 2 liter setiap 1,5 jam) agar air abu menetes keluar perlahan, lalu disaring dan diendapkan (~3 liter air abu ini menggantikan 1 kg soda kaustik). Air abu kemudian direaksikan dengan lemak murni yang dilelehkan -- lemak hewan (tallow) atau minyak kelapa/jagung/kedelai/sawit -- diaduk di atas api hingga terbentuk massa homogen, dituang ke dalam cetakan yang dilapisi kain atau kertas lilin, lalu didiamkan mengeras selama beberapa minggu.",
+    "problem": "Soda kaustik dan sabun buatan pabrik sama-sama langka selama embargo dan Periode Khusus.",
+    "fabcity_relevance": "Menutup loop pasokan kebersihan sepenuhnya dari aliran limbah lokal (abu, lemak masak), sebuah model substitusi bioregional untuk produk industri impor."
+  },
+  "candles-from-bottle-caps-and-tubing": {
+    "title": "Lilin buatan sendiri menggunakan cetakan dari pipa plastik dan tutup botol sebagai penahan sumbu",
+    "summary": "Mencetak lilin dari lilin (wax) atau lemak apa pun yang tersedia dalam cetakan darurat yang dibuat dari pipa plastik dan tutup botol logam.",
+    "how_it_works": "Pipa plastik (atau sejenisnya) berfungsi sebagai cetakan; tutup botol logam yang dipipihkan dilubangi di tengah untuk menahan dan memusatkan sumbu, disimpul agar tidak tergelincir dan diikat kencang di bagian atas dan bawah. Parafin/lilin/lemak yang dilelehkan dituang ke dalamnya dan didiamkan sekitar satu jam sebelum dilepas dari cetakan. Teks tersebut mencatat lemak (tallow) bisa digunakan tetapi menghasilkan lilin berkualitas lebih rendah.",
+    "problem": "Pemadaman listrik yang sering dan tiadanya lilin buatan pabrik membuat rumah tangga membutuhkan sumber cahaya mereka sendiri.",
+    "fabcity_relevance": "Mengubah limbah kemasan (tutup botol, pipa) menjadi perkakas yang dapat digunakan kembali untuk membuat cahaya, sebuah contoh rapi pemfungsian ulang aliran barang buangan."
+  },
+  "bicycle-tube-patch-with-scrap-nylon": {
+    "title": "Perbaikan ban dalam dan ban luar sepeda dengan bahan rongsokan",
+    "summary": "Perbaikan sepeda di lapangan -- menambal bocoran dan melapisi ban yang aus menggunakan potongan nilon, selofan, dan potongan kantong kopi, serta mengganti komponen yang aus.",
+    "how_it_works": "Bocoran ditemukan dengan memompa ban dalam di dalam air dan mengamati munculnya gelembung, lalu ditambal secara dingin atau panas dengan lem tambal bola dan potongan kain; di atas casing yang aus, buku ini menyarankan melapisi '3 atau 4 potongan kecil nilon atau selofan' atau kertas kartrid dari kantong kopi, dan setrika panas dapat ditekankan selama 4-5 menit untuk melelehkan bahan tambalan ke seluruh area. Buku ini juga membahas penyetelan ulang kelurusan roda dengan mengencangkan/mengendurkan jari-jari secara selektif serta mengenali/mengganti pedal kiri/kanan dari tanda R/L-nya.",
+    "problem": "Dengan bahan bakar yang habis, sepeda menjadi transportasi utama, tetapi ban luar, ban dalam, dan suku cadang nyaris mustahil dibeli.",
+    "fabcity_relevance": "Menjaga kendaraan kota yang paling berkelanjutan tetap berjalan dengan barang pakai-habis hasil pulihan -- preseden langsung bagi mobilitas kota yang berpusat pada sepeda dan mengutamakan perbaikan."
+  },
+  "fishhooks-from-nails": {
+    "title": "Mata kail darurat dari paku, duri, dan kayu",
+    "summary": "Perlengkapan memancing yang dibuat dari bahan keras hasil pulungan -- paku yang dibengkokkan menjadi kail, atau kait yang dirakit dari duri dan kayu -- untuk mengumpulkan pangan demi bertahan hidup.",
+    "how_it_works": "Bab bertahan hidup menunjukkan kail yang dibengkokkan dan dikikir dari paku, serta kail komposit yang diikat dari duri atau ujung yang diruncingkan lalu diikatkan dengan tali ke gagang kayu, ditambah kail seret untuk umpan. Ini dipasangkan dengan metode memancing teknologi-rendah lainnya (memancing dengan tangan di kolam, menombak dengan bayonet/pisau yang diikatkan ke galah, mengeruhkan kolam kecil untuk mengusir ikan ke permukaan, serta perangkap/kandang anyaman).",
+    "problem": "Dalam skenario bertahan hidup atau evakuasi tidak ada perlengkapan memancing buatan pabrik untuk menangkap protein.",
+    "fabcity_relevance": "Menunjukkan pembuatan perkakas yang fungsional dari rongsokan bermutu paling rendah untuk mengamankan pangan, lantai dasar bertahan hidup dari penyediaan-diri yang terdistribusi."
+  },
+  "solar-oven-and-field-cookers": {
+    "title": "Oven surya dan kompor lapangan darurat",
+    "summary": "Perangkat memasak tanpa bahan bakar dan berbahan bakar rendah -- oven surya yang memusatkan sinar matahari, dan oven lubang tanah sederhana -- untuk memasak tanpa peralatan atau bahan bakar konvensional.",
+    "how_it_works": "Oven surya ('estufa solar', digambar sebagai kotak bertutup pemantul berengsel) menggunakan pemusatan sinar matahari sehingga 'sama sekali tidak membutuhkan bahan bakar'; bab ini juga menjelaskan oven lubang sederhana yang digali di tanah, diisi bara, lalu wadah makanan diletakkan ke dalamnya dan ditutup dengan lapisan bara kemudian tanah sehingga makanan matang sambil terlindung dari serangga. Ini disajikan berdampingan dengan memasak telur dalam cangkang besar/bambu di atas bara dan merebus air dalam wadah yang terbuat dari lona (kanvas) atau kulit kayu yang dijaga di atas api kecil.",
+    "problem": "Dalam kondisi perang atau bencana rumah tangga tidak akan memiliki gas, kompor, dan sedikit atau tanpa bahan bakar.",
+    "fabcity_relevance": "Memasak dengan tenaga surya dan lubang biomassa adalah solusi pangan-energi terbarukan dan tanpa jaringan listrik yang mendahului infrastruktur memasak terdistribusi rendah karbon."
+  },
+  "measuring-with-everyday-containers": {
+    "title": "Pengukuran terstandar dengan wadah sehari-hari",
+    "summary": "Sistem konversi yang mengubah kemasan Cuba yang umum -- toples mayones, kaleng susu kental, pensil, ibu jari -- menjadi satuan volume, berat, dan panjang yang dapat diandalkan.",
+    "how_it_works": "Buku ini menabulasikan padanan nyata, mis. satu kaleng susu kental penuh = ~14,5 oz tanah halus kering / 11,5 oz air segar, sebuah toples 'mayonesa' penuh pasir kering = 2 lb 7 oz, sebuah pensil = 17,8 cm, ibu jari pria = 3,5-3,8 cm, ukuran sepatu dalam cm sama dengan panjang telapak kaki. Untuk takaran perantara, Anda menandai ketinggian air pada secarik selotip di wadah bening lalu membaginya. Sistem ini menggantikan gelas takar, timbangan, dan penggaris yang tidak ada.",
+    "problem": "Rumah tangga tidak memiliki gelas takar, timbangan, atau penggaris yang terkalibrasi untuk memasak dan membuat resep.",
+    "fabcity_relevance": "Memfungsikan ulang limbah terstandar dari produksi massal menjadi metrologi bersama, sebuah trik yang spesifik secara budaya yang membuat resep dan fabrikasi dapat direproduksi tanpa alat ukur."
+  },
+  "consomme-of-scraps": {
+    "title": "Memasak dengan bagian tumbuhan yang biasanya dibuang ('konsome dari sisa')",
+    "summary": "Sekumpulan resep yang memfungsikan ulang bagian sayuran yang biasanya dibuang dan tumbuhan liar yang dipungut menjadi makanan, dipuncaki oleh 'konsome dari sisa' karya seorang ahli gizi dari era 1940-an.",
+    "how_it_works": "Buku ini menghidupkan kembali sebuah resep yang oleh seorang ahli gizi secara harfiah dinamai 'Consome de desperdicios', dengan merebus kulit, pucuk dan kulit wortel, hati selada, daun ubi jalar dan lobak, serta kulit kentang menjadi kaldu. Ini diperluas ke sayuran hijau pungut (bledo/bayam, verdolaga/krokot) dan ke 'sopa de vegetales especial' dari krokot, bayam, dan daun ubi jalar, kulit wortel, serta bunga labu -- mengubah apa yang biasanya dibuang menjadi gizi.",
+    "problem": "Kelangkaan pangan yang akut berarti tidak ada yang dapat dimakan -- termasuk kulit dan gulma liar -- yang boleh terbuang.",
+    "fabcity_relevance": "Preseden sistem pangan untuk memvalorisasi aliran limbah dan biomassa liar lokal, selaras dengan gizi bioregional tanpa limbah (zero-waste)."
+  },
+  "wec-access-to-tools": {
+    "title": "Whole Earth Catalog -- \"akses ke perkakas\"",
+    "summary": "Katalog pendiri tahun 1968 itu sendiri: sebuah indeks terkurasi dan dikontribusikan pembaca berisi perkakas, buku, dan keterampilan terbaik untuk kemandirian, dibingkai sebagai akses langsung alih-alih perantaraan ahli.",
+    "how_it_works": "Stewart Brand dan POINT Foundation menyusun sebuah perangkat evaluasi-dan-akses: setiap entri mengulas sebuah perkakas atau buku, menjelaskan kegunaannya dan di mana mendapatkannya, serta mengundang pembaca untuk mengirimkan temuan mereka sendiri. Fokus editorialnya adalah kemandirian, ekologi, pendidikan alternatif, dan 'kerjakan sendiri' (do it yourself) -- membekali individu untuk membentuk lingkungan mereka sendiri alih-alih bergantung pada institusi.",
+    "problem": "Orang biasa tidak memiliki cara yang terkurasi dan tepercaya untuk menemukan perkakas dan pengetahuan yang dibutuhkan agar dapat melakukan sesuatu sendiri alih-alih membeli produk jadi atau menyewa ahli.",
+    "fabcity_relevance": "Tesis 'akses ke perkakas' yang orisinal adalah leluhur langsung dari gagasan fab lab -- bahwa memberi orang sarana produksi secara lokal itu sendiri sudah merupakan intervensinya."
+  },
+  "wec-the-last-whole-earth-catalog": {
+    "title": "The Last Whole Earth Catalog",
+    "summary": "Edisi kumulatif tahun 1971 yang menghimpun ulasan perkakas-dan-buku proyek ini ke dalam satu rujukan tebal, versi yang menjangkau khalayak paling luas.",
+    "how_it_works": "Edisi ini mengonsolidasikan ulasan bertahun-tahun di bidang tempat tinggal, penggunaan lahan, kerajinan, hidup berpindah (nomadics), komunikasi, dan 'pembelajaran' ke dalam satu jilid, dengan setiap butir tetap dinilai berdasarkan kegunaannya dan disertai keterangan di mana mendapatkannya. Sebagai satu benda tunggal, ia berfungsi sebagai perpustakaan kemandirian yang mudah dibawa bagi satu generasi.",
+    "problem": "Katalog yang tersebar dan sering diperbarui itu membutuhkan satu edisi tunggal yang tahan lama yang dapat disimpan dan digunakan orang sebagai rujukan.",
+    "fabcity_relevance": "Sebuah rujukan tunggal yang terkurasi berisi 'apa yang berhasil dan di mana mendapatkannya' adalah persis bentuk yang seharusnya dicita-citakan sebuah repositori fab city -- berpendirian, dapat digunakan, dan menunjuk ke sumber nyata."
+  },
+  "wec-domebook": {
+    "title": "Domebook -- bangun tempat tinggal geodesik Anda sendiri",
+    "summary": "Manual konstruksi praktis untuk membangun hunian geodesik dan zome, lahir dari eksperimen pembangunan kubah di Pacific High School.",
+    "how_it_works": "Domebook mendokumentasikan upaya nyata membangun hunian kubah yang ringan -- geometri batang dan hub, kulit dan kedap cuaca -- dengan kegagalannya turut disertakan, sehingga pembaca dapat mendirikan struktur mereka sendiri dengan murah. Buku ini memperlakukan hunian sebagai sesuatu yang dapat difabrikasi sendiri oleh sekelompok orang alih-alih dibeli dalam keadaan jadi.",
+    "problem": "Hunian konvensional mahal dan berada di luar kendali individu; orang ingin membangun tempat tinggal mereka sendiri yang efisien.",
+    "fabcity_relevance": "Dokumentasi pembangunan terbuka yang menyertakan kegagalan untuk hunian adalah jenis pengetahuan perumahan yang dapat direplikasi yang bisa dilokalkan dan diperbaiki oleh jaringan fabrikasi terdistribusi."
+  },
+  "wec-energy-primer": {
+    "title": "Energy Primer: Surya, Air, Angin, dan Biofuel",
+    "summary": "Sebuah survei praktis tahun 1974 tentang energi terbarukan -- surya, air, angin, dan biofuel -- yang ditujukan bagi orang yang ingin membangun dan menjalankan sistem mereka sendiri.",
+    "how_it_works": "Primer ini mengulas metode energi terbarukan dan perangkat keras di baliknya (kolektor, mesin angin, digester metana, tenaga air), dengan landasan teknis dan sumber yang cukup bagi pembaca untuk merancang sistem skala kecil. Buku ini membingkai energi sebagai sesuatu yang dapat diproduksi rumah tangga atau komunitas, bukan hanya dikonsumsi.",
+    "problem": "Rumah tangga dan komunitas tidak memiliki panduan yang mudah diakses dan tepercaya untuk membangun sistem energi terbarukan mereka sendiri.",
+    "fabcity_relevance": "Rujukan energi terbarukan yang dapat dibangun adalah infrastruktur inti bagi sebuah kota produktif secara lokal yang bertujuan menghasilkan energinya sendiri 'yang bisa Anda sentuh'."
+  },
+  "wec-soft-tech": {
+    "title": "Soft-Tech -- kompendium teknologi tepat guna",
+    "summary": "Sebuah kumpulan tahun 1978 (dari CoEvolution Quarterly) tentang teknologi 'lunak' atau tepat guna: sistem berskala kecil, berdampak rendah, dan dapat diperbaiki secara lokal.",
+    "how_it_works": "Soft-Tech menghimpun artikel dan ulasan tentang teknologi yang terdesentralisasi dan berskala manusia -- energi, bangunan, air, limbah -- yang mengutamakan sistem yang dapat dipahami, dibangun, dan diperbaiki sendiri oleh orang di atas infrastruktur tersentralisasi yang besar. Buku ini berpendapat bahwa politik sebuah teknologi tidak dapat dipisahkan dari skala dan kemudahan perbaikannya.",
+    "problem": "Infrastruktur teknologi-tinggi yang tersentralisasi membuat orang tidak mampu memahami, membangun, atau memperbaiki sistem yang mereka andalkan.",
+    "fabcity_relevance": "Argumen 'teknologi tepat guna' -- berskala manusia, dapat dipahami, dapat diperbaiki -- adalah jembatan intelektual antara Whole Earth dan posisi pembangkangan teknologi serta fab city."
+  },
+  "wec-whole-earth-ecolog": {
+    "title": "The Whole Earth Ecolog -- perkakas lingkungan",
+    "summary": "Edisi katalog tahun 1990 yang berfokus pada lingkungan, mengulas perkakas, buku, dan praktik terbaik untuk pemulihan dan kehidupan ekologis.",
+    "how_it_works": "Ecolog menerapkan metode katalog secara khusus pada ekologi -- tanah, air, habitat, polusi, pemulihan -- mengulas apa yang harus dibaca, apa yang harus digunakan, dan kepada siapa harus belajar bagi orang yang ingin bertindak langsung terhadap masalah lingkungan.",
+    "problem": "Orang yang ingin mengambil tindakan ekologis tidak memiliki panduan terkurasi tentang perkakas, buku, dan praktik yang benar-benar membantu.",
+    "fabcity_relevance": "Seperangkat perkakas lingkungan yang terkurasi dan berorientasi tindakan adalah jenis perpustakaan praktik yang dapat dilokalkan sebuah fab city sesuai bioregionnya sendiri."
+  }
+}

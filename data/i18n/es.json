@@ -1,0 +1,275 @@
+{
+  "cuba-malanga-seeder-machine": {
+    "title": "Máquina sembradora de malanga tirada por tractor, construida con el chasis de una carreta de tubos dada de baja",
+    "summary": "Una máquina sembradora de tubérculos de malanga, remolcada por tractor y armada casi por completo con piezas dadas de baja.",
+    "how_it_works": "El bastidor reutiliza el chasis de una carreta de transporte de tubos de fabricación nacional, además de cadenas, pasadores y los cuerpos de trabajo de una surcadora tomados de máquinas retiradas. Una cadena-transportador con cangilones soldados (3 cm de diámetro, 6,5 cm de profundidad, separados cada 5 eslabones) recoge los tubérculos y los deja caer en el surco, mientras que los mecanismos de surcado y de tape van montados sobre el bastidor. Trabaja a 90 cm de ancho, siembra a 10-15 cm de profundidad y sus tolvas tienen capacidad para 50 kg.",
+    "problem": "Hacía falta sembrar malanga de forma mecanizada sin acceso a maquinaria agrícola de propósito específico ni importada.",
+    "fabcity_relevance": "Un ejemplo canónico de cómo construir maquinaria agrícola a partir de una lista de materiales recuperados del desecho, directamente pertinente para un fab lab que ensambla herramientas agrícolas de tarea específica con chatarra local en vez de importar máquinas completas."
+  },
+  "cuba-multiuse-tractor-cultivator": {
+    "title": "Cultivadora de tractor de uso múltiple con cuerpos de trabajo intercambiables",
+    "summary": "Un único implemento de tractor, robusto, que realiza muchas labores de campo cambiándole sus órganos de trabajo.",
+    "how_it_works": "El implemento cultiva, surca, prepara el suelo, hace cultivo cruzado y grada según los órganos de trabajo que se le acoplen. Tiene un ancho de trabajo de 2,5 m y puede trabajar hasta 12 pulgadas de profundidad. En un día puede cultivar, aporcar o gradar una caballería de tierra (y cerca de la mitad cuando se rompe terreno nuevo), sirviendo a cultivos que van desde el plátano y la yuca hasta el tomate, el ají y la calabaza.",
+    "problem": "No había muchas máquinas de campo por separado, así que un solo implemento adaptable tenía que cubrir varias labores de laboreo.",
+    "fabcity_relevance": "El intercambio de cabezales de herramienta sobre un mismo chasis para sustituir una nave llena de máquinas de un solo propósito es una estrategia central de la fabricación distribuida que un fab lab puede aplicar a equipos de campo y de taller."
+  },
+  "cuba-animal-traction-grain-seeder": {
+    "title": "Sembradora de granos de tres surcos tirada por bueyes, hecha con piezas recuperadas",
+    "summary": "Una sembradora de granos de precisión, ligera y de tracción animal, en uso desde 1991, construida en su mayor parte con materiales recuperados.",
+    "how_it_works": "Cada una de las tres secciones lleva una surcadora articulada regulable, un mecanismo de entrega con disco dosificador perforado, una tapa de cubrición de dos aletas regulable y una rueda compactadora regulable. Una suspensión de cable, polea y barra le permite al operario levantar los órganos de trabajo fuera del surco durante el traslado. El marco entre surcos (70/80/90 cm) y la distancia entre plantas se fijan cambiando los juegos de discos mediante una relación de transmisión sencilla; todo el conjunto lo tira un yugo de bueyes y lo maneja un solo operario sentado.",
+    "problem": "Las sembradoras importadas de tracción motorizada no estaban disponibles y eran costosas, así que hacía falta una sembradora de tracción animal de bajo costo.",
+    "fabcity_relevance": "Una sembradora de precisión que cambia discos dosificadores baratos según el cultivo y funciona con tracción animal muestra cómo diseñar herramientas agrícolas independientes de la energía y con piezas intercambiables, idóneas para una producción de alimentos distribuida y de bajos insumos."
+  },
+  "cuba-low-cost-windmill-water-pump": {
+    "title": "Molino de viento de bajo costo, sin cojinetes ni engranajes, para bombear agua",
+    "summary": "Un molino de viento sencillo y de muy bajo costo que bombea agua evitando deliberadamente cojinetes y engranajes difíciles de conseguir.",
+    "how_it_works": "El diseño no usa cojinetes, engranajes ni otras piezas difíciles de adquirir. Consta de un mástil, una paleta o aspa y los componentes de succión (válvula de retención, pistón, etc.), atirantado con vientos de tensión, y con las aspas ajustadas según la dirección e intensidad del viento. Extrae agua a 0,4 litros por segundo y maneja una altura de 70 metros.",
+    "problem": "Hacía falta bombear agua allí donde era imposible conseguir cojinetes, engranajes y otras piezas de transmisión manufacturadas.",
+    "fabcity_relevance": "Diseñar el molino dejando fuera el cojinete y la caja de engranajes para esquivar las piezas más difíciles de conseguir es justo el tipo de rediseño guiado por las restricciones que un fab lab usa para que las máquinas se puedan construir y reparar localmente."
+  },
+  "cuba-mtz80-brake-discs-from-clutch-fiber": {
+    "title": "Discos de freno del tractor MTZ-80 recortados de discos de fricción del embrague gastados",
+    "summary": "Discos de freno de repuesto para el tractor MTZ-80, hechos recortando el material de fricción de sus discos de embrague.",
+    "how_it_works": "Los trabajadores toman el material de fibra de fricción del disco de embrague del tractor y lo troquelan o cortan siguiendo un patrón o matriz, produciendo a partir de ese material recuperado los discos de freno para el MTZ-80.",
+    "problem": "Durante la escasez no se podían importar ni comprar discos de freno de repuesto para los tractores MTZ-80.",
+    "fabcity_relevance": "Aprovechar un material ingenieril útil (el forro de fricción) de una pieza gastada para troquelar otra es un patrón concreto de recuperación de materiales para un fab lab que mantiene vehículos y máquinas funcionando sin cadena de suministro."
+  },
+  "cuba-creole-cane-harvester-blade-segments": {
+    "title": "Segmentos de cuchilla criollos para cosechadoras de caña afilados a doble filo",
+    "summary": "Segmentos de cuchilla de disco de corte de fabricación local ('criollos') para las combinadas de caña de azúcar, producidos afilando ambos bordes para sustituir las escasas importaciones soviéticas.",
+    "how_it_works": "La técnica consiste en darle filo de corte por ambos lados a los segmentos de cuchilla criollos, para los segmentos que se usan en las combinadas cosechadoras de caña de azúcar. Esto resuelve la escasez de las piezas legítimas que antes se importaban de la ex Unión Soviética. Tres pelotones de combinadas hicieron la zafra usando estas cuchillas criollas con buenos resultados, y se produjeron varias en el Taller Central de la Brigada Compleja del MINAZ en Cienfuegos.",
+    "problem": "Las cuchillas de corte legítimas de las combinadas de caña importadas de la URSS quedaron sin disponibilidad tras el derrumbe soviético.",
+    "fabcity_relevance": "Relocalizar una pieza de desgaste consumible y crítica (las cuchillas de la cosechadora) en un taller local cuando muere la línea de importación es justo la jugada de resiliencia que una red de fab labs le ofrece al sistema alimentario de una ciudad."
+  },
+  "cuba-aluminum-tube-cutting-machine": {
+    "title": "Cortadora manual y regulable de tubos de aluminio",
+    "summary": "Una herramienta manual tipo concha que corta tubos de aluminio de distintos diámetros con una cuchilla circular regulable.",
+    "how_it_works": "El dispositivo son dos medias conchas ('tejas') unidas por una bisagra; la concha delantera lleva una cuchilla de corte circular de 8 mm de espesor y 40 mm de diámetro, cuya profundidad se fija con una rosca de tornillo según la circunferencia del tubo. Tres cajas de rodamientos 204 permiten que la concha delantera se deslice circularmente por una ranura en la concha trasera, más pesada (200 mm de diámetro interior), y dos manijas le permiten al operario accionarla. La concha trasera inferior va soldada a una mesa que sostiene el dispositivo.",
+    "problem": "Hacía falta una forma limpia y repetible de cortar tubería de aluminio a la medida sin una cortatubos comercial.",
+    "fabcity_relevance": "Una cortadora de tubos guiada por rodamientos y construida en el taller es el tipo de máquina-herramienta de arranque que un fab lab fabrica para hacer otras cosas: herramientas que engendran herramientas."
+  },
+  "cuba-manual-bench-grinder-from-scrap": {
+    "title": "Esmeril de banco manual construido con piezas de vehículos recuperadas",
+    "summary": "Un esmeril/afilador de herramientas accionado a manivela, armado con un volante de ZIL-130, rodamientos y ángulos de hierro.",
+    "how_it_works": "Está construido sobre una base de ángulo de hierro de 1,5 pulgadas con 4 chumaceras que sostienen el eje sobre el que va montada la piedra de esmeril abrasiva. Un volante de ZIL-130 acoplado a un bendix del mismo vehículo transmite de 200 a 600 rpm para hacer girar la piedra y afilar herramientas. Todas las piezas usadas para construir la máquina son recuperadas.",
+    "problem": "Hacía falta una forma de afilar y esmerilar herramientas sin un esmeril de banco manufacturado.",
+    "fabcity_relevance": "Convertir el volante de un camión y el piñón de arranque recuperados en un esmeril funcional es una jugada de manual del tipo 'rescata una transmisión para fabricar una máquina-herramienta', propia de un taller con recursos limitados."
+  },
+  "cuba-handmade-axe-pick-handles": {
+    "title": "Cabos de hacha y de pico tallados a mano a partir de madera en bruto",
+    "summary": "Cabos de hacha (y de pico) hechos a mano con un trozo de palo de madera dura usando solo herramientas de filo básicas.",
+    "how_it_works": "La construcción se hace manualmente usando un trozo de 90 cm de palo redondo de madera dura ('palo fuerte'), que se va rebajando con un machete, un cepillo o un fragmento de vidrio de botella hasta que ajuste con la cabeza. Los cabos de pico se hacen en el mismo taller artesanal siguiendo el mismo procedimiento.",
+    "problem": "No había cabos de repuesto manufacturados, lo que dejaba sin uso hachas y picos.",
+    "fabcity_relevance": "Un recordatorio de que a veces la 'fabricación' de mayor impacto es tallar a mano una pieza de desgaste consumible a partir de un biomaterial local: la línea de base de cero máquinas que un fab lab debería seguir enseñando."
+  },
+  "cuba-majagua-bark-rope": {
+    "title": "Soga retorcida a mano con fibra de la corteza del árbol de majagua",
+    "summary": "Cordelería hecha a mano con la fibra liberiana del árbol de majagua, recolectada cerca de los ríos y de la costa.",
+    "how_it_works": "Se seleccionan árboles de majagua rectos y sin daños, cerca de los ríos y de la costa. Para liberar las fibras se golpea la madera con otro palo del mismo material hasta que se pone 'jugosa', y luego las fibras se secan al sol durante tres días. Después se tejen o retuercen a mano, cortadas a un ancho de unos dos centímetros.",
+    "problem": "Las sogas y cordelería manufacturadas escaseaban, así que hacía falta una fuente local de fibra.",
+    "fabcity_relevance": "La soga de fibra liberiana de un árbol local es una materia prima biomaterial renovable, pertinente para los fab labs que exploran materiales de cultivo local en lugar de sintéticos importados."
+  },
+  "cuba-fly-larvae-animal-feed": {
+    "title": "Producción de proteína de larvas de mosca para alimento de cerdos y aves",
+    "summary": "Un método controlado de cría de larvas de mosca sobre desechos agrícolas para producir alimento animal rico en proteína.",
+    "how_it_works": "Camas techadas de 3-5 cm de alto y de 1 x 3 m se llenan con un sustrato de cascarilla de arroz molida (para cerdos) o de caña/bagazo molidos (para aves y cerdos) y se humedecen a humedad media. Se rocían atrayentes de moscas —desechos de pescado, pequeñas cantidades de jugo de caña, cáscaras de huevo o huevos podridos, sangre mezclada con agua y suero de leche— y la cama se voltea dos veces al día para que no se compacte. A las 72 horas hay que recoger las larvas antes de que se conviertan en moscas; alimentadas directamente alcanzan hasta un 63% de proteína, o un 28-33% después de secarlas en un molino.",
+    "problem": "El alimento animal rico en proteína importado desapareció, lo que amenazaba la producción de cerdos y aves.",
+    "fabcity_relevance": "La bioconversión en proteína de insectos de desechos alimentarios y agrícolas prefigura los sistemas de alimento de economía circular de hoy y se puede montar a escala de barrio sin alta tecnología."
+  },
+  "cuba-cacao-husk-animal-feed": {
+    "title": "Cáscara de la mazorca de cacao molida para alimento animal",
+    "summary": "Un ingrediente para alimento animal producido secando y moliendo las cáscaras del fruto del cacao, un subproducto del procesamiento.",
+    "how_it_works": "Las cáscaras del fruto del cacao se secan al sol en un patio de cemento a razón de 30 kg por metro cuadrado hasta que alcanzan un 12-15% de humedad, y luego se muelen a partículas de menos de 2 mm en un molino de martillos. El producto resultante ronda el 13,5% de humedad, el 32% de fibra cruda y el 7,85% de proteína cruda, y se puede dar con seguridad a todas las especies animales dentro de límites de inclusión del 40% para el ganado vacuno, el 25% para los cerdos y el 10% para las aves.",
+    "problem": "El alimento convencional escaseaba, mientras que el procesamiento del cacao desechaba grandes volúmenes de cáscara.",
+    "fabcity_relevance": "Valorizar un flujo de desecho agroindustrial convirtiéndolo en un ingrediente de alimento cuantificado y con especificaciones es una plantilla limpia para los ciclos locales de subproducto a producto que una fab city puede mapear y operar."
+  },
+  "cuba-cane-guarapo-pig-feed": {
+    "title": "Guarapo fresco de caña como alimento para cerdos elaborado in situ",
+    "summary": "Jugo de caña de azúcar prensado en el sitio para sustituir el alimento comercial de cerdos, complementado con residuos de finca.",
+    "how_it_works": "El guarapo extraído directamente de la caña de azúcar sustituye el alimento comercial usado en la cría de cerdos, aumentando notablemente el peso de los animales. Se construye un trapiche justo al lado de las pocilgas; se trae la caña hasta allí y 2 o 3 trabajadores operan el trapiche y la unidad de procesamiento. También se usan residuos agrícolas como la miel de purga, el bejuco de boniato y el tronco de plátano, y los animales se alimentan dos veces al día.",
+    "problem": "El alimento manufacturado para cerdos no estaba disponible, pero la caña de azúcar y los residuos de finca abundaban localmente.",
+    "fabcity_relevance": "Colocar un trapiche sencillo junto al ganado para alimentarlo con la producción agrícola local es un patrón de producción de alimentos distribuido y de ciclo corto que una fab city puede replicar."
+  },
+  "cuba-multinutritional-blocks-livestock": {
+    "title": "Bloques multinutricionales de miel y cal para el ganado vacuno",
+    "summary": "Grandes bloques de 'lamido', fraguados con miel, cal y aditivos, que complementan al ganado con dietas pobres o que requiere tratamiento.",
+    "how_it_works": "Los bloques son un alimento complementario para el ganado vacuno con dietas de baja calidad o que requiere tratamiento medicinal. El principio es el fraguado (curado) de mezclas de miel fina, cal apagada y otros aditivos, con la mezcla de aditivos determinada por técnicos e ingenieros según el propósito y los requerimientos del rebaño. Cada bloque o paca alcanza alrededor de 250 kg.",
+    "problem": "El alimento balanceado y los suplementos para el ganado vacuno escaseaban, sobre todo para los animales con forraje pobre o que necesitaban tratamiento.",
+    "fabcity_relevance": "Un bloque suplementario ajustable, formulado con las materias primas locales y según las necesidades del rebaño, muestra cómo se puede rediseñar un producto estándar en torno a los insumos que una región realmente tiene."
+  },
+  "cuba-periwinkle-bovine-keratoconjunctivitis": {
+    "title": "Vicaria blanca para la queratoconjuntivitis bovina",
+    "summary": "Un remedio veterinario a base de plantas: vicaria blanca macerada y aplicada para tratar la queratoconjuntivitis ('mal de ojo') en el ganado vacuno.",
+    "how_it_works": "La planta (vicaria blanca) se macera y se aplica en los ojos del animal para tratar la queratoconjuntivitis bovina.",
+    "problem": "No había fármacos veterinarios disponibles para tratar las infecciones oculares del ganado vacuno.",
+    "fabcity_relevance": "Las sustituciones etnoveterinarias documentadas son un recurso de conocimiento para los sistemas de salud biorregionales allí donde una fab city no puede (ni debería) fabricar sus propios fármacos."
+  },
+  "cuba-guasima-bark-hemoparasitosis": {
+    "title": "Cocimiento de corteza de guásima para la hemoparasitosis del ganado vacuno",
+    "summary": "Un cocimiento hervido de corteza de guásima dosificado al ganado vacuno para tratar la hemoparasitosis (babesia y anaplasma).",
+    "how_it_works": "Preparación: hervir 150-200 gramos de corteza de guásima en un litro de agua durante 20 minutos. Dosis: darle al animal 500 ml, de una a dos veces.",
+    "problem": "No había fármacos manufacturados disponibles para los parásitos sanguíneos del ganado vacuno transmitidos por garrapatas (babesia, anaplasma).",
+    "fabcity_relevance": "Un protocolo botánico preciso de dosis y preparación es el tipo de conocimiento veterinario aplicable a nivel local que el repositorio abierto de una fab city puede preservar y hacer circular."
+  },
+  "cuba-concrete-block-poultry-incubator": {
+    "title": "Incubadora de aves de mampostería adaptada al equipo estándar de incubación",
+    "summary": "Una incubadora de aves construida con bloques de cemento y losa, dimensionada para recibir los componentes de una incubadora Universal 55.",
+    "how_it_works": "Se construye con bloques de cemento de 10 cm (preferiblemente forrados con losa) y una losa de hormigón de 6 cm de espesor a la que se le deja un hueco para la compuerta y el bombillo. Las dimensiones interiores críticas (1,90 m de alto, 1,60 m de ancho, 2,16 m de largo) deben coincidir con la incubadora Universal 55 para que su equipo se pueda trasladar a la unidad de mampostería. Para la parte trasera se funde un marco aparte de 42 x 65 x 5 cm que sostiene el anillo de la compuerta y el motor extractor de humedad, y hay que tener en cuenta el espesor de la losa al colocar los bloques para que se conserven las dimensiones interiores.",
+    "problem": "No había gabinetes de incubadora manufacturados, pero se podían rescatar las partes internas de incubadoras existentes que aún funcionaban.",
+    "fabcity_relevance": "Reconstruir la carcasa duradera de una máquina en mampostería local en torno a las partes internas rescatadas es una estrategia inteligente de fabricación híbrida cuando solo escasean las piezas de precisión."
+  },
+  "cuba-rustic-multifuel-heater": {
+    "title": "Calentadora rústica multicombustible",
+    "summary": "Una calentadora/cocina muy sencilla que quema leña verde o seca, carbón u otros combustibles.",
+    "how_it_works": "Su construcción es muy sencilla y se puede alimentar con leña verde o seca, carbón u otras fuentes de combustión.",
+    "problem": "Las cocinas manufacturadas y el combustible confiable para cocinar y calentar escaseaban, lo que exigía un quemador sencillo y flexible en cuanto al combustible.",
+    "fabcity_relevance": "El diseño de un quemador agnóstico al combustible (que quema lo que haya a mano) es un principio de resiliencia para hardware de energía y cocina distribuido que un fab lab puede prototipar de forma económica."
+  },
+  "cuba-manual-honey-extractor": {
+    "title": "Extractor de miel apícola accionado a mano",
+    "summary": "Un extractor de miel centrífugo accionado por fuerza humana, construido con chapa galvanizada y piezas fundidas mecanizadas.",
+    "how_it_works": "Es un tanque de chapa galvanizada que aloja un elemento interno donde se colocan los marcos del panal; este gira a alta velocidad mediante un mecanismo de transmisión para lanzar la miel hacia afuera. Está hecho de chapa, piezas fundidas mecanizadas y estructuras soldadas, y la energía que lo impulsa es la fuerza humana.",
+    "problem": "Los extractores de miel comerciales motorizados no estaban disponibles para los apicultores.",
+    "fabcity_relevance": "Una centrífuga accionada a manivela hecha de chapa y soldaduras es una construcción limpia de fab lab que mantiene viable un oficio local de producción de alimentos (la apicultura) fuera de la red."
+  },
+  "cuba-fence-staple-making-machine": {
+    "title": "Máquina automática para hacer grampas de cerca",
+    "summary": "Una máquina construible en taller que forma grampas de cerca de forma automática a partir de un rollo de alambre.",
+    "how_it_works": "Se puede fabricar en cualquier taller y la puede usar cualquier empresa agrícola. El operario solo tiene que cargar el rollo de alambre; la máquina hace el resto de forma automática, produciendo grampas terminadas y listas para usar en la construcción de cercas.",
+    "problem": "No había grampas de cerca manufacturadas para el cercado que se necesitaba en las fincas.",
+    "fabcity_relevance": "Una máquina replicable localmente que convierte alambre a granel en un sujetador terminado es justo la capacidad de 'fabrica el consumible, no lo importes' que una fab city distribuye."
+  },
+  "cuba-tilapia-ham": {
+    "title": "Jamón de tilapia (charcutería de carne de pescado)",
+    "summary": "Un 'jamón' curado y moldeado hecho de tilapia molida estirada con grasa de cerdo, sangre y harina.",
+    "how_it_works": "Diez kg de tilapia congelada molida a 2 mm se mezclan con 2 kg de grasa de cerdo en cubos, 4 kg de glóbulos de sangre de cerdo (o de carnero) batidos con sal para evitar que coagulen, 2 g de sal de cura (nitrito de sodio) para el color, 40 gotas de humus líquido para quitar el olor y sabor a pescado, y 2 kg de harina de trigo o de soya. La mezcla se empaca en un molde con un orificio para el termómetro y se cocina a baño María a 75-80 °C durante 45 minutos sin que hierva, luego se comprime, se termina a más de 90 °C, se enfría en el molde y se refrigera.",
+    "problem": "El jamón y la carne de cerdo convencionales escaseaban, mientras que la tilapia de cultivo y los subproductos del sacrificio estaban disponibles.",
+    "fabcity_relevance": "Reformular un producto conocido (el jamón) en torno a pescado de cultivo local y sangre de desecho es un manual de soberanía alimentaria para sustituir insumos escasos por otros locales abundantes."
+  },
+  "cuba-canavalia-coffee-substitute": {
+    "title": "Sustituto de café de frijol canavalia ('nescafé')",
+    "summary": "Un sustituto del café (o extensor) hecho tostando como café los granos secos de canavalia.",
+    "how_it_works": "La canavalia es un cultivo de todo el año (la mejor cosecha en la temporada fría) con variedades de grano blanco, negro y rosado, siendo el rosado el de mayor rendimiento. Una vez que las vainas están secas, los granos se desgranan y se tuestan igual que el café en un recipiente tapado. Sabe muy agradable tomado con leche, y mezclar café natural con esta planta es preferible a extenderlo con garbanzo, porque el color, el rendimiento y el sabor son superiores.",
+    "problem": "El café escaseaba y había que extenderlo o sustituirlo con un cultivo de producción local.",
+    "fabcity_relevance": "Una sustitución de cultivo de tostar y colar para un alimento básico dependiente de importación (el café) es un patrón de resiliencia alimentaria de baja tecnología que encaja con las estrategias de cultivos biorregionales."
+  },
+  "cuba-mixed-picadillo-extenders": {
+    "title": "Picadillo de cerdo extendido con viandas y vegetales",
+    "summary": "Un plato de carne molida que extiende los recortes y subproductos de cerdo con viandas y vegetales.",
+    "how_it_works": "El lomo de cerdo y el lacón (paleta curada) se deshuesan y se muelen con subproductos de cerdo en una plancha mediana; no se le añade sal porque las piezas curadas ya la contienen. El picadillo se sofríe en 20 g de grasa durante 6 minutos, luego se le añade una salsa criolla (cebolla, ají, tomate, comino, vino seco) más viandas o vegetales cocinados aparte, y se cocina 5 minutos más, estirando una pequeña cantidad de carne con unos 580 g de vegetales y unos 1160 g de guarnición de viandas.",
+    "problem": "La carne escaseaba, así que pequeñas cantidades de cerdo y subproductos tenían que alimentar a más personas.",
+    "fabcity_relevance": "Las estrategias de 'extensor' a nivel de receta, que rinden la proteína escasa con viandas locales, son un patrón de resiliencia del sistema alimentario que vale la pena catalogar junto al hardware en el repositorio de una ciudad."
+  },
+  "homemade-electrical-tester": {
+    "title": "Comprobador eléctrico de continuidad casero",
+    "summary": "Una lámpara de prueba sencilla, hecha con un bombillo, un portalámparas, un trozo de cable doble y cinta aislante, para encontrar fallas en cualquier equipo doméstico.",
+    "how_it_works": "Se pelan ambos extremos del cable; se conecta un extremo al portalámparas del bombillo; los otros dos extremos pelados quedan al desnudo como puntas de prueba. Con el equipo enchufado, se tocan las dos puntas en sus puntos de entrada de corriente: si el bombillo enciende, la falla está dentro del equipo; si se queda apagado, la rotura está en el cable. Permite diagnosticar una plancha, un ventilador, etc. sin abrirlos innecesariamente.",
+    "problem": "No había instrumentos de prueba comerciales disponibles para diagnosticar en casa los equipos que fallaban.",
+    "fabcity_relevance": "Un instrumento de diagnóstico de costo casi nulo hecho con chatarra, que encarna el principio de 'entender y reparar antes de reemplazar', central para las ciudades circulares y productivas a nivel local."
+  },
+  "electric-iron-repair": {
+    "title": "Autorreparación de una plancha eléctrica doméstica",
+    "summary": "Un procedimiento paso a paso para abrir, diagnosticar y volver a armar una plancha, reparándole el cable, el termostato y la resistencia en vez de botarla.",
+    "how_it_works": "Con el comprobador casero, el usuario determina si la falla está en el cable o dentro de la plancha, y luego retira la tapa trasera, la perilla del termostato y las tuercas con una llave de cubo para llegar a las piezas. Un cable roto se corta, se vuelve a pelar y se vuelve a conectar a los tornillos (o se empalma y se entiza); el termostato se revisa buscando el leve clic de sus láminas bimetálicas. El libro señala que solo cuando la resistencia misma está muerta hay que ir a un taller a buscar la pieza.",
+    "problem": "Las planchas de repuesto escaseaban, así que un solo equipo tenía que mantenerse funcionando durante años.",
+    "fabcity_relevance": "Un conocimiento detallado de desarme y reparación que alarga la vida útil de los productos y mantiene el mantenimiento dentro del hogar, lo contrario de la obsolescencia diseñada."
+  },
+  "orbita-fan-rebuild": {
+    "title": "Reconstrucción y lubricación del ventilador ORBITA",
+    "summary": "Una guía completa de desarme, lubricación y reparación de piezas para el común ventilador cubano ORBITA/Predón, con diagramas explotados dibujados a mano del motor, el estator, los bujes y los engranajes de oscilación.",
+    "how_it_works": "Como los bujes 'tienen una vida limitada, pero con una buena lubricación podemos alargar notablemente su vida útil', la guía enseña a limpiar y engrasar con regularidad los bujes, la caja de oscilación y el eje. Diagnostica fallas específicas —perilla de velocidad floja, rotor trabado, piñones de oscilación gastados, una paleta desajustada— y muestra cómo liberar el rotor dándole golpecitos al estator con un martillo mientras se gira el eje a mano, y cómo recentrar o volver a asentar la paleta. Los alambres internos rotos, del bobinado al interruptor, se sueldan o simplemente se empalman y se entizan.",
+    "problem": "Los ventiladores eran imprescindibles en el clima cubano e irreemplazables, así que había que revivir los motores gastados en vez de botarlos.",
+    "fabcity_relevance": "Muestra la alfabetización en mantenimiento de un producto local específico, justo la ética de lo abierto y reparable por diseño que una ciudad productiva a nivel local necesita para sustituir el consumo desechable."
+  },
+  "wood-ash-lye-and-soap": {
+    "title": "Lejía de ceniza de madera y jabón en barra caseros",
+    "summary": "Un método para extraer lejía de la ceniza de madera a través de un embudo rústico y combinarla con grasas animales o vegetales para hacer jabón cuando no había jabón industrial disponible.",
+    "how_it_works": "Un embudo rústico tejido con ramas de bambú resistentes al álcali y forrado con unos 3 cm de espesor de paja de hierba seca sin semillas funciona como filtro; se rellena con ceniza y se le añade agua por etapas (por ejemplo, 2 litros cada 1,5 horas) para que la lejía gotee lentamente, y luego se filtra y se decanta (unos 3 litros de esta lejía sustituyen 1 kg de sosa cáustica). Después la lejía se hace reaccionar con grasa purificada derretida —sebo o aceite de coco/maíz/soya/palma—, se revuelve sobre el fuego hasta que se forma una masa homogénea, se vierte en moldes forrados con tela o papel encerado y se cura durante varias semanas.",
+    "problem": "Tanto la sosa cáustica como el jabón manufacturado escaseaban durante el bloqueo y el Período Especial.",
+    "fabcity_relevance": "Cierra un ciclo de suministro de higiene enteramente a partir de flujos de desecho locales (ceniza, grasa de cocina), un modelo de sustitución biorregional de un producto industrial importado."
+  },
+  "candles-from-bottle-caps-and-tubing": {
+    "title": "Velas caseras con moldes de tubo plástico y porta-pabilos de tapas de botella",
+    "summary": "Fundición de velas a partir de cualquier cera o sebo disponible en moldes improvisados hechos de tubería plástica y tapas metálicas de botella.",
+    "how_it_works": "La tubería plástica (o similar) sirve de molde; las tapas metálicas de botella aplanadas se perforan en el centro para sostener y centrar el pabilo, anudado para que no se zafe y amarrado tenso arriba y abajo. Se vierte parafina/cera/sebo derretido y se deja alrededor de una hora antes de desmoldar. El texto señala que se puede usar sebo, pero da una vela de peor calidad.",
+    "problem": "Los apagones frecuentes y la falta de velas manufacturadas hacían que los hogares necesitaran su propia fuente de luz.",
+    "fabcity_relevance": "Convierte desechos de empaque (tapas de botella, tubería) en herramientas reutilizables para hacer luz, un ejemplo nítido de reaprovechamiento del flujo de descarte."
+  },
+  "bicycle-tube-patch-with-scrap-nylon": {
+    "title": "Reparación de la cámara y la goma de la bicicleta con material de desecho",
+    "summary": "Reparaciones de campo para la bicicleta: parchar ponchaduras y forrar gomas gastadas usando retazos de nylon, celofán y trozos de bolsas de café, y sustituir las piezas gastadas.",
+    "how_it_works": "Las ponchaduras se encuentran inflando la cámara dentro del agua y observando las burbujas, y luego se parchan en frío o en caliente con pega para parches y un retazo de tela; sobre una goma gastada el libro aconseja poner '3 o 4 pedacitos de nylon o celofán' o el papel cartucho de las bolsas de café, y se puede presionar una plancha caliente durante 4-5 minutos para fundir el material del parche por toda la zona. También cubre cómo recentrar las ruedas apretando y aflojando selectivamente los rayos y cómo identificar y reemplazar los pedales izquierdo y derecho por sus marcas R/L.",
+    "problem": "Con el combustible agotado, las bicicletas se volvieron el transporte principal, pero las gomas, las cámaras y los repuestos eran casi imposibles de comprar.",
+    "fabcity_relevance": "Mantiene andando el vehículo urbano más sostenible con consumibles rescatados, un precedente directo de una movilidad de ciudad centrada en la bicicleta y en la reparación ante todo."
+  },
+  "fishhooks-from-nails": {
+    "title": "Anzuelos improvisados con clavos, espinas y madera",
+    "summary": "Aparejos de pesca fabricados con materiales duros rescatados —clavos doblados en forma de anzuelo, o púas amarradas con espinas y madera— para obtener alimento de subsistencia.",
+    "how_it_works": "El capítulo de supervivencia muestra anzuelos doblados y limados a partir de clavos, y anzuelos compuestos amarrados con una espina o una punta afilada atada con cordel a un mango de madera, además de anzuelos de arrastre para cebar. Va acompañado de otros métodos de pesca de baja tecnología (pesca a mano en pozas, ensartado con una bayoneta o cuchillo amarrado a un palo, enturbiar charcas pequeñas para hacer subir los peces y trampas o corrales tejidos).",
+    "problem": "En un escenario de supervivencia o evacuación no había aparejos de pesca manufacturados para conseguir proteína.",
+    "fabcity_relevance": "Demuestra cómo fabricar herramientas funcionales con la chatarra de más baja calidad para asegurar alimento, el piso de supervivencia del autoabastecimiento distribuido."
+  },
+  "solar-oven-and-field-cookers": {
+    "title": "Estufa solar y cocinas de campaña improvisadas",
+    "summary": "Dispositivos de cocción sin combustible y de bajo consumo —una estufa solar que concentra los rayos del sol y hornos rústicos de hoyo en tierra— para cocinar sin utensilios ni combustible convencionales.",
+    "how_it_works": "La estufa solar (dibujada como una caja con tapa reflectante abisagrada) usa la concentración de los rayos solares de modo que 'no necesita combustible alguno'; el capítulo también describe un horno rústico de hoyo cavado en la tierra, llenado con brasas, donde se coloca el recipiente con el alimento y se cubre con una capa de brasas y luego de tierra, de manera que se hornea protegido de los insectos. Se presenta junto con la cocción de huevos en conchas grandes o bambú sobre las brasas y la ebullición de agua en recipientes hechos de lona o corteza de árbol mantenidos sobre una llama baja.",
+    "problem": "En condiciones de guerra o desastre, los hogares no tendrían gas ni cocinas y poco o ningún combustible.",
+    "fabcity_relevance": "La cocción solar y de hoyo con biomasa son soluciones de alimento-energía renovables y fuera de la red que prefiguran una infraestructura de cocción distribuida y de bajo carbono."
+  },
+  "measuring-with-everyday-containers": {
+    "title": "Medición estandarizada con recipientes de uso cotidiano",
+    "summary": "Un sistema de conversión que convierte los empaques cubanos comunes —un pomo de mayonesa, una lata de leche condensada, un lápiz, un dedo pulgar— en unidades confiables de volumen, peso y longitud.",
+    "how_it_works": "El libro tabula equivalencias reales; por ejemplo, una lata de leche condensada llena = unos 14,5 oz de tierra fina seca / 11,5 oz de agua fresca, un pomo de 'mayonesa' lleno de arena seca = 2 lb 7 oz, un lápiz = 17,8 cm, el pulgar de un hombre = 3,5-3,8 cm, y el número de zapato en cm equivale al largo del pie. Para cantidades intermedias se marcan los niveles de agua en una tira de cinta sobre un recipiente transparente y se subdivide. Sustituye las tazas de medir, las balanzas y las reglas que no había.",
+    "problem": "Los hogares no tenían tazas de medir, balanzas ni reglas calibradas para cocinar y hacer recetas.",
+    "fabcity_relevance": "Reaprovecha el desecho estandarizado de la producción en masa convirtiéndolo en una metrología compartida, un truco culturalmente específico que hace reproducibles las recetas y la fabricación sin instrumentos."
+  },
+  "consomme-of-scraps": {
+    "title": "Cocinar con partes de plantas desechadas ('consomé de desperdicios')",
+    "summary": "Un conjunto de recetas que refuncionalizan las partes de vegetales que normalmente se desechan y las plantas silvestres recolectadas, encabezado por el 'consomé de desperdicios' de una dietista de los años 1940.",
+    "how_it_works": "El libro rescata una receta que una dietista llamó literalmente 'Consomé de desperdicios', hirviendo cáscaras, hojas y pieles de zanahoria, corazones de lechuga, hojas de boniato y de rábano y cáscaras de papa para hacer un caldo. Lo extiende a hojas recolectadas (bledo/amaranto, verdolaga) y a una 'sopa de vegetales especial' de verdolaga, amaranto y hojas de boniato, cáscaras de zanahoria y flores de calabaza, convirtiendo en alimento lo que normalmente se bota.",
+    "problem": "La aguda escasez de alimentos hacía que nada comestible —incluidas las cáscaras y las hierbas silvestres— se pudiera desperdiciar.",
+    "fabcity_relevance": "Un precedente del sistema alimentario para valorizar el flujo de desecho y la biomasa silvestre local, en sintonía con una nutrición biorregional y de cero desperdicio."
+  },
+  "wec-access-to-tools": {
+    "title": "El Whole Earth Catalog: \"access to tools\" (acceso a herramientas)",
+    "summary": "El catálogo fundacional de 1968 en sí mismo: un índice reseñado y nutrido por los propios lectores de las mejores herramientas, libros y oficios para la autosuficiencia, planteado como acceso directo en lugar de mediación de expertos.",
+    "how_it_works": "Stewart Brand y la POINT Foundation armaron un dispositivo de evaluación y acceso: cada entrada reseñaba una herramienta o un libro, decía para qué servía y dónde conseguirlo, e invitaba a los lectores a enviar sus propios hallazgos. El enfoque editorial era la autosuficiencia, la ecología, la educación alternativa y el 'hazlo tú mismo', equipando a las personas para dar forma a su propio entorno en lugar de depender de las instituciones.",
+    "problem": "La gente común no tenía una forma curada y confiable de encontrar las herramientas y el conocimiento necesarios para hacer las cosas por sí misma en vez de comprar productos terminados o contratar expertos.",
+    "fabcity_relevance": "La tesis original de 'access to tools' (acceso a herramientas) es el antepasado directo de la idea del fab lab: que dar a la gente los medios de producción a nivel local es en sí mismo la intervención."
+  },
+  "wec-the-last-whole-earth-catalog": {
+    "title": "The Last Whole Earth Catalog",
+    "summary": "La edición acumulativa de 1971 que reunió las reseñas de herramientas y libros del proyecto en una sola obra de referencia gruesa, la versión que llegó al público más amplio.",
+    "how_it_works": "Consolidó años de reseñas sobre vivienda, uso de la tierra, oficios, vida nómada, comunicaciones y 'aprendizaje' en un solo volumen, cada artículo aún juzgado por su utilidad y acompañado de dónde obtenerlo. Como objeto único, funcionó como una biblioteca portátil de autosuficiencia para toda una generación.",
+    "problem": "El catálogo, disperso y actualizado con frecuencia, necesitaba una edición única y duradera que la gente pudiera conservar y usar como referencia.",
+    "fabcity_relevance": "Una referencia única y curada de 'qué funciona y dónde conseguirlo' es justo la forma a la que debería aspirar el repositorio de una fab city: con criterio, utilizable y que apunte a fuentes reales."
+  },
+  "wec-domebook": {
+    "title": "Domebook: construye tu propio refugio geodésico",
+    "summary": "Un manual práctico de construcción para levantar viviendas geodésicas y zomes, nacido de los experimentos de construcción de domos de la Pacific High School.",
+    "how_it_works": "Domebook documentó intentos reales de construir viviendas-domo ligeras —geometría de puntales y conectores, recubrimiento e impermeabilización—, con los fracasos incluidos, para que los lectores pudieran levantar sus propias estructuras de forma económica. Trataba la vivienda como algo que un grupo podía fabricar por sí mismo en lugar de comprarla terminada.",
+    "problem": "La vivienda convencional era cara y quedaba fuera del control individual; la gente quería construir su propio refugio eficiente.",
+    "fabcity_relevance": "La documentación de construcción abierta y que incluye los fracasos para hacer un refugio es el tipo de conocimiento de vivienda replicable que una red de fabricación distribuida puede localizar y mejorar."
+  },
+  "wec-energy-primer": {
+    "title": "Energy Primer: solar, agua, viento y biocombustibles",
+    "summary": "Un panorama práctico de 1974 sobre la energía renovable —solar, hidráulica, eólica y biocombustibles— dirigido a las personas que querían construir y operar sus propios sistemas.",
+    "how_it_works": "El Primer reseñaba los métodos de energía renovable y el hardware detrás de ellos (colectores, máquinas eólicas, digestores de metano, energía hidráulica), con suficiente fundamento técnico y fuentes para que los lectores pudieran diseñar sistemas a pequeña escala. Planteaba la energía como algo que un hogar o una comunidad podía producir, no solo consumir.",
+    "problem": "Los hogares y las comunidades no tenían una guía accesible y confiable para construir sus propios sistemas de energía renovable.",
+    "fabcity_relevance": "Una referencia de energía renovable que se puede construir es infraestructura central para una ciudad productiva a nivel local que aspira a hacer su propia energía 'que puedes tocar'."
+  },
+  "wec-soft-tech": {
+    "title": "Soft-Tech: compendio de tecnología apropiada",
+    "summary": "Una colección de 1978 (de la CoEvolution Quarterly) de tecnologías 'blandas' o apropiadas: sistemas de pequeña escala, bajo impacto y reparables localmente.",
+    "how_it_works": "Soft-Tech reunió artículos y reseñas sobre tecnología descentralizada y a escala humana —energía, construcción, agua, residuos—, favoreciendo los sistemas que la gente podía entender, construir y arreglar por sí misma frente a la gran infraestructura centralizada. Sostenía que la política de una tecnología es inseparable de su escala y de su capacidad de reparación.",
+    "problem": "La infraestructura centralizada y de alta tecnología dejaba a la gente incapaz de entender, construir o reparar los sistemas de los que dependía.",
+    "fabcity_relevance": "El argumento de la 'tecnología apropiada' —a escala humana, comprensible, reparable— es el puente intelectual entre Whole Earth y las posiciones de la desobediencia tecnológica y la fab city."
+  },
+  "wec-whole-earth-ecolog": {
+    "title": "The Whole Earth Ecolog: herramientas ambientales",
+    "summary": "La edición de 1990 del catálogo, enfocada en lo ambiental, que reseñaba las mejores herramientas, libros y prácticas para la restauración ecológica y el modo de vida ecológico.",
+    "how_it_works": "El Ecolog aplicó el método del catálogo específicamente a la ecología —suelo, agua, hábitat, contaminación, restauración—, reseñando qué leer, qué usar y de quién aprender para las personas que querían actuar directamente sobre los problemas ambientales.",
+    "problem": "Las personas que querían emprender una acción ecológica carecían de una guía curada de las herramientas, los libros y las prácticas que realmente ayudan.",
+    "fabcity_relevance": "Un conjunto de herramientas ambientales curado y orientado a la acción es el tipo de biblioteca de prácticas que una fab city puede localizar a su propia biorregión."
+  }
+}

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Venezuela — Things That Work</title>
+<meta name="description" content="Practical, open tools for the days and weeks after a disaster in Venezuela — drinkable water, power, sanitation and 3D-printable medical aid — plus where to report missing people, find help, and contribute. A Fab City project.">
+<meta property="og:title" content="Venezuela — Things That Work">
+<meta property="og:description" content="Open, practical tools for the days after Venezuela's earthquake — water, power, sanitation, 3D-printed medical aid — and how to help. A Fab City project.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ttw.fab.city/venezuela">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Venezuela — Things That Work">
+<meta name="twitter:description" content="Open, practical tools for the days after Venezuela's earthquake — water, power, sanitation, 3D-printed medical aid — and how to help.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#E2580E">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+
+  :root{
+    --paper:#FBF7EC; --paper-2:#FFFFFF; --paper-3:#F4ECD8; --ink:#15140F; --ink-soft:#5B5648;
+    --rule:#E7DDC4; --rule-2:#D6C9A8; --maxw:1040px;
+    /* Metro de Caracas */
+    --mc-orange:#E2580E; --mc-red:#D8231F; --mc-gold:#E8B21E;
+    /* Cruz-Diez / Maiquetía */
+    --cd-lime:#AFC81E; --cd-coral:#F1543C; --cd-blue:#1C9DD6; --cd-yellow:#F4C20D; --cd-black:#141414;
+    /* functional line colors (dark enough for white tiles) */
+    --c-water:#0E5FA0; --c-energy:#B5701A; --c-comms:#1C9DD6; --c-health:#D8231F; --c-sismo:#E2580E;
+    --c-cook:#D2541A; --c-food:#6F9B12; --c-sanit:#0B7A77; --c-shelter:#9A4E1E;
+    --i-water:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M12 2.5c4 5 6.4 8 6.4 11.3A6.4 6.4 0 0 1 5.6 13.8C5.6 10.5 8 7.5 12 2.5z'/%3E%3C/svg%3E");
+    --i-energy:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M13 2 4 13.5h5.5L8.5 22 20 9.5h-6l2-7.5z'/%3E%3C/svg%3E");
+    --i-comms:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.8' stroke-linecap='round'%3E%3Ccircle cx='12' cy='16.5' r='2' fill='%23fff' stroke='none'/%3E%3Cpath d='M8 12.5a5.5 5.5 0 0 1 8 0'/%3E%3Cpath d='M5 9a10 10 0 0 1 14 0'/%3E%3C/svg%3E");
+    --i-health:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Crect x='9.6' y='3' width='4.8' height='18'/%3E%3Crect x='3' y='9.6' width='18' height='4.8'/%3E%3C/svg%3E");
+    --i-house:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M12 3 2.5 11.5 4 13.2 5 12.3V21h6v-5h2v5h6v-8.7l1 .9 1.5-1.7z'/%3E%3C/svg%3E");
+    --i-food:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 12h17a8.5 8.5 0 0 1-17 0z'/%3E%3Cpath d='M9 4.5c-1.2 1.2 1.2 2.4 0 3.6M14.5 4.5c-1.2 1.2 1.2 2.4 0 3.6'/%3E%3C/svg%3E");
+    --i-sanit:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 8h7.5v2'/%3E%3Crect x='11.5' y='9' width='6' height='3' fill='%23fff' stroke='none'/%3E%3Cpath d='M8 12v2'/%3E%3Cpath d='M5 19a3 3 0 0 1 6 0z'/%3E%3C/svg%3E");
+    --i-cook:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M12 2.5c4 4 5 6 5 9a5 5 0 0 1-10 0c0-2 1-3.2 2.2-4.2.2 2.2 1.2 3 2.3 3 0-3 .5-5 .5-7.8z'/%3E%3C/svg%3E");
+    --i-print:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.4' stroke-linejoin='round'%3E%3Cpath d='M7 8V3.5h10V8'/%3E%3Crect x='3.5' y='8' width='17' height='8'/%3E%3Crect x='7' y='13' width='10' height='7.5' fill='%23fff' stroke='none'/%3E%3C/svg%3E");
+    --i-archive:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Crect x='3.5' y='3.5' width='7' height='7'/%3E%3Crect x='13.5' y='3.5' width='7' height='7'/%3E%3Crect x='3.5' y='13.5' width='7' height='7'/%3E%3Crect x='13.5' y='13.5' width='7' height='7'/%3E%3C/svg%3E");
+    --i-give:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M12 21S3 14.7 3 8.7A4.2 4.2 0 0 1 12 6a4.2 4.2 0 0 1 9 2.7C21 14.7 12 21 12 21z'/%3E%3C/svg%3E");
+    --i-book:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.4' stroke-linejoin='round'%3E%3Cpath d='M5 4.5h14v15H7a2 2 0 0 1-2-2z'/%3E%3Cpath d='M9 9h6M9 13h6'/%3E%3C/svg%3E");
+    --i-info:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.6'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 11v5.5' stroke-linecap='round'/%3E%3Ccircle cx='12' cy='7.4' r='.2' fill='%23fff' stroke='%23fff' stroke-width='1.4'/%3E%3C/svg%3E");
+    --i-save:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3.5v10m0 0 4.2-4.2m-4.2 4.2-4.2-4.2'/%3E%3Cpath d='M4.5 19.5h15'/%3E%3C/svg%3E");
+    --i-chevron:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 6.5l7 7 7-7M5 12.5l7 7 7-7'/%3E%3C/svg%3E");
+  }
+  *{box-sizing:border-box;border-radius:0}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Helvetica Neue",Helvetica,Arial,"Segoe UI",Roboto,system-ui,sans-serif;
+    font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased;
+    background-image:"repeating-linear-gradient(180deg,#141414 0 1.5px,#1C9DD6 1.5px 4px,#141414 4px 5.5px,#F1543C 5.5px 8px,#141414 8px 9.5px,#AFC81E 9.5px 12px,#141414 12px 13.5px,#F4C20D 13.5px 16px)";background-size:100% 16px;background-repeat:no-repeat;background-position:top;border-top:0}
+  .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+  a{color:var(--c-water)} a:hover{text-decoration:underline}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+  h1,h2,h3,h4{letter-spacing:-.01em}
+  :focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+
+  /* masthead */
+  .topbar{border-bottom:2px solid var(--ink);background:var(--paper);margin-top:16px}
+  .topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 22px;flex-wrap:wrap}
+  .home{display:inline-flex;align-items:center;gap:11px;font-weight:800;font-size:15px;color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:.02em}
+  .home::before{content:"";width:30px;height:30px;flex:0 0 auto;background:var(--mc-orange) var(--i-chevron) center/19px no-repeat}
+  .mast-contact{font-size:20px;line-height:1;text-decoration:none;color:var(--ink);opacity:.7;padding:6px}
+  .mast-contact:hover{opacity:1}
+  .langsw{display:inline-flex;border:1.5px solid var(--ink)}
+  .lang{appearance:none;border:0;border-right:1.5px solid var(--ink);background:var(--paper);cursor:pointer;
+    font-family:inherit;font-weight:700;font-size:13px;letter-spacing:.05em;padding:8px 12px;min-height:40px;min-width:42px;color:var(--ink)}
+  .lang:last-child{border-right:0} .lang:hover{background:var(--paper-3)} .lang.on{background:var(--mc-orange);color:#fff}
+
+  /* hero — light, with a Cruz-Diez strip */
+  .ve-hero{position:relative;margin:24px 0 24px;padding:32px 30px 28px;background:var(--paper-2);border:1.5px solid var(--ink);border-top:0}
+  .ve-hero::before{content:"";position:absolute;left:0;right:0;top:0;height:12px;background:"repeating-linear-gradient(180deg,#141414 0 1.5px,#1C9DD6 1.5px 4px,#141414 4px 5.5px,#F1543C 5.5px 8px,#141414 8px 9.5px,#AFC81E 9.5px 12px,#141414 12px 13.5px,#F4C20D 13.5px 16px)";background-size:100% 16px}
+  .ve-kicker{font-weight:800;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--mc-orange);margin:0 0 12px}
+  .ve-lead{font-size:25px;line-height:1.26;letter-spacing:-.02em;margin:0;max-width:22ch;font-weight:800;color:var(--ink)}
+  @media(min-width:680px){.ve-lead{max-width:44ch;font-size:30px}}
+
+  /* action bar */
+  .ve-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+  .ve-btn{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:14px;text-decoration:none;
+    padding:13px 17px;min-height:50px;border:2px solid var(--ink);cursor:pointer;background:var(--paper-2);color:var(--ink)}
+  .ve-btn:hover{filter:brightness(1.03)}
+  .ve-btn-alert{background:var(--c-water);border-color:var(--c-water);color:#fff;font-size:15px}
+  .ve-btn-alert:nth-of-type(2){background:var(--mc-red);border-color:var(--mc-red)}
+  .ve-btn-do{background:var(--ink);border-color:var(--ink);color:#fff;font-size:15px}
+  .ve-share-row{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-left:auto}
+  .ve-share-lbl{font-weight:800;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+  .ve-chip{appearance:none;cursor:pointer;font-family:inherit;font-weight:700;font-size:13px;padding:10px 13px;min-height:42px;
+    border:1.5px solid var(--ink);background:var(--paper-2);color:var(--ink);text-decoration:none}
+  .ve-chip:hover{background:var(--ink);color:var(--paper)}
+
+  /* ===== light station headers: square tiles + colored keyline ===== */
+  .ve-print,.ve-arch,.ve-contribute,.ve-offline,.needgroup,.ve-reality.qp{
+    background:var(--paper-2);border:1.5px solid var(--rule-2);padding:20px 22px;margin:26px 0}
+  .ve-print>h2,.ve-arch>h2,.ve-contribute>h2,.ve-offline>h2,.ve-playbook-h,.needgroup>h2,.va-need>summary,.ve-reality.qp>h2{
+    display:flex;align-items:center;gap:13px;margin:0 0 18px;padding:0 0 13px;background:none;color:var(--ink);
+    font-size:19px;font-weight:800;letter-spacing:-.01em;border-bottom:3px solid var(--pc,var(--ink))}
+  .ve-print>h2::before,.ve-arch>h2::before,.ve-contribute>h2::before,.ve-offline>h2::before,.ve-playbook-h::before,.needgroup>h2::before,.va-need>summary::before,.ve-reality.qp>h2::before{
+    content:"";flex:0 0 auto;width:36px;height:36px;background:var(--pc,var(--ink)) var(--pi,none) center/22px no-repeat}
+  .sn{order:-1;display:grid;place-items:center;width:36px;height:36px;flex:0 0 auto;
+    background:var(--pc,var(--ink));color:#fff;font-weight:800;font-size:15px;font-variant-numeric:tabular-nums;font-style:normal}
+  .ve-playbook-h{--pc:var(--mc-orange);--pi:var(--i-book);border:0;border-bottom:3px solid var(--mc-orange);background:none;margin:34px 0 18px;font-size:20px;padding:0 0 11px}
+  .ve-print{--pc:var(--mc-orange);--pi:var(--i-print);background:#FFF6EF;border-color:var(--mc-orange)}
+  .ve-offline{--pc:var(--c-food);--pi:var(--i-save)}
+  .ve-arch{--pc:var(--cd-black);--pi:var(--i-archive)}
+  .ve-contribute{--pc:var(--c-food);--pi:var(--i-give)}
+  .ve-reality.qp{--pc:var(--cd-black);--pi:var(--i-info)}
+
+  /* 3D PRINT — heart */
+  .ve-print>h2{font-size:22px}
+  .vp-lead{margin:0 0 14px;max-width:72ch;font-size:16px}
+  .vp-map{display:inline-flex;align-items:center;gap:8px;margin:0 0 16px;font-weight:800;font-size:14px;background:var(--mc-orange);color:#fff;padding:12px 16px;text-decoration:none;border:2px solid var(--mc-orange)}
+  .vp-map:hover{background:#fff;color:var(--mc-orange)}
+  .vp-cta h3,.vp-block h3{margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+  .vp-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+  .vp-wa{display:flex;flex-direction:column;gap:2px;padding:14px 16px;min-height:58px;background:#15140F;color:#fff;text-decoration:none;border-left:5px solid #25D366}
+  .vp-wa:hover{background:#000} .vp-wa b{font-size:15px} .vp-wa span{font-size:12.5px;opacity:.85}
+  .vp-block{margin:18px 0 0;padding-top:16px;border-top:1px solid var(--rule)}
+  .vp-files{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+  .vp-file{display:flex;flex-direction:column;gap:5px;padding:13px 15px;background:var(--paper);border:1.5px solid var(--rule-2);border-left:5px solid var(--mc-orange);text-decoration:none;color:var(--ink);font-weight:700;min-height:62px}
+  .vp-file:hover{border-color:var(--mc-orange)} .vp-file i{font-style:normal;font-size:12px;color:var(--mc-orange);font-weight:800}
+  .vp-models{display:flex;flex-wrap:wrap;gap:7px} .vp-model{padding:7px 12px;background:var(--paper);border:1.5px solid var(--rule-2);font-size:13.5px;font-weight:600}
+  .vp-steps{counter-reset:step;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:10px}
+  .vp-steps li{counter-increment:step;background:var(--paper);border:1.5px solid var(--rule-2);padding:14px;font-size:14px;line-height:1.4}
+  .vp-steps li::before{content:counter(step);display:grid;place-items:center;width:30px;height:30px;margin-bottom:9px;background:var(--mc-orange);color:#fff;font-weight:800;font-size:15px}
+  .vp-caveat{margin:14px 0 0;padding:12px 15px;background:var(--paper-3);border-left:5px solid var(--mc-red);font-size:14px}
+  .vp-mat{margin:0 0 4px;max-width:74ch;font-size:15px}
+  .vp-community{background:var(--paper-3);border:1.5px solid var(--mc-orange);padding:14px 16px;margin:12px 0 0}
+  .vp-community>h3{margin-top:0;color:var(--mc-orange)}
+  .vp-cat{margin:16px 0 8px;font-size:11.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-soft);font-weight:800}
+  .vp-fr{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+  .vp-fritem{display:flex;flex-direction:column;gap:3px;padding:11px 13px;background:var(--paper);border:1.5px solid var(--rule-2);text-decoration:none;color:var(--ink)}
+  .vp-fritem:hover{border-color:var(--mc-orange)} .vp-fritem b{font-size:14px} .vp-fritem span{font-size:12px;color:var(--ink-soft)} .vp-fritem em{font-style:normal;font-size:11px;color:var(--c-food);font-weight:800}
+  .vp-designs{list-style:none;margin:0;padding:0} .vp-designs li{margin:8px 0} .vp-designs li a{font-weight:700} .vp-designs li span{display:block;font-size:13px;color:var(--ink-soft)}
+  .vp-centers{margin:16px 0 0;background:var(--paper);border:1.5px solid var(--rule-2);padding:6px 16px}
+  .vp-centers summary{cursor:pointer;font-weight:800;padding:11px 0;min-height:48px;list-style:none}
+  .vp-centers summary::-webkit-details-marker{display:none}
+  .vp-centers ul{margin:6px 0 12px;padding-left:18px;font-size:14px} .vp-centers li{margin:6px 0}
+  .vp-doc{display:inline-block;margin:4px 0 10px;font-weight:700;color:var(--mc-orange)}
+
+  /* offline */
+  .vo-lead{margin:0 0 12px;font-size:15.5px;max-width:70ch}
+  .vo-btns{display:flex;flex-wrap:wrap;gap:10px}
+  .vo-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:13px 17px;font-weight:800;font-size:15px;cursor:pointer;text-decoration:none;border:2px solid var(--c-food);background:var(--c-food);color:#fff}
+  .vo-btn:nth-child(2),.vo-btn:nth-child(3){background:var(--paper-2);color:var(--ink);border-color:var(--ink)}
+  .vo-btn:hover{filter:brightness(1.05)} .vo-hint{margin:12px 0 0;font-size:13px;color:var(--ink-soft)}
+
+  .safety{border:0;border-left:6px solid var(--mc-red);background:var(--paper-3);padding:13px 16px;font-size:14.5px;color:var(--ink);margin:16px 0}
+
+  /* needgroups */
+  .needgroup{--pc:var(--cd-black)} .needgroup>h2{font-size:18px}
+  .needgroup>h2 span{margin-left:auto;font-weight:800;font-size:12.5px;color:var(--pc);border:1.5px solid var(--pc);padding:3px 10px}
+  .ve-note{font-size:14.5px;color:var(--ink-soft);margin:0 0 14px;max-width:80ch}
+  .needgroup[data-need="agua"]{--pc:var(--c-water);--pi:var(--i-water)}
+  .needgroup[data-need="apagon"]{--pc:var(--c-energy);--pi:var(--i-energy)}
+  .needgroup[data-need="comms"]{--pc:var(--c-comms);--pi:var(--i-comms)}
+  .needgroup[data-need="salud"]{--pc:var(--c-health);--pi:var(--i-health)}
+  .needgroup[data-need="sismo"]{--pc:var(--c-sismo);--pi:var(--i-house)}
+
+  /* crisis cards — grid, square, light */
+  .citem{display:grid;grid-template-columns:78px 1fr;gap:16px;padding:17px 0;border-bottom:1px solid var(--rule)}
+  .citem:last-child{border-bottom:0}
+  .cviz{width:76px;height:76px;border:1.5px solid currentColor;border-left-width:5px;background:var(--paper);color:var(--ink-soft);overflow:hidden}
+  .needgroup[data-need="agua"] .cviz{color:var(--c-water)} .needgroup[data-need="apagon"] .cviz{color:var(--c-energy)}
+  .needgroup[data-need="comms"] .cviz{color:var(--c-comms)} .needgroup[data-need="salud"] .cviz{color:var(--c-health)} .needgroup[data-need="sismo"] .cviz{color:var(--c-sismo)}
+  .cviz svg{width:100%;height:100%;display:block;padding:6px}
+  .citem h3{margin:0;font-size:17px;font-weight:800;color:var(--ink)}
+  .citem-head{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
+  .chips{display:flex;gap:5px;flex-wrap:wrap}
+  .ohbadge{font-weight:800;font-size:10px;letter-spacing:.04em;padding:3px 8px;background:var(--c-food);color:#fff}
+  .csum{font-size:15px;margin:6px 0 6px} .csrc{font-size:12.5px;color:var(--ink-soft);font-weight:600}
+  .csrc a{color:var(--c-water);font-weight:700}
+
+  /* archive */
+  .ve-arch>h2{font-size:22px}
+  .va-need{--pc:var(--cd-black);border:1.5px solid var(--rule-2);margin:9px 0;background:var(--paper)}
+  .va-need>summary{cursor:pointer;font-weight:800;list-style:none;font-size:16px;border-bottom:3px solid var(--pc);margin:0;padding:11px 13px}
+  .va-need>summary::-webkit-details-marker{display:none}
+  .va-need>summary::before{width:30px;height:30px;background-size:19px}
+  .va-need>summary i{font-style:normal;font-size:12px;font-weight:800;color:var(--pc);border:1.5px solid var(--pc);padding:3px 9px;white-space:nowrap;margin-left:auto}
+  .va-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px;padding:13px}
+  .va-item{display:flex;flex-direction:column;gap:3px;padding:11px 13px;background:var(--paper-2);border:1.5px solid var(--rule-2);text-decoration:none;color:var(--ink)}
+  .va-item:hover{border-color:var(--pc)} .va-item b{font-size:13.5px} .va-item span{font-size:11.5px;color:var(--ink-soft)}
+  .va-need[data-need="water"]{--pc:var(--c-water);--pi:var(--i-water)}
+  .va-need[data-need="energy"]{--pc:var(--c-energy);--pi:var(--i-energy)}
+  .va-need[data-need="cooking"]{--pc:var(--c-cook);--pi:var(--i-cook)}
+  .va-need[data-need="food"]{--pc:var(--c-food);--pi:var(--i-food)}
+  .va-need[data-need="sanitation"]{--pc:var(--c-sanit);--pi:var(--i-sanit)}
+  .va-need[data-need="health"]{--pc:var(--c-health);--pi:var(--i-health)}
+  .va-need[data-need="shelter"]{--pc:var(--c-shelter);--pi:var(--i-house)}
+  .va-need[data-need="comms"]{--pc:var(--c-comms);--pi:var(--i-comms)}
+
+  /* contribute */
+  .ve-contribute>h2{font-size:22px}
+  .ve-contribute p{margin:0 0 14px;font-size:16px;max-width:80ch;color:var(--ink)}
+  .ve-contrib-grid{display:grid;grid-template-columns:1fr;gap:13px;margin-top:4px}
+  .ve-contrib-card{border:1.5px solid var(--rule-2);background:var(--paper);border-top:5px solid var(--c-food);padding:16px}
+  .ve-contrib-card h3{margin:0 0 6px;font-size:17px;font-weight:800} .ve-contrib-card p{margin:0 0 12px;font-size:14.5px;color:var(--ink-soft)}
+  .ve-formwrap{display:none;margin-top:12px} .airtable-embed{width:100%;height:640px;border:1.5px solid var(--rule-2);background:#fff}
+  @media(min-width:640px){.ve-contrib-grid{grid-template-columns:1fr 1fr}}
+
+  /* qué pasó / context */
+  .ve-reality.qp>h2{font-size:20px} .ve-reality{max-width:860px;margin:24px 0 16px}
+  .ve-reality h2{font-size:24px;font-weight:800;margin:0 0 10px} .ve-reality p{font-size:16.5px;line-height:1.55;margin:0 0 12px} .ve-reality.qp p{margin:0}
+  .ve-principle{border-left:4px solid var(--mc-orange);padding-left:15px;color:var(--ink-soft);font-weight:600}
+  .ve-context{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:0 0 24px}
+  .ve-stat{padding:14px 15px;border:1.5px solid var(--rule-2);border-top:5px solid var(--mc-orange);text-decoration:none;color:var(--ink);background:var(--paper-2)}
+  .ve-stat:nth-child(2){border-top-color:var(--mc-red)} .ve-stat:nth-child(3){border-top-color:var(--c-water)} .ve-stat:nth-child(4){border-top-color:var(--c-food)} .ve-stat:nth-child(5){border-top-color:var(--c-energy)} .ve-stat:nth-child(6){border-top-color:var(--c-sanit)}
+  .ve-stat:hover{background:var(--paper-3)} .ve-stat-v{display:block;font-weight:800;font-size:15px;line-height:1.25} .ve-stat-n{display:block;font-size:11px;color:var(--ink-soft);margin-top:5px;font-weight:600}
+  @media(min-width:640px){.ve-context{grid-template-columns:repeat(3,1fr)}}
+  .ve-resources{margin:18px 0 0;border:1.5px solid var(--rule-2);background:var(--paper-2);padding:14px 16px;max-width:860px;font-size:14.5px} .ve-resources a{color:var(--c-water);font-weight:700}
+
+  footer{position:relative;background:var(--ink);color:#E9E2D0;margin-top:34px;padding:30px 0 44px;font-size:14px}
+  footer::before{content:"";position:absolute;left:0;right:0;top:0;height:12px;background:"repeating-linear-gradient(180deg,#141414 0 1.5px,#1C9DD6 1.5px 4px,#141414 4px 5.5px,#F1543C 5.5px 8px,#141414 8px 9.5px,#AFC81E 9.5px 12px,#141414 12px 13.5px,#F4C20D 13.5px 16px)";background-size:100% 16px}
+  footer a{color:#E9E2D0;text-decoration:underline;text-underline-offset:2px}
+  .footcontact{margin-top:8px} .planetai-line{margin-top:10px;font-size:13.5px;max-width:760px;color:#C9BFA6} #footstamp{color:#9b927e}
+
+  @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+  @media(max-width:620px){
+    .citem{grid-template-columns:58px 1fr;gap:10px} .cviz{width:58px;height:58px}
+    .ve-share-row{margin-left:0;width:100%} .vo-btn{flex:1 1 100%}
+  }
+
+  .vp-credit{margin:-6px 0 16px;font-size:14px;color:var(--ink-soft);font-weight:600}
+  .vp-credit a{color:var(--mc-orange);font-weight:800}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap">
+  <a class="home" href="../"><b id="home-title">Things That Work</b> ←</a>
+  <a class="mast-contact" href="mailto:tomas@fab.city" title="Contacto: tomas@fab.city" aria-label="Correo tomas@fab.city">&#9993;</a>
+  <span class="langsw">
+    <button class="lang" data-lang="en" data-ev="lang/en">EN</button>
+    <button class="lang" data-lang="es" data-ev="lang/es">ES</button>
+    <button class="lang" data-lang="id" data-ev="lang/id">ID</button>
+  </span>
+</div></div>
+
+<main class="wrap"><div id="ve-body"></div></main>
+
+<footer><div class="wrap"><p id="footer-line"></p>
+  <p class="planetai-line" id="planetai-line"></p>
+  <p class="footcontact">Contacto / Contact: <a href="mailto:tomas@fab.city">tomas@fab.city</a></p>
+  <p class="mono" style="font-size:11px;margin-top:6px" id="footstamp"></p>
+</div></footer>
+
+<script>
+const DATA = /*__VEDATA__*/null/*__VEDATA__*/;
+const LANGS=["en","es","id"];
+let LANG=(()=>{try{const s=localStorage.getItem("ttw-lang");return LANGS.includes(s)?s:"es";}catch(e){return "es";}})();
+function esc(s){return (s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function ui(k){const U=DATA.ui;return (U[LANG]&&U[LANG][k]!=null)?U[LANG][k]:U.en[k];}
+function pick(o,b){return LANG==="es"?(o[b+"_es"]||o[b]):LANG==="id"?(o[b+"_id"]||o[b]):o[b];}
+function lcf(c,f){if(LANG!=="en"&&c.i18n&&c.i18n[LANG]&&c.i18n[LANG][f])return c.i18n[LANG][f];return c[f];}
+
+const CRISIS_DIAGRAMS={
+  boil:{label:"1 min",g:'<path d="M-15,-2 H15 V11 a4,4 0 0 1 -4,4 H-11 a4,4 0 0 1 -4,-4 Z"/><path d="M-18,-2 H18"/><path d="M-7,-9 q-3,-4 0,-8"/><path d="M0,-9 q-3,-4 0,-8"/><path d="M7,-9 q-3,-4 0,-8"/>'},
+  bleach:{label:"8 / gal",g:'<path d="M-7,-12 h12 v3 l3,3 v16 a2,2 0 0 1 -2,2 h-14 a2,2 0 0 1 -2,-2 v-16 l3,-3 z"/><path d="M-4,-12 v-3 h6 v3"/><circle cx="13" cy="-4" r="2.2"/>'},
+  stock:{label:"1 : 100",g:'<path d="M-10,-10 h20 v20 a3,3 0 0 1 -3,3 h-14 a3,3 0 0 1 -3,-3 z"/><path d="M-11,-10 h22"/><circle cx="-4" cy="2" r="1.4"/><circle cx="3" cy="7" r="1.4"/><circle cx="6" cy="-1" r="1.4"/><circle cx="-2" cy="11" r="1.4"/>'},
+  sodis:{label:"6 h",g:'<circle cx="-12" cy="-12" r="4.5"/><path d="M-12,-19 v-2.5 M-20,-12 h-2.5 M-17.5,-17.5 l-2,-2 M-6.5,-17.5 l2,-2"/><path d="M-14,6 h24 a4,4 0 0 1 0,8 h-24 a4,4 0 0 1 0,-8 z"/><path d="M10,7 h4 v6 h-4"/>'},
+  filter:{label:"",g:'<path d="M-14,-12 H14 L4,2 V13 a2,2 0 0 1 -2,2 h-4 a2,2 0 0 1 -2,-2 V2 Z"/><path d="M-9,-7 H9"/><circle cx="0" cy="19" r="1.6"/>'},
+  store:{label:"",g:'<path d="M-11,-7 h22 v21 a2,2 0 0 1 -2,2 h-18 a2,2 0 0 1 -2,-2 z"/><path d="M-5,-7 v-4 h10 v4"/><path d="M5,-2 h6 v6"/>'},
+  watermin:{label:"15 L",g:'<path d="M-11,-9 h22 v18 a2,2 0 0 1 -2,2 h-18 a2,2 0 0 1 -2,-2 z"/><path d="M-5,-9 v-3 h10 v3"/><path d="M5,-4 h6 v5"/>'},
+  ors:{label:"S + A",g:'<path d="M-9,-13 h18 l-3,24 a2,2 0 0 1 -2,2 h-8 a2,2 0 0 1 -2,-2 z"/><path d="M-7,-4 h15"/><path d="M-6,4 h13"/>'},
+  orspack:{label:"1 L",g:'<path d="M-15,-13 h9 v7 h-9 z"/><path d="M-10,-6 l4,7"/><path d="M-3,1 h13 l-2,13 h-9 z"/>'},
+  coldchain:{label:"2-8°C",g:'<path d="M-15,-7 h30 v15 h-30 z"/><path d="M-15,-7 l4,-5 h22 l4,5"/><circle cx="9" cy="4" r="2.4"/><path d="M9,4 v-8"/>'},
+  handwash:{label:"",g:'<path d="M-11,-13 h12 v7 l4,2 -4,2 v2 h-12 z"/><path d="M-8,0 v12 M2,0 v12 M-12,17 h17"/><circle cx="9" cy="0" r="1.3"/>'},
+  latrine:{label:"",g:'<path d="M-12,-2 h24 v15 a2,2 0 0 1 -2,2 h-20 a2,2 0 0 1 -2,-2 z"/><path d="M-14,-2 h28"/><path d="M-3,-2 v-5 h6 v5"/>'},
+  greywater:{label:"",g:'<path d="M-14,-9 a14,6 0 0 0 28,0"/><path d="M-14,-9 h28"/><path d="M0,-3 v9"/><path d="M-5,12 a5,4 0 0 0 10,0"/>'},
+  power:{label:"",g:'<path d="M-17,-7 h12 v14 h-12 z"/><path d="M-5,-3 h2 v6 h-2"/><path d="M-11,-7 v-3 h4 v3"/><circle cx="8" cy="0" r="6"/><path d="M8,6 v4 M5,11 h6"/>'},
+  cookstove:{label:"",g:'<path d="M-12,-5 h24 v5 a3,3 0 0 1 -3,3 h-18 a3,3 0 0 1 -3,-3 z"/><path d="M-9,3 v9 h18 v-9"/><path d="M-4,17 q2,-4 0,-7 M4,17 q2,-4 0,-7"/>'},
+  food:{label:"",g:'<path d="M-16,-12 h32"/><path d="M-10,-12 v17 M0,-12 v21 M10,-12 v15"/>'},
+  phone:{label:"",g:'<path d="M-8,-15 h16 a2,2 0 0 1 2,2 v26 a2,2 0 0 1 -2,2 h-16 a2,2 0 0 1 -2,-2 v-26 a2,2 0 0 1 2,-2 z"/><path d="M-5,-11 h10 v16 h-10 z"/><path d="M-2,11 h4"/>'},
+  mesh:{label:"",g:'<circle cx="-12" cy="7" r="3"/><circle cx="12" cy="7" r="3"/><circle cx="0" cy="-11" r="3"/><path d="M-10,5 l8,-12 M10,5 l-8,-12 M-9,7 h18"/>'},
+  bluetooth:{label:"",g:'<path d="M-15,-11 h9 v22 h-9 z"/><path d="M6,-11 h9 v22 h-9 z"/><path d="M-2,-4 a6,6 0 0 1 0,8 M0,-7 a9,9 0 0 1 0,14"/>'},
+  map:{label:"",g:'<path d="M-15,-13 h30 v26 h-30 z"/><path d="M-15,-4 h30 M-6,-13 v26"/><path d="M5,-9 a4,4 0 1 1 0.1,0 l-0.1,0 v8"/>'},
+  mutualaid:{label:"",g:'<circle cx="0" cy="-9" r="3"/><circle cx="-10" cy="6" r="3"/><circle cx="10" cy="6" r="3"/><path d="M0,-6 v6 M-3,0 h6 M-10,9 v5 M-13,17 h6 M10,9 v5 M7,17 h6"/>'},
+  building:{label:"",g:'<path d="M-13,14 V-2 L0,-13 L13,-2 V14 Z"/><path d="M-2,14 V5 h6 v9"/><path d="M0,-10 l-3,8 l3,3"/>'},
+  clamp:{label:"",g:'<path d="M-7,-9 a11,11 0 1 0 0,18"/><path d="M-7,-9 h6 M-7,9 h6"/><path d="M-1,0 h13"/>'},
+  oxygen:{label:"",g:'<path d="M-15,-4 h10 v8 h-10 z"/><path d="M5,-6 h10 v12 h-10 z"/><path d="M-5,0 h10"/>'},
+  airway:{label:"",g:'<path d="M-10,-12 q16,0 16,13 q0,8 -8,8"/><path d="M-10,-12 h-4 v6 h4"/>'},
+  otoscope:{label:"",g:'<path d="M-13,-8 L7,-3 L7,3 L-13,8 Z"/><path d="M7,-3 h9 v6 h-9"/>'},
+  tap:{label:"",g:'<path d="M-10,-12 v8 h13 v5"/><path d="M3,1 h6 v4 h-6 z"/><path d="M-13,13 h12 l5,-3"/>'},
+  pipe:{label:"T",g:'<path d="M-16,-5 h32 v9 h-32 z"/><path d="M-4,4 h8 v12 h-8 z"/>'},
+  kit:{label:"",g:'<path d="M-13,-5 h26 v15 h-26 z"/><path d="M-5,-5 v-4 h10 v4"/><path d="M0,-1 v8 M-4,3 h8"/>'},
+};
+const NEED_GLYPH={Water:"filter",Health:"ors",Sanitation:"handwash",Power:"power",Food:"cookstove",Comms:"phone",Coordination:"map",Shelter:"building"};
+const CRISIS_GLYPH={
+  "crisis-boil-water":"boil","crisis-bleach-chlorination-cdc":"bleach","crisis-bleach-chlorination-epa":"bleach",
+  "crisis-sodis-solar":"sodis","crisis-cloth-prefiltration":"filter","crisis-calcium-hypochlorite-stock":"stock",
+  "crisis-safe-water-storage":"store","crisis-water-minimums":"watermin","crisis-ors-home-recipe":"ors",
+  "crisis-ors-commercial":"orspack","crisis-cold-chain":"coldchain","crisis-hand-hygiene":"handwash",
+  "crisis-latrine-excreta":"latrine","crisis-greywater":"greywater","crisis-lighting-small-power":"power",
+  "crisis-cooking-without-gas":"cookstove","crisis-food-without-fridge":"food","crisis-keep-phones-alive":"phone",
+  "crisis-meshtastic":"mesh","crisis-briar":"bluetooth","crisis-bitchat":"bluetooth","crisis-ushahidi":"map","crisis-hot-maps":"map",
+  "crisis-mutual-aid":"mutualaid","crisis-secure-building-after-quake":"building",
+  "oshwa-umbilical-cord-clamp":"clamp","oshwa-oxygen-supply-fitting":"oxygen","oshwa-oropharyngeal-airway":"airway",
+  "oshwa-otoscope-specula":"otoscope","oshwa-syphon-handwash-station":"handwash","oshwa-foot-operated-tap":"tap",
+  "oshwa-pipe-t-piece":"pipe",
+};
+function crisisViz(c){
+  const key=CRISIS_GLYPH[c.id]||NEED_GLYPH[c.need]||"kit";
+  const d=CRISIS_DIAGRAMS[key]||CRISIS_DIAGRAMS.kit;
+  return `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(key)}" fill="none" stroke="currentColor">`
+    +`<g transform="translate(50,${d.label?44:50})" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">${d.g}</g>`
+    +(d.label?`<text x="50" y="92" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="10.5" font-weight="700" fill="currentColor" stroke="none">${esc(d.label)}</text>`:"")
+    +(c.open_hardware?`<rect x="6" y="6" width="22" height="11" rx="2.5" fill="currentColor" stroke="none"/><text x="9" y="14.3" font-family="ui-monospace,Menlo,monospace" font-size="6.4" letter-spacing="0.4" fill="#FFFDF6" stroke="none">3D</text>`:"")
+    +`</svg>`;
+}
+function veShare(){ if(navigator.share){navigator.share({title:document.title,url:location.href}).catch(()=>{});} else {veCopy();} }
+function veCopy(btn){ try{navigator.clipboard.writeText(location.href);}catch(e){} if(btn){const o=btn.textContent; btn.textContent=ui("share_copied"); setTimeout(()=>{btn.textContent=o;},1500);} }
+function veEmbedUrl(kind){ const f=(DATA.venezuela&&DATA.venezuela.forms)||{}; const u=kind==="solution"?f.solutions:f.success; return u?u.replace("airtable.com/","airtable.com/embed/"):""; }
+function veToggleForm(btn,kind){ const wrap=btn.parentElement.querySelector(".ve-formwrap"); if(!wrap) return;
+  if(!wrap.dataset.loaded){ const url=veEmbedUrl(kind); if(!url){alert(ui("cta_soon"));return;} wrap.innerHTML='<iframe class="airtable-embed" src="'+url+'" frameborder="0" loading="lazy"></iframe>'; wrap.dataset.loaded="1"; wrap.style.display="block"; btn.classList.add("on"); }
+  else { const open=wrap.style.display!=="none"; wrap.style.display=open?"none":"block"; btn.classList.toggle("on",!open); } }
+function veActionBar(){
+  const rep=(DATA.venezuela.report)||{}, su=encodeURIComponent(location.href), st=encodeURIComponent(document.title), swa=encodeURIComponent(document.title+" "+location.href);
+  return `<div class="ve-actions">
+    <a class="ve-btn ve-btn-alert" data-ev="report/missing" href="${esc(rep.missing||"#")}" target="_blank" rel="noopener">${esc(ui("report_missing"))} &#8599;</a>
+    <a class="ve-btn ve-btn-alert" data-ev="report/damage" href="${esc(rep.damage||"#")}" target="_blank" rel="noopener">${esc(ui("report_damage"))} &#8599;</a>
+    <span class="ve-share-row"><span class="ve-share-lbl">${esc(ui("share_h"))}</span>
+      <a class="ve-chip" href="https://wa.me/?text=${swa}" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="ve-chip" href="https://t.me/share/url?url=${su}&text=${st}" target="_blank" rel="noopener">Telegram</a>
+      <a class="ve-chip" href="https://twitter.com/intent/tweet?text=${st}&url=${su}" target="_blank" rel="noopener">X</a>
+      <button class="ve-chip" onclick="veShare()">${esc(ui("share_more"))}</button>
+      <button class="ve-chip" onclick="veCopy(this)">${esc(ui("share_copy"))}</button>
+    </span></div>`;
+}
+function veContributeBand(){
+  return `<section class="ve-contribute"><h2><i class="sn">04</i>${esc(ui("contribute_h"))}</h2><p>${esc(ui("contribute_lead"))}</p>
+    <div class="ve-contrib-grid">
+      <div class="ve-contrib-card"><h3>${esc(ui("contribute_need_h"))}</h3><p>${esc(ui("contribute_need_desc"))}</p>
+        <button class="ve-btn ve-btn-do" data-ev="contribute/needs" onclick="veToggleForm(this,'solution')">${esc(ui("open_form"))} &#9662;</button>
+        <div class="ve-formwrap" data-kind="solution"></div></div>
+      <div class="ve-contrib-card"><h3>${esc(ui("contribute_success_h"))}</h3><p>${esc(ui("contribute_success_desc"))}</p>
+        <button class="ve-btn ve-btn-do" data-ev="contribute/success" onclick="veToggleForm(this,'success')">${esc(ui("open_form"))} &#9662;</button>
+        <div class="ve-formwrap" data-kind="success"></div></div>
+    </div></section>`;
+}
+function rPrint(){
+  const p=(DATA.venezuela&&DATA.venezuela.printing); if(!p) return "";
+  const steps=(p.use_steps&&(p.use_steps[LANG]||p.use_steps.es))||[];
+  let h=`<section class="ve-print"><h2><i class="sn">01</i>${esc(ui("print_h"))}</h2><p class="vp-lead">${esc(ui("print_lead"))}</p>`;
+  if(p.credit){h+=`<p class="vp-credit">${esc(ui("print_credit"))} <a href="${esc(p.credit.url)}" target="_blank" rel="noopener"><b>${esc(p.credit.name)}</b></a>${p.credit.ig?` &middot; <a href="${esc(p.credit.ig)}" target="_blank" rel="noopener">Instagram</a>`:""}</p>`;}
+  h+=`<div class="vp-cta"><h3>${esc(ui("print_cta_h"))}</h3><div class="vp-groups">`+p.groups.map(g=>`<a class="vp-wa" data-ev="wa" href="${esc(g.url)}" target="_blank" rel="noopener"><b>${esc(g.name)}</b><span>${esc(pick(g,"note"))}</span></a>`).join("")+`</div></div>`;
+  if(p.map&&p.map.url) h+=`<a class="vp-map" data-ev="ushahidi-map" href="${esc(p.map.url)}" target="_blank" rel="noopener">${esc(ui("print_map"))} &#8599;</a>`;
+  h+=`<div class="vp-block"><h3>${esc(ui("print_files_h"))}</h3><div class="vp-files">`+p.files.map(f=>`<a class="vp-file" data-ev="download" href="${esc(f.href)}" download>${esc(f.label)}<i>${esc(ui("print_download"))} &#8595;</i></a>`).join("")+`</div></div>`;
+  h+=`<div class="vp-block"><h3>${esc(ui("print_models_h"))}</h3><div class="vp-models">`+p.models.map(m=>`<span class="vp-model">${esc(m)}</span>`).join("")+`</div></div>`;
+  h+=`<div class="vp-block"><h3>${esc(ui("print_use_h"))}</h3><ol class="vp-steps">`+steps.map(s=>`<li>${esc(s)}</li>`).join("")+`</ol><p class="vp-caveat">${esc(ui("print_caveat"))}</p></div>`;
+  const com=DATA.venezuela&&DATA.venezuela.community;
+  if(com&&com.items&&com.items.length){
+    h+=`<div class="vp-block vp-community"><h3>${esc(ui("community_h"))}</h3><p class="vp-mat">${esc(ui("community_lead"))}</p><div class="vp-fr">`+com.items.map(function(x){var href=x.download||x.url||"#";var tag=x.download?(esc(ui("print_download"))+" &#8595;"):(esc(x.tag||"")+" &#8599;");return `<a class="vp-fritem" data-ev="${x.download?'download':'community'}" href="${esc(href)}"${x.download?' download':' target="_blank" rel="noopener"'}><b>${esc(x.name)}</b><span>${esc(pick(x,"what"))}${x.author?(" &middot; "+esc(x.author)):""}</span><em>${tag}</em></a>`;}).join("")+`</div></div>`;
+  }
+  h+=`<div class="vp-block"><h3>${esc(ui("print_materials_h"))}</h3><p class="vp-mat">${esc(ui("print_materials"))}</p></div>`;
+  const fr=DATA.venezuela.fieldready;
+  if(fr&&fr.items&&fr.items.length){
+    h+=`<div class="vp-block"><h3>${esc(ui("fr_h"))}</h3><p class="vp-mat">${esc(ui("fr_lead"))}</p>`;
+    ["trauma","resp","infant","clin","water"].forEach(ct=>{ const its=fr.items.filter(x=>x.cat===ct); if(!its.length) return;
+      h+=`<h4 class="vp-cat">${esc(ui("fr_cat_"+ct))}</h4><div class="vp-fr">`+its.map(x=>`<a class="vp-fritem" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.what)}</b><span>${esc(x.name)} &middot; ${esc(x.mat)}${x.time?(" &middot; "+esc(x.time)):""}</span><em>${esc(ui("print_download"))} &#8599;${x.oshwa?(" &middot; "+esc(x.oshwa)):""}</em></a>`).join("")+`</div>`;
+    });
+    h+=`<p class="vp-caveat">${esc(ui("fr_note"))}</p></div>`;
+  }
+  h+=`<details class="vp-centers"><summary>${esc(ui("print_centers_h"))} &middot; ${p.centers.length}+</summary><ul>`+p.centers.map(c=>`<li><b>${esc(c.city)}</b> — ${esc(c.detail)}</li>`).join("")+`</ul><a class="vp-doc" href="${esc(p.centers_doc)}" download>${esc(ui("print_centers_all"))} &#8595;</a></details>`;
+  return h+`</section>`;
+}
+function rArchive(){
+  const fa=DATA.venezuela&&DATA.venezuela.from_archive; if(!fa||!fa.needs) return "";
+  let h=`<section class="ve-arch"><h2><i class="sn">03</i>${esc(ui("from_archive_h"))}</h2><p class="vp-lead">${esc(ui("from_archive_lead"))}</p>`;
+  fa.needs.forEach(n=>{ if(!n.items||!n.items.length) return;
+    h+=`<details class="va-need" data-need="${esc(n.key)}"><summary data-ev="ve-need/${n.key}">${esc(pick(n,"label"))} <i>${n.count} ${esc(ui("from_archive_more"))}</i></summary><div class="va-items">`
+     +n.items.map(it=>`<a class="va-item" href="${esc(it.url||'#')}"${it.url?' target="_blank" rel="noopener"':''}><b>${esc(pick(it,"title"))}</b><span>${esc(it.source)}${it.oh?' &middot; OH':''}</span></a>`).join("")
+     +`</div></details>`;
+  });
+  return h+`</section>`;
+}
+function veOffline(){
+  return `<section class="ve-offline"><h2>${esc(ui("offline_h"))}</h2>`
+    +`<p class="vo-lead">${esc(ui("offline_lead"))}</p><div class="vo-btns">`
+    +`<button class="vo-btn" data-ev="offline/save" onclick="veSavePage()">${esc(ui("offline_save"))}</button>`
+    +`<button class="vo-btn" id="veInstall" data-ev="offline/install" onclick="veInstall()">${esc(ui("offline_install"))}</button>`
+    +`<a class="vo-btn" data-ev="offline/zip" href="venezuela-offline.zip" download>${esc(ui("offline_zip"))}</a>`
+    +`</div><p class="vo-hint">${esc(ui("offline_hint"))}</p></section>`;
+}
+function veSavePage(){try{var h="<!DOCTYPE html>\n"+document.documentElement.outerHTML;var b=new Blob([h],{type:"text/html"});var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="cosas-que-sirven-venezuela.html";document.body.appendChild(a);a.click();setTimeout(function(){a.remove();},0);}catch(e){alert(ui("offline_save"));}}
+let VE_DEFERRED=null;
+window.addEventListener("beforeinstallprompt",function(e){e.preventDefault();VE_DEFERRED=e;});
+function veInstall(){if(VE_DEFERRED){VE_DEFERRED.prompt();VE_DEFERRED=null;}else{alert(ui("offline_install")+" — \u201cAdd to Home Screen\u201d / \u201cA\u00f1adir a inicio\u201d.");}}
+function buildVE(){
+  const ve=DATA.venezuela, byId={}; (DATA.crisis||[]).forEach(c=>byId[c.id]=c);
+  let html=`<section class="ve-hero"><div class="ve-kicker">Venezuela</div><p class="ve-lead">${ui("ve_help_lead")}</p></section>`;
+  html+=veActionBar();
+  html+=veOffline();
+  html+=rPrint();
+  html+=`<div class="safety">${ui("ve_live")}</div>`;
+  html+=`<h2 class="ve-playbook-h"><i class="sn">02</i>${esc(ui("ve_h_playbook"))}</h2>`;
+  ve.scenarios.forEach(s=>{
+    html+=`<section class="needgroup" data-need="${esc(s.key)}"><h2>${esc(pick(s,"title"))} <span>${s.items.length}</span></h2><p class="ve-note">${esc(pick(s,"note"))}</p>`;
+    s.items.forEach(id=>{ const c=byId[id]; if(!c) return;
+      const oh=c.open_hardware?`<span class="ohbadge">${esc(ui("crisis_oh"))}${c.oshwa_uid?(" · "+esc(c.oshwa_uid)):""}</span>`:"";
+      const src=c.source_url?`<a href="${esc(c.source_url)}" target="_blank" rel="noopener">${esc(c.source)} ↗</a>`:esc(c.source);
+      html+=`<article class="citem"><div class="cviz">${crisisViz(c)}</div><div>`
+        +`<div class="citem-head"><h3>${esc(lcf(c,"title"))}</h3><div class="chips">${oh}</div></div>`
+        +`<p class="csum">${esc(lcf(c,"summary"))}</p><div class="csrc">${esc(ui("crisis_src"))}: ${src}</div></div></article>`;
+    });
+    html+=`</section>`;
+  });
+  html+=rArchive();
+  html+=veContributeBand();
+  // context moved to the foot — the standalone page leads with action for people living the crisis
+  html+=`<section class="ve-reality qp"><h2><i class="sn">05</i>${esc(ui("ve_what_h"))}</h2><p>${ui("ve_lead")}</p></section>`;
+  if(ve.context) html+=`<div class="ve-context">`+ve.context.map(c=>`<a class="ve-stat" href="${esc(c.url)}" target="_blank" rel="noopener"><span class="ve-stat-v">${esc(pick(c,"value"))}</span><span class="ve-stat-n">${esc(pick(c,"note"))}</span></a>`).join("")+`</div>`;
+  html+=`<section class="ve-reality"><h2>${esc(ui("ve_h_reality"))}</h2><p>${ui("ve_reality")}</p><p class="ve-principle">${ui("ve_principle")}</p></section>`;
+  html+=`<div class="ve-resources"><b>${esc(ui("ve_resources"))}:</b> `+ve.resources.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>`).join(" &nbsp;·&nbsp; ")+`</div>`;
+  document.getElementById("ve-body").innerHTML=html;
+}
+function applyLang(){
+  document.documentElement.lang=LANG;
+  document.getElementById("home-title").textContent=ui("title");
+  document.getElementById("footer-line").innerHTML=ui("footer_line");
+  document.getElementById("planetai-line").innerHTML=ui("planetai_line");
+  document.getElementById("footstamp").textContent="· "+DATA.meta.generated;
+  try{document.title=ui("title")+" · Venezuela";}catch(e){}
+  buildVE();
+  document.querySelectorAll(".lang").forEach(b=>b.classList.toggle("on", b.dataset.lang===LANG));
+}
+document.querySelectorAll(".lang").forEach(b=>b.addEventListener("click",()=>{LANG=b.dataset.lang; try{localStorage.setItem("ttw-lang",LANG);}catch(e){} applyLang();}));
+applyLang();
+</script>
+<script>
+/* Privacy-first metrics. Page views are counted by the provider snippet below; track() sends only aggregate, non-personal events (which section, language, action) — never search text or identifiers. No-ops when no provider is loaded. */
+function track(n){try{if(window.goatcounter&&goatcounter.count){goatcounter.count({path:'e/'+n,title:n,event:true});}else if(window.plausible){window.plausible(n);}}catch(e){}}
+document.addEventListener('click',function(e){try{var el=e.target&&e.target.closest&&e.target.closest('[data-ev]');if(el)track(el.getAttribute('data-ev'));}catch(_){}},true);
+</script>
+<!--ANALYTICS-->
+<script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){});});}</script>
+</body>
+</html>

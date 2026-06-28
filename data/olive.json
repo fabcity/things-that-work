@@ -1,0 +1,947 @@
+[
+  {
+    "id": "olive-make-drinking-water",
+    "title": "Make drinking water from dew, rain, snow, and sun",
+    "title_original": "飲料水を作る方法",
+    "summary": "Several no-infrastructure ways to obtain drinkable water — collecting morning dew with a cloth, catching rainwater before it touches the ground, melting snow, and a solar still for salt or muddy water.",
+    "how_it_works": "At dawn, wrap an absorbent clean cloth around your shins, walk through dewy grass, and wring the soaked cloth into a container. Catch rainwater in wide, deep vessels or on tarps so it never touches the ground, and melt snow in a covered pot (adding a little water speeds melting). For salty or muddy water, build a solar still: put the bad water in a large bowl, stand a shorter cup inside it, cover with loose plastic film weighted over the cup, and leave it in the sun so clean condensate drips into the cup.",
+    "type": "technique",
+    "disobedience_move": [
+      "substitute",
+      "scavenge",
+      "replicate"
+    ],
+    "domain": [
+      "water",
+      "household"
+    ],
+    "problem": "Disaster has cut the water supply and there is no safe drinking water on hand.",
+    "materials": [
+      "clean absorbent cloth",
+      "bucket or pot",
+      "tarp or plastic sheet",
+      "snow",
+      "large bowl",
+      "small cup",
+      "plastic film",
+      "rubber band",
+      "small stone weight"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "食べる・調理する › 水",
+    "source_url": "https://sites.google.com/site/olivesoce/食べる調理する/水/飲料水を作る方法",
+    "validation": "documented",
+    "fabcity_relevance": "Shows a city household can produce small amounts of drinking water from ambient sources using only kitchen vessels, a core resilience capability when centralized water fails.",
+    "tags": [
+      "water",
+      "solar-still",
+      "dew",
+      "rainwater",
+      "survival"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Obtener agua potable del rocío, la lluvia, la nieve y el sol",
+        "summary": "Varias formas de conseguir agua potable sin infraestructura: recoger el rocío de la mañana con un paño, captar agua de lluvia antes de que toque el suelo, derretir nieve y un destilador solar para agua salada o turbia.",
+        "how_it_works": "Al amanecer, enrolla un paño limpio y absorbente alrededor de las espinillas, camina por la hierba con rocío y escurre el paño empapado en un recipiente. Capta el agua de lluvia en recipientes anchos y profundos o sobre lonas para que nunca toque el suelo, y derrite nieve en una olla tapada (añadir un poco de agua acelera el deshielo). Para agua salada o turbia, arma un destilador solar: pon el agua no potable en un recipiente grande, coloca dentro una taza más baja, cubre con film plástico flojo y un peso encima de la taza, y déjalo al sol para que el condensado limpio gotee dentro de la taza.",
+        "problem": "El desastre cortó el suministro de agua y no hay agua potable segura disponible.",
+        "fabcity_relevance": "Demuestra que un hogar urbano puede producir pequeñas cantidades de agua potable a partir de fuentes ambientales usando solo recipientes de cocina, una capacidad clave de resiliencia cuando falla el agua centralizada."
+      },
+      "id": {
+        "title": "Membuat air minum dari embun, hujan, salju, dan matahari",
+        "summary": "Beberapa cara memperoleh air layak minum tanpa infrastruktur — mengumpulkan embun pagi dengan kain, menampung air hujan sebelum menyentuh tanah, melelehkan salju, dan penyuling tenaga surya untuk air asin atau keruh.",
+        "how_it_works": "Saat fajar, lilitkan kain bersih yang menyerap air di sekitar tulang kering, berjalanlah melewati rumput berembun, lalu peras kain basah itu ke dalam wadah. Tampung air hujan dalam wadah lebar dan dalam atau di atas terpal agar tidak pernah menyentuh tanah, dan lelehkan salju dalam panci tertutup (menambahkan sedikit air mempercepat pelelehan). Untuk air asin atau keruh, buat penyuling tenaga surya: taruh air kotor dalam mangkuk besar, letakkan cangkir yang lebih pendek di dalamnya, tutup dengan lembaran plastik longgar yang diberi pemberat di atas cangkir, dan biarkan di bawah matahari agar embun bersih menetes ke dalam cangkir.",
+        "problem": "Bencana memutus pasokan air dan tidak ada air minum yang aman tersedia.",
+        "fabcity_relevance": "Menunjukkan rumah tangga kota dapat memproduksi air minum dalam jumlah kecil dari sumber sekitar hanya dengan wadah dapur, kemampuan ketahanan inti saat air terpusat gagal."
+      }
+    }
+  },
+  {
+    "id": "olive-turbid-water-filter-still",
+    "title": "Filter and distill turbid water with cloth and a kettle",
+    "title_original": "にごり水のろ過・蒸留",
+    "summary": "Two stages for cleaning muddy water — slow filtration through folded cloth, then distillation by capturing the steam of boiling turbid water in an inverted cup or a second can.",
+    "how_it_works": "Fold a bandana or fine-weave cloth eight times over a can or cup and drip the turbid water through it slowly; the thicker the cloth layer, the better it filters, and re-filtering removes more cloudiness. To distill, invert a cup over a kettle's spout with a wide receiving cup directly below; fill the kettle one-quarter with turbid water and boil over medium heat, and about 10 minutes after boiling you collect one coffee-cup of distilled water. With no kettle, join two cans rim-to-rim (turbid water less than half-full in the lower one), heat gently, and the steam condenses on the upper can's inner wall.",
+    "type": "technique",
+    "disobedience_move": [
+      "substitute",
+      "replicate",
+      "scavenge"
+    ],
+    "domain": [
+      "water",
+      "household"
+    ],
+    "problem": "Only muddy or turbid water is available and it must be made safer to drink.",
+    "materials": [
+      "bandana or fine cloth",
+      "empty can",
+      "cup",
+      "kettle",
+      "two empty cans"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "食べる・調理する › 水",
+    "source_url": "https://sites.google.com/site/olivesoce/食べる調理する/水/にごり水のろ過蒸留",
+    "validation": "documented",
+    "fabcity_relevance": "A two-step cloth-and-heat protocol lets households recover usable water from contaminated sources with no purpose-built equipment.",
+    "tags": [
+      "water",
+      "filtration",
+      "distillation",
+      "survival",
+      "cloth"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Filtrar y destilar agua turbia con tela y una tetera",
+        "summary": "Dos etapas para limpiar agua turbia: filtración lenta a través de tela doblada y luego destilación capturando el vapor del agua turbia hirviendo en una taza invertida o una segunda lata.",
+        "how_it_works": "Dobla un pañuelo o tela de trama fina ocho veces sobre una lata o taza y deja caer el agua turbia lentamente a través de ella; cuanto más gruesa la capa de tela, mejor filtra, y volver a filtrar quita más turbidez. Para destilar, invierte una taza sobre el pico de una tetera con una taza ancha receptora justo debajo; llena la tetera un cuarto con agua turbia y hierve a fuego medio, y unos 10 minutos después de hervir obtienes una taza de café de agua destilada. Sin tetera, une dos latas boca con boca (agua turbia a menos de la mitad en la inferior), calienta suavemente y el vapor se condensa en la pared interior de la lata superior.",
+        "problem": "Solo hay agua fangosa o turbia disponible y debe hacerse más segura para beber.",
+        "fabcity_relevance": "Un protocolo de dos pasos de tela y calor permite a los hogares recuperar agua utilizable de fuentes contaminadas sin equipo especializado."
+      },
+      "id": {
+        "title": "Menyaring dan menyuling air keruh dengan kain dan ketel",
+        "summary": "Dua tahap membersihkan air keruh — penyaringan lambat melalui kain terlipat, lalu penyulingan dengan menangkap uap air keruh mendidih dalam cangkir terbalik atau kaleng kedua.",
+        "how_it_works": "Lipat bandana atau kain bertenun rapat delapan kali di atas kaleng atau cangkir dan teteskan air keruh perlahan melaluinya; makin tebal lapisan kain, makin baik penyaringannya, dan menyaring ulang menghilangkan lebih banyak kekeruhan. Untuk menyuling, balikkan cangkir di atas cerat ketel dengan cangkir lebar penampung tepat di bawahnya; isi ketel seperempat dengan air keruh dan didihkan dengan api sedang, dan sekitar 10 menit setelah mendidih Anda mengumpulkan satu cangkir kopi air suling. Tanpa ketel, satukan dua kaleng bibir-ke-bibir (air keruh kurang dari setengah di kaleng bawah), panaskan perlahan, dan uap mengembun di dinding dalam kaleng atas.",
+        "problem": "Hanya air berlumpur atau keruh yang tersedia dan harus dibuat lebih aman untuk diminum.",
+        "fabcity_relevance": "Protokol dua langkah kain-dan-panas memungkinkan rumah tangga memulihkan air yang dapat dipakai dari sumber tercemar tanpa peralatan khusus."
+      }
+    }
+  },
+  {
+    "id": "olive-oral-rehydration-salt",
+    "title": "Oral rehydration salt drink from water, salt, and sugar",
+    "title_original": "経口補水塩",
+    "summary": "A recipe card for mixing an oral rehydration solution at home from clean water, salt, and sugar to treat dehydration when medical supplies are unavailable.",
+    "how_it_works": "The page presents the formula as a shareable infographic: dissolve a small measured amount of salt and a larger amount of sugar into roughly one liter of clean (boiled and cooled) water to make a drink that replaces the water and electrolytes lost to diarrhoea, vomiting, or heat. The standard home proportions it conveys are about one litre of water with a half teaspoon of salt and around six teaspoons of sugar, sipped slowly. It is designed to be memorized and reproduced from memory in a shelter where commercial rehydration products and clinics are out of reach.",
+    "type": "knowledge-resource",
+    "disobedience_move": [
+      "substitute",
+      "replicate"
+    ],
+    "domain": [
+      "health-veterinary",
+      "water",
+      "food"
+    ],
+    "problem": "People are dehydrated from diarrhoea, vomiting, or heat and no oral rehydration product or clinic is reachable.",
+    "materials": [
+      "clean (boiled) water",
+      "salt",
+      "sugar"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "食べる・調理する › 水",
+    "source_url": "https://sites.google.com/site/olivesoce/食べる調理する/水/経口補水塩",
+    "validation": "documented",
+    "fabcity_relevance": "Encodes a life-saving medical formula into three pantry ingredients, letting communities treat dehydration without supply chains or pharmacies.",
+    "tags": [
+      "health",
+      "rehydration",
+      "ORS",
+      "recipe",
+      "first-aid"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Bebida de sales de rehidratación oral con agua, sal y azúcar",
+        "summary": "Una ficha de receta para mezclar en casa una solución de rehidratación oral con agua limpia, sal y azúcar para tratar la deshidratación cuando no hay suministros médicos.",
+        "how_it_works": "La página presenta la fórmula como una infografía compartible: disuelve una pequeña cantidad medida de sal y una cantidad mayor de azúcar en aproximadamente un litro de agua limpia (hervida y enfriada) para hacer una bebida que reponga el agua y los electrolitos perdidos por diarrea, vómitos o calor. Las proporciones caseras estándar que transmite son aproximadamente un litro de agua con media cucharadita de sal y alrededor de seis cucharaditas de azúcar, bebida a sorbos lentos. Está pensada para memorizarse y reproducirse de memoria en un refugio donde los productos comerciales de rehidratación y las clínicas quedan fuera de alcance.",
+        "problem": "Hay personas deshidratadas por diarrea, vómitos o calor y no se puede acceder a ningún producto de rehidratación oral ni a una clínica.",
+        "fabcity_relevance": "Codifica una fórmula médica que salva vidas en tres ingredientes de despensa, permitiendo a las comunidades tratar la deshidratación sin cadenas de suministro ni farmacias."
+      },
+      "id": {
+        "title": "Minuman garam rehidrasi oral dari air, garam, dan gula",
+        "summary": "Kartu resep untuk meracik larutan rehidrasi oral di rumah dari air bersih, garam, dan gula untuk mengatasi dehidrasi saat pasokan medis tidak tersedia.",
+        "how_it_works": "Halaman ini menyajikan formula sebagai infografis yang dapat dibagikan: larutkan sedikit garam terukur dan gula dalam jumlah lebih banyak ke dalam sekitar satu liter air bersih (yang sudah direbus dan didinginkan) untuk membuat minuman yang menggantikan air dan elektrolit yang hilang akibat diare, muntah, atau panas. Proporsi rumahan standar yang disampaikannya adalah sekitar satu liter air dengan setengah sendok teh garam dan sekitar enam sendok teh gula, diminum perlahan. Ini dirancang untuk dihafal dan dibuat ulang dari ingatan di pengungsian tempat produk rehidrasi komersial dan klinik tak terjangkau.",
+        "problem": "Orang mengalami dehidrasi akibat diare, muntah, atau panas dan tidak ada produk rehidrasi oral atau klinik yang terjangkau.",
+        "fabcity_relevance": "Mengodekan formula medis penyelamat nyawa menjadi tiga bahan dapur, memungkinkan komunitas menangani dehidrasi tanpa rantai pasok atau apotek."
+      }
+    }
+  },
+  {
+    "id": "olive-panel-solar-cooker",
+    "title": "Panel solar cooker built without a ruler",
+    "title_original": "ソーラークッカーの作り方：太陽で料理やお湯を作る・温める",
+    "summary": "A foldable panel-type solar cooker (\"Sun-Piece\") that cooks, heats water, and warms food using only sunlight, designed to be built without measuring tools.",
+    "how_it_works": "Reflective panels are made from an emergency silver blanket (best), aluminum foil (second), or the shiny inside of aluminized snack and frozen-food bags (third) and angled to focus sunlight onto a cooking vessel. The pot must be a dark/black metal or enamel container (a steel or aluminum can works; if not black, paint it or wrap it in blackened foil), and it is enclosed in a clear cover such as an OPP bag, a 2-litre PET bottle, or a glass bowl to trap heat. Cooking proceeds above 82°C, so in clear weather it slowly cooks porridge, heats cup-ramen water, warms cold food, or makes hot water for a hot-water bottle.",
+    "type": "tool",
+    "disobedience_move": [
+      "replicate",
+      "repurpose",
+      "scavenge"
+    ],
+    "domain": [
+      "energy",
+      "food",
+      "household"
+    ],
+    "problem": "Cooking fuel and power are scarce in a disaster zone but sunlight is available.",
+    "materials": [
+      "emergency silver blanket or aluminum foil",
+      "aluminized snack/food bags",
+      "black metal or enamel pot (or can)",
+      "black paint",
+      "clear OPP bag or 2-litre PET bottle or glass bowl",
+      "cardboard for panel"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "食べる・調理する › 調理器具・方法",
+    "source_url": "https://sites.google.com/site/olivesoce/食べる調理する/食料/調理器具方法/ソーラークッカーの作り方太陽で料理やお湯を作る温める",
+    "validation": "documented",
+    "fabcity_relevance": "A ruler-free, scrap-built solar cooker turns sunlight into cooking heat, decoupling a basic city need from fuel and grid supply.",
+    "tags": [
+      "solar",
+      "cooking",
+      "energy",
+      "DIY",
+      "off-grid"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Cocina solar de panel construida sin regla",
+        "summary": "Una cocina solar plegable tipo panel («Sun-Piece») que cocina, calienta agua y entibia comida usando solo la luz del sol, diseñada para construirse sin herramientas de medición.",
+        "how_it_works": "Los paneles reflectantes se hacen con una manta térmica de emergencia (lo mejor), papel aluminio (segundo) o el lado brillante de bolsas aluminizadas de snacks y congelados (tercero), inclinados para concentrar la luz solar sobre un recipiente de cocción. La olla debe ser un recipiente de metal o esmalte oscuro/negro (sirve una lata de acero o aluminio; si no es negra, píntala o envuélvela en aluminio ennegrecido) y se encierra en una cubierta transparente como una bolsa OPP, una botella PET de 2 litros o un bol de vidrio para atrapar el calor. La cocción avanza por encima de 82°C, así que con cielo despejado cocina lentamente avena, calienta agua para fideos instantáneos, entibia comida fría o hace agua caliente para una bolsa de agua.",
+        "problem": "El combustible para cocinar y la energía escasean en una zona de desastre, pero hay luz solar disponible.",
+        "fabcity_relevance": "Una cocina solar sin regla y hecha con desechos convierte la luz solar en calor de cocción, desligando una necesidad urbana básica del combustible y la red."
+      },
+      "id": {
+        "title": "Kompor surya panel yang dibuat tanpa penggaris",
+        "summary": "Kompor surya jenis panel yang dapat dilipat (\"Sun-Piece\") yang memasak, memanaskan air, dan menghangatkan makanan hanya dengan sinar matahari, dirancang untuk dibuat tanpa alat ukur.",
+        "how_it_works": "Panel pemantul dibuat dari selimut perak darurat (terbaik), aluminium foil (kedua), atau sisi mengkilap kantong aluminisasi camilan dan makanan beku (ketiga), dimiringkan untuk memusatkan sinar matahari ke wadah masak. Pancinya harus wadah logam atau enamel gelap/hitam (kaleng baja atau aluminium bisa; jika tidak hitam, cat atau bungkus dengan foil yang dihitamkan), dan ditutup dalam penutup bening seperti kantong OPP, botol PET 2 liter, atau mangkuk kaca untuk menahan panas. Memasak berlangsung di atas 82°C, sehingga saat cuaca cerah ia perlahan memasak bubur, memanaskan air mi cangkir, menghangatkan makanan dingin, atau membuat air panas untuk botol air panas.",
+        "problem": "Bahan bakar memasak dan listrik langka di zona bencana tetapi sinar matahari tersedia.",
+        "fabcity_relevance": "Kompor surya tanpa penggaris yang dibuat dari barang bekas mengubah sinar matahari menjadi panas memasak, melepaskan kebutuhan dasar kota dari pasokan bahan bakar dan jaringan."
+      }
+    }
+  },
+  {
+    "id": "olive-retained-heat-cooker",
+    "title": "Retained-heat cooker from newspaper and cardboard",
+    "title_original": "保温調理器の作り方：燃料を半分に節約！",
+    "summary": "An insulated fireless cooker made from newspaper and cardboard that finishes cooking with retained heat, cutting cooking fuel use to half or less.",
+    "how_it_works": "Food is brought to a boil on a stove for a short time, then the pot is transferred into a well-insulated box packed with crumpled newspaper inside cardboard, where stored heat continues to cook it without any further fuel. Because the box keeps the pot near cooking temperature for a long time, the burner can be switched off early, halving fuel consumption — critical where fuel is precious. The page distributes printable build instructions in both Japanese and English.",
+    "type": "tool",
+    "disobedience_move": [
+      "replicate",
+      "repurpose",
+      "scavenge"
+    ],
+    "domain": [
+      "energy",
+      "food",
+      "household"
+    ],
+    "problem": "Cooking fuel is scarce in a disaster and must be stretched as far as possible.",
+    "materials": [
+      "newspaper",
+      "cardboard box",
+      "cooking pot"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "食べる・調理する › 調理器具・方法",
+    "source_url": "https://sites.google.com/site/olivesoce/食べる調理する/食料/調理器具方法/保温調理器の作り方燃料を半分に節約",
+    "validation": "documented",
+    "fabcity_relevance": "A haybox-style insulated cooker from waste paper halves household cooking energy, a directly replicable efficiency win for any city under fuel stress.",
+    "tags": [
+      "energy-saving",
+      "cooking",
+      "haybox",
+      "insulation",
+      "DIY"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Cocina de retención de calor con periódico y cartón",
+        "summary": "Una cocina sin fuego aislada hecha con periódico y cartón que termina la cocción con el calor retenido, reduciendo el uso de combustible a la mitad o menos.",
+        "how_it_works": "Se lleva la comida a ebullición en el fuego por poco tiempo, luego se traslada la olla a una caja bien aislada rellena de periódico arrugado dentro de cartón, donde el calor almacenado la sigue cocinando sin más combustible. Como la caja mantiene la olla cerca de la temperatura de cocción durante mucho tiempo, se puede apagar el quemador antes, reduciendo a la mitad el consumo de combustible, algo crítico donde el combustible es escaso. La página distribuye instrucciones de construcción imprimibles en japonés e inglés.",
+        "problem": "El combustible para cocinar escasea en un desastre y debe estirarse lo más posible.",
+        "fabcity_relevance": "Una cocina aislada tipo «haybox» hecha con papel de desecho reduce a la mitad la energía de cocción del hogar, una mejora de eficiencia directamente replicable para cualquier ciudad bajo estrés de combustible."
+      },
+      "id": {
+        "title": "Kompor penahan panas dari koran dan kardus",
+        "summary": "Kompor tanpa api berinsulasi yang dibuat dari koran dan kardus yang menyelesaikan masakan dengan panas tersimpan, memangkas pemakaian bahan bakar memasak hingga setengah atau kurang.",
+        "how_it_works": "Makanan didihkan di atas kompor sebentar, lalu panci dipindahkan ke dalam kotak berinsulasi baik yang diisi koran yang diremas di dalam kardus, tempat panas tersimpan terus memasaknya tanpa bahan bakar tambahan. Karena kotak menjaga panci tetap dekat suhu memasak dalam waktu lama, kompor bisa dimatikan lebih awal, memangkas separuh konsumsi bahan bakar — penting di tempat bahan bakar berharga. Halaman ini membagikan instruksi pembuatan yang dapat dicetak dalam bahasa Jepang dan Inggris.",
+        "problem": "Bahan bakar memasak langka saat bencana dan harus dihemat semaksimal mungkin.",
+        "fabcity_relevance": "Kompor berinsulasi gaya 'haybox' dari kertas bekas memangkas separuh energi memasak rumah tangga, peningkatan efisiensi yang langsung dapat ditiru oleh kota mana pun di bawah tekanan bahan bakar."
+      }
+    }
+  },
+  {
+    "id": "olive-tin-can-stove",
+    "title": "Lightweight stove from nested tin cans",
+    "title_original": "空き缶コンロ",
+    "summary": "A compact camping stove built from small and medium cans, with burner holes, nail pot-supports, and a coin to seal the fuel port.",
+    "how_it_works": "Two small same-size odorless cans are sanded free of paint, cut to equal height, and joined to form the burner body; the top rim gets eight flame holes plus four holes for nail pot-supports (twelve in total), with a few fuel-fill holes in the center. Two medium cans form a perforated cover that fits snugly over the burner, cut so the cover protects the nails. A small coin laid over the central port controls fuel filling and lighting, and heat-resistant adhesive holds the assembly together.",
+    "type": "tool",
+    "disobedience_move": [
+      "replicate",
+      "repurpose",
+      "scavenge"
+    ],
+    "domain": [
+      "energy",
+      "food",
+      "fabrication-tools"
+    ],
+    "problem": "There is no stove for cooking or boiling water and only empty cans are available.",
+    "materials": [
+      "two small odorless cans",
+      "two medium cans",
+      "four long thin nails",
+      "heat-resistant adhesive",
+      "sandpaper (#150 and #300)",
+      "metal cutter/punch",
+      "small coin",
+      "fuel"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "食べる・調理する › 調理器具・方法",
+    "source_url": "https://sites.google.com/site/olivesoce/食べる調理する/食料/調理器具方法/空き缶コンロ",
+    "validation": "documented",
+    "fabcity_relevance": "Turns drink cans — abundant urban waste — into a working cookstove, a textbook example of refunctionalizing scrap into a critical tool.",
+    "tags": [
+      "stove",
+      "cans",
+      "cooking",
+      "upcycling",
+      "DIY"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Hornillo ligero con latas encajadas",
+        "summary": "Un hornillo de campaña compacto construido con latas pequeñas y medianas, con agujeros de quemador, clavos como soportes de olla y una moneda para sellar la boca de combustible.",
+        "how_it_works": "Se lijan dos latas pequeñas del mismo tamaño y sin olor para quitarles la pintura, se cortan a la misma altura y se unen para formar el cuerpo del quemador; el borde superior recibe ocho agujeros de llama más cuatro agujeros para clavos que sostienen la olla (doce en total), con algunos agujeros de carga de combustible en el centro. Dos latas medianas forman una cubierta perforada que encaja ajustada sobre el quemador, cortada para que la cubierta proteja los clavos. Una moneda pequeña sobre la boca central controla la carga de combustible y el encendido, y un adhesivo resistente al calor mantiene el conjunto unido.",
+        "problem": "No hay hornillo para cocinar o hervir agua y solo hay latas vacías disponibles.",
+        "fabcity_relevance": "Convierte las latas de bebida —residuo urbano abundante— en un hornillo funcional, un ejemplo de manual de refuncionalizar la chatarra en una herramienta crítica."
+      },
+      "id": {
+        "title": "Kompor ringan dari kaleng bertumpuk",
+        "summary": "Kompor berkemah ringkas yang dibuat dari kaleng kecil dan sedang, dengan lubang pembakar, paku penyangga panci, dan koin untuk menutup lubang bahan bakar.",
+        "how_it_works": "Dua kaleng kecil seukuran tanpa bau diamplas untuk menghilangkan cat, dipotong setinggi sama, dan disatukan menjadi badan pembakar; bibir atas diberi delapan lubang api ditambah empat lubang untuk paku penyangga panci (dua belas total), dengan beberapa lubang pengisi bahan bakar di tengah. Dua kaleng sedang menjadi penutup berlubang yang pas di atas pembakar, dipotong agar penutup melindungi paku. Koin kecil di atas lubang tengah mengatur pengisian bahan bakar dan penyalaan, dan perekat tahan panas menyatukan rakitan.",
+        "problem": "Tidak ada kompor untuk memasak atau merebus air dan hanya tersedia kaleng kosong.",
+        "fabcity_relevance": "Mengubah kaleng minuman — limbah kota yang melimpah — menjadi kompor masak yang berfungsi, contoh baku memfungsikan ulang barang bekas menjadi alat penting."
+      }
+    }
+  },
+  {
+    "id": "olive-salt-preserved-vegetables",
+    "title": "Salt-preserving vegetables without refrigeration",
+    "title_original": "野菜を塩漬けにして保存",
+    "summary": "Preserving root and mountain vegetables by salting in a plastic bucket, with the salt ratio tuned for anything from a same-day pickle to a year of storage.",
+    "how_it_works": "Root vegetables like daikon and mountain vegetables such as bracken (warabi, zenmai) are packed in salt in an ordinary plastic bucket. The salt level sets the result: salt equal to 2% of the food's weight gives a light pickle (root vegetables are edible in 2–3 hours), about 4% keeps it for around a month, and 8% or more preserves it for a year or longer. No power or refrigeration is needed, so harvests and rations can be stabilized through a long outage.",
+    "type": "technique",
+    "disobedience_move": [
+      "replicate",
+      "substitute"
+    ],
+    "domain": [
+      "food",
+      "agriculture",
+      "household"
+    ],
+    "problem": "Refrigeration is unavailable and fresh vegetables would otherwise spoil.",
+    "materials": [
+      "vegetables (daikon, bracken, etc.)",
+      "salt",
+      "plastic bucket"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "食べる・調理する › 保存",
+    "source_url": "https://sites.google.com/site/olivesoce/食べる調理する/食料/保存/野菜を塩漬けにして保存",
+    "validation": "documented",
+    "fabcity_relevance": "A salt-ratio rule of thumb lets a city household preserve food for up to a year without any cold chain, building food autonomy through outages.",
+    "tags": [
+      "food-preservation",
+      "salting",
+      "pickling",
+      "no-fridge",
+      "storage"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Conservar verduras en sal sin refrigeración",
+        "summary": "Conservar verduras de raíz y de montaña salándolas en un cubo de plástico, con la proporción de sal ajustada desde un encurtido del mismo día hasta un año de almacenamiento.",
+        "how_it_works": "Verduras de raíz como el daikon y verduras de montaña como el helecho (warabi, zenmai) se empacan en sal en un cubo de plástico común. El nivel de sal define el resultado: sal igual al 2% del peso del alimento da un encurtido ligero (las verduras de raíz se pueden comer en 2–3 horas), alrededor del 4% lo conserva cerca de un mes, y 8% o más lo conserva un año o más. No se necesita energía ni refrigeración, así que las cosechas y raciones pueden estabilizarse durante un corte prolongado.",
+        "problem": "No hay refrigeración disponible y las verduras frescas se echarían a perder.",
+        "fabcity_relevance": "Una regla práctica de proporción de sal permite a un hogar urbano conservar alimentos hasta un año sin cadena de frío, construyendo autonomía alimentaria durante los cortes."
+      },
+      "id": {
+        "title": "Mengawetkan sayuran dengan garam tanpa pendinginan",
+        "summary": "Mengawetkan sayuran akar dan sayuran gunung dengan menggarami dalam ember plastik, dengan rasio garam disetel dari acar sehari jadi hingga setahun penyimpanan.",
+        "how_it_works": "Sayuran akar seperti lobak dan sayuran gunung seperti pakis (warabi, zenmai) dikemas dalam garam di ember plastik biasa. Kadar garam menentukan hasil: garam sebanyak 2% dari berat makanan menghasilkan acar ringan (sayuran akar bisa dimakan dalam 2–3 jam), sekitar 4% mengawetkannya sekitar sebulan, dan 8% atau lebih mengawetkannya setahun atau lebih. Tidak perlu listrik atau pendinginan, sehingga hasil panen dan ransum bisa distabilkan selama pemadaman panjang.",
+        "problem": "Pendinginan tidak tersedia dan sayuran segar akan membusuk.",
+        "fabcity_relevance": "Pedoman rasio garam memungkinkan rumah tangga kota mengawetkan makanan hingga setahun tanpa rantai dingin, membangun kemandirian pangan selama pemadaman."
+      }
+    }
+  },
+  {
+    "id": "olive-fermentation-preserves",
+    "title": "Fermentation to extend food shelf life and nutrition",
+    "title_original": "発酵パワーで食料の保存性・栄養価をUP",
+    "summary": "A set of home fermentation methods — oil, koji, salt, rice-bran, and miso pickling plus dried vegetables and natto — that dramatically extend shelf life while adding enzymes and probiotics.",
+    "how_it_works": "Using pantry staples like miso, salt, and a nuka (rice-bran) bed, ordinary food is fermented so its keeping quality and nutrition rise and the body absorbs digestive enzymes and live beneficial bacteria. For example, oil-pickling submerges vegetables fully in oil from a few canned-anchovy tins (food must stay covered or it rots), and a koji salt-bed is made from 100 g rice koji, 500–1000 cc water, and 5–30 g salt (5–30% of the koji — higher percentages suppress alcohol fermentation), fermented 3–7 days while stirred once a day. Vegetables then pickle in that bed for half a day to a day, meat for 1–3 days, and fish after scaling and gutting.",
+    "type": "technique",
+    "disobedience_move": [
+      "replicate",
+      "substitute",
+      "augment"
+    ],
+    "domain": [
+      "food",
+      "health-veterinary",
+      "household"
+    ],
+    "problem": "Fresh food spoils and balanced nutrition is hard to maintain when supplies are cut off.",
+    "materials": [
+      "miso",
+      "salt",
+      "rice-bran (nuka) bed",
+      "rice koji",
+      "canned anchovies/oil",
+      "vegetables, meat, or fish",
+      "containers"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "食べる・調理する › 食料",
+    "source_url": "https://sites.google.com/site/olivesoce/食べる調理する/食料/発酵パワーで食料の保存性栄養価をup",
+    "validation": "documented",
+    "fabcity_relevance": "Harnessing ambient microbes for preservation turns spoilage into shelf-stable, more nutritious food, a low-tech biotechnology any community can run locally.",
+    "tags": [
+      "fermentation",
+      "food-preservation",
+      "probiotics",
+      "koji",
+      "nutrition"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Fermentación para alargar la conservación y la nutrición de los alimentos",
+        "summary": "Un conjunto de métodos caseros de fermentación —encurtido en aceite, koji, sal, salvado de arroz y miso, más verduras secas y natto— que alargan drásticamente la conservación a la vez que aportan enzimas y probióticos.",
+        "how_it_works": "Usando básicos de despensa como miso, sal y una cama de nuka (salvado de arroz), se fermenta comida común para que su conservación y nutrición aumenten y el cuerpo absorba enzimas digestivas y bacterias beneficiosas vivas. Por ejemplo, el encurtido en aceite sumerge las verduras por completo en aceite de unas latas de anchoas (la comida debe permanecer cubierta o se pudre), y una cama de sal-koji se hace con 100 g de koji de arroz, 500–1000 cc de agua y 5–30 g de sal (5–30% del koji; porcentajes mayores frenan la fermentación alcohólica), fermentada 3–7 días removiendo una vez al día. Las verduras luego se encurten en esa cama de medio día a un día, la carne de 1–3 días, y el pescado tras escamarlo y limpiarlo.",
+        "problem": "La comida fresca se echa a perder y es difícil mantener una nutrición equilibrada cuando se cortan los suministros.",
+        "fabcity_relevance": "Aprovechar los microbios del ambiente para conservar convierte lo perecedero en alimento estable y más nutritivo, una biotecnología de baja tecnología que cualquier comunidad puede operar localmente."
+      },
+      "id": {
+        "title": "Fermentasi untuk memperpanjang daya simpan dan gizi makanan",
+        "summary": "Sekumpulan metode fermentasi rumahan — pengacaran minyak, koji, garam, dedak padi, dan miso ditambah sayuran kering dan natto — yang secara dramatis memperpanjang daya simpan sekaligus menambah enzim dan probiotik.",
+        "how_it_works": "Dengan bahan dapur seperti miso, garam, dan alas nuka (dedak padi), makanan biasa difermentasi sehingga daya simpan dan gizinya meningkat dan tubuh menyerap enzim pencernaan serta bakteri baik hidup. Misalnya, pengacaran minyak merendam sayuran sepenuhnya dalam minyak dari beberapa kaleng ikan teri (makanan harus tetap terendam atau membusuk), dan alas garam-koji dibuat dari 100 g koji beras, 500–1000 cc air, dan 5–30 g garam (5–30% dari koji — persentase lebih tinggi menekan fermentasi alkohol), difermentasi 3–7 hari sambil diaduk sekali sehari. Sayuran lalu diacar dalam alas itu setengah hari sampai sehari, daging 1–3 hari, dan ikan setelah disisik dan dibersihkan.",
+        "problem": "Makanan segar membusuk dan gizi seimbang sulit dijaga saat pasokan terputus.",
+        "fabcity_relevance": "Memanfaatkan mikroba sekitar untuk pengawetan mengubah yang mudah busuk menjadi makanan tahan simpan yang lebih bergizi, bioteknologi sederhana yang dapat dijalankan komunitas mana pun secara lokal."
+      }
+    }
+  },
+  {
+    "id": "olive-grow-bean-sprouts",
+    "title": "Grow fresh bean sprouts from stored beans and water",
+    "title_original": "もやしを作ろう",
+    "summary": "Producing fresh vegetables in a few days from nothing but storable beans and water, by soaking and rinsing them in a jar or vented plastic container.",
+    "how_it_works": "Beans are soaked overnight and then simply rinsed with water several times a day until they sprout in a few days, giving a fresh vegetable from shelf-stable stock. Mung beans and lentils sprout fastest, beating rot, but alfalfa, buckwheat, sesame, and daikon seeds also work. The container just needs water exchange and breathability — a jar with gauze or kitchen paper over the mouth held by a rubber band, or a plastic tub with inverted-V slits cut into the lid rim — kept neither too dry (sprouts dry out) nor too damp (mould forms).",
+    "type": "technique",
+    "disobedience_move": [
+      "replicate",
+      "repurpose"
+    ],
+    "domain": [
+      "food",
+      "agriculture",
+      "household"
+    ],
+    "problem": "Fresh vegetables and vitamins are unavailable but dried beans can be stored long-term.",
+    "materials": [
+      "dried beans (mung, lentil) or seeds",
+      "water",
+      "glass jar",
+      "gauze or kitchen paper",
+      "rubber band",
+      "plastic container with lid"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "食べる・調理する › 食料",
+    "source_url": "https://sites.google.com/site/olivesoce/食べる調理する/食料/もやしを作ろう",
+    "validation": "documented",
+    "fabcity_relevance": "Sprouting converts a dry, storable input into living fresh produce indoors with no soil, light, or land, a micro-scale food-production loop for any home.",
+    "tags": [
+      "sprouts",
+      "food-growing",
+      "nutrition",
+      "indoor",
+      "beans"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Cultivar germinados frescos a partir de legumbres almacenadas y agua",
+        "summary": "Producir verduras frescas en pocos días con nada más que legumbres almacenables y agua, remojándolas y enjuagándolas en un frasco o recipiente plástico ventilado.",
+        "how_it_works": "Las legumbres se remojan toda la noche y luego simplemente se enjuagan con agua varias veces al día hasta que germinan en pocos días, dando una verdura fresca a partir de existencias no perecederas. La judía mungo y las lentejas germinan más rápido, ganándole a la putrefacción, pero también sirven alfalfa, trigo sarraceno, sésamo y semillas de daikon. El recipiente solo necesita recambio de agua y transpirabilidad —un frasco con gasa o papel de cocina en la boca sujeto con una goma elástica, o un envase plástico con cortes en V invertida en el borde de la tapa— mantenido ni demasiado seco (los germinados se resecan) ni demasiado húmedo (se forma moho).",
+        "problem": "No hay verduras frescas ni vitaminas disponibles pero las legumbres secas pueden almacenarse a largo plazo.",
+        "fabcity_relevance": "Germinar convierte un insumo seco y almacenable en productos frescos vivos en interiores sin suelo, luz ni tierra, un ciclo de producción de alimentos a microescala para cualquier hogar."
+      },
+      "id": {
+        "title": "Menumbuhkan tauge segar dari kacang simpanan dan air",
+        "summary": "Memproduksi sayuran segar dalam beberapa hari hanya dari kacang yang dapat disimpan dan air, dengan merendam dan membilasnya dalam toples atau wadah plastik berventilasi.",
+        "how_it_works": "Kacang direndam semalaman lalu cukup dibilas dengan air beberapa kali sehari sampai bertunas dalam beberapa hari, menghasilkan sayuran segar dari stok tahan simpan. Kacang hijau dan lentil bertunas paling cepat, mengalahkan pembusukan, tetapi alfalfa, soba, wijen, dan benih lobak juga bisa. Wadah hanya perlu pergantian air dan sirkulasi udara — toples dengan kain kasa atau tisu dapur di mulutnya yang ditahan karet gelang, atau wadah plastik dengan sayatan V terbalik pada bibir tutup — dijaga tidak terlalu kering (tauge mengering) maupun terlalu lembap (tumbuh jamur).",
+        "problem": "Sayuran segar dan vitamin tidak tersedia tetapi kacang kering bisa disimpan jangka panjang.",
+        "fabcity_relevance": "Penumbuhan tauge mengubah bahan kering tahan simpan menjadi produk segar hidup di dalam ruangan tanpa tanah, cahaya, atau lahan, loop produksi pangan skala mikro untuk rumah mana pun."
+      }
+    }
+  },
+  {
+    "id": "olive-waterless-emergency-toilet",
+    "title": "Waterless emergency toilet with bag and absorbent",
+    "title_original": "水のいらない簡易トイレ",
+    "summary": "A simple toilet that needs no water — a plastic bag lining over a bowl or bucket plus an absorbent, with sawdust added to suppress odor before tying off and disposing.",
+    "how_it_works": "A plastic bag is fitted as a liner over an existing toilet bowl or a bucket, and an absorbent material is placed inside to soak up liquid; after use the bag is tied shut and set aside for disposal. A handful of sawdust mixed in markedly suppresses the smell, keeping a shelter sanitary when flushing water has been cut. The page also links a Portuguese-language version so the method can travel across language communities.",
+    "type": "technique",
+    "disobedience_move": [
+      "substitute",
+      "repurpose",
+      "bypass"
+    ],
+    "domain": [
+      "health-veterinary",
+      "water",
+      "household"
+    ],
+    "problem": "Water for flushing is cut off and sanitation must be maintained to prevent disease.",
+    "materials": [
+      "plastic bag",
+      "toilet bowl or bucket",
+      "absorbent material",
+      "sawdust"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "清潔を保つ › トイレ",
+    "source_url": "https://sites.google.com/site/olivesoce/清潔を保つ/トイレ/水のいらない簡易トイレ",
+    "validation": "documented",
+    "fabcity_relevance": "Decouples sanitation from the water grid using only a bag and absorbent, a public-health essential when a city's water or sewage system fails.",
+    "tags": [
+      "sanitation",
+      "toilet",
+      "no-water",
+      "hygiene",
+      "odor-control"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Inodoro de emergencia sin agua con bolsa y absorbente",
+        "summary": "Un inodoro simple que no necesita agua: una bolsa de plástico como forro sobre una taza o cubo más un absorbente, con aserrín añadido para suprimir el olor antes de cerrar y desechar.",
+        "how_it_works": "Se coloca una bolsa de plástico como forro sobre una taza de inodoro existente o un cubo, y se pone material absorbente dentro para empapar el líquido; tras el uso, se cierra la bolsa y se aparta para desecharla. Un puñado de aserrín mezclado suprime notablemente el olor, manteniendo higiénico un refugio cuando se ha cortado el agua de la cisterna. La página también enlaza una versión en portugués para que el método pueda viajar entre comunidades lingüísticas.",
+        "problem": "El agua para descargar está cortada y hay que mantener el saneamiento para prevenir enfermedades.",
+        "fabcity_relevance": "Desliga el saneamiento de la red de agua usando solo una bolsa y un absorbente, algo esencial para la salud pública cuando falla el sistema de agua o alcantarillado de una ciudad."
+      },
+      "id": {
+        "title": "Toilet darurat tanpa air dengan kantong dan penyerap",
+        "summary": "Toilet sederhana yang tidak butuh air — kantong plastik sebagai pelapis di atas kloset atau ember ditambah penyerap, dengan serbuk gergaji untuk menekan bau sebelum diikat dan dibuang.",
+        "how_it_works": "Kantong plastik dipasang sebagai pelapis di atas kloset yang ada atau ember, dan bahan penyerap ditaruh di dalamnya untuk menyerap cairan; setelah dipakai kantong diikat dan disisihkan untuk dibuang. Segenggam serbuk gergaji yang dicampurkan sangat menekan bau, menjaga pengungsian tetap higienis saat air penyiram terputus. Halaman ini juga menautkan versi bahasa Portugis agar metodenya dapat menyebar lintas komunitas bahasa.",
+        "problem": "Air untuk menyiram terputus dan sanitasi harus dijaga untuk mencegah penyakit.",
+        "fabcity_relevance": "Melepaskan sanitasi dari jaringan air hanya dengan kantong dan penyerap, hal penting bagi kesehatan publik saat sistem air atau saluran pembuangan kota gagal."
+      }
+    }
+  },
+  {
+    "id": "olive-emergency-cloth-pad",
+    "title": "Emergency cloth menstrual pad from a shirt sleeve",
+    "title_original": "緊急用布ナプキン",
+    "summary": "An emergency menstrual pad improvised from the sleeve of clothing when disposables run out, with strong safeguards about hygiene and shelter conditions.",
+    "how_it_works": "The sleeve of a garment such as a long-sleeved shirt is used because it is washed often (so likely clean), retains body heat better than socks or trousers if you must sacrifice clothing, and carries a fabric-content tag so you can confirm cotton and avoid skin irritation. The page stresses this is only for emergencies when disposable pads are unavailable: in water-scarce shelters, washing and reusing cloth can spread infection, blood-borne disease is a risk, and cloth pads can add stress for women in mixed-gender shelters — so disposable pads should be included in relief supplies.",
+    "type": "substitution",
+    "disobedience_move": [
+      "substitute",
+      "repurpose"
+    ],
+    "domain": [
+      "health-veterinary",
+      "household",
+      "materials"
+    ],
+    "problem": "Disposable menstrual products have run out in a disaster and none can be obtained.",
+    "materials": [
+      "cotton clothing sleeve",
+      "long-sleeved shirt fabric"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "清潔を保つ › 生理用品",
+    "source_url": "https://sites.google.com/site/olivesoce/清潔を保つ/生理用品/生理用ナプキン/緊急用布ナプキン",
+    "validation": "documented",
+    "fabcity_relevance": "Addresses menstrual dignity in crisis with a clothing-based stopgap while honestly flagging its health limits — a reminder that resilience kits must stock menstrual supplies.",
+    "tags": [
+      "menstrual-health",
+      "dignity",
+      "substitution",
+      "hygiene",
+      "textiles"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Compresa menstrual de emergencia hecha con la manga de una camisa",
+        "summary": "Una compresa menstrual de emergencia improvisada con la manga de una prenda cuando se acaban las desechables, con fuertes advertencias sobre higiene y condiciones del refugio.",
+        "how_it_works": "Se usa la manga de una prenda como una camisa de manga larga porque se lava con frecuencia (así que probablemente esté limpia), retiene mejor el calor corporal que los calcetines o los pantalones si hay que sacrificar ropa, y lleva una etiqueta de composición para confirmar que es de algodón y evitar irritación de la piel. La página subraya que esto es solo para emergencias cuando no hay compresas desechables: en refugios con poca agua, lavar y reutilizar tela puede propagar infecciones, hay riesgo de enfermedades de transmisión sanguínea, y las compresas de tela pueden añadir estrés a las mujeres en refugios mixtos, por lo que las compresas desechables deberían incluirse en los suministros de ayuda.",
+        "problem": "Se han acabado los productos menstruales desechables en un desastre y no se puede conseguir ninguno.",
+        "fabcity_relevance": "Aborda la dignidad menstrual en la crisis con un recurso provisional basado en ropa, señalando con honestidad sus límites sanitarios, un recordatorio de que los kits de resiliencia deben incluir productos menstruales."
+      },
+      "id": {
+        "title": "Pembalut kain darurat dari lengan baju",
+        "summary": "Pembalut menstruasi darurat yang diimprovisasi dari lengan pakaian saat pembalut sekali pakai habis, dengan peringatan kuat tentang kebersihan dan kondisi pengungsian.",
+        "how_it_works": "Lengan pakaian seperti kemeja lengan panjang dipakai karena sering dicuci (jadi kemungkinan bersih), menahan panas tubuh lebih baik daripada kaus kaki atau celana jika harus mengorbankan pakaian, dan memiliki label komposisi kain sehingga Anda bisa memastikan katun dan menghindari iritasi kulit. Halaman menekankan ini hanya untuk darurat saat pembalut sekali pakai tidak tersedia: di pengungsian yang kekurangan air, mencuci dan memakai ulang kain bisa menyebarkan infeksi, ada risiko penyakit lewat darah, dan pembalut kain bisa menambah stres bagi perempuan di pengungsian campuran — sehingga pembalut sekali pakai harus dimasukkan dalam bantuan.",
+        "problem": "Produk menstruasi sekali pakai habis saat bencana dan tidak ada yang bisa diperoleh.",
+        "fabcity_relevance": "Menangani martabat menstruasi dalam krisis dengan solusi sementara berbasis pakaian sambil jujur menandai batas kesehatannya — pengingat bahwa perlengkapan ketahanan harus menyediakan kebutuhan menstruasi."
+      }
+    }
+  },
+  {
+    "id": "olive-diaper-substitutes",
+    "title": "Substitutes for disposable diapers using cloth and bags",
+    "title_original": "紙おむつを他のもので代用する方法",
+    "summary": "Three fallbacks for diapers — a bolt of cotton sarashi cloth, reusing a disposable's outer cover with cloth inside, or a cut plastic shopping bag — for when supplies cannot be stockpiled.",
+    "how_it_works": "Because you cannot stock enough diapers, the page recommends preparing one bolt (9–10 m) of sarashi bleached cotton: cut it in half so one half is a baby carrier and the other half is diapers. If a few disposables remain, peel out only the gel absorbent core from a barely-soiled one and reuse the outer cover, laying sarashi inside to absorb and washing only the cloth. With no diapers at all, cut one handle and both sides of a supermarket plastic bag, tie a handle around the baby's belly, and pass the long vinyl up from the bottom like a postpartum T-band, with sarashi absorbing urine — a method that also works for an adult's menstruation.",
+    "type": "substitution",
+    "disobedience_move": [
+      "substitute",
+      "repurpose",
+      "recover-reuse"
+    ],
+    "domain": [
+      "health-veterinary",
+      "household",
+      "materials"
+    ],
+    "problem": "Disposable diapers cannot be stockpiled or obtained for an infant during a prolonged emergency.",
+    "materials": [
+      "sarashi bleached cotton cloth (bolt)",
+      "scissors",
+      "spare disposable-diaper covers",
+      "plastic shopping bag"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "清潔を保つ › 赤ちゃん関連",
+    "source_url": "https://sites.google.com/site/olivesoce/清潔を保つ/赤ちゃん関連/紙おむつを他のもので代用する方法",
+    "validation": "documented",
+    "fabcity_relevance": "Layered fallbacks from a single cloth bolt to a shopping bag keep infant care going without a supply chain, modeling graceful degradation for essential household needs.",
+    "tags": [
+      "infant-care",
+      "diapers",
+      "substitution",
+      "cloth",
+      "reuse"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Sustitutos de pañales desechables con tela y bolsas",
+        "summary": "Tres alternativas para pañales —un rollo de tela de algodón sarashi, reutilizar la cubierta externa de un desechable con tela dentro, o una bolsa de compras de plástico cortada— para cuando no se pueden almacenar suministros.",
+        "how_it_works": "Como no se pueden almacenar suficientes pañales, la página recomienda preparar un rollo (9–10 m) de algodón sarashi blanqueado: córtalo por la mitad para que una mitad sea un portabebés y la otra sean pañales. Si quedan algunos desechables, extrae solo el núcleo absorbente de gel de uno apenas sucio y reutiliza la cubierta externa, colocando sarashi dentro para absorber y lavando solo la tela. Sin pañales, corta un asa y ambos lados de una bolsa de supermercado, ata un asa alrededor de la barriga del bebé y pasa el vinilo largo desde abajo como una faja en T posparto, con la sarashi absorbiendo la orina, un método que también sirve para la menstruación de un adulto.",
+        "problem": "No se pueden almacenar ni conseguir pañales desechables para un bebé durante una emergencia prolongada.",
+        "fabcity_relevance": "Alternativas escalonadas, desde un solo rollo de tela hasta una bolsa de compras, mantienen el cuidado infantil sin cadena de suministro, modelando una degradación elegante de necesidades domésticas esenciales."
+      },
+      "id": {
+        "title": "Pengganti popok sekali pakai dengan kain dan kantong",
+        "summary": "Tiga cadangan untuk popok — segulung kain katun sarashi, memakai ulang penutup luar popok sekali pakai dengan kain di dalam, atau kantong belanja plastik yang dipotong — untuk saat pasokan tak bisa ditimbun.",
+        "how_it_works": "Karena Anda tidak bisa menimbun cukup popok, halaman ini menyarankan menyiapkan satu gulung (9–10 m) katun sarashi yang diputihkan: potong jadi dua sehingga satu bagian menjadi gendongan bayi dan bagian lain menjadi popok. Jika tersisa beberapa popok sekali pakai, kupas hanya inti gel penyerap dari yang nyaris tak kotor dan pakai ulang penutup luarnya, taruh sarashi di dalam untuk menyerap dan cuci hanya kainnya. Tanpa popok sama sekali, potong satu pegangan dan kedua sisi kantong belanja, ikat pegangan di sekeliling perut bayi, dan lewatkan vinil panjang dari bawah seperti sabuk-T pascamelahirkan, dengan sarashi menyerap urine — metode yang juga berlaku untuk menstruasi orang dewasa.",
+        "problem": "Popok sekali pakai tak bisa ditimbun atau diperoleh untuk bayi selama keadaan darurat berkepanjangan.",
+        "fabcity_relevance": "Cadangan berlapis dari satu gulung kain hingga kantong belanja menjaga perawatan bayi tetap berjalan tanpa rantai pasok, mencontohkan degradasi mulus untuk kebutuhan rumah tangga esensial."
+      }
+    }
+  },
+  {
+    "id": "olive-olive-oil-candle",
+    "title": "Olive oil candle floating on water",
+    "title_original": "オリーブオイルキャンドル",
+    "summary": "A bright, soot-free candle made by floating a cotton-thread wick on a thin layer of olive oil over water in a glass, with the water beneath making it relatively safe.",
+    "how_it_works": "A glass or empty bottle is filled one-third with water, then 1–2 cm of olive oil is poured on top of the water. A piece of disposable chopstick or wood scrap is cut to length, and cotton thread (or finely shredded cotton clothing) is pinched into a slit or tied to it and floated on the oil; once the thread soaks up oil, it is lit. The oil layer feeds the flame while the water underneath limits the fire hazard, and olive oil burns very brightly without soot — it was historically used as lamp oil in Italy.",
+    "type": "tool",
+    "disobedience_move": [
+      "replicate",
+      "repurpose",
+      "substitute"
+    ],
+    "domain": [
+      "energy",
+      "household"
+    ],
+    "problem": "Electric light is out during an outage and a safe, lasting light source is needed.",
+    "materials": [
+      "glass or empty bottle",
+      "water",
+      "olive oil",
+      "disposable chopstick or wood scrap",
+      "cotton thread or shredded cotton cloth"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "光で照らす › 日用品",
+    "source_url": "https://sites.google.com/site/olivesoce/光で照らす/日用品/オリーブオイルキャンドル",
+    "validation": "documented",
+    "fabcity_relevance": "A safe lamp from kitchen oil and a glass gives households light during blackouts without batteries or fuel cans — fittingly, the technique that gives OLIVE its name.",
+    "tags": [
+      "light",
+      "candle",
+      "olive-oil",
+      "blackout",
+      "DIY"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Vela de aceite de oliva que flota sobre agua",
+        "summary": "Una vela brillante y sin hollín hecha al flotar una mecha de hilo de algodón sobre una capa fina de aceite de oliva encima de agua en un vaso, con el agua debajo haciéndola relativamente segura.",
+        "how_it_works": "Se llena un vaso o botella vacía un tercio con agua, luego se vierten 1–2 cm de aceite de oliva sobre el agua. Se corta a la medida un palillo desechable o trozo de madera, y se pellizca hilo de algodón (o ropa de algodón finamente desgarrada) en una ranura o se ata a él y se flota sobre el aceite; una vez que el hilo absorbe el aceite, se enciende. La capa de aceite alimenta la llama mientras el agua de abajo limita el riesgo de incendio, y el aceite de oliva arde muy brillante sin hollín; históricamente se usó como aceite de lámpara en Italia.",
+        "problem": "La luz eléctrica está cortada durante un apagón y se necesita una fuente de luz segura y duradera.",
+        "fabcity_relevance": "Una lámpara segura hecha con aceite de cocina y un vaso da luz a los hogares durante los apagones sin pilas ni bidones de combustible; apropiadamente, la técnica que da nombre a OLIVE."
+      },
+      "id": {
+        "title": "Lilin minyak zaitun yang mengapung di atas air",
+        "summary": "Lilin terang tanpa jelaga yang dibuat dengan mengapungkan sumbu benang katun di atas lapisan tipis minyak zaitun di atas air dalam gelas, dengan air di bawahnya membuatnya relatif aman.",
+        "how_it_works": "Gelas atau botol kosong diisi sepertiga dengan air, lalu 1–2 cm minyak zaitun dituang di atas air. Sepotong sumpit sekali pakai atau potongan kayu dipotong sesuai panjang, dan benang katun (atau pakaian katun yang disobek halus) dijepit ke celah atau diikat padanya lalu diapungkan di atas minyak; setelah benang menyerap minyak, dinyalakan. Lapisan minyak memberi makan nyala api sementara air di bawahnya membatasi bahaya kebakaran, dan minyak zaitun terbakar sangat terang tanpa jelaga — secara historis dipakai sebagai minyak lampu di Italia.",
+        "problem": "Lampu listrik padam saat pemadaman dan sumber cahaya yang aman dan tahan lama dibutuhkan.",
+        "fabcity_relevance": "Lampu aman dari minyak dapur dan gelas memberi rumah tangga cahaya saat mati listrik tanpa baterai atau kaleng bahan bakar — tepat sekali, teknik yang memberi nama pada OLIVE."
+      }
+    }
+  },
+  {
+    "id": "olive-aluminum-can-lantern",
+    "title": "Aluminum can oil lantern",
+    "title_original": "アルミ缶のランタン",
+    "summary": "A handheld oil lantern cut from an aluminum can, burning salad oil through a wick rolled from tissue paper and aluminum foil.",
+    "how_it_works": "An upside-down tulip shape is drawn on an aluminum can and cut out with a craft knife (wear non-slip gloves), and the resulting M-shaped tab is folded inward. A wick is made by cutting tissue paper to 5 cm wide, rolling it into a ~6 mm rod, and wrapping ~2 cm-wide aluminum foil around its center twice; the wick is fixed in the M-shaped tab. Salad oil is poured to about 2 cm from the bottom, and once the oil soaks up to the top of the tissue wick it is lit; adding a wire handle turns it into a portable lantern.",
+    "type": "tool",
+    "disobedience_move": [
+      "repurpose",
+      "replicate",
+      "scavenge"
+    ],
+    "domain": [
+      "energy",
+      "household",
+      "fabrication-tools"
+    ],
+    "problem": "Lighting is unavailable in a blackout and only an empty can and cooking oil are at hand.",
+    "materials": [
+      "aluminum can",
+      "felt pen",
+      "craft knife",
+      "non-slip work gloves",
+      "tissue paper",
+      "aluminum foil",
+      "salad oil",
+      "wire"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "光で照らす › 日用品",
+    "source_url": "https://sites.google.com/site/olivesoce/光で照らす/日用品/アルミ缶のランタン",
+    "validation": "documented",
+    "fabcity_relevance": "Refunctionalizes a drink can and cooking oil into a portable lamp, showing how urban waste becomes emergency lighting hardware.",
+    "tags": [
+      "light",
+      "lantern",
+      "cans",
+      "oil-lamp",
+      "upcycling"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Farol de aceite con lata de aluminio",
+        "summary": "Un farol de aceite de mano recortado de una lata de aluminio, que quema aceite de cocina a través de una mecha enrollada con papel tisú y papel aluminio.",
+        "how_it_works": "Se dibuja una forma de tulipán invertido en una lata de aluminio y se recorta con un cúter (usa guantes antideslizantes), y la pestaña en forma de M resultante se pliega hacia dentro. Se hace una mecha cortando papel tisú a 5 cm de ancho, enrollándolo en una varilla de ~6 mm y envolviendo papel aluminio de ~2 cm de ancho dos veces alrededor de su centro; la mecha se fija en la pestaña en forma de M. Se vierte aceite de cocina hasta unos 2 cm desde el fondo, y una vez que el aceite empapa hasta la parte superior de la mecha de tisú se enciende; añadir un asa de alambre lo convierte en un farol portátil.",
+        "problem": "No hay iluminación en un apagón y solo se tiene una lata vacía y aceite de cocina a mano.",
+        "fabcity_relevance": "Refuncionaliza una lata de bebida y aceite de cocina en una lámpara portátil, mostrando cómo el residuo urbano se convierte en equipo de iluminación de emergencia."
+      },
+      "id": {
+        "title": "Lentera minyak dari kaleng aluminium",
+        "summary": "Lentera minyak genggam yang dipotong dari kaleng aluminium, membakar minyak goreng melalui sumbu yang digulung dari tisu dan aluminium foil.",
+        "how_it_works": "Bentuk tulip terbalik digambar pada kaleng aluminium dan dipotong dengan pisau kerajinan (pakai sarung tangan anti-selip), dan lidah berbentuk M yang dihasilkan dilipat ke dalam. Sumbu dibuat dengan memotong tisu selebar 5 cm, menggulungnya menjadi batang ~6 mm, dan melilitkan aluminium foil selebar ~2 cm dua kali di sekitar tengahnya; sumbu dipasang di lidah berbentuk M. Minyak goreng dituang sampai sekitar 2 cm dari dasar, dan setelah minyak meresap sampai ujung atas sumbu tisu, dinyalakan; menambahkan pegangan kawat menjadikannya lentera jinjing.",
+        "problem": "Penerangan tidak tersedia saat mati listrik dan hanya ada kaleng kosong dan minyak goreng di tangan.",
+        "fabcity_relevance": "Memfungsikan ulang kaleng minuman dan minyak goreng menjadi lampu jinjing, menunjukkan bagaimana limbah kota menjadi perangkat penerangan darurat."
+      }
+    }
+  },
+  {
+    "id": "olive-pet-bottle-hot-water-bottle",
+    "title": "Hot water bottle from a heat-resistant PET bottle",
+    "title_original": "★ペットボトル湯たんぽ",
+    "summary": "Turning a 2-litre tea PET bottle into a hot water bottle by filling it with 60–80°C water, with detailed safety rules on which bottles are heat-resistant.",
+    "how_it_works": "A 2-litre tea PET bottle is filled with water at around 60–80°C and capped tightly to make a warming bottle, then wrapped in a towel to avoid low-temperature burns. Only heat-resistant bottles with a white, thick mouth (typical of tea drinks) should be used; mineral-water bottles (especially imported), carbonated/cola bottles, and seasoning bottles are unsuitable even if they feel sturdy. Never exceed 90°C, check first for scratches or a warped mouth, recycle any bottle that deforms, and replace bottles periodically — the page notes this is a use the maker does not endorse and is undertaken at one's own risk.",
+    "type": "repurposing",
+    "disobedience_move": [
+      "repurpose",
+      "substitute"
+    ],
+    "domain": [
+      "energy",
+      "health-veterinary",
+      "household"
+    ],
+    "problem": "Heating is out in cold weather and there is no manufactured hot water bottle.",
+    "materials": [
+      "2-litre heat-resistant tea PET bottle",
+      "kettle or electric pot",
+      "work or rubber gloves",
+      "towel"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "体を温める › カイロ・湯たんぽ",
+    "source_url": "https://sites.google.com/site/olivesoce/cold_resistant/Cold-and-hot-water-bottles/Tips-for-Plastic-Bottle-Hot-Water-Bottles",
+    "validation": "documented",
+    "fabcity_relevance": "Repurposes a ubiquitous drink bottle into safe personal heating during cold-weather outages, with clear material-safety guidance for replication.",
+    "tags": [
+      "warmth",
+      "hot-water-bottle",
+      "PET-bottle",
+      "cold-weather",
+      "safety"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Bolsa de agua caliente con una botella PET resistente al calor",
+        "summary": "Convertir una botella PET de té de 2 litros en una bolsa de agua caliente llenándola con agua a 60–80°C, con reglas de seguridad detalladas sobre qué botellas son resistentes al calor.",
+        "how_it_works": "Se llena una botella PET de té de 2 litros con agua a unos 60–80°C y se tapa bien para hacer una bolsa que dé calor, luego se envuelve en una toalla para evitar quemaduras por baja temperatura. Solo deben usarse botellas resistentes al calor con boca blanca y gruesa (típicas de los tés); las de agua mineral (sobre todo importada), las de bebidas carbonatadas/cola y las de condimentos no sirven aunque parezcan robustas. Nunca superar los 90°C, revisar primero si hay rayones o una boca deformada, reciclar cualquier botella que se deforme y reemplazar las botellas periódicamente; la página señala que es un uso que el fabricante no avala y se hace bajo propia responsabilidad.",
+        "problem": "La calefacción está cortada en clima frío y no hay una bolsa de agua caliente fabricada.",
+        "fabcity_relevance": "Reutiliza una botella de bebida omnipresente como calefacción personal segura durante cortes en clima frío, con una guía clara de seguridad de materiales para replicarla."
+      },
+      "id": {
+        "title": "Botol air panas dari botol PET tahan panas",
+        "summary": "Mengubah botol PET teh 2 liter menjadi botol air panas dengan mengisinya air 60–80°C, dengan aturan keselamatan rinci tentang botol mana yang tahan panas.",
+        "how_it_works": "Botol PET teh 2 liter diisi air sekitar 60–80°C dan ditutup rapat untuk membuat botol penghangat, lalu dibungkus handuk untuk menghindari luka bakar suhu rendah. Hanya botol tahan panas dengan mulut putih dan tebal (khas minuman teh) yang boleh dipakai; botol air mineral (terutama impor), botol berkarbonasi/cola, dan botol bumbu tidak cocok meski terasa kokoh. Jangan melebihi 90°C, periksa dulu goresan atau mulut yang melengkung, daur ulang botol yang berubah bentuk, dan ganti botol secara berkala — halaman mencatat ini penggunaan yang tidak didukung pembuat dan dilakukan atas risiko sendiri.",
+        "problem": "Pemanas mati saat cuaca dingin dan tidak ada botol air panas buatan pabrik.",
+        "fabcity_relevance": "Memfungsikan ulang botol minuman yang ada di mana-mana menjadi pemanas pribadi yang aman saat pemadaman cuaca dingin, dengan panduan keselamatan bahan yang jelas untuk ditiru."
+      }
+    }
+  },
+  {
+    "id": "olive-aa-to-d-battery",
+    "title": "Convert AA batteries into D batteries",
+    "title_original": "単3電池から単1電池を作る方法",
+    "summary": "Making a D-cell substitute from an AA battery by filling out the larger size with a pachinko ball, stacked one-yen coins, or aluminum foil plus rolled paper.",
+    "how_it_works": "An AA battery has the same 1.5V as a D cell but is physically smaller, so the gap is bridged. Method 1 places a pachinko ball at one end of the AA (taped on so it makes contact) and wraps paper around the body to build up the diameter. Method 2 stacks eight one-yen coins (each 1.5 mm thick = 12 mm, the right length; use seven = 10.5 mm if the holder spring is tight — never mix one-yen and ten-yen coins), tapes them into a cylinder against the battery, then wraps folded A4 paper like rolling sushi until it reaches D-cell girth. Method 3, added from user reports, uses easily shaped aluminum foil.",
+    "type": "substitution",
+    "disobedience_move": [
+      "substitute",
+      "repurpose",
+      "scavenge"
+    ],
+    "domain": [
+      "energy",
+      "household",
+      "materials"
+    ],
+    "problem": "D-size batteries are sold out but devices need them and only AA batteries are available.",
+    "materials": [
+      "AA batteries",
+      "pachinko ball",
+      "one-yen coins",
+      "aluminum foil",
+      "paper (A4)",
+      "tape"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "避難生活を助ける",
+    "source_url": "https://sites.google.com/site/olivesoce/避難生活を助ける/単3電池から単1電池を作る方法",
+    "validation": "documented",
+    "fabcity_relevance": "Bridges a battery-size mismatch with coins, foil, and paper, keeping radios and lights running when one cell size disappears from shops.",
+    "tags": [
+      "batteries",
+      "substitution",
+      "energy",
+      "hack",
+      "improvisation"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Convertir pilas AA en pilas D",
+        "summary": "Hacer un sustituto de pila D a partir de una pila AA rellenando el tamaño mayor con una bola de pachinko, monedas de un yen apiladas o papel aluminio más papel enrollado.",
+        "how_it_works": "Una pila AA tiene los mismos 1,5V que una pila D pero es físicamente más pequeña, así que se salva la diferencia. El método 1 coloca una bola de pachinko en un extremo de la AA (pegada con cinta para que haga contacto) y envuelve papel alrededor del cuerpo para aumentar el diámetro. El método 2 apila ocho monedas de un yen (cada una de 1,5 mm = 12 mm, la longitud correcta; usa siete = 10,5 mm si el resorte del portapilas aprieta; nunca mezcles monedas de un yen y de diez yenes), las pega formando un cilindro contra la pila, luego envuelve papel A4 doblado como enrollar sushi hasta alcanzar el grosor de una pila D. El método 3, añadido por reportes de usuarios, usa papel aluminio fácil de moldear.",
+        "problem": "Las pilas tamaño D están agotadas pero los dispositivos las necesitan y solo hay pilas AA disponibles.",
+        "fabcity_relevance": "Salva un desajuste de tamaño de pila con monedas, aluminio y papel, manteniendo radios y luces funcionando cuando un tamaño de pila desaparece de las tiendas."
+      },
+      "id": {
+        "title": "Mengubah baterai AA menjadi baterai D",
+        "summary": "Membuat pengganti baterai D dari baterai AA dengan mengisi ukuran yang lebih besar memakai bola pachinko, koin satu yen yang ditumpuk, atau aluminium foil ditambah kertas gulung.",
+        "how_it_works": "Baterai AA memiliki 1,5V yang sama dengan baterai D tetapi secara fisik lebih kecil, jadi celahnya dijembatani. Metode 1 menempatkan bola pachinko di salah satu ujung AA (direkat agar membuat kontak) dan melilitkan kertas di sekeliling badannya untuk menambah diameter. Metode 2 menumpuk delapan koin satu yen (masing-masing setebal 1,5 mm = 12 mm, panjang yang tepat; pakai tujuh = 10,5 mm jika pegas dudukan ketat — jangan campur koin satu yen dan sepuluh yen), merekatnya menjadi silinder menempel baterai, lalu melilitkan kertas A4 yang dilipat seperti menggulung sushi sampai mencapai ketebalan baterai D. Metode 3, ditambahkan dari laporan pengguna, memakai aluminium foil yang mudah dibentuk.",
+        "problem": "Baterai ukuran D habis terjual tetapi perangkat membutuhkannya dan hanya baterai AA yang tersedia.",
+        "fabcity_relevance": "Menjembatani ketidaksesuaian ukuran baterai dengan koin, foil, dan kertas, menjaga radio dan lampu tetap menyala saat satu ukuran baterai hilang dari toko."
+      }
+    }
+  },
+  {
+    "id": "olive-clothing-pole-stretcher",
+    "title": "Improvised stretcher from clothing and two poles",
+    "title_original": "担架の作り方",
+    "summary": "A rescue stretcher made by threading two poles through the sleeves of thick clothing, with a door noted as another stretcher option.",
+    "how_it_works": "Sleeved garments such as a thick sweatshirt or shorts are spread out and two poles are passed through the sleeves. Several garments are lined up and their sleeves scrunched together to leave as little gap as possible, building a continuous surface; once it is long enough to lay a person on, the stretcher is complete. The page adds that a door can also be used as a stretcher when poles and clothing are not enough.",
+    "type": "tool",
+    "disobedience_move": [
+      "repurpose",
+      "replicate",
+      "substitute"
+    ],
+    "domain": [
+      "health-veterinary",
+      "transport",
+      "materials"
+    ],
+    "problem": "An injured person must be carried but no manufactured stretcher is available.",
+    "materials": [
+      "two poles",
+      "thick sleeved clothing (sweatshirts, shorts)",
+      "a door (alternative)"
+    ],
+    "origin": "Japan (post-2011 Tōhoku earthquake)",
+    "era": "2010s",
+    "source": "OLIVE",
+    "source_ref": "いのちを救う › 救助用品",
+    "source_url": "https://sites.google.com/site/olivesoce/いのちを救う/救助/救助用品/担架の作り方",
+    "validation": "documented",
+    "fabcity_relevance": "Builds a casualty-transport device from clothing on hand, a fast rescue capability for neighbours acting before professional help arrives.",
+    "tags": [
+      "rescue",
+      "stretcher",
+      "first-aid",
+      "transport",
+      "improvisation"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Camilla improvisada con ropa y dos palos",
+        "summary": "Una camilla de rescate hecha pasando dos palos por las mangas de ropa gruesa, con una puerta señalada como otra opción de camilla.",
+        "how_it_works": "Se extienden prendas con mangas como una sudadera gruesa o pantalones cortos y se pasan dos palos por las mangas. Se alinean varias prendas y se juntan sus mangas para dejar el menor hueco posible, formando una superficie continua; una vez es lo bastante larga para acostar a una persona, la camilla está lista. La página añade que una puerta también puede usarse como camilla cuando los palos y la ropa no bastan.",
+        "problem": "Hay que transportar a una persona herida pero no se dispone de una camilla fabricada.",
+        "fabcity_relevance": "Construye un dispositivo de transporte de heridos con la ropa que se tiene a mano, una capacidad de rescate rápida para que los vecinos actúen antes de que llegue la ayuda profesional."
+      },
+      "id": {
+        "title": "Tandu darurat dari pakaian dan dua tongkat",
+        "summary": "Tandu penyelamat yang dibuat dengan memasukkan dua tongkat melalui lengan pakaian tebal, dengan pintu disebut sebagai pilihan tandu lain.",
+        "how_it_works": "Pakaian berlengan seperti sweatshirt tebal atau celana pendek dibentangkan dan dua tongkat dimasukkan melalui lengannya. Beberapa pakaian dijajar dan lengannya dirapatkan untuk menyisakan celah sesedikit mungkin, membentuk permukaan menyambung; setelah cukup panjang untuk membaringkan seseorang, tandu selesai. Halaman menambahkan bahwa pintu juga bisa dipakai sebagai tandu ketika tongkat dan pakaian tidak cukup.",
+        "problem": "Orang yang terluka harus diangkut tetapi tidak ada tandu buatan pabrik yang tersedia.",
+        "fabcity_relevance": "Membuat alat angkut korban dari pakaian yang ada, kemampuan penyelamatan cepat bagi tetangga untuk bertindak sebelum bantuan profesional tiba."
+      }
+    }
+  }
+]

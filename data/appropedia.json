@@ -1,0 +1,765 @@
+[
+  {
+    "id": "appropedia-biosand-filter",
+    "title": "Biosand filter",
+    "title_original": "OHorizons BioSand Filter",
+    "summary": "A concrete or plastic household filter that uses layered sand, gravel and a living biological layer to remove pathogens from drinking water using only gravity.",
+    "how_it_works": "Water poured into the top passes slowly through fine sand where a biolayer of microbes forms at the surface within about a month and consumes incoming pathogens. With a mature biolayer it removes roughly 98% of pathogens through predation, mechanical trapping, adsorption and natural death, versus 30-70% without it. It must be fed contaminated water daily and rested for a pause period of 1 to 48 hours, and a well-built concrete unit can last more than 25 years with minimal maintenance.",
+    "type": "tool",
+    "disobedience_move": [
+      "replicate",
+      "substitute"
+    ],
+    "domain": [
+      "water",
+      "health-veterinary",
+      "household"
+    ],
+    "problem": "Households off the grid lack a durable, low-maintenance way to make microbially unsafe surface water safe to drink.",
+    "materials": [
+      "concrete or plastic container",
+      "fine sand",
+      "separation and drainage gravel",
+      "diffuser basin",
+      "outlet tube"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Biosand_filter",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "A locally manufacturable, repairable water appliance that gives a household autonomy over its own drinking water with no imported consumables.",
+    "tags": [
+      "water",
+      "filtration",
+      "household",
+      "off-grid"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Filtro de bioarena",
+        "summary": "Un filtro domestico de concreto o plastico que usa capas de arena, grava y una capa biologica viva para eliminar patogenos del agua de beber usando solo la gravedad.",
+        "how_it_works": "El agua vertida arriba pasa lentamente por arena fina donde se forma en la superficie una biocapa de microbios en aproximadamente un mes que consume los patogenos entrantes. Con la biocapa madura elimina cerca del 98% de los patogenos mediante depredacion, atrapamiento mecanico, adsorcion y muerte natural, frente al 30-70% sin ella. Debe alimentarse a diario con agua contaminada y descansar un periodo de pausa de 1 a 48 horas, y una unidad de concreto bien construida puede durar mas de 25 anos con mantenimiento minimo.",
+        "problem": "Los hogares sin acceso a la red carecen de una forma duradera y de bajo mantenimiento para volver potable el agua superficial microbiologicamente insegura.",
+        "fabcity_relevance": "Un aparato de agua fabricable y reparable localmente que da a un hogar autonomia sobre su propia agua potable sin insumos importados."
+      },
+      "id": {
+        "title": "Penyaring biosand",
+        "summary": "Penyaring rumah tangga dari beton atau plastik yang menggunakan lapisan pasir, kerikil, dan lapisan biologis hidup untuk menghilangkan patogen dari air minum hanya dengan gaya gravitasi.",
+        "how_it_works": "Air yang dituang di bagian atas mengalir perlahan melalui pasir halus tempat lapisan mikroba (biolayer) terbentuk di permukaan dalam sekitar satu bulan dan memakan patogen yang masuk. Dengan biolayer matang, alat ini menghilangkan sekitar 98% patogen melalui pemangsaan, penjebakan mekanis, penyerapan, dan kematian alami, dibanding 30-70% tanpa biolayer. Alat harus diberi air terkontaminasi setiap hari dan diistirahatkan selama jeda 1 hingga 48 jam, dan unit beton yang dibuat baik dapat bertahan lebih dari 25 tahun dengan perawatan minimal.",
+        "problem": "Rumah tangga di luar jaringan tidak memiliki cara yang tahan lama dan minim perawatan untuk membuat air permukaan yang tidak aman secara mikrobiologis menjadi aman diminum.",
+        "fabcity_relevance": "Alat air yang dapat diproduksi dan diperbaiki secara lokal yang memberi rumah tangga kemandirian atas air minumnya sendiri tanpa bahan habis pakai impor."
+      }
+    }
+  },
+  {
+    "id": "appropedia-ceramic-water-filter",
+    "title": "Ceramic water filter",
+    "title_original": "Ceramic water filters",
+    "summary": "A porous pot fired from a clay-and-sawdust mix and often coated with colloidal silver that filters and disinfects drinking water as it seeps through.",
+    "how_it_works": "Clay is mixed roughly 50/50 by volume with sawdust, pressed into a pot shape and fired to about 900 degrees Celsius, where the sawdust burns out leaving micro-pores. Contaminated water poured into the pot passes through these pores into a receiving bucket, mechanically trapping particles and most pathogen-bearing sediment at a typical flow of 1.5 to 3 litres per hour. A colloidal-silver or silver-nitrate coating destroys bacteria on contact and prevents regrowth, and field use has commonly achieved about 98% removal of coliform bacteria.",
+    "type": "tool",
+    "disobedience_move": [
+      "replicate",
+      "substitute"
+    ],
+    "domain": [
+      "water",
+      "health-veterinary",
+      "materials"
+    ],
+    "problem": "Communities without piped treatment need an affordable point-of-use way to remove sediment and bacteria from drinking water using local materials.",
+    "materials": [
+      "earthenware clay",
+      "sawdust or rice husk burnout",
+      "colloidal silver or silver nitrate",
+      "press and mold",
+      "kiln",
+      "receiving bucket"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Ceramic_water_filter",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "Lets local potters turn clay, sawdust and a press into a saleable water product, building a small circular fabrication economy around safe water.",
+    "tags": [
+      "water",
+      "ceramics",
+      "filtration",
+      "local-production"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Filtro ceramico de agua",
+        "summary": "Una olla porosa cocida a partir de una mezcla de arcilla y aserrin, a menudo recubierta con plata coloidal, que filtra y desinfecta el agua de beber al filtrarse a traves de ella.",
+        "how_it_works": "La arcilla se mezcla aproximadamente al 50/50 en volumen con aserrin, se prensa en forma de olla y se cuece a unos 900 grados Celsius, donde el aserrin se quema dejando microporos. El agua contaminada vertida en la olla pasa por estos poros hacia un recipiente, atrapando mecanicamente particulas y la mayor parte del sedimento portador de patogenos a un flujo tipico de 1.5 a 3 litros por hora. Un recubrimiento de plata coloidal o nitrato de plata destruye las bacterias al contacto y evita el rebrote, y en campo se ha logrado comunmente cerca del 98% de eliminacion de bacterias coliformes.",
+        "problem": "Las comunidades sin tratamiento por tuberia necesitan una forma asequible de punto de uso para eliminar sedimento y bacterias del agua de beber con materiales locales.",
+        "fabcity_relevance": "Permite que alfareros locales conviertan arcilla, aserrin y una prensa en un producto de agua vendible, construyendo una pequena economia circular de fabricacion en torno al agua segura."
+      },
+      "id": {
+        "title": "Penyaring air keramik",
+        "summary": "Pot berpori yang dibakar dari campuran tanah liat dan serbuk gergaji, sering dilapisi perak koloid, yang menyaring dan mendisinfeksi air minum saat air merembes melaluinya.",
+        "how_it_works": "Tanah liat dicampur kira-kira 50/50 berdasarkan volume dengan serbuk gergaji, ditekan menjadi bentuk pot, dan dibakar pada sekitar 900 derajat Celsius, di mana serbuk gergaji terbakar habis meninggalkan pori-pori mikro. Air terkontaminasi yang dituang ke dalam pot melewati pori-pori ini menuju ember penampung, secara mekanis menjebak partikel dan sebagian besar sedimen pembawa patogen pada laju aliran tipikal 1.5 hingga 3 liter per jam. Lapisan perak koloid atau perak nitrat menghancurkan bakteri saat kontak dan mencegah pertumbuhan kembali, dan penggunaan di lapangan umumnya mencapai sekitar 98% penghilangan bakteri koliform.",
+        "problem": "Komunitas tanpa pengolahan air berpipa membutuhkan cara terjangkau di titik penggunaan untuk menghilangkan sedimen dan bakteri dari air minum menggunakan bahan lokal.",
+        "fabcity_relevance": "Memungkinkan perajin gerabah lokal mengubah tanah liat, serbuk gergaji, dan alat tekan menjadi produk air yang dapat dijual, membangun ekonomi fabrikasi sirkular kecil di sekitar air aman."
+      }
+    }
+  },
+  {
+    "id": "appropedia-sodis-solar-disinfection",
+    "title": "Solar water disinfection (SODIS)",
+    "title_original": "Solar water disinfection",
+    "summary": "A method of disinfecting clear drinking water by filling transparent PET bottles and leaving them in full sun, where UV-A and heat inactivate pathogens.",
+    "how_it_works": "Clear water is filled into transparent PET bottles, which can be shaken three-quarters full for 20 seconds to oxygenate, then topped up and laid in direct sun. UV-A radiation in the 320-400 nm range plus raised temperature damage the DNA of pathogens, and above 50 degrees Celsius disinfection runs about three times faster. The water must already be clear; water above roughly 30 NTU turbidity has to be filtered first, and placing bottles on a corrugated metal roof or dark surface improves the effect.",
+    "type": "technique",
+    "disobedience_move": [
+      "substitute",
+      "repurpose",
+      "replicate"
+    ],
+    "domain": [
+      "water",
+      "energy",
+      "health-veterinary"
+    ],
+    "problem": "People without fuel or filters still need a way to make small volumes of clear but microbially unsafe water safe to drink.",
+    "materials": [
+      "transparent PET or glass bottles",
+      "sunlight",
+      "corrugated or dark surface",
+      "cloth pre-filter for turbid water"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Solar_water_disinfection",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "A zero-cost, zero-infrastructure technique that turns discarded bottles and free sunlight into safe water, ideal as a fallback when services fail.",
+    "tags": [
+      "water",
+      "solar",
+      "disinfection",
+      "zero-cost"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Desinfeccion solar del agua (SODIS)",
+        "summary": "Un metodo para desinfectar agua de beber clara llenando botellas PET transparentes y dejandolas a pleno sol, donde la luz UV-A y el calor inactivan los patogenos.",
+        "how_it_works": "Se llena agua clara en botellas PET transparentes, que pueden agitarse llenas a tres cuartos durante 20 segundos para oxigenar, luego se completan y se colocan al sol directo. La radiacion UV-A en el rango de 320-400 nm mas la temperatura elevada danan el ADN de los patogenos, y por encima de 50 grados Celsius la desinfeccion es unas tres veces mas rapida. El agua ya debe estar clara; el agua por encima de unos 30 NTU de turbidez debe filtrarse primero, y colocar las botellas sobre un techo de metal corrugado o superficie oscura mejora el efecto.",
+        "problem": "Las personas sin combustible ni filtros aun necesitan una forma de volver segura para beber pequenas cantidades de agua clara pero microbiologicamente insegura.",
+        "fabcity_relevance": "Una tecnica de costo cero y sin infraestructura que convierte botellas desechadas y luz solar gratuita en agua segura, ideal como respaldo cuando fallan los servicios."
+      },
+      "id": {
+        "title": "Disinfeksi air dengan sinar matahari (SODIS)",
+        "summary": "Metode mendisinfeksi air minum yang sudah jernih dengan mengisi botol PET bening dan membiarkannya di bawah sinar matahari penuh, di mana UV-A dan panas menonaktifkan patogen.",
+        "how_it_works": "Air jernih diisikan ke dalam botol PET bening, yang dapat dikocok dalam keadaan terisi tiga perempat selama 20 detik untuk menambah oksigen, lalu diisi penuh dan dibaringkan di bawah sinar matahari langsung. Radiasi UV-A pada rentang 320-400 nm ditambah suhu yang meningkat merusak DNA patogen, dan di atas 50 derajat Celsius disinfeksi berjalan sekitar tiga kali lebih cepat. Air harus sudah jernih; air dengan kekeruhan di atas sekitar 30 NTU harus disaring lebih dulu, dan menaruh botol di atap logam bergelombang atau permukaan gelap meningkatkan efeknya.",
+        "problem": "Orang tanpa bahan bakar atau penyaring tetap membutuhkan cara untuk membuat air dalam jumlah kecil yang jernih tetapi tidak aman secara mikrobiologis menjadi aman diminum.",
+        "fabcity_relevance": "Teknik tanpa biaya dan tanpa infrastruktur yang mengubah botol bekas dan sinar matahari gratis menjadi air aman, ideal sebagai cadangan saat layanan terganggu."
+      }
+    }
+  },
+  {
+    "id": "appropedia-rocket-stove",
+    "title": "Rocket stove",
+    "title_original": "Rocket stove",
+    "summary": "A high-efficiency wood-burning cookstove with an insulated L-shaped combustion chamber that burns small sticks hot and clean, cutting smoke and fuel use.",
+    "how_it_works": "Wood is fed horizontally into a short insulated combustion chamber shaped like an L, with a fuel shelf that lets air flow under the burning tips. Keeping the fire above about 650 degrees Celsius and feeding only the stick tips burns the wood more completely, so far less smoke is produced. A pot skirt forces the hot gases along the bottom and sides of the cooking vessel, so the stove runs roughly twice as efficiently and far more cleanly than an open three-stone fire.",
+    "type": "tool",
+    "disobedience_move": [
+      "substitute",
+      "augment",
+      "replicate"
+    ],
+    "domain": [
+      "energy",
+      "household",
+      "health-veterinary"
+    ],
+    "problem": "Cooking on open wood fires wastes fuel, drives deforestation and fills homes with smoke that kills around 1.6 million people a year.",
+    "materials": [
+      "metal can or oil drum",
+      "ceramic or metal combustion pipe",
+      "insulation such as ash, pumice or vermiculite",
+      "fuel shelf",
+      "pot skirt"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Rocket_stove",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "A buildable-from-scrap stove that halves household fuel demand and clears indoor air, linking local metal fabrication to energy and health autonomy.",
+    "tags": [
+      "energy",
+      "cooking",
+      "clean-air",
+      "efficiency"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Estufa cohete",
+        "summary": "Una estufa de lena de alta eficiencia con una camara de combustion aislada en forma de L que quema ramas pequenas de forma caliente y limpia, reduciendo humo y consumo de combustible.",
+        "how_it_works": "La lena se alimenta horizontalmente en una camara de combustion corta y aislada en forma de L, con una repisa que deja fluir aire bajo las puntas encendidas. Mantener el fuego por encima de unos 650 grados Celsius y alimentar solo las puntas de las ramas quema la lena de forma mas completa, por lo que se produce mucho menos humo. Una falda alrededor de la olla obliga a los gases calientes a recorrer el fondo y los lados del recipiente, de modo que la estufa funciona cerca del doble de eficiente y mucho mas limpia que un fuego abierto de tres piedras.",
+        "problem": "Cocinar en fuegos abiertos de lena desperdicia combustible, impulsa la deforestacion y llena los hogares de humo que mata a cerca de 1.6 millones de personas al ano.",
+        "fabcity_relevance": "Una estufa construible con chatarra que reduce a la mitad la demanda domestica de combustible y limpia el aire interior, conectando la fabricacion local de metal con la autonomia energetica y de salud."
+      },
+      "id": {
+        "title": "Tungku roket",
+        "summary": "Tungku masak berbahan kayu berefisiensi tinggi dengan ruang bakar berinsulasi berbentuk L yang membakar ranting kecil secara panas dan bersih, memangkas asap dan penggunaan bahan bakar.",
+        "how_it_works": "Kayu dimasukkan secara horizontal ke ruang bakar pendek berinsulasi berbentuk L, dengan rak bahan bakar yang membiarkan udara mengalir di bawah ujung yang terbakar. Menjaga api di atas sekitar 650 derajat Celsius dan hanya memberi makan ujung ranting membakar kayu lebih sempurna, sehingga jauh lebih sedikit asap yang dihasilkan. Selubung panci memaksa gas panas mengalir di sepanjang dasar dan sisi wadah masak, sehingga tungku bekerja kira-kira dua kali lebih efisien dan jauh lebih bersih daripada api terbuka tiga batu.",
+        "problem": "Memasak di atas api kayu terbuka memboroskan bahan bakar, mendorong deforestasi, dan memenuhi rumah dengan asap yang membunuh sekitar 1,6 juta orang per tahun.",
+        "fabcity_relevance": "Tungku yang dapat dibuat dari barang bekas yang memangkas separuh kebutuhan bahan bakar rumah tangga dan membersihkan udara dalam ruangan, menghubungkan fabrikasi logam lokal dengan kemandirian energi dan kesehatan."
+      }
+    }
+  },
+  {
+    "id": "appropedia-solar-box-cooker",
+    "title": "Solar cooker",
+    "title_original": "Solar cookers",
+    "summary": "A device that cooks food and pasteurizes water with sunlight alone, using a dark pot inside a sun-trapping enclosure with reflectors instead of fuel.",
+    "how_it_works": "Sunlight is absorbed by dark, shallow, thin metal pots with tight lids placed inside an enclosure, and a transparent cover traps the heat created when the black pot absorbs the sun's rays. Reflectors concentrate more sunlight onto the pot to speed cooking, and the main designs are solar funnel, parabolic and compound-parabolic types. The cooker needs several hours of sun and shelter from strong wind, produces no smoke, and can be paired with a retained-heat cooker to keep food hot for hours after the sun weakens.",
+    "type": "tool",
+    "disobedience_move": [
+      "substitute",
+      "replicate"
+    ],
+    "domain": [
+      "energy",
+      "food",
+      "household"
+    ],
+    "problem": "Families that depend on scarce firewood or costly fuel need a way to cook and pasteurize water without burning anything.",
+    "materials": [
+      "dark thin-metal pot with lid",
+      "reflective panels or cardboard and foil",
+      "transparent glass or plastic cover",
+      "insulated box or funnel"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Solar_cooker",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "Turns free sunlight and simple reflective sheet into a fuel-free cooking appliance, cutting a household's dependence on imported or harvested fuel.",
+    "tags": [
+      "energy",
+      "solar",
+      "cooking",
+      "food"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Cocina solar",
+        "summary": "Un dispositivo que cocina alimentos y pasteuriza agua solo con luz solar, usando una olla oscura dentro de un recinto que atrapa el sol con reflectores en lugar de combustible.",
+        "how_it_works": "La luz solar es absorbida por ollas metalicas oscuras, poco profundas y delgadas con tapas ajustadas colocadas dentro de un recinto, y una cubierta transparente atrapa el calor generado cuando la olla negra absorbe los rayos del sol. Los reflectores concentran mas luz solar sobre la olla para acelerar la coccion, y los disenos principales son de tipo embudo solar, parabolico y parabolico compuesto. La cocina necesita varias horas de sol y resguardo del viento fuerte, no produce humo, y puede combinarse con una cocina de calor retenido para mantener la comida caliente durante horas despues de que el sol baje.",
+        "problem": "Las familias que dependen de lena escasa o combustible costoso necesitan una forma de cocinar y pasteurizar agua sin quemar nada.",
+        "fabcity_relevance": "Convierte luz solar gratuita y laminas reflectantes simples en un aparato de coccion sin combustible, reduciendo la dependencia del hogar de combustible importado o recolectado."
+      },
+      "id": {
+        "title": "Kompor surya",
+        "summary": "Alat yang memasak makanan dan mempasteurisasi air hanya dengan sinar matahari, menggunakan panci gelap di dalam wadah penangkap matahari dengan reflektor, bukan bahan bakar.",
+        "how_it_works": "Sinar matahari diserap oleh panci logam tipis berwarna gelap dan dangkal dengan tutup rapat yang diletakkan di dalam wadah, dan penutup transparan memerangkap panas yang tercipta saat panci hitam menyerap sinar matahari. Reflektor memusatkan lebih banyak sinar matahari ke panci untuk mempercepat memasak, dan desain utamanya adalah tipe corong surya, parabola, dan parabola majemuk. Kompor membutuhkan beberapa jam sinar matahari dan terlindung dari angin kencang, tidak menghasilkan asap, dan dapat dipadukan dengan kompor penyimpan panas untuk menjaga makanan tetap panas berjam-jam setelah matahari melemah.",
+        "problem": "Keluarga yang bergantung pada kayu bakar yang langka atau bahan bakar mahal membutuhkan cara memasak dan mempasteurisasi air tanpa membakar apa pun.",
+        "fabcity_relevance": "Mengubah sinar matahari gratis dan lembaran reflektif sederhana menjadi alat masak tanpa bahan bakar, memangkas ketergantungan rumah tangga pada bahan bakar impor atau hasil pengumpulan."
+      }
+    }
+  },
+  {
+    "id": "appropedia-fireless-cooker",
+    "title": "Fireless cooker (retained-heat cooker)",
+    "title_original": "Fireless cookers",
+    "summary": "A heavily insulated basket or box that finishes cooking already-boiling food off the heat, saving fuel and keeping food warm for hours.",
+    "how_it_works": "Food is first brought to a rolling boil on a stove, then the pot is moved into a well-insulated basket or box packed with materials like dried grass, wool, paper or wood shavings, and covered with an insulating cushion. The trapped heat keeps the food cooking slowly without any further fuel, so soft foods are ready in about 25 minutes and pre-soaked beans or meat in 2 to 2.5 hours. A well-made cooker can keep food warm for up to 8 hours, though food must be boiled adequately first so pathogens cannot regrow as it slowly cools.",
+    "type": "tool",
+    "disobedience_move": [
+      "augment",
+      "substitute",
+      "replicate"
+    ],
+    "domain": [
+      "energy",
+      "food",
+      "household"
+    ],
+    "problem": "Continuous stove-top simmering wastes scarce fuel and ties someone to watching the fire for hours.",
+    "materials": [
+      "basket, bag or box",
+      "insulation such as dried grass, wool, paper or wood shavings",
+      "cloth or sack lining",
+      "insulating cushion",
+      "lidded pot"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Fireless_cooker",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "A near-free insulation hack that multiplies the value of any cooking fuel, making local food systems more energy-frugal and resilient.",
+    "tags": [
+      "energy",
+      "cooking",
+      "insulation",
+      "fuel-saving"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Cocina sin fuego (cocina de calor retenido)",
+        "summary": "Una canasta o caja muy aislada que termina de cocinar fuera del fuego alimentos que ya hierven, ahorrando combustible y manteniendo la comida caliente por horas.",
+        "how_it_works": "Primero se lleva la comida a un hervor fuerte en la estufa, luego la olla se traslada a una canasta o caja bien aislada rellena de materiales como pasto seco, lana, papel o virutas de madera, y se cubre con un cojin aislante. El calor atrapado mantiene la comida cocinandose lentamente sin mas combustible, de modo que los alimentos blandos estan listos en unos 25 minutos y los frijoles o la carne previamente remojados en 2 a 2.5 horas. Una cocina bien hecha puede mantener la comida caliente hasta 8 horas, aunque la comida debe hervirse adecuadamente primero para que los patogenos no rebroten al enfriarse lentamente.",
+        "problem": "El hervor continuo en la estufa desperdicia combustible escaso y obliga a alguien a vigilar el fuego durante horas.",
+        "fabcity_relevance": "Un truco de aislamiento casi gratuito que multiplica el valor de cualquier combustible de coccion, haciendo los sistemas alimentarios locales mas frugales en energia y mas resilientes."
+      },
+      "id": {
+        "title": "Kompor tanpa api (kompor penyimpan panas)",
+        "summary": "Keranjang atau kotak berinsulasi tebal yang menyelesaikan memasak makanan yang sudah mendidih jauh dari sumber panas, menghemat bahan bakar dan menjaga makanan tetap hangat berjam-jam.",
+        "how_it_works": "Makanan terlebih dahulu direbus hingga mendidih di atas kompor, lalu panci dipindahkan ke keranjang atau kotak berinsulasi baik yang diisi bahan seperti rumput kering, wol, kertas, atau serutan kayu, dan ditutup dengan bantalan penyekat. Panas yang terperangkap menjaga makanan tetap matang perlahan tanpa bahan bakar tambahan, sehingga makanan lunak siap dalam sekitar 25 menit dan kacang atau daging yang sudah direndam dalam 2 hingga 2,5 jam. Kompor yang dibuat baik dapat menjaga makanan tetap hangat hingga 8 jam, meski makanan harus direbus cukup dulu agar patogen tidak tumbuh kembali saat mendingin perlahan.",
+        "problem": "Merebus terus-menerus di atas kompor memboroskan bahan bakar yang langka dan mengikat seseorang untuk menjaga api berjam-jam.",
+        "fabcity_relevance": "Trik insulasi nyaris gratis yang melipatgandakan nilai bahan bakar memasak apa pun, membuat sistem pangan lokal lebih hemat energi dan tangguh."
+      }
+    }
+  },
+  {
+    "id": "appropedia-floating-drum-biogas-digester",
+    "title": "Floating-drum biogas digester",
+    "title_original": "Floating drum biogas digestor",
+    "summary": "A masonry digester topped by a floating steel drum that turns animal and human waste into cooking gas at constant pressure plus a fertilizer slurry.",
+    "how_it_works": "Animal or human waste is fed daily into a cylindrical or dome-shaped masonry digester where bacteria break it down anaerobically and release biogas. The gas collects under a moving steel drum that floats in the slurry or in a separate water jacket, rising as gas is produced and sinking as it is used so the gas is always delivered at constant pressure and the stored volume is visible. Typical farm digesters of 5 to 15 cubic metres supply household cooking gas, while the leftover digested slurry is used as fertilizer; the drum needs regular de-rusting and painting and lasts up to about 15 years.",
+    "type": "system",
+    "disobedience_move": [
+      "repurpose",
+      "recover-reuse",
+      "replicate"
+    ],
+    "domain": [
+      "energy",
+      "agriculture",
+      "water"
+    ],
+    "problem": "Rural farms lack clean cooking fuel while letting manure and organic waste go to waste or pollute water.",
+    "materials": [
+      "brick, concrete or stone masonry digester",
+      "welded steel floating drum",
+      "guide frame",
+      "inlet and outlet pipes",
+      "anti-corrosion paint"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Biogas",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "Closes the loop between local waste, energy and food by turning a farm's own manure into cooking gas and fertilizer with locally welded parts.",
+    "tags": [
+      "energy",
+      "biogas",
+      "waste-to-energy",
+      "agriculture"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Biodigestor de tambor flotante",
+        "summary": "Un digestor de mamposteria coronado por un tambor de acero flotante que convierte residuos animales y humanos en gas para cocinar a presion constante mas un lodo fertilizante.",
+        "how_it_works": "Los residuos animales o humanos se alimentan a diario en un digestor de mamposteria cilindrico o en forma de domo donde las bacterias los descomponen de forma anaerobia y liberan biogas. El gas se acumula bajo un tambor de acero movil que flota en el lodo o en una camisa de agua separada, subiendo al producirse gas y bajando al usarse, de modo que el gas siempre se entrega a presion constante y el volumen almacenado es visible. Los digestores tipicos de granja de 5 a 15 metros cubicos suministran gas para cocinar al hogar, mientras que el lodo digerido restante se usa como fertilizante; el tambor necesita desoxidarse y pintarse con regularidad y dura hasta unos 15 anos.",
+        "problem": "Las granjas rurales carecen de combustible limpio para cocinar mientras dejan que el estiercol y los residuos organicos se desperdicien o contaminen el agua.",
+        "fabcity_relevance": "Cierra el ciclo entre residuos locales, energia y alimentos al convertir el propio estiercol de una granja en gas para cocinar y fertilizante con piezas soldadas localmente."
+      },
+      "id": {
+        "title": "Digester biogas drum mengapung",
+        "summary": "Digester pasangan bata yang ditutup drum baja mengapung yang mengubah limbah hewan dan manusia menjadi gas masak bertekanan tetap plus lumpur pupuk.",
+        "how_it_works": "Limbah hewan atau manusia dimasukkan setiap hari ke digester pasangan bata berbentuk silinder atau kubah tempat bakteri menguraikannya secara anaerob dan melepaskan biogas. Gas terkumpul di bawah drum baja bergerak yang mengapung di lumpur atau di selubung air terpisah, naik saat gas dihasilkan dan turun saat digunakan sehingga gas selalu disalurkan pada tekanan tetap dan volume tersimpan terlihat. Digester pertanian tipikal berukuran 5 hingga 15 meter kubik memasok gas masak rumah tangga, sementara lumpur sisa pencernaan digunakan sebagai pupuk; drum perlu rutin dibersihkan karat dan dicat serta bertahan hingga sekitar 15 tahun.",
+        "problem": "Pertanian pedesaan kekurangan bahan bakar masak bersih sementara membiarkan kotoran ternak dan limbah organik terbuang atau mencemari air.",
+        "fabcity_relevance": "Menutup siklus antara limbah lokal, energi, dan pangan dengan mengubah kotoran ternak milik pertanian menjadi gas masak dan pupuk menggunakan komponen yang dilas secara lokal."
+      }
+    }
+  },
+  {
+    "id": "appropedia-composting-toilet",
+    "title": "Composting toilet",
+    "title_original": "Composting toilet",
+    "summary": "A waterless toilet that uses biological processes to turn human waste into compost, protecting groundwater and recovering nutrients instead of flushing them away.",
+    "how_it_works": "Excreta drop into a storage vault or pit rather than being flushed, and a carbon-rich cover material such as sawdust or ash is added after each use to control odor, absorb liquid and balance the carbon-to-nitrogen ratio. Aerobic composting microbes then break the material down, often aided by urine diversion, ventilation and sometimes stirring, so it should be kept aerated and stored for a long period. The guidance is that material be stored at least a year and ideally given secondary treatment before use, and it should never be applied directly to food crops.",
+    "type": "system",
+    "disobedience_move": [
+      "substitute",
+      "recover-reuse",
+      "bypass"
+    ],
+    "domain": [
+      "water",
+      "agriculture",
+      "health-veterinary"
+    ],
+    "problem": "Flush sewers and leaking pit latrines waste water and contaminate groundwater with pathogens in places that cannot afford treatment plants.",
+    "materials": [
+      "toilet pedestal or squat slab",
+      "sealed vault or pit",
+      "carbon cover material (sawdust, ash, leaves)",
+      "vent pipe",
+      "optional urine diverter"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Composting_toilet",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "Decouples sanitation from costly sewer infrastructure and returns nutrients to local soil, a cornerstone of a self-sufficient circular settlement.",
+    "tags": [
+      "sanitation",
+      "water",
+      "compost",
+      "ecosan"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Bano seco compostero",
+        "summary": "Un bano sin agua que usa procesos biologicos para convertir los desechos humanos en composta, protegiendo el agua subterranea y recuperando nutrientes en lugar de descargarlos.",
+        "how_it_works": "Las excretas caen en una boveda o pozo de almacenamiento en vez de descargarse con agua, y despues de cada uso se anade un material de cobertura rico en carbono como aserrin o ceniza para controlar el olor, absorber liquido y equilibrar la relacion carbono-nitrogeno. Luego los microbios de compostaje aerobico descomponen el material, a menudo con ayuda de la separacion de orina, la ventilacion y a veces el removido, por lo que debe mantenerse aireado y almacenarse por un periodo largo. La recomendacion es almacenar el material al menos un ano e idealmente darle un tratamiento secundario antes de usarlo, y nunca debe aplicarse directamente a cultivos alimentarios.",
+        "problem": "Las alcantarillas con descarga y las letrinas de pozo con fugas desperdician agua y contaminan el agua subterranea con patogenos en lugares que no pueden costear plantas de tratamiento.",
+        "fabcity_relevance": "Desacopla el saneamiento de la costosa infraestructura de alcantarillado y devuelve nutrientes al suelo local, una piedra angular de un asentamiento circular autosuficiente."
+      },
+      "id": {
+        "title": "Toilet kompos",
+        "summary": "Toilet tanpa air yang menggunakan proses biologis untuk mengubah limbah manusia menjadi kompos, melindungi air tanah dan memulihkan nutrisi alih-alih menyiramnya.",
+        "how_it_works": "Kotoran jatuh ke ruang penyimpanan atau lubang alih-alih disiram, dan bahan penutup kaya karbon seperti serbuk gergaji atau abu ditambahkan setelah setiap pemakaian untuk mengendalikan bau, menyerap cairan, dan menyeimbangkan rasio karbon-nitrogen. Mikroba pengompos aerobik kemudian menguraikan bahan, sering dibantu pemisahan urine, ventilasi, dan kadang pengadukan, sehingga harus dijaga tetap berudara dan disimpan dalam jangka panjang. Panduannya adalah bahan disimpan setidaknya satu tahun dan idealnya diberi pengolahan lanjutan sebelum digunakan, serta tidak boleh diterapkan langsung pada tanaman pangan.",
+        "problem": "Saluran pembuangan siram dan jamban lubang yang bocor memboroskan air dan mencemari air tanah dengan patogen di tempat yang tidak mampu membangun instalasi pengolahan.",
+        "fabcity_relevance": "Memisahkan sanitasi dari infrastruktur selokan yang mahal dan mengembalikan nutrisi ke tanah lokal, fondasi permukiman sirkular yang mandiri."
+      }
+    }
+  },
+  {
+    "id": "appropedia-arborloo",
+    "title": "Arborloo",
+    "title_original": "Arborloo",
+    "summary": "A simple shallow-pit toilet that is filled with excreta, soil and ash and then planted with a fruit tree, turning sanitation into an orchard.",
+    "how_it_works": "A shallow unlined pit about 1 metre deep is lined at the bottom with leaves, and after each use a cup of soil, ash or a mixture is dumped in to cover the excreta. When the pit is nearly full the top 15 cm is filled with soil and a tree such as banana, papaya or guava is planted in it, while the slab and superstructure are moved to a new pit, usually every 6 to 12 months. The tree's roots draw on the nutrient-rich composting pit and grow vigorously, giving very low pathogen risk to users because no one handles the waste.",
+    "type": "technique",
+    "disobedience_move": [
+      "substitute",
+      "recover-reuse",
+      "replicate"
+    ],
+    "domain": [
+      "agriculture",
+      "water",
+      "health-veterinary"
+    ],
+    "problem": "When pit latrines fill up and cannot be safely emptied, communities need a way to reclaim the waste without handling it.",
+    "materials": [
+      "shallow unlined pit",
+      "movable slab and superstructure",
+      "soil and ash",
+      "leaves",
+      "fruit-tree sapling"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Arborloo",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "Converts a sanitation problem directly into local food production with almost no materials, embodying circular design at the household scale.",
+    "tags": [
+      "sanitation",
+      "agriculture",
+      "ecosan",
+      "trees"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Arborloo",
+        "summary": "Un bano sencillo de pozo poco profundo que se llena con excretas, tierra y ceniza y luego se planta con un arbol frutal, convirtiendo el saneamiento en un huerto.",
+        "how_it_works": "Un pozo poco profundo sin revestir de aproximadamente 1 metro de profundidad se forra en el fondo con hojas, y despues de cada uso se vierte una taza de tierra, ceniza o una mezcla para cubrir las excretas. Cuando el pozo esta casi lleno, los 15 cm superiores se llenan con tierra y se planta un arbol como banano, papaya o guayaba, mientras la losa y la superestructura se trasladan a un nuevo pozo, normalmente cada 6 a 12 meses. Las raices del arbol aprovechan el pozo de compostaje rico en nutrientes y crecen con vigor, con muy bajo riesgo de patogenos para los usuarios porque nadie manipula los desechos.",
+        "problem": "Cuando las letrinas de pozo se llenan y no pueden vaciarse de forma segura, las comunidades necesitan una manera de aprovechar los desechos sin manipularlos.",
+        "fabcity_relevance": "Convierte un problema de saneamiento directamente en produccion local de alimentos casi sin materiales, encarnando el diseno circular a escala domestica."
+      },
+      "id": {
+        "title": "Arborloo",
+        "summary": "Toilet lubang dangkal sederhana yang diisi kotoran, tanah, dan abu lalu ditanami pohon buah, mengubah sanitasi menjadi kebun.",
+        "how_it_works": "Lubang dangkal tanpa pelapis sedalam sekitar 1 meter dilapisi daun di dasarnya, dan setelah setiap pemakaian secangkir tanah, abu, atau campuran dituang untuk menutupi kotoran. Saat lubang hampir penuh, 15 cm bagian atas diisi tanah dan pohon seperti pisang, pepaya, atau jambu ditanam di sana, sementara slab dan bangunan atas dipindahkan ke lubang baru, biasanya setiap 6 hingga 12 bulan. Akar pohon memanfaatkan lubang pengomposan kaya nutrisi dan tumbuh subur, dengan risiko patogen sangat rendah bagi pengguna karena tidak ada yang menyentuh limbah.",
+        "problem": "Ketika jamban lubang penuh dan tidak dapat dikosongkan dengan aman, komunitas membutuhkan cara memanfaatkan limbah tanpa menyentuhnya.",
+        "fabcity_relevance": "Mengubah masalah sanitasi langsung menjadi produksi pangan lokal nyaris tanpa bahan, mewujudkan desain sirkular pada skala rumah tangga."
+      }
+    }
+  },
+  {
+    "id": "appropedia-tippy-tap",
+    "title": "Tippy tap",
+    "title_original": "Tippy tap",
+    "summary": "A hands-free handwashing station made from a hanging jug tipped by a foot-operated stick and string, using very little water and touched only by soap.",
+    "how_it_works": "A roughly 5-litre container with a small hole near the top is filled with water and hung from a frame, with a stick and wire or cord tied through the cap and connected to a foot lever. Pressing the foot lever tips the jug so a thin stream of water pours out for rinsing, so the user never touches the container and only the soap, which keeps it very hygienic. A bed of gravel underneath soaks away the runoff and prevents mosquitoes, and the whole station costs about 0 to 4 US dollars depending on whether materials are reused or bought new.",
+    "type": "tool",
+    "disobedience_move": [
+      "repurpose",
+      "replicate",
+      "substitute"
+    ],
+    "domain": [
+      "water",
+      "health-veterinary",
+      "household"
+    ],
+    "problem": "Without running water, people lack a hygienic, low-water way to wash hands after using a latrine, allowing fecal-oral disease to spread.",
+    "materials": [
+      "5-litre jug or jerrycan",
+      "stick and wire or cord",
+      "wooden frame",
+      "soap",
+      "gravel soak pit"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Tippy_tap",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "An almost-free, locally replicable hygiene device that brings hands-free handwashing to any home or school without plumbing.",
+    "tags": [
+      "water",
+      "hygiene",
+      "handwashing",
+      "low-cost"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Tippy tap",
+        "summary": "Una estacion de lavado de manos sin contacto hecha con un bidon colgante que se inclina con un palo y cuerda accionados con el pie, usa muy poca agua y solo se toca el jabon.",
+        "how_it_works": "Un recipiente de aproximadamente 5 litros con un pequeno agujero cerca de la tapa se llena de agua y se cuelga de un marco, con un palo y alambre o cuerda atados a traves de la tapa y conectados a una palanca de pie. Al pisar la palanca, el bidon se inclina y vierte un chorro fino de agua para enjuagarse, de modo que el usuario nunca toca el recipiente y solo el jabon, lo que lo mantiene muy higienico. Un lecho de grava debajo absorbe el agua que cae y previene los mosquitos, y toda la estacion cuesta entre 0 y 4 dolares estadounidenses segun si los materiales se reutilizan o se compran nuevos.",
+        "problem": "Sin agua corriente, las personas carecen de una forma higienica y de poca agua para lavarse las manos despues de usar una letrina, lo que permite la propagacion de enfermedades fecal-orales.",
+        "fabcity_relevance": "Un dispositivo de higiene casi gratuito y replicable localmente que lleva el lavado de manos sin contacto a cualquier hogar o escuela sin fontaneria."
+      },
+      "id": {
+        "title": "Tippy tap",
+        "summary": "Stasiun cuci tangan tanpa sentuh dari kendi gantung yang dimiringkan oleh tongkat dan tali yang dioperasikan dengan kaki, memakai sangat sedikit air dan hanya sabun yang disentuh.",
+        "how_it_works": "Wadah sekitar 5 liter dengan lubang kecil di dekat tutup diisi air dan digantung pada rangka, dengan tongkat dan kawat atau tali yang diikat melalui tutup dan dihubungkan ke tuas kaki. Menekan tuas kaki memiringkan kendi sehingga aliran tipis air mengucur untuk membilas, sehingga pengguna tidak pernah menyentuh wadah dan hanya menyentuh sabun, yang membuatnya sangat higienis. Lapisan kerikil di bawah meresapkan air buangan dan mencegah nyamuk, dan seluruh stasiun berbiaya sekitar 0 hingga 4 dolar AS tergantung apakah bahan digunakan kembali atau dibeli baru.",
+        "problem": "Tanpa air mengalir, orang tidak memiliki cara higienis dan hemat air untuk mencuci tangan setelah memakai jamban, sehingga penyakit fekal-oral menyebar.",
+        "fabcity_relevance": "Alat higiene yang nyaris gratis dan dapat ditiru secara lokal yang menghadirkan cuci tangan tanpa sentuh ke rumah atau sekolah mana pun tanpa perpipaan."
+      }
+    }
+  },
+  {
+    "id": "appropedia-rainwater-harvesting",
+    "title": "Rainwater harvesting",
+    "title_original": "Rainwater harvesting",
+    "summary": "Systems that collect and store rainwater, usually from rooftops, into tanks or cisterns to supply household and garden water needs.",
+    "how_it_works": "Rain falling on a catchment surface such as a roof is channeled through gutters and piping into a storage tank or cistern, with the rooftop type being the most economical where there is more than about 254 mm of rain a year. A first-flush diverter sends the initial few litres to waste so dust and pollutants washed off the roof do not enter the store. Gravity-fed systems placed on an elevation can deliver pressurized water without pumps, and field examples range from 700-litre jars in Uganda to 1,000-2,000 litre Thai jars and 10,000-20,000 litre tanks in semi-arid Brazil.",
+    "type": "system",
+    "disobedience_move": [
+      "recover-reuse",
+      "augment",
+      "replicate"
+    ],
+    "domain": [
+      "water",
+      "shelter",
+      "household"
+    ],
+    "problem": "Many households have no reliable or affordable piped supply and must capture their own water to get through dry periods.",
+    "materials": [
+      "roof catchment",
+      "gutters and downpipes",
+      "first-flush diverter",
+      "storage tank, jar or cistern",
+      "optional pump or filter"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Rainwater_harvesting",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "Gives buildings water autonomy from the roof up using locally made tanks and gutters, a backbone technology for self-sufficient settlements.",
+    "tags": [
+      "water",
+      "rainwater",
+      "storage",
+      "autonomy"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Captacion de agua de lluvia",
+        "summary": "Sistemas que recogen y almacenan agua de lluvia, normalmente de los techos, en tanques o cisternas para cubrir las necesidades de agua del hogar y el jardin.",
+        "how_it_works": "La lluvia que cae sobre una superficie de captacion como un techo se canaliza por canaletas y tuberias hacia un tanque o cisterna de almacenamiento, siendo el tipo de techo el mas economico donde llueve mas de unos 254 mm al ano. Un desviador de primer flujo envia los primeros litros al desague para que el polvo y los contaminantes arrastrados del techo no entren al almacenamiento. Los sistemas por gravedad colocados en una elevacion pueden entregar agua a presion sin bombas, y los ejemplos de campo van desde tinajas de 700 litros en Uganda hasta tinajas tailandesas de 1,000-2,000 litros y tanques de 10,000-20,000 litros en el Brasil semiarido.",
+        "problem": "Muchos hogares no tienen un suministro por tuberia confiable o asequible y deben captar su propia agua para superar las epocas secas.",
+        "fabcity_relevance": "Da a los edificios autonomia de agua desde el techo usando tanques y canaletas de fabricacion local, una tecnologia central para asentamientos autosuficientes."
+      },
+      "id": {
+        "title": "Pemanenan air hujan",
+        "summary": "Sistem yang mengumpulkan dan menyimpan air hujan, biasanya dari atap, ke dalam tangki atau sumur tampungan untuk memenuhi kebutuhan air rumah tangga dan kebun.",
+        "how_it_works": "Hujan yang jatuh pada permukaan penangkap seperti atap dialirkan melalui talang dan perpipaan ke tangki atau sumur tampungan, dengan tipe atap paling ekonomis di tempat dengan curah hujan lebih dari sekitar 254 mm per tahun. Pengalih aliran pertama (first-flush) membuang beberapa liter pertama agar debu dan polutan yang terbilas dari atap tidak masuk ke penyimpanan. Sistem gravitasi yang ditempatkan di posisi tinggi dapat menyalurkan air bertekanan tanpa pompa, dan contoh lapangan berkisar dari guci 700 liter di Uganda hingga guci Thailand 1.000-2.000 liter dan tangki 10.000-20.000 liter di Brasil semi-kering.",
+        "problem": "Banyak rumah tangga tidak memiliki pasokan berpipa yang andal atau terjangkau dan harus menampung air sendiri untuk melewati musim kering.",
+        "fabcity_relevance": "Memberi bangunan kemandirian air mulai dari atap menggunakan tangki dan talang buatan lokal, teknologi tulang punggung bagi permukiman mandiri."
+      }
+    }
+  },
+  {
+    "id": "appropedia-solar-dehydrator",
+    "title": "Solar food dryer",
+    "title_original": "Solar dehydrator",
+    "summary": "A sun-powered dryer that preserves food by drawing warm air over it, faster and cleaner than open-air sun drying and with no fuel cost.",
+    "how_it_works": "Air is drawn through the dryer, heated as it passes through a solar collector and then partly cooled as it picks up moisture from the food spread on trays. Warm air holds more moisture, so heating it lets less air do more drying, and natural convection or a small fan moves the air through the bed of produce. Compared with open sun drying it protects food from rain, insects, animals and dust, dries faster to reduce mould, and reaches higher temperatures for more complete drying and longer storage, though temperature-sensitive products like beans and rice must be kept below about 35 to 45 degrees Celsius.",
+    "type": "tool",
+    "disobedience_move": [
+      "substitute",
+      "augment",
+      "replicate"
+    ],
+    "domain": [
+      "food",
+      "energy",
+      "agriculture"
+    ],
+    "problem": "Without refrigeration or fuel, surplus harvests spoil and open-air drying leaves food exposed to rain, pests and contamination.",
+    "materials": [
+      "solar collector with glazing",
+      "drying trays",
+      "wooden or plastic-covered cabinet or tent",
+      "optional small fan",
+      "vent openings"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Solar_food_dryer",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "Lets local food systems preserve surplus harvests with free solar heat and locally built cabinets, reducing waste and dependence on cold chains.",
+    "tags": [
+      "food",
+      "solar",
+      "preservation",
+      "drying"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Deshidratador solar de alimentos",
+        "summary": "Un secador alimentado por el sol que conserva alimentos haciendo pasar aire calido sobre ellos, mas rapido y limpio que el secado al sol al aire libre y sin costo de combustible.",
+        "how_it_works": "El aire se hace pasar por el secador, se calienta al atravesar un colector solar y luego se enfria en parte al recoger humedad de los alimentos extendidos en bandejas. El aire calido retiene mas humedad, por lo que calentarlo permite que menos aire seque mas, y la conveccion natural o un pequeno ventilador mueve el aire por el lecho de productos. Comparado con el secado al sol al aire libre, protege los alimentos de la lluvia, los insectos, los animales y el polvo, seca mas rapido para reducir el moho y alcanza temperaturas mas altas para un secado mas completo y mayor tiempo de almacenamiento, aunque los productos sensibles a la temperatura como los frijoles y el arroz deben mantenerse por debajo de unos 35 a 45 grados Celsius.",
+        "problem": "Sin refrigeracion ni combustible, las cosechas excedentes se echan a perder y el secado al aire libre deja los alimentos expuestos a lluvia, plagas y contaminacion.",
+        "fabcity_relevance": "Permite que los sistemas alimentarios locales conserven cosechas excedentes con calor solar gratuito y gabinetes de fabricacion local, reduciendo el desperdicio y la dependencia de cadenas de frio."
+      },
+      "id": {
+        "title": "Pengering makanan tenaga surya",
+        "summary": "Pengering bertenaga matahari yang mengawetkan makanan dengan mengalirkan udara hangat melaluinya, lebih cepat dan bersih daripada penjemuran terbuka dan tanpa biaya bahan bakar.",
+        "how_it_works": "Udara dialirkan melalui pengering, dipanaskan saat melewati kolektor surya, lalu sebagian mendingin saat menyerap kelembapan dari makanan yang dibentang di nampan. Udara hangat menampung lebih banyak uap air, sehingga memanaskannya membuat lebih sedikit udara melakukan lebih banyak pengeringan, dan konveksi alami atau kipas kecil menggerakkan udara melalui tumpukan produk. Dibanding penjemuran terbuka, alat ini melindungi makanan dari hujan, serangga, hewan, dan debu, mengeringkan lebih cepat untuk mengurangi jamur, dan mencapai suhu lebih tinggi untuk pengeringan lebih sempurna dan penyimpanan lebih lama, meski produk yang peka suhu seperti kacang dan beras harus dijaga di bawah sekitar 35 hingga 45 derajat Celsius.",
+        "problem": "Tanpa pendinginan atau bahan bakar, hasil panen berlebih membusuk dan penjemuran terbuka membuat makanan terpapar hujan, hama, dan kontaminasi.",
+        "fabcity_relevance": "Memungkinkan sistem pangan lokal mengawetkan hasil panen berlebih dengan panas matahari gratis dan lemari buatan lokal, mengurangi limbah dan ketergantungan pada rantai dingin."
+      }
+    }
+  },
+  {
+    "id": "appropedia-solar-still",
+    "title": "Solar still",
+    "title_original": "Solar distillation",
+    "summary": "A sealed basin covered with sloping glass that uses sunlight to evaporate salty or polluted water and collect the pure condensate, even desalinating seawater.",
+    "how_it_works": "Solar radiation passes through a glass or plastic cover and is absorbed by a black-lined basin holding the feed water, heating it so it gives off vapor. The vapor condenses on the cooler underside of the sloping cover, leaving behind salts, heavy metals and microbes, and runs down into a collection gutter as clean distilled water. A simple single-basin still operates at about 30% efficiency and yields roughly 2.5 to 3 litres per square metre per day, so about 2 square metres of still are needed per person for drinking water.",
+    "type": "tool",
+    "disobedience_move": [
+      "substitute",
+      "replicate"
+    ],
+    "domain": [
+      "water",
+      "energy"
+    ],
+    "problem": "Coastal and arid communities often have only brackish, salty or polluted water and no fuel or power to distill it.",
+    "materials": [
+      "sealed basin with black liner",
+      "sloping glass or plastic cover",
+      "insulation",
+      "collection gutter",
+      "storage container"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Solar_still",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "Produces drinkable water from seawater or polluted sources with only sunlight and a sealed box, giving water autonomy where no fresh source exists.",
+    "tags": [
+      "water",
+      "solar",
+      "desalination",
+      "distillation"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Destilador solar",
+        "summary": "Una cuenca sellada cubierta con vidrio inclinado que usa luz solar para evaporar agua salada o contaminada y recoger el condensado puro, incluso desalinizando agua de mar.",
+        "how_it_works": "La radiacion solar atraviesa una cubierta de vidrio o plastico y es absorbida por una cuenca de fondo negro que contiene el agua a tratar, calentandola para que despida vapor. El vapor se condensa en la cara inferior mas fria de la cubierta inclinada, dejando atras sales, metales pesados y microbios, y baja a una canaleta de recoleccion como agua destilada limpia. Un destilador simple de una sola cuenca opera a cerca del 30% de eficiencia y rinde aproximadamente 2.5 a 3 litros por metro cuadrado al dia, por lo que se necesitan unos 2 metros cuadrados de destilador por persona para agua de beber.",
+        "problem": "Las comunidades costeras y aridas a menudo solo tienen agua salobre, salada o contaminada y ni combustible ni electricidad para destilarla.",
+        "fabcity_relevance": "Produce agua potable a partir de agua de mar o fuentes contaminadas con solo luz solar y una caja sellada, dando autonomia de agua donde no existe una fuente dulce."
+      },
+      "id": {
+        "title": "Penyuling surya",
+        "summary": "Cekungan tertutup berpenutup kaca miring yang menggunakan sinar matahari untuk menguapkan air asin atau tercemar dan mengumpulkan kondensat murni, bahkan menyuling air laut.",
+        "how_it_works": "Radiasi matahari menembus penutup kaca atau plastik dan diserap oleh cekungan berlapis hitam berisi air umpan, memanaskannya sehingga mengeluarkan uap. Uap mengembun pada sisi bawah penutup miring yang lebih dingin, meninggalkan garam, logam berat, dan mikroba, lalu mengalir ke talang penampung sebagai air suling bersih. Penyuling cekungan tunggal sederhana bekerja pada efisiensi sekitar 30% dan menghasilkan kira-kira 2,5 hingga 3 liter per meter persegi per hari, sehingga dibutuhkan sekitar 2 meter persegi penyuling per orang untuk air minum.",
+        "problem": "Komunitas pesisir dan kering sering hanya memiliki air payau, asin, atau tercemar dan tidak ada bahan bakar atau listrik untuk menyulingnya.",
+        "fabcity_relevance": "Menghasilkan air layak minum dari air laut atau sumber tercemar hanya dengan sinar matahari dan kotak tertutup, memberi kemandirian air di tempat tanpa sumber air tawar."
+      }
+    }
+  },
+  {
+    "id": "appropedia-earthbag-building",
+    "title": "Earthbag construction",
+    "title_original": "Earthbag building",
+    "summary": "A low-cost building method that stacks polypropylene bags filled with damp subsoil into tamped courses laced with barbed wire to form strong, durable walls and domes.",
+    "how_it_works": "Woven polypropylene bags or continuous tubing are filled with moist local subsoil and laid in courses like masonry, then compacted with a tamper so each course hardens into a firm block. Two strands of barbed wire laid between courses grip the bags together and provide tensile strength, letting walls be built straight or curved into self-supporting domes in the superadobe technique. The finished walls are plastered inside and out with lime or earthen render to protect the bags from sunlight and moisture, producing thick, thermally massive, low-cost structures that can resist earthquakes when properly detailed.",
+    "type": "technique",
+    "disobedience_move": [
+      "substitute",
+      "scavenge",
+      "replicate"
+    ],
+    "domain": [
+      "shelter",
+      "materials"
+    ],
+    "problem": "Conventional building materials like fired brick, cement and timber are often too expensive or scarce for low-income builders.",
+    "materials": [
+      "woven polypropylene bags or tubing",
+      "moist local subsoil",
+      "barbed wire",
+      "tamper",
+      "lime or earthen plaster"
+    ],
+    "origin": "Appropedia (open appropriate-tech wiki)",
+    "era": "contemporary",
+    "source": "Appropedia",
+    "source_ref": "appropedia.org",
+    "source_url": "https://www.appropedia.org/Earthbag_construction",
+    "validation": "widely-practiced",
+    "fabcity_relevance": "Lets people build durable housing almost entirely from the soil under their feet plus bags and wire, radically localizing the materials of shelter.",
+    "tags": [
+      "shelter",
+      "construction",
+      "earth",
+      "low-cost"
+    ],
+    "i18n": {
+      "es": {
+        "title": "Construccion con bolsas de tierra",
+        "summary": "Un metodo de construccion de bajo costo que apila bolsas de polipropileno llenas de subsuelo humedo en hiladas compactadas y entrelazadas con alambre de puas para formar muros y domos fuertes y duraderos.",
+        "how_it_works": "Las bolsas de polipropileno tejido o el tubo continuo se llenan con subsuelo local humedo y se colocan en hiladas como mamposteria, luego se compactan con un pison para que cada hilada endurezca en un bloque firme. Dos hebras de alambre de puas colocadas entre hiladas sujetan las bolsas entre si y aportan resistencia a la traccion, permitiendo levantar muros rectos o curvados en domos autoportantes con la tecnica de superadobe. Los muros terminados se revocan por dentro y por fuera con cal o revoque de tierra para proteger las bolsas del sol y la humedad, produciendo estructuras gruesas, con masa termica y de bajo costo que pueden resistir terremotos si se detallan correctamente.",
+        "problem": "Los materiales de construccion convencionales como el ladrillo cocido, el cemento y la madera suelen ser demasiado caros o escasos para constructores de bajos ingresos.",
+        "fabcity_relevance": "Permite construir viviendas duraderas casi por completo con la tierra bajo los pies mas bolsas y alambre, localizando radicalmente los materiales del refugio."
+      },
+      "id": {
+        "title": "Konstruksi karung tanah",
+        "summary": "Metode bangunan berbiaya rendah yang menumpuk karung polipropilen berisi tanah lembap menjadi lapisan padat yang dijalin kawat berduri untuk membentuk dinding dan kubah yang kuat dan tahan lama.",
+        "how_it_works": "Karung polipropilen anyaman atau selang menerus diisi tanah bawah lokal yang lembap dan ditata berlapis seperti pasangan bata, lalu dipadatkan dengan penumbuk sehingga tiap lapisan mengeras menjadi blok kokoh. Dua untai kawat berduri yang dipasang di antara lapisan mencengkeram karung dan memberi kekuatan tarik, memungkinkan dinding dibangun lurus atau melengkung menjadi kubah swatumpu dalam teknik superadobe. Dinding yang sudah jadi diplester di dalam dan luar dengan kapur atau plester tanah untuk melindungi karung dari sinar matahari dan kelembapan, menghasilkan struktur tebal, bermassa termal, dan berbiaya rendah yang dapat menahan gempa bila dirancang dengan benar.",
+        "problem": "Bahan bangunan konvensional seperti batu bata bakar, semen, dan kayu sering terlalu mahal atau langka bagi pembangun berpenghasilan rendah.",
+        "fabcity_relevance": "Memungkinkan orang membangun rumah tahan lama nyaris sepenuhnya dari tanah di bawah kaki mereka ditambah karung dan kawat, melokalkan bahan tempat tinggal secara radikal."
+      }
+    }
+  }
+]
