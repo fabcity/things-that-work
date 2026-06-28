@@ -137,7 +137,7 @@
   .vp-fr .vp-fritem-pet em{color:var(--c-sanit)}
   .vp-pill{align-self:flex-start;font-style:normal;font-size:10px;font-weight:800;letter-spacing:.1em;color:#fff;padding:2px 7px;margin:0 0 3px;background:var(--ink)}
   .vp-fritem-laser .vp-pill{background:var(--c-energy)} .vp-fritem-pet .vp-pill{background:var(--c-sanit)}
-  @media(min-width:560px){.vp-fr .vp-fritem-laser,.vp-fr .vp-fritem-pet{grid-column:span 2}}
+  @media(min-width:560px){.vp-fr .vp-fritem-w2{grid-column:span 2}}
   .vp-cat{margin:16px 0 8px;font-size:11.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-soft);font-weight:800}
   .vp-fr{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
   .vp-fritem{display:flex;flex-direction:column;gap:3px;padding:11px 13px;background:var(--paper);border:1.5px solid var(--rule-2);text-decoration:none;color:var(--ink)}
@@ -387,7 +387,7 @@ function rPrint(){
   h+=`<div class="vp-block"><h3>${esc(ui("print_use_h"))}</h3><ol class="vp-steps">`+steps.map(s=>`<li>${esc(s)}</li>`).join("")+`</ol><p class="vp-caveat">${esc(ui("print_caveat"))}</p></div>`;
   const com=DATA.venezuela&&DATA.venezuela.community;
   if(com&&com.items&&com.items.length){
-    h+=`<div class="vp-block vp-community"><h3>${esc(ui("community_h"))}</h3><p class="vp-mat">${esc(ui("community_lead"))}</p><div class="vp-fr">`+com.items.map(function(x){var href=x.download||x.url||"#";var tag=x.download?(esc(ui("print_download"))+" &#8595;"):(esc(x.tag||"")+" &#8599;");var pill=x.pill?('<i class="vp-pill">'+esc(pick(x,"pill"))+'</i>'):'';var cls="vp-fritem"+(x.accent?(" vp-fritem-"+esc(x.accent)):"");return `<a class="${cls}" data-ev="${x.download?'download':'community'}" href="${esc(href)}"${x.download?' download':' target="_blank" rel="noopener"'}>${pill}<b>${esc(x.name)}</b><span>${esc(pick(x,"what"))}${x.author?(" &middot; "+esc(x.author)):""}</span><em>${tag}</em></a>`;}).join("")+`</div></div>`;
+    h+=`<div class="vp-block vp-community"><h3>${esc(ui("community_h"))}</h3><p class="vp-mat">${esc(ui("community_lead"))}</p><div class="vp-fr">`+com.items.map(function(x){var href=x.download||x.url||"#";var tag=x.download?(esc(ui("print_download"))+" &#8595;"):(esc(x.tag||"")+" &#8599;");var pill=x.pill?('<i class="vp-pill">'+esc(pick(x,"pill"))+'</i>'):'';var cls="vp-fritem"+(x.accent?(" vp-fritem-"+esc(x.accent)):"")+(x.span2?" vp-fritem-w2":"");return `<a class="${cls}" data-ev="${x.download?'download':'community'}" href="${esc(href)}"${x.download?' download':' target="_blank" rel="noopener"'}>${pill}<b>${esc(x.name)}</b><span>${esc(pick(x,"what"))}${x.author?(" &middot; "+esc(x.author)):""}</span><em>${tag}</em></a>`;}).join("")+`</div></div>`;
   }
   h+=`<div class="vp-block"><h3>${esc(ui("print_materials_h"))}</h3><p class="vp-mat">${esc(ui("print_materials"))}</p></div>`;
   const fr=DATA.venezuela.fieldready;
