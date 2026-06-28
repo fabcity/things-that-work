@@ -1050,8 +1050,20 @@ dataset["venezuela"]["printing"] = {
  "groups":[
    {"name":"Férulas Venezuela","url":"https://chat.whatsapp.com/DaseixyFONlH0xIpXCaGyW",
     "note":"Print & donate splints","note_es":"Imprime y dona férulas","note_id":"Cetak & donasikan bidai"},
-   {"name":"Makers de Colombia","url":"https://chat.whatsapp.com/LTJXOV0yPP8AzW1sGly2OW",
-    "note":"Maker network supporting the response","note_es":"Red de makers que apoya la respuesta","note_id":"Jaringan maker yang mendukung"},
+   {"name":"Maker por Venezuela","url":"https://chat.whatsapp.com/I7IJTKcI54V3Z6GfAkKsCE",
+    "note":"Makers network — coordination","note_es":"Red de makers — coordinación","note_id":"Jaringan maker — koordinasi"},
+ ],
+ "country_groups":[
+   {"country":"Argentina","url":"https://chat.whatsapp.com/CjrAqahbgRs6NFAaaoHBBz"},
+   {"country":"Bolivia","url":"https://chat.whatsapp.com/EiYvxJcHGL33CMlABLZQjj"},
+   {"country":"Chile","url":"https://chat.whatsapp.com/DKzmYSJk5vrIj91OGquJKD"},
+   {"country":"Colombia","url":"https://chat.whatsapp.com/LTJXOV0yPP8AzW1sGly2OW"},
+   {"country":"Ecuador","url":"https://chat.whatsapp.com/DUx6z330AlmBpacp8DbaAN"},
+   {"country":"Spain","country_es":"España","country_id":"Spanyol","url":"https://chat.whatsapp.com/0nXIPG0NBvxK4RQJL1EsxO"},
+   {"country":"Mexico","country_es":"México","country_id":"Meksiko","url":"https://chat.whatsapp.com/LFv1BNlvLnsEzom69IWbMl"},
+   {"country":"Peru","country_es":"Perú","url":"https://chat.whatsapp.com/HaPFT3jaRhsIZvQUhwmHlJ"},
+   {"country":"USA","country_es":"EE. UU.","country_id":"AS","url":"https://chat.whatsapp.com/INOOTwvZand8b1y8drYz3O"},
+   {"country":"Venezuela","url":"https://chat.whatsapp.com/G0Zkjv4z8DLJ8yEwOft1RY"},
  ],
  "files":[
    {"label":"Férula pequeña (.3mf)","href":"/files/ferulas/ferula-pequena.3mf"},
@@ -1220,6 +1232,10 @@ REPO_UI = {
 }
 for _lg in ("en","es","id"):
     UI[_lg]["repo_line"] = REPO_UI[_lg]
+
+# --- Country maker groups heading ---
+for _lg,_t in (("en","Join from your country"),("es","Súmate desde tu país"),("id","Bergabung dari negaramu")):
+    UI[_lg]["print_country_h"] = _t
 
 # --- Standalone /venezuela: action-first hero + "what happened" moved to the foot ---
 VE_FOOT_UI = {

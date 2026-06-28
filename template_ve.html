@@ -114,6 +114,11 @@
   .vp-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
   .vp-wa{display:flex;flex-direction:column;gap:2px;padding:14px 16px;min-height:58px;background:#15140F;color:#fff;text-decoration:none;border-left:5px solid #25D366}
   .vp-wa:hover{background:#000} .vp-wa b{font-size:15px} .vp-wa span{font-size:12.5px;opacity:.85}
+  .vp-countries-wrap{margin-top:14px}
+  .vp-countries-h{margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+  .vp-countries{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:8px}
+  .vp-country{display:flex;flex-direction:column;gap:1px;padding:11px 13px;min-height:46px;background:var(--paper);border:1.5px solid var(--rule-2);border-left:5px solid #25D366;text-decoration:none;color:var(--ink)}
+  .vp-country:hover{border-color:#25D366} .vp-country b{font-size:14px;font-weight:800} .vp-country span{font-size:11.5px;color:var(--ink-soft)}
   .vp-block{margin:18px 0 0;padding-top:16px;border-top:1px solid var(--rule)}
   .vp-files{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
   .vp-file{display:flex;flex-direction:column;gap:5px;padding:13px 15px;background:var(--paper);border:1.5px solid var(--rule-2);border-left:5px solid var(--mc-orange);text-decoration:none;color:var(--ink);font-weight:700;min-height:62px}
@@ -368,6 +373,7 @@ function rPrint(){
   let h=`<section class="ve-print"><h2><i class="sn">01</i>${esc(ui("print_h"))}</h2><p class="vp-lead">${esc(ui("print_lead"))}</p>`;
   if(p.credit){h+=`<p class="vp-credit">${esc(ui("print_credit"))} <a href="${esc(p.credit.url)}" target="_blank" rel="noopener"><b>${esc(p.credit.name)}</b></a>${p.credit.ig?` &middot; <a href="${esc(p.credit.ig)}" target="_blank" rel="noopener">Instagram</a>`:""}</p>`;}
   h+=`<div class="vp-cta"><h3>${esc(ui("print_cta_h"))}</h3><div class="vp-groups">`+p.groups.map(g=>`<a class="vp-wa" data-ev="wa" href="${esc(g.url)}" target="_blank" rel="noopener"><b>${esc(g.name)}</b><span>${esc(pick(g,"note"))}</span></a>`).join("")+`</div></div>`;
+  h+=p.country_groups&&p.country_groups.length?`<div class="vp-countries-wrap"><h3 class="vp-countries-h">${esc(ui("print_country_h"))}</h3><div class="vp-countries">`+p.country_groups.map(c=>`<a class="vp-country" data-ev="wa-country" href="${esc(c.url)}" target="_blank" rel="noopener"><b>${esc(pick(c,"country"))}</b><span>WhatsApp &#8594;</span></a>`).join("")+`</div></div>`:"";
   h+=`<div class="vp-block vp-labs"><h3>${esc(ui("fl_h"))}</h3><p class="vp-mat">${esc(ui("fl_lead"))}</p><button type="button" class="vp-mapbtn" onclick="veFindLabs(this)" data-ev="fablabs">${esc(ui("fl_btn"))}</button><div id="veLabsOut" class="vp-labsout"></div></div>`;
   h+=`<div class="vp-block"><h3>${esc(ui("print_files_h"))}</h3><div class="vp-files">`+p.files.map(f=>`<a class="vp-file" data-ev="download" href="${esc(f.href)}" download>${esc(f.label)}<i>${esc(ui("print_download"))} &#8595;</i></a>`).join("")+`</div></div>`;
   h+=`<div class="vp-block"><h3>${esc(ui("print_models_h"))}</h3><div class="vp-models">`+p.models.map(m=>`<span class="vp-model">${esc(m)}</span>`).join("")+`</div></div>`;
