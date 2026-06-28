@@ -244,6 +244,9 @@
   .vp-mapcard-tx{display:flex;flex-direction:column;gap:2px}
   .vp-mapcard-tx b{font-size:16px;font-weight:800} .vp-mapcard-tx small{font-size:13px;color:var(--ink-soft)}
   .vp-mapcard-arr{margin-left:auto;color:var(--mc-orange);font-weight:800;font-size:20px}
+  .vp-labsout{margin-top:12px}
+  .vp-labcard{display:flex;flex-direction:column;gap:3px;padding:11px 13px;background:var(--paper);border:1.5px solid var(--rule-2);border-left:5px solid var(--mc-orange);text-decoration:none;color:var(--ink)}
+  .vp-labcard:hover{border-color:var(--mc-orange)} .vp-labcard b{font-size:14px} .vp-labcard span{font-size:12px;color:var(--ink-soft)} .vp-labcard em{font-style:normal;font-size:11px;color:var(--mc-orange);font-weight:800}
 </style>
 </head>
 <body>
@@ -364,6 +367,7 @@ function rPrint(){
   let h=`<section class="ve-print"><h2><i class="sn">01</i>${esc(ui("print_h"))}</h2><p class="vp-lead">${esc(ui("print_lead"))}</p>`;
   if(p.credit){h+=`<p class="vp-credit">${esc(ui("print_credit"))} <a href="${esc(p.credit.url)}" target="_blank" rel="noopener"><b>${esc(p.credit.name)}</b></a>${p.credit.ig?` &middot; <a href="${esc(p.credit.ig)}" target="_blank" rel="noopener">Instagram</a>`:""}</p>`;}
   h+=`<div class="vp-cta"><h3>${esc(ui("print_cta_h"))}</h3><div class="vp-groups">`+p.groups.map(g=>`<a class="vp-wa" data-ev="wa" href="${esc(g.url)}" target="_blank" rel="noopener"><b>${esc(g.name)}</b><span>${esc(pick(g,"note"))}</span></a>`).join("")+`</div></div>`;
+  h+=`<div class="vp-block vp-labs"><h3>${esc(ui("fl_h"))}</h3><p class="vp-mat">${esc(ui("fl_lead"))}</p><button type="button" class="vp-mapbtn" onclick="veFindLabs(this)" data-ev="fablabs">${esc(ui("fl_btn"))}</button><div id="veLabsOut" class="vp-labsout"></div></div>`;
   h+=`<div class="vp-block"><h3>${esc(ui("print_files_h"))}</h3><div class="vp-files">`+p.files.map(f=>`<a class="vp-file" data-ev="download" href="${esc(f.href)}" download>${esc(f.label)}<i>${esc(ui("print_download"))} &#8595;</i></a>`).join("")+`</div></div>`;
   h+=`<div class="vp-block"><h3>${esc(ui("print_models_h"))}</h3><div class="vp-models">`+p.models.map(m=>`<span class="vp-model">${esc(m)}</span>`).join("")+`</div></div>`;
   h+=`<div class="vp-block"><h3>${esc(ui("print_use_h"))}</h3><ol class="vp-steps">`+steps.map(s=>`<li>${esc(s)}</li>`).join("")+`</ol><p class="vp-caveat">${esc(ui("print_caveat"))}</p></div>`;
@@ -409,6 +413,27 @@ function veSavePage(){try{var h="<!DOCTYPE html>\n"+document.documentElement.out
 let VE_DEFERRED=null;
 window.addEventListener("beforeinstallprompt",function(e){e.preventDefault();VE_DEFERRED=e;});
 function veInstall(){if(VE_DEFERRED){VE_DEFERRED.prompt();VE_DEFERRED=null;}else{alert(ui("offline_install")+" — \u201cAdd to Home Screen\u201d / \u201cA\u00f1adir a inicio\u201d.");}}
+function veFindLabs(btn){
+  var out=document.getElementById("veLabsOut"); if(!out) return;
+  if(!navigator.geolocation){ out.textContent=ui("fl_geoerr"); return; }
+  out.textContent=ui("fl_loading");
+  navigator.geolocation.getCurrentPosition(function(pos){
+    var la=pos.coords.latitude, lo=pos.coords.longitude;
+    fetch("https://api.fablabs.io/0/labs.json").then(function(r){return r.json();}).then(function(arr){
+      function hav(a,b,c,d){var R=6371,p=Math.PI/180,x=(c-a)*p,y=(d-b)*p,s=Math.sin(x/2)*Math.sin(x/2)+Math.cos(a*p)*Math.cos(c*p)*Math.sin(y/2)*Math.sin(y/2);return 2*R*Math.asin(Math.sqrt(s));}
+      var labs=[];
+      for(var i=0;i<arr.length;i++){var L=arr[i];var bla=parseFloat(L.latitude),blo=parseFloat(L.longitude);
+        if(!isFinite(bla)||!isFinite(blo)||(Math.abs(bla)<0.02&&Math.abs(blo)<0.02))continue;
+        labs.push({n:L.name||"",c:L.city||"",k:(L.country_code||"").toUpperCase(),s:L.slug||"",d:hav(la,lo,bla,blo)});}
+      labs.sort(function(x,y){return x.d-y.d;});
+      var top=labs.slice(0,5), h="";
+      for(var j=0;j<top.length;j++){var t=top[j];
+        var href=t.s?("https://www.fablabs.io/labs/"+encodeURIComponent(t.s)):"https://www.fablabs.io/labs";
+        h+='<a class="vp-labcard" href="'+href+'" target="_blank" rel="noopener" data-ev="fablab"><b>'+esc(t.n)+'</b><span>'+esc(t.c)+(t.k?(", "+esc(t.k)):"")+" · "+Math.round(t.d)+" km</span><em>"+esc(ui("fl_contact"))+' &#8599;</em></a>';}
+      out.innerHTML='<div class="vp-fr">'+h+"</div>";
+    }).catch(function(){ out.textContent=ui("fl_err"); });
+  }, function(){ out.textContent=ui("fl_geoerr"); }, {timeout:9000,maximumAge:600000});
+}
 function buildVE(){
   const ve=DATA.venezuela, byId={}; (DATA.crisis||[]).forEach(c=>byId[c.id]=c);
   let html=`<section class="ve-hero"><div class="ve-kicker">Venezuela</div><p class="ve-lead">${ui("ve_help_lead")}</p></section>`;
