@@ -1305,6 +1305,7 @@ try:
       "map_loc":["My location","Mi ubicación","Lokasi saya"],
       "map_download":["Download my area (10 km)","Descargar mi zona (10 km)","Unduh area saya (10 km)"],
       "map_add":["Add a point","Añadir un punto","Tambah titik"],
+      "map_open_hint":["Open the live map: printing sites, filament & drop-off","Abrir el mapa en vivo: impresión, filamento y acopio","Buka peta langsung: lokasi cetak, filamen & titik kumpul"],
       "map_points":["points","puntos","titik"],
       "map_locating":["Locating…","Ubicando…","Mencari lokasi…"],
       "map_nogeo":["Location unavailable","Ubicación no disponible","Lokasi tidak tersedia"],
