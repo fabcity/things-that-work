@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-29",
-  "count": 31,
+  "updated": "2026-06-30",
+  "count": 44,
   "countries": [
     "USA",
     "MX",
@@ -8,24 +8,56 @@
   ],
   "centers": [
     {
+      "raw": "AEROMARPhoenix, AZ, USA11829 N 16th Ave, Phoenix, AZ 85029+1602-403-02298am-3pmVerificado",
+      "country": "USA11829"
+    },
+    {
       "raw": "Amazonas Latin MarketAustin, TX, USA15630 Vision Dr, Pflugerville, TX 78660@venezolanosenaustintxSegun Horario ComercialVerificado",
       "country": "USA15630"
+    },
+    {
+      "raw": "Angelitos Insurance ConcordConcord, USA1800 Monument Blvd, Concord, CA 94520, Suite H(415) 966-8075Verificado",
+      "country": "USA1800"
+    },
+    {
+      "raw": "Angelitos Insurance Oakland (Preferred)Oakland, USA4819 International Blvd\r\nOakland, CA 94601510-261-4456No verificado",
+      "country": "USA4819"
+    },
+    {
+      "raw": "Arepas Latin CuisineSan Francisco, USA3198 16th Street, San Francisco, CA 94103(415) 963-4535No verificado",
+      "country": "USA3198"
+    },
+    {
+      "raw": "Arepas Latin Cuisine - San JoseSan Jose, USA1384 Lincoln Avenue, San Jose, CA 95125(408) 769-4990No verificado",
+      "country": "USA1384"
+    },
+    {
+      "raw": "Bistro l'ArepaSaint-Hubert, QC, Canadá3366 Grande Allée, Saint-Hubert, QC J4T 2T1, Canadá+14503411788Working Hours in Google MapsVerificado",
+      "country": "?"
     },
     {
       "raw": "Canape MarketAustin, TX, USA1700 Bryant Dr #206, Round Rock, TX 78664@venezolanosenaustintxSegun Horario ComercialVerificado",
       "country": "USA1700"
     },
     {
+      "raw": "Casa LatinaLondon, ON, Canadá150 Dundas St #3, London, ON N6A 1G1, Canadá+15196019969See working hours in Google MapsVerificado",
+      "country": "?"
+    },
+    {
       "raw": "CavanyJersey City, NJ, USA325 Grand St.\r\nJersey City, NJ 07302(201) 942-2822Verificado",
       "country": "USA325"
     },
     {
-      "raw": "Delicias LatinasPhoenix, AZ, USA10641 N. 16th Ave.\r\nPhoenix, AZ 85029602-403-02298 am to 2 pm and 6 pm to 8 pmNo verificado",
-      "country": "USA10641"
-    },
-    {
       "raw": "Detroit — Latino PressDetroit, MI, USA6301 Michigan Ave, Detroit, MI 48210+1313361300011am a 4pmVerificado",
       "country": "USA6301"
+    },
+    {
+      "raw": "El Rincon PaisaHamilton, ON, Canadá958 Upper Wellington St, Hamilton, ON L9A 3S2, Canadá+19053855829See working hours in Google MapsVerificado",
+      "country": "?"
+    },
+    {
+      "raw": "Encanto Cafe ManotickManotick, ON, Canadá5561 Manotick Main St, Manotick, ON K4M 1A2, Canadá+16136973313See working hours in Google MapsNo verificado",
+      "country": "?"
     },
     {
       "raw": "Encuentro CafeSan Diego, CA, USA3941 Mason St, San Diego, CA 92110619-260-8060Verificado",
@@ -88,8 +120,20 @@
       "country": "USA223"
     },
     {
+      "raw": "Iglesia Alianza Brisas del GolfPanamá, PanamáIglesia Alianza Brisas del Golf+50761539697Lun-SabNo verificado",
+      "country": "?"
+    },
+    {
+      "raw": "JD EyewearHamilton, ON, Canadá100 George St, Hamilton, ON L8P 1E2, Canadá+19055701070See working hours in google MapsNo verificado",
+      "country": "?"
+    },
+    {
       "raw": "Jordan KraftheferMaricopa, CA, USAPO Box 117 Maricopa, CA 93252661-889-7842 (call or text available. Text preferred)Any timeVerificado",
       "country": "USAPO"
+    },
+    {
+      "raw": "Latin Dough (Empanadas y Tequeños)Etobicoke, ON, Canadá533 Evans Ave., Etobicoke, ON M8W 2V7, Canadáhttps://www.latindough.com/See working hours on Google MapsVerificado",
+      "country": "?"
     },
     {
       "raw": "Layerlab AltamiraCaracas, VenezuelaAltamira Edf Cadore+584129906702All day all nightNo verificado",
@@ -98,6 +142,10 @@
     {
       "raw": "Orange County & SoCal friends ❤️🇻🇪Bellflower, USA9338 Artesia Blvd, Bellflower, CA 90706@stephtheexpertVerificado",
       "country": "USA9338"
+    },
+    {
+      "raw": "Passion For DessertsMarkham, ON, Canadá6545 Hwy 7, Markham, ON L3P 3B4, Canadáhttp://www.passionfordesserts.com/See working hours in Google MapsNo verificado",
+      "country": "?"
     },
     {
       "raw": "RMV ConsultantsAustin, TX, USA7706 House Finch Dr, Austin, TX 78744737-881-4973Lun-Dom 8 am a 8 pmVerificado",
@@ -110,6 +158,10 @@
     {
       "raw": "TIMESHIPPINGMiami, FL, USA12480 NW 25th St, Suite 100, Door 3, Miami, FL 33182+13056804153Lun-Vie 9 am a 5 pmVerificado",
       "country": "USA12480"
+    },
+    {
+      "raw": "The Golfers Edge- Indoor GolfOshawa, ON, Canadá472 Taunton Rd W Unit 1, Oshawa, ON L1L 0N8, Canadáhttps://thegolfersedge.org/See working hours in Google MapsNo verificado",
+      "country": "?"
     },
     {
       "raw": "Topos mx (Centro de Acopio 2)Ciudad de México, MXIsabel La Católica 247, Obrera, Cuauhtémoc, 06800 Ciudad de México, CDMX, MéxicoTBDL - V 7am - 7 pmVerificado",
