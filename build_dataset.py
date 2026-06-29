@@ -1264,6 +1264,10 @@ for _lg in ("en","es","id"):
 for _lg,_t in (("en","Join from your country"),("es","Súmate desde tu país"),("id","Bergabung dari negaramu")):
     UI[_lg]["print_country_h"] = _t
 
+# --- Regional hubs heading (was missing → empty <h3>) ---
+for _lg,_t in (("en","Regional hubs"),("es","Hubs regionales"),("id","Hub regional")):
+    UI[_lg]["print_hubs_h"] = _t
+
 # --- Standalone /venezuela: action-first hero + "what happened" moved to the foot ---
 VE_FOOT_UI = {
  "en":{"ve_help_lead":"Tools and help for the days after — report, print a part, contribute. What happened and the latest figures are at the foot of the page.",
