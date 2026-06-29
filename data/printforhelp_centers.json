@@ -1,32 +1,135 @@
 {
   "updated": "2026-06-29",
-  "count": 25,
-  "countries": ["USA", "MX", "VE"],
+  "count": 31,
+  "countries": [
+    "USA",
+    "MX",
+    "VE"
+  ],
   "centers": [
-    {"name": "Amazonas Latin Market",    "city": "Austin, TX",        "country": "USA"},
-    {"name": "Canape Market",            "city": "Austin, TX",        "country": "USA"},
-    {"name": "Cavany",                   "city": "Jersey City, NJ",   "country": "USA"},
-    {"name": "Delicias Latinas",         "city": "Phoenix, AZ",       "country": "USA"},
-    {"name": "Encuentro Cafe",           "city": "San Diego, CA",     "country": "USA"},
-    {"name": "Entre Panas - 1",          "city": "Austin, TX",        "country": "USA"},
-    {"name": "Entre Panas - 2",          "city": "Austin, TX",        "country": "USA"},
-    {"name": "Fogonero",                 "city": "Austin, TX",        "country": "USA"},
-    {"name": "GEM - Barking Bun",        "city": "Miami, FL",         "country": "USA"},
-    {"name": "GEM - Caracas Bakery",     "city": "Doral, FL",         "country": "USA"},
-    {"name": "GEM - Cowyburger",         "city": "Miami, FL",         "country": "USA"},
-    {"name": "GEM - Doral Legacy Park",  "city": "Doral, FL",         "country": "USA"},
-    {"name": "GEM - El Arepazo Doral",   "city": "Doral, FL",         "country": "USA"},
-    {"name": "GEM - La Boulangerie",     "city": "Doral, FL",         "country": "USA"},
-    {"name": "GEM - La Tremenda",        "city": "Doral, FL",         "country": "USA"},
-    {"name": "GEM - Tripping Animals",   "city": "Miami, FL",         "country": "USA"},
-    {"name": "GEM - ViaOeste Cafe",      "city": "Miami, FL",         "country": "USA"},
-    {"name": "RMV Consultants",          "city": "Austin, TX",        "country": "USA"},
-    {"name": "Trust Autos",              "city": "Austin, TX",        "country": "USA"},
-    {"name": "Tu Pepito",                "city": "Austin, TX",        "country": "USA"},
-    {"name": "Topos mx (Matriz)",        "city": "Ciudad de México",  "country": "MX"},
-    {"name": "Topos mx (Acopio 2)",      "city": "Ciudad de México",  "country": "MX"},
-    {"name": "Topos mx (Acopio 3)",      "city": "Ciudad de México",  "country": "MX"},
-    {"name": "Levy Márquez",             "city": "Mérida",            "country": "VE"},
-    {"name": "Delicias Latinas (2)",     "city": "Phoenix, AZ",       "country": "USA"}
+    {
+      "raw": "Amazonas Latin MarketAustin, TX, USA15630 Vision Dr, Pflugerville, TX 78660@venezolanosenaustintxSegun Horario ComercialVerificado",
+      "country": "USA15630"
+    },
+    {
+      "raw": "Canape MarketAustin, TX, USA1700 Bryant Dr #206, Round Rock, TX 78664@venezolanosenaustintxSegun Horario ComercialVerificado",
+      "country": "USA1700"
+    },
+    {
+      "raw": "CavanyJersey City, NJ, USA325 Grand St.\r\nJersey City, NJ 07302(201) 942-2822Verificado",
+      "country": "USA325"
+    },
+    {
+      "raw": "Delicias LatinasPhoenix, AZ, USA10641 N. 16th Ave.\r\nPhoenix, AZ 85029602-403-02298 am to 2 pm and 6 pm to 8 pmNo verificado",
+      "country": "USA10641"
+    },
+    {
+      "raw": "Detroit — Latino PressDetroit, MI, USA6301 Michigan Ave, Detroit, MI 48210+1313361300011am a 4pmVerificado",
+      "country": "USA6301"
+    },
+    {
+      "raw": "Encuentro CafeSan Diego, CA, USA3941 Mason St, San Diego, CA 92110619-260-8060Verificado",
+      "country": "USA3941"
+    },
+    {
+      "raw": "Entre Panas - 1Austin, TX, USA4257 Gattis School Rd, Round Rock, TX 78664@venezolanosenaustintxHorario Comercial (Checar en Google Maps)Verificado",
+      "country": "USA4257"
+    },
+    {
+      "raw": "Entre Panas - 2Austin, TX, USA1 Indian Meadows Dr, Round Rock, TX 78665@venezolanosenaustintxHorario Comercial (Checar en Google Maps)Verificado",
+      "country": "USA1"
+    },
+    {
+      "raw": "FogoneroAustin, TX, USA800 W Pecan St, Pflugerville, TX 78660@venezolanosenaustintxSabado a Domingo 11am - 7pmVerificado",
+      "country": "USA800"
+    },
+    {
+      "raw": "Food 4 LessVista, CA, USA500 Hacienda Dr, Vista, CA 92083760-216-3808Lunes y Martes de 4am a 8pmNo verificado",
+      "country": "USA500"
+    },
+    {
+      "raw": "Full ArepasLos Angeles, CA, USA312 W 7th St, Los Angeles, CA 90014+12132668364Todos los dias 8am a 9pmVerificado",
+      "country": "USA312"
+    },
+    {
+      "raw": "GEM - Barking BunMiami, FL, USA1739 NE 2nd Ave, Miami, FL 33132[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "country": "USA1739"
+    },
+    {
+      "raw": "GEM - Caracas BakeryDoral, FL, USA7884 NW 52nd St, Doral, FL 33166[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "country": "USA7884"
+    },
+    {
+      "raw": "GEM - CowyburgerMiami, FL, USA223 NW 23rd St, Miami, FL 33127[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "country": "USA223"
+    },
+    {
+      "raw": "GEM - Doral Legacy ParkDoral, FL, USA11400 NW 82nd St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "country": "USA11400"
+    },
+    {
+      "raw": "GEM - El Arepazo DoralDoral, FL, USA10191 NW 58th St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "country": "USA10191"
+    },
+    {
+      "raw": "GEM - La Boulangerie Boul'MichDoral, FL, USA9690 NW 41st St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "country": "USA9690"
+    },
+    {
+      "raw": "GEM - La TremendaDoral, FL, USA9533 NW 41st St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "country": "USA9533"
+    },
+    {
+      "raw": "GEM - Tripping AnimalsMiami, FL, USA2685 NW 105th Ave, Doral, FL 33172[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "country": "USA2685"
+    },
+    {
+      "raw": "GEM - ViaOeste Cafe & BakeryMiami, FL, USA223 NW 23rd St, Miami, FL 33127[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "country": "USA223"
+    },
+    {
+      "raw": "Jordan KraftheferMaricopa, CA, USAPO Box 117 Maricopa, CA 93252661-889-7842 (call or text available. Text preferred)Any timeVerificado",
+      "country": "USAPO"
+    },
+    {
+      "raw": "Layerlab AltamiraCaracas, VenezuelaAltamira Edf Cadore+584129906702All day all nightNo verificado",
+      "country": "VenezuelaAltamira"
+    },
+    {
+      "raw": "Orange County & SoCal friends ❤️🇻🇪Bellflower, USA9338 Artesia Blvd, Bellflower, CA 90706@stephtheexpertVerificado",
+      "country": "USA9338"
+    },
+    {
+      "raw": "RMV ConsultantsAustin, TX, USA7706 House Finch Dr, Austin, TX 78744737-881-4973Lun-Dom 8 am a 8 pmVerificado",
+      "country": "USA7706"
+    },
+    {
+      "raw": "Sede de la Alcaldía del Municipio LibertadorMérida, VenezuelaAlcaldía del municipio libertador+584247021272Lunes a viernes de 8am a 3pmVerificado",
+      "country": "VenezuelaAlcaldía"
+    },
+    {
+      "raw": "TIMESHIPPINGMiami, FL, USA12480 NW 25th St, Suite 100, Door 3, Miami, FL 33182+13056804153Lun-Vie 9 am a 5 pmVerificado",
+      "country": "USA12480"
+    },
+    {
+      "raw": "Topos mx (Centro de Acopio 2)Ciudad de México, MXIsabel La Católica 247, Obrera, Cuauhtémoc, 06800 Ciudad de México, CDMX, MéxicoTBDL - V 7am - 7 pmVerificado",
+      "country": "MXIsabel"
+    },
+    {
+      "raw": "Topos mx (Centro de Acopio 3)Ciudad de México, MXIsabel La Católica 542, Álamos, Benito Juárez, 03400 Ciudad de México, CDMX, MéxicoTBDLun-Vie 11 AM - 5 PMVerificado",
+      "country": "MXIsabel"
+    },
+    {
+      "raw": "Topos mx (Centro de Acopio Matriz)Ciudad de México, MXMagistrados 75, Apliación el Sifón, Iztapalapa, 09180TBD9 am a 9 pmVerificado",
+      "country": "MXMagistrados"
+    },
+    {
+      "raw": "Trust AutosAustin, TX, USA6114 Daniel Alexander Wy, Austin, TX 78744@venezolanosenaustintxSegun Horario ComercialVerificado",
+      "country": "USA6114"
+    },
+    {
+      "raw": "Tu PepitoAustin, TX, USA13343 US-183 #270, Austin, TX 78750@venezolanosenaustintxSegun Horario ComercialVerificado",
+      "country": "USA13343"
+    }
   ]
 }
