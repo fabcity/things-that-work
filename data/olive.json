@@ -56,7 +56,8 @@
         "problem": "Bencana memutus pasokan air dan tidak ada air minum yang aman tersedia.",
         "fabcity_relevance": "Menunjukkan rumah tangga kota dapat memproduksi air minum dalam jumlah kecil dari sumber sekitar hanya dengan wadah dapur, kemampuan ketahanan inti saat air terpusat gagal."
       }
-    }
+    },
+    "translation_es": "/files/olive/olive-make-drinking-water.pdf"
   },
   {
     "id": "olive-turbid-water-filter-still",
@@ -111,7 +112,8 @@
         "problem": "Hanya air berlumpur atau keruh yang tersedia dan harus dibuat lebih aman untuk diminum.",
         "fabcity_relevance": "Protokol dua langkah kain-dan-panas memungkinkan rumah tangga memulihkan air yang dapat dipakai dari sumber tercemar tanpa peralatan khusus."
       }
-    }
+    },
+    "translation_es": "/files/olive/olive-turbid-water-filter-still.pdf"
   },
   {
     "id": "olive-oral-rehydration-salt",
@@ -164,7 +166,8 @@
         "problem": "Orang mengalami dehidrasi akibat diare, muntah, atau panas dan tidak ada produk rehidrasi oral atau klinik yang terjangkau.",
         "fabcity_relevance": "Mengodekan formula medis penyelamat nyawa menjadi tiga bahan dapur, memungkinkan komunitas menangani dehidrasi tanpa rantai pasok atau apotek."
       }
-    }
+    },
+    "translation_es": "/files/olive/olive-oral-rehydration-salt.pdf"
   },
   {
     "id": "olive-panel-solar-cooker",
@@ -221,7 +224,8 @@
         "problem": "Bahan bakar memasak dan listrik langka di zona bencana tetapi sinar matahari tersedia.",
         "fabcity_relevance": "Kompor surya tanpa penggaris yang dibuat dari barang bekas mengubah sinar matahari menjadi panas memasak, melepaskan kebutuhan dasar kota dari pasokan bahan bakar dan jaringan."
       }
-    }
+    },
+    "translation_es": "/files/olive/olive-panel-solar-cooker.pdf"
   },
   {
     "id": "olive-retained-heat-cooker",
@@ -501,7 +505,8 @@
         "problem": "Sayuran segar dan vitamin tidak tersedia tetapi kacang kering bisa disimpan jangka panjang.",
         "fabcity_relevance": "Penumbuhan tauge mengubah bahan kering tahan simpan menjadi produk segar hidup di dalam ruangan tanpa tanah, cahaya, atau lahan, loop produksi pangan skala mikro untuk rumah mana pun."
       }
-    }
+    },
+    "translation_es": "/files/olive/olive-grow-bean-sprouts.pdf"
   },
   {
     "id": "olive-waterless-emergency-toilet",
@@ -556,7 +561,8 @@
         "problem": "Air untuk menyiram terputus dan sanitasi harus dijaga untuk mencegah penyakit.",
         "fabcity_relevance": "Melepaskan sanitasi dari jaringan air hanya dengan kantong dan penyerap, hal penting bagi kesehatan publik saat sistem air atau saluran pembuangan kota gagal."
       }
-    }
+    },
+    "translation_es": "/files/olive/olive-waterless-emergency-toilet.pdf"
   },
   {
     "id": "olive-emergency-cloth-pad",
@@ -718,7 +724,8 @@
         "problem": "Lampu listrik padam saat pemadaman dan sumber cahaya yang aman dan tahan lama dibutuhkan.",
         "fabcity_relevance": "Lampu aman dari minyak dapur dan gelas memberi rumah tangga cahaya saat mati listrik tanpa baterai atau kaleng bahan bakar — tepat sekali, teknik yang memberi nama pada OLIVE."
       }
-    }
+    },
+    "translation_es": "/files/olive/olive-olive-oil-candle.pdf"
   },
   {
     "id": "olive-aluminum-can-lantern",
@@ -831,7 +838,8 @@
         "problem": "Pemanas mati saat cuaca dingin dan tidak ada botol air panas buatan pabrik.",
         "fabcity_relevance": "Memfungsikan ulang botol minuman yang ada di mana-mana menjadi pemanas pribadi yang aman saat pemadaman cuaca dingin, dengan panduan keselamatan bahan yang jelas untuk ditiru."
       }
-    }
+    },
+    "translation_es": "/files/olive/olive-pet-bottle-hot-water-bottle.pdf"
   },
   {
     "id": "olive-aa-to-d-battery",

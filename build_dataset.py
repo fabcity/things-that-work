@@ -1294,7 +1294,9 @@ for _nk,_en,_es,_idn,_doms,_kws in _VE_NEEDS:
                "title_es": (e.get("i18n",{}).get("es") or {}).get("title", e.get("title","")),
                "title_id": (e.get("i18n",{}).get("id") or {}).get("title", e.get("title","")),
                "source": e.get("source",""), "url": e.get("source_url") or "",
-               "oh": bool(e.get("open_hardware"))} for e in _matched[:10]]
+               "oh": bool(e.get("open_hardware")),
+               **({"translation_es": e["translation_es"]} if e.get("translation_es") else {})
+               } for e in _matched[:10]]
     _fa_needs.append({"key": _nk, "label": _en, "label_es": _es, "label_id": _idn,
                       "count": len(_matched), "items": _items})
 dataset["venezuela"]["from_archive"] = {"needs": _fa_needs}
