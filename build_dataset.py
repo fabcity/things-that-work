@@ -1071,6 +1071,13 @@ dataset["venezuela"]["printing"] = {
    {"country":"USA","country_es":"EE. UU.","country_id":"AS","url":"https://chat.whatsapp.com/INOOTwvZand8b1y8drYz3O"},
    {"country":"Venezuela","url":"https://chat.whatsapp.com/G0Zkjv4z8DLJ8yEwOft1RY"},
  ],
+ "hubs":[
+   {"name":"Impresión 3D Solidaria — Chile",
+    "url":"https://cdordelly.notion.site/VE-Impresi-n-3D-Solidaria-Chile-38df19d5427a80c6aa6ec0c102d8b2e0",
+    "note":"Chile coordination hub — printers, centers, updates",
+    "note_es":"Hub de coordinación Chile — impresoras, centros, novedades",
+    "note_id":"Hub koordinasi Chile — printer, pusat, info terkini"},
+ ],
  "files":[
    {"label":"Férula pequeña (.3mf)","href":"/files/ferulas/ferula-pequena.3mf"},
    {"label":"Férula mediana (.3mf)","href":"/files/ferulas/ferula-mediana.3mf"},
