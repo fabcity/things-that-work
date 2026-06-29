@@ -1058,11 +1058,6 @@ dataset["venezuela"]["printing"] = {
     "note":"Print & donate splints","note_es":"Imprime y dona férulas","note_id":"Cetak & donasikan bidai"},
    {"name":"Maker por Venezuela","url":"https://chat.whatsapp.com/I7IJTKcI54V3Z6GfAkKsCE",
     "note":"Makers network — coordination","note_es":"Red de makers — coordinación","note_id":"Jaringan maker — koordinasi"},
-   {"name":"PrintForHelp — Centers",
-    "url":"https://printforhelp.org/centers",
-    "note":f"{_pfh_n} drop-off centers — {_pfh_cc}",
-    "note_es":f"{_pfh_n} centros de acopio — {_pfh_cc}",
-    "note_id":f"{_pfh_n} pusat pengumpulan — {_pfh_cc}"},
  ],
  "country_groups":[
    {"country":"Argentina","url":"https://chat.whatsapp.com/CjrAqahbgRs6NFAaaoHBBz"},
@@ -1091,6 +1086,12 @@ dataset["venezuela"]["printing"] = {
    "id":["Lindungi: perban atau lapisan di atas kulit.","Panaskan material sesuai panduannya (air hangat atau 90–100 °C, tergantung material).","Bentuk pada anggota tubuh sebelum dingin.","Kencangkan dengan perban elastis atau velcro: kokoh, tidak ketat.","Periksa imobilisasi; mengeras saat dingin."],
  },
  "centers_doc":"/files/ferulas/centros-de-acopio.docx",
+ "pfh":{
+   "url":"https://printforhelp.org/centers",
+   "note":f"{_pfh_n} drop-off centers, part requests & printing tracker ({_pfh_cc})",
+   "note_es":f"{_pfh_n} centros de acopio, solicitud de piezas y seguimiento ({_pfh_cc})",
+   "note_id":f"{_pfh_n} pusat pengumpulan, permintaan suku cadang & pelacak cetak ({_pfh_cc})",
+ },
  "centers":[
    {"city":"Caracas","detail":"Plaza Altamira, frente al obelisco, después de las 10 AM (red de distribución a La Guaira)"},
    {"city":"Maracaibo","detail":"El Tacón · Fabiana Marín +58 424-6857685"},

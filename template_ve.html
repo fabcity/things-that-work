@@ -256,6 +256,7 @@
   .vp-mapcard-tx{display:flex;flex-direction:column;gap:2px}
   .vp-mapcard-tx b{font-size:16px;font-weight:800} .vp-mapcard-tx small{font-size:13px;color:var(--ink-soft)}
   .vp-mapcard-arr{margin-left:auto;color:var(--mc-orange);font-weight:800;font-size:20px}
+  .vp-mapcard-ic-pfh{background:var(--mc-orange) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'/%3E%3Cpolyline points='3.27 6.96 12 12.01 20.73 6.96'/%3E%3Cline x1='12' y1='22.08' x2='12' y2='12'/%3E%3C/svg%3E") center/26px no-repeat}
   .vp-labsout{margin-top:12px}
   .vp-labcard{display:flex;flex-direction:column;gap:3px;padding:11px 13px;background:var(--paper);border:1.5px solid var(--rule-2);border-left:5px solid var(--mc-orange);text-decoration:none;color:var(--ink)}
   .vp-labcard:hover{border-color:var(--mc-orange)} .vp-labcard b{font-size:14px} .vp-labcard span{font-size:12px;color:var(--ink-soft)} .vp-labcard em{font-style:normal;font-size:11px;color:var(--mc-orange);font-weight:800}
@@ -402,6 +403,7 @@ function rPrint(){
   var _madd=(p.map&&p.map.add)||"https://vzla.ushahidi.io/post/create";
   h+=`<div class="vp-block"><h3>${esc(ui("print_centers_h"))}</h3>`
     +`<a class="vp-mapcard" href="${esc(_murl)}" target="_blank" rel="noopener" data-ev="ushahidi-map"><span class="vp-mapcard-ic"></span><span class="vp-mapcard-tx"><b>${esc(ui("print_map"))}</b><small>${esc(ui("map_open_hint"))}</small></span><span class="vp-mapcard-arr">&#8599;</span></a>`
+    +(p.pfh?`<a class="vp-mapcard" style="margin-top:10px" href="${esc(p.pfh.url)}" target="_blank" rel="noopener" data-ev="printforhelp"><span class="vp-mapcard-ic vp-mapcard-ic-pfh"></span><span class="vp-mapcard-tx"><b>PrintForHelp</b><small>${esc(pick(p.pfh,"note"))}</small></span><span class="vp-mapcard-arr">&#8599;</span></a>`:"")
     +`<div class="vp-maprow"><a class="vp-mapbtn alt" href="${esc(_madd)}" target="_blank" rel="noopener" data-ev="map/add">${esc(ui("map_add"))}</a>${p.centers_doc?` &middot; <a class="vp-doc" href="${esc(p.centers_doc)}" download>${esc(ui("print_centers_all"))} &#8595;</a>`:""}</div></div>`;
   return h+`</section>`;
 }
