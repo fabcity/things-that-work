@@ -1333,7 +1333,7 @@ try:
     _g3 = "https://chat.whatsapp.com/Fc7e08cW6ubC33GQCNHxME"
     if not any(_g3 in (x.get("url") or "") for x in _ve["printing"]["groups"]):
         _ve["printing"]["groups"].append({"name":"Makers 4 Venezuela","url":_g3,"note":"Maker network for Venezuela","note_es":"Red de makers por Venezuela","note_id":"Jaringan maker untuk Venezuela"})
-    _ve["printing"]["map"] = {"url":"https://vzla.ushahidi.io/map","add":"https://vzla.ushahidi.io/post/create","api":"https://vzla.api.ushahidi.io/api/v5/posts/geojson"}
+    _ve["printing"]["map"] = {"url":"https://vzla.ushahidi.io/map","add":"https://vzla.ushahidi.io/map","api":"https://vzla.api.ushahidi.io/api/v5/posts/geojson"}
     _ve["printing"]["credit"] = {"name":"Ostec3D","url":"https://www.ostec3d.com/","ig":"https://www.instagram.com/ostec3d/"}
     if not any("ushahidi.io" in (r.get("url") or "") for r in _ve["resources"]):
         _ve["resources"].insert(0, {"name":"Mapa Ushahidi — impresión, filamento y acopio (Venezuela)","url":"https://vzla.ushahidi.io/"})

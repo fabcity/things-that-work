@@ -404,7 +404,7 @@ function rPrint(){
     h+=`<p class="vp-caveat">${esc(ui("fr_note"))}</p></div>`;
   }
   var _murl=(p.map&&p.map.url)||"https://vzla.ushahidi.io/map";
-  var _madd=(p.map&&p.map.add)||"https://vzla.ushahidi.io/post/create";
+  var _madd=(p.map&&p.map.add)||"https://vzla.ushahidi.io/map";
   h+=`<div class="vp-block"><h3>${esc(ui("print_centers_h"))}</h3>`
     +`<a class="vp-mapcard" href="${esc(_murl)}" target="_blank" rel="noopener" data-ev="ushahidi-map"><span class="vp-mapcard-ic"></span><span class="vp-mapcard-tx"><b>${esc(ui("print_map"))}</b><small>${esc(ui("map_open_hint"))}</small></span><span class="vp-mapcard-arr">&#8599;</span></a>`
     +(p.pfh?`<a class="vp-mapcard" style="margin-top:10px" href="${esc(p.pfh.url)}" target="_blank" rel="noopener" data-ev="printforhelp"><span class="vp-mapcard-ic vp-mapcard-ic-pfh"></span><span class="vp-mapcard-tx"><b>PrintForHelp</b><small>${esc(pick(p.pfh,"note"))}</small></span><span class="vp-mapcard-arr">&#8599;</span></a>`:"")
