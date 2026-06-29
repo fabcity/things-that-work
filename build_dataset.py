@@ -1046,12 +1046,23 @@ PRINT_UI = {
 for _lg in ("en","es","id"):
     UI[_lg].update(PRINT_UI[_lg])
 
+# Load live PrintForHelp center count (updated by scripts/sync_printforhelp.py)
+_pfh_json = DATA / "printforhelp_centers.json"
+_pfh      = json.loads(_pfh_json.read_text()) if _pfh_json.exists() else {"count": 25, "countries": ["USA", "MX", "VE"]}
+_pfh_cc   = " · ".join(_pfh.get("countries", ["USA", "MX", "VE"]))
+_pfh_n    = _pfh.get("count", 25)
+
 dataset["venezuela"]["printing"] = {
  "groups":[
    {"name":"Férulas Venezuela","url":"https://chat.whatsapp.com/DaseixyFONlH0xIpXCaGyW",
     "note":"Print & donate splints","note_es":"Imprime y dona férulas","note_id":"Cetak & donasikan bidai"},
    {"name":"Maker por Venezuela","url":"https://chat.whatsapp.com/I7IJTKcI54V3Z6GfAkKsCE",
     "note":"Makers network — coordination","note_es":"Red de makers — coordinación","note_id":"Jaringan maker — koordinasi"},
+   {"name":"PrintForHelp — Centers",
+    "url":"https://printforhelp.org/centers",
+    "note":f"{_pfh_n} drop-off centers — {_pfh_cc}",
+    "note_es":f"{_pfh_n} centros de acopio — {_pfh_cc}",
+    "note_id":f"{_pfh_n} pusat pengumpulan — {_pfh_cc}"},
  ],
  "country_groups":[
    {"country":"Argentina","url":"https://chat.whatsapp.com/CjrAqahbgRs6NFAaaoHBBz"},

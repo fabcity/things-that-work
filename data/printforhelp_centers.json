@@ -1,0 +1,32 @@
+{
+  "updated": "2026-06-29",
+  "count": 25,
+  "countries": ["USA", "MX", "VE"],
+  "centers": [
+    {"name": "Amazonas Latin Market",    "city": "Austin, TX",        "country": "USA"},
+    {"name": "Canape Market",            "city": "Austin, TX",        "country": "USA"},
+    {"name": "Cavany",                   "city": "Jersey City, NJ",   "country": "USA"},
+    {"name": "Delicias Latinas",         "city": "Phoenix, AZ",       "country": "USA"},
+    {"name": "Encuentro Cafe",           "city": "San Diego, CA",     "country": "USA"},
+    {"name": "Entre Panas - 1",          "city": "Austin, TX",        "country": "USA"},
+    {"name": "Entre Panas - 2",          "city": "Austin, TX",        "country": "USA"},
+    {"name": "Fogonero",                 "city": "Austin, TX",        "country": "USA"},
+    {"name": "GEM - Barking Bun",        "city": "Miami, FL",         "country": "USA"},
+    {"name": "GEM - Caracas Bakery",     "city": "Doral, FL",         "country": "USA"},
+    {"name": "GEM - Cowyburger",         "city": "Miami, FL",         "country": "USA"},
+    {"name": "GEM - Doral Legacy Park",  "city": "Doral, FL",         "country": "USA"},
+    {"name": "GEM - El Arepazo Doral",   "city": "Doral, FL",         "country": "USA"},
+    {"name": "GEM - La Boulangerie",     "city": "Doral, FL",         "country": "USA"},
+    {"name": "GEM - La Tremenda",        "city": "Doral, FL",         "country": "USA"},
+    {"name": "GEM - Tripping Animals",   "city": "Miami, FL",         "country": "USA"},
+    {"name": "GEM - ViaOeste Cafe",      "city": "Miami, FL",         "country": "USA"},
+    {"name": "RMV Consultants",          "city": "Austin, TX",        "country": "USA"},
+    {"name": "Trust Autos",              "city": "Austin, TX",        "country": "USA"},
+    {"name": "Tu Pepito",                "city": "Austin, TX",        "country": "USA"},
+    {"name": "Topos mx (Matriz)",        "city": "Ciudad de México",  "country": "MX"},
+    {"name": "Topos mx (Acopio 2)",      "city": "Ciudad de México",  "country": "MX"},
+    {"name": "Topos mx (Acopio 3)",      "city": "Ciudad de México",  "country": "MX"},
+    {"name": "Levy Márquez",             "city": "Mérida",            "country": "VE"},
+    {"name": "Delicias Latinas (2)",     "city": "Phoenix, AZ",       "country": "USA"}
+  ]
+}
