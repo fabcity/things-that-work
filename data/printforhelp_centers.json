@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-30",
-  "count": 44,
+  "updated": "2026-07-01",
+  "count": 60,
   "countries": [
     "USA",
     "MX",
@@ -8,180 +8,244 @@
   ],
   "centers": [
     {
-      "raw": "AEROMARPhoenix, AZ, USA11829 N 16th Ave, Phoenix, AZ 85029+1602-403-02298am-3pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoAEROMARPhoenix, AZ, USA11829 N 16th Ave, Phoenix, AZ 85029+1602-403-02298am-3pm",
       "country": "USA11829"
     },
     {
-      "raw": "Amazonas Latin MarketAustin, TX, USA15630 Vision Dr, Pflugerville, TX 78660@venezolanosenaustintxSegun Horario ComercialVerificado",
+      "raw": "Recibiendo donacionesVerificadoAmazonas Latin MarketAustin, TX, USA15630 Vision Dr, Pflugerville, TX 78660@venezolanosenaustintxSegun Horario Comercial",
       "country": "USA15630"
     },
     {
-      "raw": "Angelitos Insurance ConcordConcord, USA1800 Monument Blvd, Concord, CA 94520, Suite H(415) 966-8075Verificado",
+      "raw": "Recibiendo donacionesVerificadoAngelitos Insurance ConcordConcord, CA, USA1800 Monument Blvd, Concord, CA 94520, Suite H(415) 966-8075",
       "country": "USA1800"
     },
     {
-      "raw": "Angelitos Insurance Oakland (Preferred)Oakland, USA4819 International Blvd\r\nOakland, CA 94601510-261-4456No verificado",
+      "raw": "Recibiendo donacionesVerificadoAngelitos Insurance Oakland (Preferred)Oakland, CA, USA4819 International Blvd\r\nOakland, CA 94601510-261-4456",
       "country": "USA4819"
     },
     {
-      "raw": "Arepas Latin CuisineSan Francisco, USA3198 16th Street, San Francisco, CA 94103(415) 963-4535No verificado",
+      "raw": "Recibiendo donacionesVerificadoArepa & Co Venezuelan RestaurantLondon, England, UK8 Ash Ave, Elephant Park, London SE17 1GQ, Reino Unido+44203433100212pm - 10pm",
+      "country": "Venezuelan"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoArepas Latin CuisineSan Francisco, CA, USA3198 16th Street, San Francisco, CA 94103(415) 963-4535",
       "country": "USA3198"
     },
     {
-      "raw": "Arepas Latin Cuisine - San JoseSan Jose, USA1384 Lincoln Avenue, San Jose, CA 95125(408) 769-4990No verificado",
+      "raw": "Recibiendo donacionesVerificadoArepas Latin Cuisine - San JoseSan Jose, CA, USA1384 Lincoln Avenue, San Jose, CA 95125(408) 769-4990",
       "country": "USA1384"
     },
     {
-      "raw": "Bistro l'ArepaSaint-Hubert, QC, Canadá3366 Grande Allée, Saint-Hubert, QC J4T 2T1, Canadá+14503411788Working Hours in Google MapsVerificado",
+      "raw": "Recibiendo donacionesVerificadoBistro l'ArepaSaint-Hubert, QC, Canadá3366 Grande Allée, Saint-Hubert, QC J4T 2T1, Canadá+14503411788Working Hours in Google Maps",
       "country": "?"
     },
     {
-      "raw": "Canape MarketAustin, TX, USA1700 Bryant Dr #206, Round Rock, TX 78664@venezolanosenaustintxSegun Horario ComercialVerificado",
+      "raw": "Recibiendo donacionesVerificadoCanape MarketAustin, TX, USA1700 Bryant Dr #206, Round Rock, TX 78664@venezolanosenaustintxSegun Horario Comercial",
       "country": "USA1700"
     },
     {
-      "raw": "Casa LatinaLondon, ON, Canadá150 Dundas St #3, London, ON N6A 1G1, Canadá+15196019969See working hours in Google MapsVerificado",
+      "raw": "Recibiendo donacionesVerificadoCasa LatinaLondon, ON, Canadá150 Dundas St #3, London, ON N6A 1G1, Canadá+15196019969See working hours in Google Maps",
       "country": "?"
     },
     {
-      "raw": "CavanyJersey City, NJ, USA325 Grand St.\r\nJersey City, NJ 07302(201) 942-2822Verificado",
+      "raw": "Recibiendo donacionesVerificadoCavanyJersey City, NJ, USA325 Grand St.\r\nJersey City, NJ 07302(201) 942-2822",
       "country": "USA325"
     },
     {
-      "raw": "Detroit — Latino PressDetroit, MI, USA6301 Michigan Ave, Detroit, MI 48210+1313361300011am a 4pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoChris FonsecaNampa, ID, USA1208 N59th Ave[email protected]",
+      "country": "USA1208"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoCigar DaddiesLacey, Washington, USA4511 Lacey Blvd SE[email protected]Mon-Fri 11-8 Sat 11-7 Sun 11-5 PST",
+      "country": "USA4511"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoCloud Atlas TechnologiesRaritan, New Jersey, USA1124 US-202 Ste A1, Raritan, NJ 08869[email protected]Mon-Fri: 9am to 5pm",
+      "country": "USA1124"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoDetroit — Latino PressDetroit, MI, USA6301 Michigan Ave, Detroit, MI 48210+1313361300011am a 4pm",
       "country": "USA6301"
     },
     {
-      "raw": "El Rincon PaisaHamilton, ON, Canadá958 Upper Wellington St, Hamilton, ON L9A 3S2, Canadá+19053855829See working hours in Google MapsVerificado",
+      "raw": "Recibiendo donacionesVerificadoEcoRobotikGlendale, AZ, USA20280 N 59th Ave Ste 109, Glendale, AZ 85308+14802945714See Google Mapsdrop-off",
+      "country": "USA20280"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoEl Pollote - CarnabyLondon, England, UK13 Ganton St, Carnaby, London W1F 9BL, Reino Unido@jonatansierrahn12pm-10pm",
       "country": "?"
     },
     {
-      "raw": "Encanto Cafe ManotickManotick, ON, Canadá5561 Manotick Main St, Manotick, ON K4M 1A2, Canadá+16136973313See working hours in Google MapsNo verificado",
+      "raw": "Recibiendo donacionesVerificadoEl Rincon PaisaHamilton, ON, Canadá958 Upper Wellington St, Hamilton, ON L9A 3S2, Canadá+19053855829See working hours in Google Maps",
       "country": "?"
     },
     {
-      "raw": "Encuentro CafeSan Diego, CA, USA3941 Mason St, San Diego, CA 92110619-260-8060Verificado",
+      "raw": "Recibiendo donacionesVerificadoEncanto Cafe ManotickManotick, ON, Canadá5561 Manotick Main St, Manotick, ON K4M 1A2, Canadá+16136973313See working hours in Google Maps",
+      "country": "?"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoEncuentro CafeSan Diego, CA, USA3941 Mason St, San Diego, CA 92110619-260-8060",
       "country": "USA3941"
     },
     {
-      "raw": "Entre Panas - 1Austin, TX, USA4257 Gattis School Rd, Round Rock, TX 78664@venezolanosenaustintxHorario Comercial (Checar en Google Maps)Verificado",
+      "raw": "Recibiendo donacionesVerificadoEntre Panas - 1Austin, TX, USA4257 Gattis School Rd, Round Rock, TX 78664@venezolanosenaustintxHorario Comercial (Checar en Google Maps)",
       "country": "USA4257"
     },
     {
-      "raw": "Entre Panas - 2Austin, TX, USA1 Indian Meadows Dr, Round Rock, TX 78665@venezolanosenaustintxHorario Comercial (Checar en Google Maps)Verificado",
+      "raw": "Recibiendo donacionesVerificadoEntre Panas - 2Austin, TX, USA1 Indian Meadows Dr, Round Rock, TX 78665@venezolanosenaustintxHorario Comercial (Checar en Google Maps)",
       "country": "USA1"
     },
     {
-      "raw": "FogoneroAustin, TX, USA800 W Pecan St, Pflugerville, TX 78660@venezolanosenaustintxSabado a Domingo 11am - 7pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoFogoneroAustin, TX, USA800 W Pecan St, Pflugerville, TX 78660@venezolanosenaustintxSabado a Domingo 11am - 7pm",
       "country": "USA800"
     },
     {
-      "raw": "Food 4 LessVista, CA, USA500 Hacienda Dr, Vista, CA 92083760-216-3808Lunes y Martes de 4am a 8pmNo verificado",
+      "raw": "Recibiendo donacionesVerificadoFood 4 LessVista, CA, USA500 Hacienda Dr, Vista, CA 92083760-216-3808Lunes y Martes de 4am a 8pm",
       "country": "USA500"
     },
     {
-      "raw": "Full ArepasLos Angeles, CA, USA312 W 7th St, Los Angeles, CA 90014+12132668364Todos los dias 8am a 9pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoFull ArepasLos Angeles, CA, USA312 W 7th St, Los Angeles, CA 90014+12132668364Todos los dias 8am a 9pm",
       "country": "USA312"
     },
     {
-      "raw": "GEM - Barking BunMiami, FL, USA1739 NE 2nd Ave, Miami, FL 33132[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoGEM - Barking BunMiami, FL, USA1739 NE 2nd Ave, Miami, FL 33132[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pm",
       "country": "USA1739"
     },
     {
-      "raw": "GEM - Caracas BakeryDoral, FL, USA7884 NW 52nd St, Doral, FL 33166[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoGEM - Caracas BakeryDoral, FL, USA7884 NW 52nd St, Doral, FL 33166[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pm",
       "country": "USA7884"
     },
     {
-      "raw": "GEM - CowyburgerMiami, FL, USA223 NW 23rd St, Miami, FL 33127[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoGEM - CowyburgerMiami, FL, USA223 NW 23rd St, Miami, FL 33127[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pm",
       "country": "USA223"
     },
     {
-      "raw": "GEM - Doral Legacy ParkDoral, FL, USA11400 NW 82nd St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoGEM - Doral Legacy ParkDoral, FL, USA11400 NW 82nd St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pm",
       "country": "USA11400"
     },
     {
-      "raw": "GEM - El Arepazo DoralDoral, FL, USA10191 NW 58th St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoGEM - El Arepazo DoralDoral, FL, USA10191 NW 58th St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pm",
       "country": "USA10191"
     },
     {
-      "raw": "GEM - La Boulangerie Boul'MichDoral, FL, USA9690 NW 41st St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoGEM - La Boulangerie Boul'MichDoral, FL, USA9690 NW 41st St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pm",
       "country": "USA9690"
     },
     {
-      "raw": "GEM - La TremendaDoral, FL, USA9533 NW 41st St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoGEM - La TremendaDoral, FL, USA9533 NW 41st St, Doral, FL 33178[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pm",
       "country": "USA9533"
     },
     {
-      "raw": "GEM - Tripping AnimalsMiami, FL, USA2685 NW 105th Ave, Doral, FL 33172[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoGEM - Tripping AnimalsMiami, FL, USA2685 NW 105th Ave, Doral, FL 33172[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pm",
       "country": "USA2685"
     },
     {
-      "raw": "GEM - ViaOeste Cafe & BakeryMiami, FL, USA223 NW 23rd St, Miami, FL 33127[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoGEM - ViaOeste Cafe & BakeryMiami, FL, USA223 NW 23rd St, Miami, FL 33127[email protected] / 1-800-995-7604Lun-Vie 9 am a 5 pm",
       "country": "USA223"
     },
     {
-      "raw": "Iglesia Alianza Brisas del GolfPanamá, PanamáIglesia Alianza Brisas del Golf+50761539697Lun-SabNo verificado",
+      "raw": "Recibiendo donacionesVerificadoGlobal Empowerment Mission HQDoral, FL, USA1850 NW 84th Ave #100, Doral, FL 33126+180099576049 am to 5 pm",
+      "country": "USA1850"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoIglesia Alianza Brisas del GolfPanamá, Panamá Province, PanamáSan Miguelito, Panamá Province, Panama+50761539697Lun-Sab",
       "country": "?"
     },
     {
-      "raw": "JD EyewearHamilton, ON, Canadá100 George St, Hamilton, ON L8P 1E2, Canadá+19055701070See working hours in google MapsNo verificado",
+      "raw": "Recibiendo donacionesVerificadoJD EyewearHamilton, ON, Canadá100 George St, Hamilton, ON L8P 1E2, Canadá+19055701070See working hours in google Maps",
       "country": "?"
     },
     {
-      "raw": "Jordan KraftheferMaricopa, CA, USAPO Box 117 Maricopa, CA 93252661-889-7842 (call or text available. Text preferred)Any timeVerificado",
+      "raw": "Recibiendo donacionesVerificadoJordan KraftheferMaricopa, CA, USAPO Box 117 Maricopa, CA 93252661-889-7842 (call or text available. Text preferred)Any timeShipping Address",
       "country": "USAPO"
     },
     {
-      "raw": "Latin Dough (Empanadas y Tequeños)Etobicoke, ON, Canadá533 Evans Ave., Etobicoke, ON M8W 2V7, Canadáhttps://www.latindough.com/See working hours on Google MapsVerificado",
+      "raw": "Recibiendo donacionesVerificadoKirsten HäuslerStuttgart, Sillenbuch, GermanyKirchheimer Str. 107[email protected]",
       "country": "?"
     },
     {
-      "raw": "Layerlab AltamiraCaracas, VenezuelaAltamira Edf Cadore+584129906702All day all nightNo verificado",
-      "country": "VenezuelaAltamira"
+      "raw": "Recibiendo donacionesVerificadoLONBOXLondon, England, UK165 Robert Dashwood Way, London SE17 3PZ, Reino Unido@lonboxexpress12pm-10pm",
+      "country": "?"
     },
     {
-      "raw": "Orange County & SoCal friends ❤️🇻🇪Bellflower, USA9338 Artesia Blvd, Bellflower, CA 90706@stephtheexpertVerificado",
+      "raw": "Recibiendo donacionesVerificadoLatin Dough (Empanadas y Tequeños)Etobicoke, ON, Canadá533 Evans Ave., Etobicoke, ON M8W 2V7, Canadáhttps://www.latindough.com/See working hours on Google Maps",
+      "country": "?"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoLayerlab AltamiraCaracas, Miranda, VenezuelaAv. San Juan Bosco, Caracas 1060, Miranda, Venezuela+584129906702All day all night",
+      "country": "VenezuelaAv."
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoMerlin SchmidtBad Ems, Rhineland-Palatinate, AlemaniaUntertalen 28, 56130[email protected] / [email protected]Mo- Fr 8-19 Uhr",
+      "country": "?"
+    },
+    {
+      "raw": "Recibiendo donacionesNo verificadoMi Tierra Latina (All Stores - Lower Mainland)Vancouver, BC, Canada1757 Robson St, Vancouver, BC V6G 1C9+16043362538",
+      "country": "?"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoOlarte Transport ServiceLos Angeles, CA, USA1125 E Pico Blvd, Los Angeles, CA 90021+12136242691",
+      "country": "USA1125"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoOrange County & SoCal friends ❤️🇻🇪Bellflower, CA, USA9338 Artesia Blvd, Bellflower, CA 90706@stephtheexpert",
       "country": "USA9338"
     },
     {
-      "raw": "Passion For DessertsMarkham, ON, Canadá6545 Hwy 7, Markham, ON L3P 3B4, Canadáhttp://www.passionfordesserts.com/See working hours in Google MapsNo verificado",
+      "raw": "Recibiendo donacionesNo verificadoPapelon MarketSaint Clair Shores, MI, United States29900 Harper Ave, St Clair Shores, MI 48082586-742-2622Closed on Tuesdaysdrop-off",
       "country": "?"
     },
     {
-      "raw": "RMV ConsultantsAustin, TX, USA7706 House Finch Dr, Austin, TX 78744737-881-4973Lun-Dom 8 am a 8 pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoPassion For DessertsMarkham, ON, Canadá6545 Hwy 7, Markham, ON L3P 3B4, Canadáhttp://www.passionfordesserts.com/See working hours in Google Maps",
+      "country": "?"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoPrem Dent - Your Dental and Beauty Clinic in LondonLondon, England, UK42A Harper Rd, London SE1 6AD, Reino Unido+4420720785679am-1pm 2pm-6pm",
+      "country": "?"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoRMV ConsultantsAustin, TX, USA7706 House Finch Dr, Austin, TX 78744737-881-4973Lun-Dom 8 am a 8 pm",
       "country": "USA7706"
     },
     {
-      "raw": "Sede de la Alcaldía del Municipio LibertadorMérida, VenezuelaAlcaldía del municipio libertador+584247021272Lunes a viernes de 8am a 3pmVerificado",
-      "country": "VenezuelaAlcaldía"
+      "raw": "Recibiendo donacionesVerificadoSede de la Alcaldía del Municipio LibertadorMérida, Mérida, Venezuela5101 C. 45, Mérida 5101, Mérida, Venezuela+584247021272Lunes a viernes de 8am a 3pmGobiernoGoverment",
+      "country": "Venezuela5101"
     },
     {
-      "raw": "TIMESHIPPINGMiami, FL, USA12480 NW 25th St, Suite 100, Door 3, Miami, FL 33182+13056804153Lun-Vie 9 am a 5 pmVerificado",
+      "raw": "Recibiendo donacionesVerificadoTIMESHIPPING - Penelope LeonMiami, FL, USA12480 NW 25th St, Suite 100, Door 3, Miami, FL 33182+17869281419Lun-Vie 9 am a 5 pm",
       "country": "USA12480"
     },
     {
-      "raw": "The Golfers Edge- Indoor GolfOshawa, ON, Canadá472 Taunton Rd W Unit 1, Oshawa, ON L1L 0N8, Canadáhttps://thegolfersedge.org/See working hours in Google MapsNo verificado",
+      "raw": "Recibiendo donacionesVerificadoThe Golfers Edge- Indoor GolfOshawa, ON, Canadá472 Taunton Rd W Unit 1, Oshawa, ON L1L 0N8, Canadáhttps://thegolfersedge.org/See working hours in Google Maps",
       "country": "?"
     },
     {
-      "raw": "Topos mx (Centro de Acopio 2)Ciudad de México, MXIsabel La Católica 247, Obrera, Cuauhtémoc, 06800 Ciudad de México, CDMX, MéxicoTBDL - V 7am - 7 pmVerificado",
-      "country": "MXIsabel"
+      "raw": "Recibiendo donacionesVerificadoThe Tile Lady Designs by ChristineBerkeley Heights, New Jersey, USA620 Springfield Ave, Berkeley Heights, NJ 07922[email protected]",
+      "country": "USA620"
     },
     {
-      "raw": "Topos mx (Centro de Acopio 3)Ciudad de México, MXIsabel La Católica 542, Álamos, Benito Juárez, 03400 Ciudad de México, CDMX, MéxicoTBDLun-Vie 11 AM - 5 PMVerificado",
-      "country": "MXIsabel"
+      "raw": "Recibiendo donacionesVerificadoTopos mx (Centro de Acopio 2)Ciudad de México, CDMX, MXIsabel La Católica 247, Obrera, Cuauhtémoc, 06800 Ciudad de México, CDMX, MéxicoTBDL - V 7am - 7 pm",
+      "country": "MX,"
     },
     {
-      "raw": "Topos mx (Centro de Acopio Matriz)Ciudad de México, MXMagistrados 75, Apliación el Sifón, Iztapalapa, 09180TBD9 am a 9 pmVerificado",
-      "country": "MXMagistrados"
+      "raw": "Recibiendo donacionesVerificadoTopos mx (Centro de Acopio 3)Ciudad de México, CDMX, MXIsabel La Católica 542, Álamos, Benito Juárez, 03400 Ciudad de México, CDMX, MéxicoTBDLun-Vie 11 AM - 5 PM",
+      "country": "MX,"
     },
     {
-      "raw": "Trust AutosAustin, TX, USA6114 Daniel Alexander Wy, Austin, TX 78744@venezolanosenaustintxSegun Horario ComercialVerificado",
+      "raw": "Recibiendo donacionesVerificadoTopos mx (Centro de Acopio Matriz)Ciudad de México, CDMX, MXMagistrados 75, Apliación el Sifón, Iztapalapa, 09180TBD9 am a 9 pm",
+      "country": "MX,"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoTrust AutosAustin, TX, USA6114 Daniel Alexander Wy, Austin, TX 78744@venezolanosenaustintxSegun Horario Comercial",
       "country": "USA6114"
     },
     {
-      "raw": "Tu PepitoAustin, TX, USA13343 US-183 #270, Austin, TX 78750@venezolanosenaustintxSegun Horario ComercialVerificado",
+      "raw": "Recibiendo donacionesVerificadoTu PepitoAustin, TX, USA13343 US-183 #270, Austin, TX 78750@venezolanosenaustintxSegun Horario Comercial",
       "country": "USA13343"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoVitalSlimChandler, Arizona, USA55 East Ray Road, suite 5, Chandler AZ 85225(480) 434-1701closed Monday, opens Tues 9:30AMsplintdrop-offsupplies",
+      "country": "USA55"
     }
   ]
 }
