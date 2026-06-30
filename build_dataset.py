@@ -1271,6 +1271,19 @@ for _lg,_t in (("en","Join from your country"),("es","Súmate desde tu país"),(
 for _lg,_t in (("en","Regional hubs"),("es","Hubs regionales"),("id","Hub regional")):
     UI[_lg]["print_hubs_h"] = _t
 
+# --- makers4venezuela live production stats (baked; refresh via scripts/sync_makers4venezuela.py) ---
+try:
+    dataset["venezuela"]["stats"] = json.loads((DATA / "makers4venezuela_stats.json").read_text(encoding="utf-8"))
+except Exception:
+    dataset["venezuela"]["stats"] = None
+_STATS_UI = {
+ "en":{"stats_h":"The network in numbers","stats_fab":"splints printed","stats_ent":"delivered","stats_orgs":"workshops & teams","stats_countries":"countries","stats_src":"Live registry:","stats_updated":"updated"},
+ "es":{"stats_h":"La red en números","stats_fab":"férulas impresas","stats_ent":"entregadas","stats_orgs":"talleres y equipos","stats_countries":"países","stats_src":"Registro en vivo:","stats_updated":"actualizado"},
+ "id":{"stats_h":"Jaringan dalam angka","stats_fab":"bidai dicetak","stats_ent":"diserahkan","stats_orgs":"bengkel & tim","stats_countries":"negara","stats_src":"Registri langsung:","stats_updated":"diperbarui"},
+}
+for _lg in ("en","es","id"):
+    UI[_lg].update(_STATS_UI[_lg])
+
 # --- Standalone /venezuela: action-first hero + "what happened" moved to the foot ---
 VE_FOOT_UI = {
  "en":{"ve_help_lead":"Tools and help for the days after — report, print a part, contribute. What happened and the latest figures are at the foot of the page.",

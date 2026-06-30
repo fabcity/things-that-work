@@ -155,6 +155,12 @@
   .vo-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:13px 17px;font-weight:800;font-size:15px;cursor:pointer;text-decoration:none;border:2px solid var(--c-food);background:var(--c-food);color:#fff}
   .vo-btn:nth-child(2),.vo-btn:nth-child(3){background:var(--paper-2);color:var(--ink);border-color:var(--ink)}
   .vo-btn:hover{filter:brightness(1.05)} .vo-hint{margin:12px 0 0;font-size:13px;color:var(--ink-soft)}
+  .vo-stats-wrap{margin-top:20px;padding-top:16px;border-top:1.5px solid var(--rule-2)}
+  .vo-stats-h{margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+  .vo-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+  .vo-stat{display:flex;flex-direction:column;gap:3px;padding:14px 16px;background:var(--paper);border:1.5px solid var(--rule-2);border-left:5px solid var(--mc-orange)}
+  .vo-stat-v{font-size:26px;font-weight:800;line-height:1;color:var(--mc-orange)} .vo-stat-n{font-size:12.5px;color:var(--ink-soft);font-weight:600}
+  .vo-stats-src{margin:10px 0 0;font-size:12.5px;color:var(--ink-soft)} .vo-stats-src a{color:var(--mc-orange);font-weight:700}
 
   .safety{border:0;border-left:6px solid var(--mc-red);background:var(--paper-3);padding:13px 16px;font-size:14.5px;color:var(--ink);margin:16px 0}
 
@@ -425,12 +431,23 @@ function rArchive(){
   return h+`</section>`;
 }
 function veOffline(){
+  const S=DATA.venezuela&&DATA.venezuela.stats;
+  const fmt=function(n){try{return Number(n).toLocaleString(LANG==="en"?"en-US":"es-ES");}catch(e){return String(n);}};
+  let stats="";
+  if(S){
+    stats=`<div class="vo-stats-wrap"><h3 class="vo-stats-h">${esc(ui("stats_h"))}</h3><div class="vo-stats">`
+      +`<div class="vo-stat"><span class="vo-stat-v">${fmt(S.fabricated)}</span><span class="vo-stat-n">${esc(ui("stats_fab"))}</span></div>`
+      +`<div class="vo-stat"><span class="vo-stat-v">${fmt(S.delivered)}</span><span class="vo-stat-n">${esc(ui("stats_ent"))}</span></div>`
+      +`<div class="vo-stat"><span class="vo-stat-v">${fmt(S.orgs)}</span><span class="vo-stat-n">${esc(ui("stats_orgs"))}</span></div>`
+      +`<div class="vo-stat"><span class="vo-stat-v">${esc(String(S.countries))}</span><span class="vo-stat-n">${esc(ui("stats_countries"))}</span></div>`
+      +`</div><p class="vo-stats-src">${esc(ui("stats_src"))} <a href="${esc(S.source)}" target="_blank" rel="noopener">makers4venezuela</a> &middot; ${esc(ui("stats_updated"))} ${esc(S.updated)}</p></div>`;
+  }
   return `<section class="ve-offline"><h2>${esc(ui("offline_h"))}</h2>`
     +`<p class="vo-lead">${esc(ui("offline_lead"))}</p><div class="vo-btns">`
     +`<button class="vo-btn" data-ev="offline/save" onclick="veSavePage()">${esc(ui("offline_save"))}</button>`
     +`<button class="vo-btn" id="veInstall" data-ev="offline/install" onclick="veInstall()">${esc(ui("offline_install"))}</button>`
     +`<a class="vo-btn" data-ev="offline/zip" href="venezuela-offline.zip" download>${esc(ui("offline_zip"))}</a>`
-    +`</div><p class="vo-hint">${esc(ui("offline_hint"))}</p></section>`;
+    +`</div><p class="vo-hint">${esc(ui("offline_hint"))}</p>`+stats+`</section>`;
 }
 function veSavePage(){try{var h="<!DOCTYPE html>\n"+document.documentElement.outerHTML;var b=new Blob([h],{type:"text/html"});var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="cosas-que-sirven-venezuela.html";document.body.appendChild(a);a.click();setTimeout(function(){a.remove();},0);}catch(e){alert(ui("offline_save"));}}
 let VE_DEFERRED=null;
@@ -461,7 +478,6 @@ function buildVE(){
   const ve=DATA.venezuela, byId={}; (DATA.crisis||[]).forEach(c=>byId[c.id]=c);
   let html=`<section class="ve-hero"><div class="ve-kicker">Venezuela</div><p class="ve-lead">${ui("ve_help_lead")}</p></section>`;
   html+=veActionBar();
-  html+=veOffline();
   html+=rPrint();
   html+=`<div class="safety">${ui("ve_live")}</div>`;
   html+=`<h2 class="ve-playbook-h"><i class="sn">02</i>${esc(ui("ve_h_playbook"))}</h2>`;
@@ -483,6 +499,7 @@ function buildVE(){
   if(ve.context) html+=`<div class="ve-context">`+ve.context.map(c=>`<a class="ve-stat" href="${esc(c.url)}" target="_blank" rel="noopener"><span class="ve-stat-v">${esc(pick(c,"value"))}</span><span class="ve-stat-n">${esc(pick(c,"note"))}</span></a>`).join("")+`</div>`;
   html+=`<section class="ve-reality"><h2>${esc(ui("ve_h_reality"))}</h2><p>${ui("ve_reality")}</p><p class="ve-principle">${ui("ve_principle")}</p></section>`;
   html+=`<div class="ve-resources"><b>${esc(ui("ve_resources"))}:</b> `+ve.resources.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>`).join(" &nbsp;·&nbsp; ")+`</div>`;
+  html+=veOffline();
   document.getElementById("ve-body").innerHTML=html;
 }
 function applyLang(){
