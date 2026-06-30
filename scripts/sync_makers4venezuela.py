@@ -21,11 +21,19 @@ def main():
     skip = {"", "Otro", "Sin país"}
     countries = len({(r.get("country") or "").strip() for r in rows} - skip)
     orgs = len({(r.get("org") or "").strip() for r in rows} - {""})
+    nums = {"fabricated": fab, "delivered": ent, "orgs": orgs, "countries": countries}
+    prev = {}
+    if OUT.exists():
+        try: prev = json.loads(OUT.read_text(encoding="utf-8"))
+        except Exception: prev = {}
+    # Only rewrite (and bump the date) when a number actually changed → no empty daily commits.
+    if all(prev.get(k) == v for k, v in nums.items()):
+        print("makers4venezuela: no change", nums)
+        return
     out = {"updated": datetime.date.today().isoformat(),
-           "source": "https://makers4venezuela.github.io/dashboard",
-           "fabricated": fab, "delivered": ent, "orgs": orgs, "countries": countries}
+           "source": "https://makers4venezuela.github.io/dashboard", **nums}
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    print("wrote", OUT, out)
+    print("makers4venezuela: updated", out)
 
 if __name__ == "__main__":
     main()
