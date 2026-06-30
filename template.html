@@ -329,7 +329,7 @@
       <button id="tab-repo" onclick="setTab('repo')"></button>
       <button id="tab-index" onclick="setTab('index')"></button>
       <button id="tab-crisis" onclick="setTab('crisis')"></button>
-      <button id="tab-ve" onclick="setTab('ve')"></button>
+      <button id="tab-ve" onclick="window.open('venezuela/','_blank','noopener')"></button>
     </nav>
   </div>
 </header>
@@ -854,7 +854,7 @@ function homeResultCard(it){ const sec=it.section==="crisis"?ui("crisis_tab"):ui
   const link=it.source_url?` <a href="${esc(it.source_url)}" target="_blank" rel="noopener">↗</a>`:"";
   return `<article class="hr-card"><div class="hr-badges"><span class="hr-sec">${esc(sec)}</span><span>${esc(it.source||"")}${link}</span></div>`
     +`<h3>${esc(L(it,"title"))}</h3><p>${esc(L(it,"summary"))}</p></article>`; }
-function routeCard(tab,h,d,cls){ return `<button class="route ${cls}" onclick="setTab('${tab}')"><span class="route-h">${esc(ui(h))}</span><span class="route-d">${esc(ui(d))}</span></button>`; }
+function routeCard(tab,h,d,cls){ var act=(tab==="ve")?`onclick="window.open('venezuela/','_blank','noopener')"`:`onclick="setTab('${tab}')"`; return `<button class="route ${cls}" ${act}><span class="route-h">${esc(ui(h))}</span><span class="route-d">${esc(ui(d))}</span></button>`; }
 function renderHomeResults(q){ const box=document.getElementById("home-results"), routes=document.getElementById("home-routes"); q=(q||"").trim();
   if(!q){ box.innerHTML=""; if(routes) routes.style.display=""; return; }
   if(routes) routes.style.display="none";
@@ -868,6 +868,7 @@ function buildHome(){ const lead=document.getElementById("home-lead"); if(lead) 
 
 /* ---------- tabs + language ---------- */
 function setTab(t, fromHash){
+  if(t==="ve"){ try{location.replace("venezuela/");}catch(e){location.href="venezuela/";} return; }
   if(["home","repo","index","crisis","ve"].indexOf(t)<0) t="home";
   ["home","repo","index","crisis","ve"].forEach(v=>{
     document.getElementById("view-"+v).classList.toggle("hide", t!==v);
