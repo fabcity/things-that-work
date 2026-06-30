@@ -440,15 +440,34 @@ function veOffline(){
     +`<a class="vo-btn" data-ev="offline/zip" href="venezuela-offline.zip" download>${esc(ui("offline_zip"))}</a>`
     +`</div><p class="vo-hint">${esc(ui("offline_hint"))}</p></section>`;
 }
+let M4V_LIVE=null;
+const M4V_REST="https://gwydqpbyopmxqjhrfwxi.supabase.co/rest/v1";
+const M4V_KEY="sb_publishable_y1Dnx36uomXrlGhpkmmytQ_cZSvfrPx"; /* public anon key (read-only dashboard views) */
+function veFmtN(n){try{return Number(n).toLocaleString(LANG==="en"?"en-US":"es-ES");}catch(e){return String(n);}}
 function veStats(){
-  const S=DATA.venezuela&&DATA.venezuela.stats; if(!S) return "";
-  const fmt=function(n){try{return Number(n).toLocaleString(LANG==="en"?"en-US":"es-ES");}catch(e){return String(n);}};
+  const S=M4V_LIVE||(DATA.venezuela&&DATA.venezuela.stats); if(!S) return "";
+  const meta=S.live?esc(ui("stats_live")):(esc(ui("stats_updated"))+" "+esc(S.updated||""));
+  const src=S.source||"https://makers4venezuela.github.io/dashboard";
   return `<section class="ve-stats-sec"><h2>${esc(ui("stats_h"))}</h2><div class="vo-stats">`
-    +`<div class="vo-stat"><span class="vo-stat-v">${fmt(S.fabricated)}</span><span class="vo-stat-n">${esc(ui("stats_fab"))}</span></div>`
-    +`<div class="vo-stat"><span class="vo-stat-v">${fmt(S.delivered)}</span><span class="vo-stat-n">${esc(ui("stats_ent"))}</span></div>`
-    +`<div class="vo-stat"><span class="vo-stat-v">${fmt(S.orgs)}</span><span class="vo-stat-n">${esc(ui("stats_orgs"))}</span></div>`
+    +`<div class="vo-stat"><span class="vo-stat-v">${veFmtN(S.fabricated)}</span><span class="vo-stat-n">${esc(ui("stats_fab"))}</span></div>`
+    +`<div class="vo-stat"><span class="vo-stat-v">${veFmtN(S.delivered)}</span><span class="vo-stat-n">${esc(ui("stats_ent"))}</span></div>`
+    +`<div class="vo-stat"><span class="vo-stat-v">${veFmtN(S.orgs)}</span><span class="vo-stat-n">${esc(ui("stats_orgs"))}</span></div>`
     +`<div class="vo-stat"><span class="vo-stat-v">${esc(String(S.countries))}</span><span class="vo-stat-n">${esc(ui("stats_countries"))}</span></div>`
-    +`</div><p class="vo-stats-src">${esc(ui("stats_src"))} <a href="${esc(S.source)}" target="_blank" rel="noopener">makers4venezuela</a> &middot; ${esc(ui("stats_updated"))} ${esc(S.updated)}</p></section>`;
+    +`</div><p class="vo-stats-src">${esc(ui("stats_src"))} <a href="${esc(src)}" target="_blank" rel="noopener">makers4venezuela</a> &middot; ${meta}</p></section>`;
+}
+function veRefreshStats(){
+  if(typeof navigator!=="undefined" && navigator.onLine===false) return;   /* offline → keep baked numbers */
+  fetch(M4V_REST+"/dashboard_events?select=qty_fabricated,qty_delivered,country,org",{headers:{apikey:M4V_KEY,Authorization:"Bearer "+M4V_KEY}})
+    .then(function(r){return r.ok?r.json():Promise.reject();})
+    .then(function(rows){
+      if(!Array.isArray(rows)||!rows.length) return;
+      var fab=0,ent=0,co={},og={};
+      rows.forEach(function(r){fab+=Number(r.qty_fabricated)||0; ent+=Number(r.qty_delivered)||0;
+        var c=(r.country||"").trim(); if(c&&c!=="Otro"&&c!=="Sin país") co[c]=1;
+        var o=(r.org||"").trim(); if(o) og[o]=1;});
+      M4V_LIVE={fabricated:fab,delivered:ent,orgs:Object.keys(og).length,countries:Object.keys(co).length,live:true,source:"https://makers4venezuela.github.io/dashboard"};
+      var sec=document.querySelector(".ve-stats-sec"); if(sec) sec.outerHTML=veStats();
+    }).catch(function(){});   /* any failure → keep baked numbers */
 }
 function veSavePage(){try{var h="<!DOCTYPE html>\n"+document.documentElement.outerHTML;var b=new Blob([h],{type:"text/html"});var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="cosas-que-sirven-venezuela.html";document.body.appendChild(a);a.click();setTimeout(function(){a.remove();},0);}catch(e){alert(ui("offline_save"));}}
 let VE_DEFERRED=null;
@@ -503,6 +522,7 @@ function buildVE(){
   html+=`<div class="ve-resources"><b>${esc(ui("ve_resources"))}:</b> `+ve.resources.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>`).join(" &nbsp;·&nbsp; ")+`</div>`;
   html+=veOffline();
   document.getElementById("ve-body").innerHTML=html;
+  if(!window.__m4vTried){window.__m4vTried=1; try{veRefreshStats();}catch(e){}}
 }
 function applyLang(){
   document.documentElement.lang=LANG;

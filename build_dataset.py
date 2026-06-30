@@ -1277,9 +1277,9 @@ try:
 except Exception:
     dataset["venezuela"]["stats"] = None
 _STATS_UI = {
- "en":{"stats_h":"The network in numbers","stats_fab":"splints printed","stats_ent":"delivered","stats_orgs":"workshops & teams","stats_countries":"countries","stats_src":"Live registry:","stats_updated":"updated"},
- "es":{"stats_h":"La red en números","stats_fab":"férulas impresas","stats_ent":"entregadas","stats_orgs":"talleres y equipos","stats_countries":"países","stats_src":"Registro en vivo:","stats_updated":"actualizado"},
- "id":{"stats_h":"Jaringan dalam angka","stats_fab":"bidai dicetak","stats_ent":"diserahkan","stats_orgs":"bengkel & tim","stats_countries":"negara","stats_src":"Registri langsung:","stats_updated":"diperbarui"},
+ "en":{"stats_h":"The network in numbers","stats_fab":"splints printed","stats_ent":"delivered","stats_orgs":"workshops & teams","stats_countries":"countries","stats_src":"Live registry:","stats_updated":"updated","stats_live":"live"},
+ "es":{"stats_h":"La red en números","stats_fab":"férulas impresas","stats_ent":"entregadas","stats_orgs":"talleres y equipos","stats_countries":"países","stats_src":"Registro en vivo:","stats_updated":"actualizado","stats_live":"en vivo"},
+ "id":{"stats_h":"Jaringan dalam angka","stats_fab":"bidai dicetak","stats_ent":"diserahkan","stats_orgs":"bengkel & tim","stats_countries":"negara","stats_src":"Registri langsung:","stats_updated":"diperbarui","stats_live":"langsung"},
 }
 for _lg in ("en","es","id"):
     UI[_lg].update(_STATS_UI[_lg])
