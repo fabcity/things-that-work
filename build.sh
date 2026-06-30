@@ -11,6 +11,7 @@ echo "→ syncing built pages into deploy/…"
 cp dist/things-that-work.html deploy/index.html
 mkdir -p deploy/venezuela
 cp dist/venezuela/index.html deploy/venezuela/index.html
+sed -i "" "s/const CACHE=\"cqs-ve-[^\"]*\"/const CACHE=\"cqs-ve-$(date +%Y%m%d%H%M)\"/" deploy/venezuela/sw.js  # bump cqs-ve cache version each build
 
 echo "→ regenerating the offline ZIP…"
 python3 - <<'PY'
