@@ -393,7 +393,7 @@ function veContributeBand(){
 function rPrint(){
   const p=(DATA.venezuela&&DATA.venezuela.printing); if(!p) return "";
   const steps=(p.use_steps&&(p.use_steps[LANG]||p.use_steps.es))||[];
-  let h=`<section class="ve-print"><h2><i class="sn">01</i>${esc(ui("print_h"))}</h2><p class="vp-lead">${esc(ui("print_lead"))}</p>`;
+  let h=`<section class="ve-print"><h2><i class="sn">02</i>${esc(ui("print_h"))}</h2><p class="vp-lead">${esc(ui("print_lead"))}</p>`;
   h+=`<div class="vp-cta"><h3>${esc(ui("print_cta_h"))}</h3><div class="vp-groups">`+p.groups.map(g=>`<a class="vp-wa" data-ev="wa" href="${esc(g.url)}" target="_blank" rel="noopener"><b>${esc(g.name)}</b><span>${esc(pick(g,"note"))}</span></a>`).join("")+`</div></div>`;
   h+=p.country_groups&&p.country_groups.length?`<div class="vp-countries-wrap"><h3 class="vp-countries-h">${esc(ui("print_country_h"))}</h3><div class="vp-countries">`+p.country_groups.map(c=>`<a class="vp-country" data-ev="wa-country" href="${esc(c.url)}" target="_blank" rel="noopener"><b>${esc(pick(c,"country"))}</b><span>WhatsApp &#8594;</span></a>`).join("")+`</div></div>`:"";
   h+=p.hubs&&p.hubs.length?`<div class="vp-hubs-wrap"><h3>${esc(ui("print_hubs_h"))}</h3><div class="vp-groups">`+p.hubs.map(hub=>`<a class="vp-wa" data-ev="hub" href="${esc(hub.url)}" target="_blank" rel="noopener"><b>${esc(hub.name)}</b><span>${esc(pick(hub,"note"))}</span></a>`).join("")+`</div></div>`:"";
@@ -503,9 +503,7 @@ function buildVE(){
   let html=`<section class="ve-hero"><div class="ve-kicker">Venezuela</div><p class="ve-lead">${ui("ve_help_lead")}</p></section>`;
   html+=veActionBar();
   html+=veStats();
-  html+=rPrint();
-  html+=`<div class="safety">${ui("ve_live")}</div>`;
-  html+=`<h2 class="ve-playbook-h"><i class="sn">02</i>${esc(ui("ve_h_playbook"))}</h2>`;
+  html+=`<h2 class="ve-playbook-h"><i class="sn">01</i>${esc(ui("ve_h_playbook"))}</h2>`;
   ve.scenarios.forEach(s=>{
     html+=`<section class="needgroup" data-need="${esc(s.key)}"><h2>${esc(pick(s,"title"))} <span>${s.items.length}</span></h2><p class="ve-note">${esc(pick(s,"note"))}</p>`;
     s.items.forEach(id=>{ const c=byId[id]; if(!c) return;
@@ -517,6 +515,8 @@ function buildVE(){
     });
     html+=`</section>`;
   });
+  html+=`<div class="safety">${ui("ve_live")}</div>`;
+  html+=rPrint();
   html+=rArchive();
   html+=veContributeBand();
   // context moved to the foot — the standalone page leads with action for people living the crisis
