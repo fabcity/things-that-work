@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-01",
-  "count": 60,
+  "updated": "2026-07-02",
+  "count": 62,
   "countries": [
     "USA",
     "MX",
@@ -96,6 +96,10 @@
       "country": "USA1"
     },
     {
+      "raw": "Recibiendo donacionesNo verificadoFab Lab UANL , Facultad de Arquitectura UANLSan Nicolás de los Garza, Nuevo León, MexicoCd. Universitaria S/N , Pedro de Alba81105079549:00 a 18:00 Hrs.",
+      "country": "?"
+    },
+    {
       "raw": "Recibiendo donacionesVerificadoFogoneroAustin, TX, USA800 W Pecan St, Pflugerville, TX 78660@venezolanosenaustintxSabado a Domingo 11am - 7pm",
       "country": "USA800"
     },
@@ -165,6 +169,10 @@
     },
     {
       "raw": "Recibiendo donacionesVerificadoLONBOXLondon, England, UK165 Robert Dashwood Way, London SE17 3PZ, Reino Unido@lonboxexpress12pm-10pm",
+      "country": "?"
+    },
+    {
+      "raw": "Recibiendo donacionesNo verificadoLaboratorio gráficoBogotá, Cundinamarca, ColombiaCalle 131c 90 2032137028281 a 10 pm",
       "country": "?"
     },
     {
