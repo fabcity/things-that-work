@@ -163,6 +163,10 @@
   .vo-stats-src{margin:10px 0 0;font-size:12.5px;color:var(--ink-soft)} .vo-stats-src a{color:var(--mc-orange);font-weight:700}
   .ve-stats-sec{background:var(--paper-2);border:1.5px solid var(--rule-2);padding:20px 22px;margin:26px 0}
   .ve-stats-sec>h2{font-size:22px;margin:0 0 14px}
+  .ve-thanks{margin-top:16px;padding:14px 16px;background:var(--paper-3);border-left:5px solid var(--c-food);font-size:15px;line-height:1.5}
+  .ve-thanks b{color:var(--c-food)}
+  .ve-thanks-cta{display:inline-block;margin-top:10px;font-weight:800;font-size:14px;background:var(--mc-orange);color:#fff;padding:11px 16px;text-decoration:none}
+  .ve-thanks-cta:hover{filter:brightness(1.06)}
 
   .safety{border:0;border-left:6px solid var(--mc-red);background:var(--paper-3);padding:13px 16px;font-size:14.5px;color:var(--ink);margin:16px 0}
 
@@ -453,7 +457,7 @@ function veStats(){
     +`<div class="vo-stat"><span class="vo-stat-v">${veFmtN(S.delivered)}</span><span class="vo-stat-n">${esc(ui("stats_ent"))}</span></div>`
     +`<div class="vo-stat"><span class="vo-stat-v">${veFmtN(S.orgs)}</span><span class="vo-stat-n">${esc(ui("stats_orgs"))}</span></div>`
     +`<div class="vo-stat"><span class="vo-stat-v">${esc(String(S.countries))}</span><span class="vo-stat-n">${esc(ui("stats_countries"))}</span></div>`
-    +`</div><p class="vo-stats-src">${esc(ui("stats_src"))} <a href="${esc(src)}" target="_blank" rel="noopener">makers4venezuela</a> &middot; ${meta}</p></section>`;
+    +`</div><p class="vo-stats-src">${esc(ui("stats_src"))} <a href="${esc(src)}" target="_blank" rel="noopener">makers4venezuela</a> &middot; ${meta}</p><div class="ve-thanks"><p><b>${esc(ui("thanks_lead"))}</b> ${esc(ui("thanks_msg"))}</p><a class="ve-thanks-cta" data-ev="registry" href="https://makers4venezuela.github.io/registro" target="_blank" rel="noopener">${esc(ui("thanks_cta"))} &#8594;</a></div></section>`;
 }
 function veRefreshStats(){
   if(typeof navigator!=="undefined" && navigator.onLine===false) return;   /* offline → keep baked numbers */

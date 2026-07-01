@@ -1284,6 +1284,15 @@ _STATS_UI = {
 for _lg in ("en","es","id"):
     UI[_lg].update(_STATS_UI[_lg])
 
+# --- thank-you card under the stats numbers ---
+_THANKS_UI = {
+ "en":{"thanks_lead":"Thank you, everyone.","thanks_msg":"The splints are delivered and serving the people who needed them. A new phase of the post-earthquake crisis is emerging — stay tuned for the next steps in the communities below. And don't forget to add your 3D-printed parts to the registry.","thanks_cta":"Add your parts to the registry"},
+ "es":{"thanks_lead":"¡Gracias a todas y todos!","thanks_msg":"Las férulas ya están entregadas y sirviendo a quienes las necesitan. Comienza una nueva fase de la crisis tras el terremoto — mantente atento a los próximos pasos en las comunidades de abajo. Y no olvides añadir tus piezas impresas en 3D al registro.","thanks_cta":"Añade tus piezas al registro"},
+ "id":{"thanks_lead":"Terima kasih untuk semua.","thanks_msg":"Bidai sudah tersalurkan dan membantu mereka yang membutuhkan. Fase baru krisis pascagempa mulai muncul — nantikan langkah berikutnya di komunitas di bawah. Dan jangan lupa tambahkan komponen cetak 3D-mu ke registri.","thanks_cta":"Tambahkan komponenmu ke registri"},
+}
+for _lg in ("en","es","id"):
+    UI[_lg].update(_THANKS_UI[_lg])
+
 # --- Standalone /venezuela: action-first hero + "what happened" moved to the foot ---
 VE_FOOT_UI = {
  "en":{"ve_help_lead":"Tools and help for the days after — report, print a part, contribute. What happened and the latest figures are at the foot of the page.",
