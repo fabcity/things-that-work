@@ -169,6 +169,11 @@
   .ve-thanks-cta:hover{filter:brightness(1.06)}
   .ve-thanks-now{margin:10px 0 0;font-size:14px} .ve-thanks-now a{color:var(--mc-orange);font-weight:800}
   .ve-thanks-demand{margin:6px 0 0;font-size:13.5px;font-weight:700;color:var(--mc-red)}
+  .ve-nets-sec{background:var(--paper-2);border:1.5px solid var(--rule-2);padding:20px 22px;margin:26px 0}
+  .ve-nets-sec>h2{font-size:22px;margin:0 0 6px}
+  .ve-nets{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:14px}
+  .ve-net{display:flex;flex-direction:column;gap:3px;padding:13px 15px;background:var(--paper);border:1.5px solid var(--rule-2);border-left:5px solid var(--c-comms);text-decoration:none;color:var(--ink)}
+  .ve-net:hover{border-color:var(--c-comms)} .ve-net b{font-size:15px} .ve-net span{font-size:12.5px;color:var(--ink-soft)}
 
   .safety{border:0;border-left:6px solid var(--mc-red);background:var(--paper-3);padding:13px 16px;font-size:14.5px;color:var(--ink);margin:16px 0}
 
@@ -500,6 +505,12 @@ function veFindLabs(btn){
     }).catch(function(){ out.textContent=ui("fl_err"); });
   }, function(){ out.textContent=ui("fl_geoerr"); }, {timeout:9000,maximumAge:600000});
 }
+function veNetworks(){
+  const ns=DATA.venezuela&&DATA.venezuela.networks; if(!ns||!ns.length) return "";
+  return `<section class="ve-nets-sec"><h2>${esc(ui("networks_h"))}</h2><p class="vp-lead">${esc(ui("networks_lead"))}</p><div class="ve-nets">`
+    +ns.map(function(n){return `<a class="ve-net" data-ev="network" href="${esc(n.url)}" target="_blank" rel="noopener"><b>${esc(n.name)} &#8599;</b><span>${esc(pick(n,"what"))}</span></a>`;}).join("")
+    +`</div></section>`;
+}
 function buildVE(){
   const ve=DATA.venezuela, byId={}; (DATA.crisis||[]).forEach(c=>byId[c.id]=c);
   let html=`<section class="ve-hero"><div class="ve-kicker">Venezuela</div><p class="ve-lead">${ui("ve_help_lead")}</p></section>`;
@@ -521,6 +532,7 @@ function buildVE(){
   html+=rPrint();
   html+=rArchive();
   html+=veContributeBand();
+  html+=veNetworks();
   // context moved to the foot — the standalone page leads with action for people living the crisis
   html+=`<section class="ve-reality qp"><h2><i class="sn">05</i>${esc(ui("ve_what_h"))}</h2><p>${ui("ve_lead")}</p></section>`;
   if(ve.context) html+=`<div class="ve-context">`+ve.context.map(c=>`<a class="ve-stat" href="${esc(c.url)}" target="_blank" rel="noopener"><span class="ve-stat-v">${esc(pick(c,"value"))}</span><span class="ve-stat-n">${esc(pick(c,"note"))}</span></a>`).join("")+`</div>`;

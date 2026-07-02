@@ -1294,6 +1294,24 @@ _THANKS_UI = {
 for _lg in ("en","es","id"):
     UI[_lg].update(_THANKS_UI[_lg])
 
+# --- long-term networks to connect with (during & after the crisis) ---
+dataset["venezuela"]["networks"] = [
+ {"name":"Field Ready","url":"https://www.fieldready.org/","what":"Humanitarian manufacturing in the field — essential supplies made locally in emergencies.","what_es":"Fabricación humanitaria en el terreno: suministros esenciales hechos localmente en emergencias.","what_id":"Manufaktur kemanusiaan di lapangan — pasokan penting dibuat lokal saat darurat."},
+ {"name":"Helpful Engineering","url":"https://helpfulengineering.org/","what":"Global volunteer community building open-source engineering solutions for crises.","what_es":"Comunidad global de voluntarios que crea soluciones abiertas de ingeniería para crisis.","what_id":"Komunitas relawan global yang membangun solusi rekayasa sumber terbuka untuk krisis."},
+ {"name":"Open Source Medical Supplies","url":"https://opensourcemedicalsupplies.org/","what":"Open library and guides for communities to fabricate medical supplies.","what_es":"Biblioteca abierta y guías para que las comunidades fabriquen suministros médicos.","what_id":"Pustaka terbuka & panduan bagi komunitas untuk membuat pasokan medis."},
+ {"name":"e-NABLE","url":"https://enablingthefuture.org/","what":"Global volunteer network 3D-printing free prosthetic hands and arms.","what_es":"Red global de voluntarios que imprime manos y brazos protésicos en 3D, gratis.","what_id":"Jaringan relawan global yang mencetak tangan & lengan prostetik 3D gratis."},
+ {"name":"Careables","url":"https://www.careables.org/","what":"Open healthcare — co-designed, replicable assistive solutions (3D print, laser).","what_es":"Salud abierta: soluciones de asistencia co-diseñadas y replicables (impresión 3D, láser).","what_id":"Kesehatan terbuka — solusi bantu ko-desain yang dapat direplikasi (cetak 3D, laser)."},
+ {"name":"Maps of Making","url":"https://mapsofmaking.org/","what":"Open map of making spaces worldwide — find one near you or add yours.","what_es":"Mapa abierto de espacios de fabricación en el mundo — encuentra uno o suma el tuyo.","what_id":"Peta terbuka ruang produksi sedunia — temukan yang terdekat atau tambahkan milikmu."},
+ {"name":"GOSQAS","url":"https://gosqas.org/","what":"Open provenance and quality assurance for distributed hardware and aid supplies.","what_es":"Trazabilidad y control de calidad abierto para hardware y suministros distribuidos.","what_id":"Provenans & jaminan mutu terbuka untuk perangkat keras dan pasokan terdistribusi."},
+]
+_NET_UI = {
+ "en":{"networks_h":"Networks working on this year-round","networks_lead":"For the long haul, beyond this emergency — permanent communities and organizations to connect with, learn from, and keep building with."},
+ "es":{"networks_h":"Redes que trabajan en esto todo el año","networks_lead":"Para el largo plazo, más allá de esta emergencia — comunidades y organizaciones permanentes con las que conectar, aprender y seguir construyendo."},
+ "id":{"networks_h":"Jaringan yang menggarap ini sepanjang tahun","networks_lead":"Untuk jangka panjang, melampaui darurat ini — komunitas dan organisasi permanen untuk terhubung, belajar, dan terus membangun."},
+}
+for _lg in ("en","es","id"):
+    UI[_lg].update(_NET_UI[_lg])
+
 # --- Standalone /venezuela: action-first hero + "what happened" moved to the foot ---
 VE_FOOT_UI = {
  "en":{"ve_help_lead":"Tools and help for the days after — report, print a part, contribute. What happened and the latest figures are at the foot of the page.",
