@@ -79,8 +79,9 @@
   .ve-btn{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:14px;text-decoration:none;
     padding:13px 17px;min-height:50px;border:2px solid var(--ink);cursor:pointer;background:var(--paper-2);color:var(--ink)}
   .ve-btn:hover{filter:brightness(1.03)}
-  .ve-btn-alert{background:var(--c-water);border-color:var(--c-water);color:#fff;font-size:15px}
-  .ve-btn-alert:nth-of-type(2){background:var(--mc-red);border-color:var(--mc-red)}
+  .ve-btn-map{background:var(--mc-gold);border-color:var(--mc-gold);color:var(--ink);font-size:15px}
+  .ve-btn-miss{background:var(--c-water);border-color:var(--c-water);color:#fff;font-size:15px}
+  .ve-btn-print{background:var(--mc-red);border-color:var(--mc-red);color:#fff;font-size:15px}
   .ve-btn-do{background:var(--ink);border-color:var(--ink);color:#fff;font-size:15px}
   .ve-share-row{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-left:auto}
   .ve-share-lbl{font-weight:800;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
@@ -376,8 +377,9 @@ function veToggleForm(btn,kind){ const wrap=btn.parentElement.querySelector(".ve
 function veActionBar(){
   const rep=(DATA.venezuela.report)||{}, su=encodeURIComponent(location.href), st=encodeURIComponent(document.title), swa=encodeURIComponent(document.title+" "+location.href);
   return `<div class="ve-actions">
-    <a class="ve-btn ve-btn-alert" data-ev="report/missing" href="${esc(rep.missing||"#")}" target="_blank" rel="noopener">${esc(ui("report_missing"))} &#8599;</a>
-    <a class="ve-btn ve-btn-alert" data-ev="report/damage" href="${esc(rep.damage||"#")}" target="_blank" rel="noopener">${esc(ui("report_damage"))} &#8599;</a>
+    <a class="ve-btn ve-btn-map" data-ev="map" href="${esc(rep.map||"#")}" target="_blank" rel="noopener">${esc(ui("report_map"))} &#8599;</a>
+    <a class="ve-btn ve-btn-miss" data-ev="report/missing" href="${esc(rep.missing||"#")}" target="_blank" rel="noopener">${esc(ui("report_missing"))} &#8599;</a>
+    <a class="ve-btn ve-btn-print" data-ev="print/help" href="${esc(rep.print||"#")}" target="_blank" rel="noopener">${esc(ui("report_print"))} &#8599;</a>
     <span class="ve-share-row"><span class="ve-share-lbl">${esc(ui("share_h"))}</span>
       <a class="ve-chip" href="https://wa.me/?text=${swa}" target="_blank" rel="noopener">WhatsApp</a>
       <a class="ve-chip" href="https://t.me/share/url?url=${su}&text=${st}" target="_blank" rel="noopener">Telegram</a>

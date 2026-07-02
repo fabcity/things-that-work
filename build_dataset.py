@@ -871,7 +871,7 @@ VE_TEXT = {
   "ve_h_reality":"Not only an earthquake",
   "ve_h_playbook":"What helps in the days after",
   "ve_resources":"Live & official sources",
-  "ve_lead":"On 24 June 2026, two earthquakes — magnitude 7.2, then 7.5 some forty seconds later — struck the Caribbean coast near Morón, about 160 km west of Caracas. It is the strongest quake in Venezuela since 1900. The toll has risen sharply — now estimated at more than 15,000 dead, with thousands injured and some 38,792 people still uncontacted — and rescuers are still searching some 250 collapsed or damaged buildings; the Altamira and Los Palos Grandes areas of Caracas are among the worst hit. These numbers will be out of date by the time you read them — for the live count and official notices, use the sources below.",
+  "ve_lead":"On 24 June 2026, two earthquakes — magnitude 7.2, then 7.5 some forty seconds later — struck the Caribbean coast near Morón, about 160 km west of Caracas. It is the strongest quake in Venezuela since 1900. The toll has risen sharply — now estimated at more than 15,000 dead, with thousands injured and some __MISSC__ people still uncontacted — and rescuers are still searching some 250 collapsed or damaged buildings; the Altamira and Los Palos Grandes areas of Caracas are among the worst hit. These numbers will be out of date by the time you read them — for the live count and official notices, use the sources below.",
   "ve_reality":"But this quake did not hit a country that was working. It hit one that has been in a humanitarian emergency for the better part of a decade. Nearly 7.9 million Venezuelans have left — the largest displacement in the Western Hemisphere. Around 7.6 million who stayed already needed humanitarian assistance before the ground moved. The national grid collapsed in 2019 and never fully recovered; the Guri dam still carries about 80% of the country's power, and the western states live with daily blackouts. Caracas has rationed water to millions. The hospitals were already short of supplies and staff. For millions of people, “the days after a disaster” is not an event — it is how life has worked for years.",
   "ve_principle":"That is the hard thing to say plainly: many Venezuelans are already experts at this. They have spent years purifying water, nursing a single fridge through blackouts, keeping one phone alive, splitting medicine, feeding a family on less. This page is not disaster theatre and it romanticizes none of it — nobody should have to live this way, and the real answer is relief now and systems that work. Until then these are tools that reduce harm and hold onto dignity: the same technological disobedience the rest of this archive documents, except here it is not history or theory. It is an ordinary week. The more you can make and mend what you need, the less a collapse can take from you.",
   "ve_live":"This page is tools for the days after, not a live bulletin. For the current toll, shelters and official notices, use the sources below and your local Protección Civil.",
@@ -880,7 +880,7 @@ VE_TEXT = {
   "ve_h_reality":"No solo un terremoto",
   "ve_h_playbook":"Qué ayuda en los días después",
   "ve_resources":"Fuentes en vivo y oficiales",
-  "ve_lead":"El 24 de junio de 2026, dos terremotos — magnitud 7,2 y, unos cuarenta segundos después, 7,5 — sacudieron la costa caribeña cerca de Morón, a unos 160 km al oeste de Caracas. Es el sismo más fuerte en Venezuela desde 1900. El saldo ha subido con fuerza — se estima ahora en más de 15.000 muertos, con miles de heridos y unas 38.792 personas sin contacto — y los rescatistas siguen buscando entre unos 250 edificios colapsados o dañados; las zonas de Altamira y Los Palos Grandes en Caracas están entre las más afectadas. Estas cifras estarán desactualizadas cuando las leas — para el conteo en vivo y los avisos oficiales, usa las fuentes de abajo.",
+  "ve_lead":"El 24 de junio de 2026, dos terremotos — magnitud 7,2 y, unos cuarenta segundos después, 7,5 — sacudieron la costa caribeña cerca de Morón, a unos 160 km al oeste de Caracas. Es el sismo más fuerte en Venezuela desde 1900. El saldo ha subido con fuerza — se estima ahora en más de 15.000 muertos, con miles de heridos y unas __MISS__ personas sin contacto — y los rescatistas siguen buscando entre unos 250 edificios colapsados o dañados; las zonas de Altamira y Los Palos Grandes en Caracas están entre las más afectadas. Estas cifras estarán desactualizadas cuando las leas — para el conteo en vivo y los avisos oficiales, usa las fuentes de abajo.",
   "ve_reality":"Pero este terremoto no golpeó a un país que funcionaba. Golpeó a uno que lleva casi una década en emergencia humanitaria. Casi 7,9 millones de venezolanos se han ido — el mayor desplazamiento del hemisferio occidental. Unos 7,6 millones de los que se quedaron ya necesitaban ayuda humanitaria antes de que temblara la tierra. La red eléctrica colapsó en 2019 y nunca se recuperó del todo; el Guri todavía carga cerca del 80% de la energía del país, y los estados del occidente viven con apagones diarios. Caracas raciona el agua a millones. Los hospitales ya estaban sin insumos y sin personal. Para millones de personas, “los días después del desastre” no son un evento — son como ha funcionado la vida desde hace años.",
   "ve_principle":"Eso es lo difícil de decir sin rodeos: muchos venezolanos ya son expertos en esto. Llevan años potabilizando agua, cuidando una sola nevera entre apagones, manteniendo vivo un teléfono, partiendo la medicina, dándole de comer a la familia con menos. Esta página no es teatro de catástrofe y no romantiza nada — nadie debería vivir así, y la respuesta de verdad es auxilio ahora y sistemas que funcionen. Mientras tanto, estas son herramientas que reducen el daño y sostienen la dignidad: la misma desobediencia tecnológica que documenta el resto de este archivo, solo que aquí no es historia ni teoría. Es una semana cualquiera. Mientras más puedas hacer y reparar lo que necesitas, menos te puede quitar el colapso.",
   "ve_live":"Esta página son herramientas para los días después, no un boletín en vivo. Para el saldo actual, los refugios y los avisos oficiales, usa las fuentes de abajo y tu Protección Civil.",
@@ -889,7 +889,7 @@ VE_TEXT = {
   "ve_h_reality":"Bukan hanya gempa",
   "ve_h_playbook":"Yang membantu di hari-hari sesudahnya",
   "ve_resources":"Sumber langsung & resmi",
-  "ve_lead":"Pada 24 Juni 2026, dua gempa — magnitudo 7,2, lalu 7,5 sekitar empat puluh detik kemudian — mengguncang pesisir Karibia dekat Morón, sekitar 160 km di barat Caracas. Ini gempa terkuat di Venezuela sejak 1900. Korban meningkat tajam — kini diperkirakan lebih dari 15.000 tewas, dengan ribuan luka dan sekitar 38.792 orang tanpa kontak — dan tim penyelamat masih mencari di sekitar 250 bangunan yang runtuh atau rusak; kawasan Altamira dan Los Palos Grandes di Caracas termasuk yang paling parah. Angka-angka ini akan usang saat kamu membacanya — untuk hitungan terkini dan pengumuman resmi, gunakan sumber di bawah.",
+  "ve_lead":"Pada 24 Juni 2026, dua gempa — magnitudo 7,2, lalu 7,5 sekitar empat puluh detik kemudian — mengguncang pesisir Karibia dekat Morón, sekitar 160 km di barat Caracas. Ini gempa terkuat di Venezuela sejak 1900. Korban meningkat tajam — kini diperkirakan lebih dari 15.000 tewas, dengan ribuan luka dan sekitar __MISS__ orang tanpa kontak — dan tim penyelamat masih mencari di sekitar 250 bangunan yang runtuh atau rusak; kawasan Altamira dan Los Palos Grandes di Caracas termasuk yang paling parah. Angka-angka ini akan usang saat kamu membacanya — untuk hitungan terkini dan pengumuman resmi, gunakan sumber di bawah.",
   "ve_reality":"Tetapi gempa ini tidak menimpa negara yang berfungsi. Ia menimpa negara yang sudah hampir satu dekade berada dalam darurat kemanusiaan. Hampir 7,9 juta warga Venezuela telah pergi — perpindahan terbesar di Belahan Barat. Sekitar 7,6 juta yang bertahan sudah membutuhkan bantuan bahkan sebelum tanah berguncang. Jaringan listrik nasional runtuh pada 2019 dan tak pernah pulih sepenuhnya; bendungan Guri masih menanggung sekitar 80% listrik negara, dan negara bagian barat hidup dengan pemadaman harian. Caracas menjatah air untuk jutaan orang. Rumah sakit sudah kekurangan pasokan dan tenaga. Bagi jutaan orang, “hari-hari setelah bencana” bukanlah peristiwa — itulah cara hidup berjalan selama bertahun-tahun.",
   "ve_principle":"Itulah yang sulit dikatakan terus terang: banyak warga Venezuela sudah ahli dalam hal ini. Bertahun-tahun mereka memurnikan air, merawat satu kulkas di tengah pemadaman, menjaga satu ponsel tetap hidup, membagi obat, memberi makan keluarga dengan lebih sedikit. Halaman ini bukan pertunjukan bencana dan tidak meromantisasi apa pun — tidak seorang pun seharusnya hidup begini, dan jawaban sebenarnya adalah bantuan sekarang dan sistem yang berfungsi. Sementara itu, ini adalah perkakas yang mengurangi bahaya dan menjaga martabat: pembangkangan teknologi yang sama yang didokumentasikan arsip ini, hanya saja di sini ia bukan sejarah atau teori. Ia adalah minggu biasa. Semakin banyak yang bisa kamu buat dan perbaiki sendiri, semakin sedikit yang bisa direnggut oleh keruntuhan.",
   "ve_live":"Halaman ini berisi perkakas untuk hari-hari sesudahnya, bukan buletin langsung. Untuk korban terkini, tempat penampungan, dan pengumuman resmi, gunakan sumber di bawah dan Protección Civil setempat.",
@@ -911,7 +911,7 @@ for _lg in ("en","es","id"):
 CONTRIB_UI = {
  "en":{
    "report_h":"Report or find someone",
-   "report_missing":"Report or find a missing person","report_damage":"Report or find a damaged building",
+   "report_missing":"Report or find a missing person","report_map":"Venezuela earthquake map","report_print":"3D-print to help · PrintForHelp",
    "report_note":"Opens a separate citizen tool in a new tab.",
    "share_h":"Share","share_more":"More (Instagram, TikTok…)","share_copy":"Copy link","share_copied":"Link copied",
    "contribute_h":"Add what works",
@@ -921,7 +921,7 @@ CONTRIB_UI = {
  },
  "es":{
    "report_h":"Reportar o buscar a alguien",
-   "report_missing":"Reportar o buscar a un desaparecido","report_damage":"Reportar o ver un edificio dañado",
+   "report_missing":"Reportar o buscar a un desaparecido","report_map":"Mapa del terremoto de Venezuela","report_print":"Imprime en 3D para ayudar · PrintForHelp",
    "report_note":"Abre una herramienta ciudadana aparte en una pestaña nueva.",
    "share_h":"Compartir","share_more":"Más (Instagram, TikTok…)","share_copy":"Copiar enlace","share_copied":"Enlace copiado",
    "contribute_h":"Suma lo que sirve",
@@ -931,7 +931,7 @@ CONTRIB_UI = {
  },
  "id":{
    "report_h":"Laporkan atau cari seseorang",
-   "report_missing":"Laporkan atau cari orang hilang","report_damage":"Laporkan atau lihat bangunan rusak",
+   "report_missing":"Laporkan atau cari orang hilang","report_map":"Peta gempa Venezuela","report_print":"Cetak 3D untuk membantu · PrintForHelp",
    "report_note":"Membuka alat warga terpisah di tab baru.",
    "share_h":"Bagikan","share_more":"Lainnya (Instagram, TikTok…)","share_copy":"Salin tautan","share_copied":"Tautan disalin",
    "contribute_h":"Tambahkan yang berhasil",
@@ -1006,8 +1006,9 @@ for _lg in ("en","es","id"):
     UI[_lg].update(HOME_UI[_lg])
 
 dataset["venezuela"]["report"] = {
+  "map":"https://venezuela-earthquake-map.vercel.app/",
   "missing":"https://desaparecidosterremotovenezuela.com/",
-  "damage":"https://terremotovenezuela.com/",
+  "print":"https://printforhelp.org/",
 }
 # Airtable form URLs — paste the published form-view share links to enable direct submit.
 # Base: "Things That Work — Venezuela" (appzN0sHyXMj2XLTl), Fab City Foundation workspace.
@@ -1277,6 +1278,15 @@ try:
     dataset["venezuela"]["stats"] = json.loads((DATA / "makers4venezuela_stats.json").read_text(encoding="utf-8"))
 except Exception:
     dataset["venezuela"]["stats"] = None
+
+# --- desaparecidos registry: missing-persons count (baked; refresh via scripts/sync_desaparecidos.py) ---
+try:
+    _dv = json.loads((DATA / "desaparecidos_stats.json").read_text(encoding="utf-8"))
+    _mnum = int(_dv.get("sin_contacto") or 0)
+except Exception:
+    _mnum = 38792
+_MISS_DOT = f"{_mnum:,}".replace(",", ".")
+_MISS_COM = f"{_mnum:,}"
 _STATS_UI = {
  "en":{"stats_h":"The network in numbers","stats_fab":"splints printed","stats_ent":"delivered","stats_orgs":"workshops & teams","stats_countries":"countries","stats_src":"Live registry:","stats_updated":"updated","stats_live":"live"},
  "es":{"stats_h":"La red en números","stats_fab":"férulas impresas","stats_ent":"entregadas","stats_orgs":"talleres y equipos","stats_countries":"países","stats_src":"Registro en vivo:","stats_updated":"actualizado","stats_live":"en vivo"},
@@ -1361,7 +1371,7 @@ for _nk,_en,_es,_idn,_doms,_kws in _VE_NEEDS:
 dataset["venezuela"]["from_archive"] = {"needs": _fa_needs}
 print("VE from_archive:", {n["key"]: n["count"] for n in _fa_needs})
 
-(DIST / "data.json").write_text(json.dumps(dataset, ensure_ascii=False, indent=2), encoding="utf-8")
+(DIST / "data.json").write_text(json.dumps(dataset, ensure_ascii=False, indent=2).replace("__MISSC__", _MISS_COM).replace("__MISS__", _MISS_DOT), encoding="utf-8")
 
 # Analytics: paste a privacy-first provider's <script> loader here to activate
 # metrics (page views + custom events via the track() helper). Empty = no
@@ -1432,7 +1442,7 @@ try:
     _ve["context"] = [
       {"value":"M7.2 → M7.5","value_es":"M7,2 → M7,5","value_id":"M7,2 → M7,5","note":"24 Jun 2026 · Yumare–Morón","note_es":"24 jun 2026 · Yumare–Morón","note_id":"24 Jun 2026 · Yumare–Morón","url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp"},
       {"value":"15,000+ dead (est.)","value_es":"+15.000 muertos (est.)","value_id":"15.000+ tewas (perk.)","note":"estimate — thousands injured, rising","note_es":"estimación — miles de heridos, en aumento","note_id":"perkiraan — ribuan luka, terus bertambah","url":"https://reliefweb.int/country/ven"},
-      {"value":"38,792 uncontacted","value_es":"38.792 sin contacto","value_id":"38.792 tanpa kontak","note":"citizen registry · search ongoing","note_es":"registro ciudadano · búsqueda en curso","note_id":"registri warga · pencarian berlangsung","url":"https://desaparecidosterremotovenezuela.com/metricas/"},
+      {"value":"__MISSC__ uncontacted","value_es":"__MISS__ sin contacto","value_id":"__MISS__ tanpa kontak","note":"citizen registry · search ongoing","note_es":"registro ciudadano · búsqueda en curso","note_id":"registri warga · pencarian berlangsung","url":"https://desaparecidosterremotovenezuela.com/metricas/"},
       {"value":"Aftershocks to M4.8","value_es":"Réplicas hasta M4,8","value_id":"Gempa susulan hingga M4,8","note":"ongoing seismic series (USGS)","note_es":"serie sísmica en curso (USGS)","note_id":"rangkaian gempa (USGS)","url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp"},
       {"value":"US$4.7–8.7 bn","value_es":"US$4,7–8,7 mil M","value_id":"US$4,7–8,7 miliar","note":"estimated damage (UN)","note_es":"daños estimados (ONU)","note_id":"perkiraan kerusakan (PBB)","url":"https://reliefweb.int/country/ven"},
       {"value":"7.9M","value_es":"7,9M","value_id":"7,9 jt","note":"have left Venezuela","note_es":"han dejado Venezuela","note_id":"telah meninggalkan Venezuela","url":"https://www.r4v.info/en/refugeeandmigrants"},
@@ -1451,7 +1461,7 @@ ve_payload = {
 ve_tpl = (ROOT / "template_ve.html").read_text(encoding="utf-8")
 (DIST / "venezuela").mkdir(exist_ok=True)
 (DIST / "venezuela" / "index.html").write_text(
-    ve_tpl.replace("/*__VEDATA__*/null/*__VEDATA__*/", json.dumps(ve_payload, ensure_ascii=False)).replace("<!--ANALYTICS-->", ANALYTICS_SNIPPET),
+    ve_tpl.replace("/*__VEDATA__*/null/*__VEDATA__*/", json.dumps(ve_payload, ensure_ascii=False)).replace("<!--ANALYTICS-->", ANALYTICS_SNIPPET).replace("__MISSC__", _MISS_COM).replace("__MISS__", _MISS_DOT),
     encoding="utf-8")
 print("venezuela page:", round((DIST / "venezuela" / "index.html").stat().st_size/1024), "KB")
 
