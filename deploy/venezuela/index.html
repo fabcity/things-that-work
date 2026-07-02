@@ -80,6 +80,10 @@
   .ve-actbtns{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch;flex:1 1 100%;padding:14px;border:2px solid var(--ink);
     background:repeating-linear-gradient(to bottom,#C6CC16 0 6px,#0A0B0E 6px 8px,#EE5A2A 8px 14px,#0A0B0E 14px 16px,#1668B0 16px 22px,#0A0B0E 22px 24px)}
   .ve-actbtns .ve-btn{border-color:var(--ink)}
+  .ve-actbtns .ve-share-row{margin-left:auto}
+  .ve-actbtns .ve-share-lbl{background:var(--ink);color:var(--paper);padding:7px 10px}
+  .ve-actbtns .ve-chip{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+  .ve-actbtns .ve-chip:hover{background:#000;color:#fff}
   .ve-btn{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:14px;text-decoration:none;
     padding:13px 17px;min-height:50px;border:2px solid var(--ink);cursor:pointer;background:var(--paper-2);color:var(--ink)}
   .ve-btn:hover{filter:brightness(1.03)}
@@ -385,14 +389,13 @@ function veActionBar(){
     <a class="ve-btn ve-btn-map" data-ev="map" href="${esc(rep.map||"#")}" target="_blank" rel="noopener">${esc(ui("report_map"))} &#8599;</a>
     <a class="ve-btn ve-btn-miss" data-ev="report/missing" href="${esc(rep.missing||"#")}" target="_blank" rel="noopener">${esc(ui("report_missing"))} &#8599;</a>
     <a class="ve-btn ve-btn-print" data-ev="print/help" href="${esc(rep.print||"#")}" target="_blank" rel="noopener">${esc(ui("report_print"))} &#8599;</a>
-    </div>
     <span class="ve-share-row"><span class="ve-share-lbl">${esc(ui("share_h"))}</span>
       <a class="ve-chip" href="https://wa.me/?text=${swa}" target="_blank" rel="noopener">WhatsApp</a>
       <a class="ve-chip" href="https://t.me/share/url?url=${su}&text=${st}" target="_blank" rel="noopener">Telegram</a>
       <a class="ve-chip" href="https://twitter.com/intent/tweet?text=${st}&url=${su}" target="_blank" rel="noopener">X</a>
       <button class="ve-chip" onclick="veShare()">${esc(ui("share_more"))}</button>
       <button class="ve-chip" onclick="veCopy(this)">${esc(ui("share_copy"))}</button>
-    </span></div>`;
+    </span></div></div>`;
 }
 function veContributeBand(){
   return `<section class="ve-contribute"><h2><i class="sn">04</i>${esc(ui("contribute_h"))}</h2><p>${esc(ui("contribute_lead"))}</p>
