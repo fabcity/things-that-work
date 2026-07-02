@@ -26,7 +26,7 @@ z=v+"/venezuela-offline.zip"
 if os.path.exists(z): os.remove(z)
 with zipfile.ZipFile(z,"w",zipfile.ZIP_DEFLATED) as f:
     f.write(v+"/index.html","index.html")
-    for a in ("manifest.webmanifest","sw.js","icon-192.png","icon-512.png"):
+    for a in ("manifest.webmanifest","sw.js","icon-192.png","icon-512.png","favicon.svg","favicon-32.png"):
         p=os.path.join(v,a)
         if os.path.exists(p): f.write(p,a)
     for a in lean:
