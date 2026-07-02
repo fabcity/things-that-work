@@ -167,6 +167,8 @@
   .ve-thanks b{color:var(--c-food)}
   .ve-thanks-cta{display:inline-block;margin-top:10px;font-weight:800;font-size:14px;background:var(--mc-orange);color:#fff;padding:11px 16px;text-decoration:none}
   .ve-thanks-cta:hover{filter:brightness(1.06)}
+  .ve-thanks-now{margin:10px 0 0;font-size:14px} .ve-thanks-now a{color:var(--mc-orange);font-weight:800}
+  .ve-thanks-demand{margin:6px 0 0;font-size:13.5px;font-weight:700;color:var(--mc-red)}
 
   .safety{border:0;border-left:6px solid var(--mc-red);background:var(--paper-3);padding:13px 16px;font-size:14.5px;color:var(--ink);margin:16px 0}
 
@@ -457,7 +459,7 @@ function veStats(){
     +`<div class="vo-stat"><span class="vo-stat-v">${veFmtN(S.delivered)}</span><span class="vo-stat-n">${esc(ui("stats_ent"))}</span></div>`
     +`<div class="vo-stat"><span class="vo-stat-v">${veFmtN(S.orgs)}</span><span class="vo-stat-n">${esc(ui("stats_orgs"))}</span></div>`
     +`<div class="vo-stat"><span class="vo-stat-v">${esc(String(S.countries))}</span><span class="vo-stat-n">${esc(ui("stats_countries"))}</span></div>`
-    +`</div><p class="vo-stats-src">${esc(ui("stats_src"))} <a href="${esc(src)}" target="_blank" rel="noopener">makers4venezuela</a> &middot; ${meta}</p><div class="ve-thanks"><p><b>${esc(ui("thanks_lead"))}</b> ${esc(ui("thanks_msg"))}</p><a class="ve-thanks-cta" data-ev="registry" href="https://makers4venezuela.github.io/registro" target="_blank" rel="noopener">${esc(ui("thanks_cta"))} &#8594;</a></div></section>`;
+    +`</div><p class="vo-stats-src">${esc(ui("stats_src"))} <a href="${esc(src)}" target="_blank" rel="noopener">makers4venezuela</a> &middot; ${meta}</p><div class="ve-thanks"><p><b>${esc(ui("thanks_lead"))}</b> ${esc(ui("thanks_msg"))}</p><p class="ve-thanks-now">${esc(ui("thanks_now"))} <a href="https://makerworld.com/en/@Ostec3D" target="_blank" rel="noopener">Ostec3D — MakerWorld &#8599;</a></p><p class="ve-thanks-demand">${esc(ui("thanks_demand"))}</p><a class="ve-thanks-cta" data-ev="registry" href="https://makers4venezuela.github.io/registro" target="_blank" rel="noopener">${esc(ui("thanks_cta"))} &#8594;</a></div></section>`;
 }
 function veRefreshStats(){
   if(typeof navigator!=="undefined" && navigator.onLine===false) return;   /* offline → keep baked numbers */
