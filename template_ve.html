@@ -77,16 +77,17 @@
   /* action bar */
   .ve-actions{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:0 0 18px}
   /* Cruz-Diez Maiquetía floor: fine horizontal chromo-grid behind the buttons */
-  .ve-actbtns{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch;flex:1 1 100%;padding:14px;border:2px solid var(--ink);
-    background:repeating-linear-gradient(to bottom,#C6CC16 0 6px,#0A0B0E 6px 8px,#EE5A2A 8px 14px,#0A0B0E 14px 16px,#1668B0 16px 22px,#0A0B0E 22px 24px)}
+  .ve-actbtns{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch;flex:1 1 100%;padding:14px;
+    background:repeating-linear-gradient(to bottom,#C6CC16 0 8px,#EE5A2A 8px 16px,#1668B0 16px 24px)}
   .ve-actbtns .ve-btn{border-color:var(--ink)}
   .ve-actbtns .ve-share-row{margin-left:auto}
   .ve-actbtns .ve-share-lbl{background:var(--ink);color:var(--paper);padding:7px 10px}
   .ve-actbtns .ve-chip{background:var(--ink);border-color:var(--ink);color:var(--paper)}
   .ve-actbtns .ve-chip:hover{background:#000;color:#fff}
   .ve-btn{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:14px;text-decoration:none;
-    padding:13px 17px;min-height:50px;border:2px solid var(--ink);cursor:pointer;background:var(--paper-2);color:var(--ink)}
-  .ve-btn:hover{filter:brightness(1.03)}
+    padding:13px 17px;min-height:50px;border:2px solid var(--ink);cursor:pointer;background:var(--paper-2);color:var(--ink);transition:transform .12s ease,box-shadow .12s ease,filter .12s ease}
+  .ve-btn:hover{transform:translateY(-2px) scale(1.03);box-shadow:0 5px 0 var(--ink);filter:brightness(1.06)}
+  .ve-btn:active{transform:translateY(0) scale(.99);box-shadow:0 2px 0 var(--ink)}
   .ve-btn-map{background:var(--mc-gold);border-color:var(--mc-gold);color:var(--ink);font-size:15px}
   .ve-btn-miss{background:var(--c-water);border-color:var(--c-water);color:#fff;font-size:15px}
   .ve-btn-print{background:var(--mc-red);border-color:var(--mc-red);color:#fff;font-size:15px}
