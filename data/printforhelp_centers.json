@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-02",
-  "count": 62,
+  "updated": "2026-07-03",
+  "count": 65,
   "countries": [
     "USA",
     "MX",
@@ -96,7 +96,7 @@
       "country": "USA1"
     },
     {
-      "raw": "Recibiendo donacionesNo verificadoFab Lab UANL , Facultad de Arquitectura UANLSan Nicolás de los Garza, Nuevo León, MexicoCd. Universitaria S/N , Pedro de Alba81105079549:00 a 18:00 Hrs.",
+      "raw": "Recibiendo donacionesVerificadoFab Lab UANL , Facultad de Arquitectura UANLSan Nicolás de los Garza, Nuevo León, MexicoCd. Universitaria S/N , Pedro de Alba81105079549:00 a 18:00 Hrs.",
       "country": "?"
     },
     {
@@ -160,6 +160,10 @@
       "country": "?"
     },
     {
+      "raw": "Recibiendo donacionesNo verificadoJallaza TechnologyLa Paz, Murillo, BoliviaAv. Bush esquina Pasoskanki69600465Lunes  - Sabado 9-183dsuppliesprints",
+      "country": "?"
+    },
+    {
       "raw": "Recibiendo donacionesVerificadoJordan KraftheferMaricopa, CA, USAPO Box 117 Maricopa, CA 93252661-889-7842 (call or text available. Text preferred)Any timeShipping Address",
       "country": "USAPO"
     },
@@ -172,7 +176,7 @@
       "country": "?"
     },
     {
-      "raw": "Recibiendo donacionesNo verificadoLaboratorio gráficoBogotá, Cundinamarca, ColombiaCalle 131c 90 2032137028281 a 10 pm",
+      "raw": "Recibiendo donacionesVerificadoLaboratorio gráficoBogotá, Cundinamarca, ColombiaCalle 131c 90 2032137028281 a 10 pm",
       "country": "?"
     },
     {
@@ -184,11 +188,19 @@
       "country": "VenezuelaAv."
     },
     {
+      "raw": "Recibiendo donacionesVerificadoLayerlab, C.A - Torre EXACaracas, Miranda, VenezuelaCaracas 1060, Miranda, VenezuelaCarlos Hernandez / [email protected] / 04241603505Shipping AddressMakers4Venezuela",
+      "country": "VenezuelaCaracas"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoMakers4Venezuela (Viva Express - Altamira Caracas)Caracas, Miranda, VenezuelaF5W2+Q6M, Caracas 1060, Miranda, Venezuela@artistadecalleartistadecalle3dprints",
+      "country": "Venezuela"
+    },
+    {
       "raw": "Recibiendo donacionesVerificadoMerlin SchmidtBad Ems, Rhineland-Palatinate, AlemaniaUntertalen 28, 56130[email protected] / [email protected]Mo- Fr 8-19 Uhr",
       "country": "?"
     },
     {
-      "raw": "Recibiendo donacionesNo verificadoMi Tierra Latina (All Stores - Lower Mainland)Vancouver, BC, Canada1757 Robson St, Vancouver, BC V6G 1C9+16043362538",
+      "raw": "Recibiendo donacionesVerificadoMi Tierra Latina (All Stores - Lower Mainland)Vancouver, BC, Canada1757 Robson St, Vancouver, BC V6G 1C9+16043362538",
       "country": "?"
     },
     {
@@ -200,7 +212,7 @@
       "country": "USA9338"
     },
     {
-      "raw": "Recibiendo donacionesNo verificadoPapelon MarketSaint Clair Shores, MI, United States29900 Harper Ave, St Clair Shores, MI 48082586-742-2622Closed on Tuesdaysdrop-off",
+      "raw": "Recibiendo donacionesVerificadoPapelon MarketSaint Clair Shores, MI, United States29900 Harper Ave, St Clair Shores, MI 48082586-742-2622Closed on Tuesdaysdrop-off",
       "country": "?"
     },
     {
