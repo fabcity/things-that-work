@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03",
-  "count": 65,
+  "updated": "2026-07-04",
+  "count": 69,
   "countries": [
     "USA",
     "MX",
@@ -34,6 +34,10 @@
     {
       "raw": "Recibiendo donacionesVerificadoArepas Latin Cuisine - San JoseSan Jose, CA, USA1384 Lincoln Avenue, San Jose, CA 95125(408) 769-4990",
       "country": "USA1384"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoArgentinaBuenos Aires, Capital Federal / Buenos Aires, ArgentinaCondarco 4721, 1D, CABA, Buenos Aires[email protected]",
+      "country": "?"
     },
     {
       "raw": "Recibiendo donacionesVerificadoBistro l'ArepaSaint-Hubert, QC, Canadá3366 Grande Allée, Saint-Hubert, QC J4T 2T1, Canadá+14503411788Working Hours in Google Maps",
@@ -160,7 +164,7 @@
       "country": "?"
     },
     {
-      "raw": "Recibiendo donacionesNo verificadoJallaza TechnologyLa Paz, Murillo, BoliviaAv. Bush esquina Pasoskanki69600465Lunes  - Sabado 9-183dsuppliesprints",
+      "raw": "Recibiendo donacionesVerificadoJallaza TechnologyLa Paz, Murillo, BoliviaAv. Bush esquina Pasoskanki69600465Lunes  - Sabado 9-183dsuppliesprints",
       "country": "?"
     },
     {
@@ -196,11 +200,11 @@
       "country": "Venezuela"
     },
     {
-      "raw": "Recibiendo donacionesVerificadoMerlin SchmidtBad Ems, Rhineland-Palatinate, AlemaniaUntertalen 28, 56130[email protected] / [email protected]Mo- Fr 8-19 Uhr",
+      "raw": "Recibiendo donacionesVerificadoMerlin SchmidtBad Ems, Rhineland-Palatinate, GermanyUntertalen 28, 56130[email protected] / [email protected]Mo- Fr 8-19 Uhr",
       "country": "?"
     },
     {
-      "raw": "Recibiendo donacionesVerificadoMi Tierra Latina (All Stores - Lower Mainland)Vancouver, BC, Canada1757 Robson St, Vancouver, BC V6G 1C9+16043362538",
+      "raw": "Recibiendo donacionesVerificadoMi Tierra Latina (All Stores - Lower Mainland)Vancouver, BC, Canadá1757 Robson St, Vancouver, BC V6G 1C9+16043362538",
       "country": "?"
     },
     {
@@ -212,8 +216,8 @@
       "country": "USA9338"
     },
     {
-      "raw": "Recibiendo donacionesVerificadoPapelon MarketSaint Clair Shores, MI, United States29900 Harper Ave, St Clair Shores, MI 48082586-742-2622Closed on Tuesdaysdrop-off",
-      "country": "?"
+      "raw": "Recibiendo donacionesVerificadoPapelon MarketSaint Clair Shores, MI, USA29900 Harper Ave, St Clair Shores, MI 48082586-742-2622Closed on Tuesdaysdrop-off",
+      "country": "USA29900"
     },
     {
       "raw": "Recibiendo donacionesVerificadoPassion For DessertsMarkham, ON, Canadá6545 Hwy 7, Markham, ON L3P 3B4, Canadáhttp://www.passionfordesserts.com/See working hours in Google Maps",
@@ -236,6 +240,10 @@
       "country": "USA12480"
     },
     {
+      "raw": "Recibiendo donacionesVerificadoTequechic PortugalPorto, São Felix da Marinha, PortugalRua Furriel Joao Farias 165 RC CDP+351934492357Mon to Fri - 17h to 20h",
+      "country": "?"
+    },
+    {
       "raw": "Recibiendo donacionesVerificadoThe Golfers Edge- Indoor GolfOshawa, ON, Canadá472 Taunton Rd W Unit 1, Oshawa, ON L1L 0N8, Canadáhttps://thegolfersedge.org/See working hours in Google Maps",
       "country": "?"
     },
@@ -244,15 +252,15 @@
       "country": "USA620"
     },
     {
-      "raw": "Recibiendo donacionesVerificadoTopos mx (Centro de Acopio 2)Ciudad de México, CDMX, MXIsabel La Católica 247, Obrera, Cuauhtémoc, 06800 Ciudad de México, CDMX, MéxicoTBDL - V 7am - 7 pm",
+      "raw": "Recibiendo donacionesVerificadoTopos mx (Centro de Acopio 2)Ciudad de México, CDMX, MexicoIsabel La Católica 247, Obrera, Cuauhtémoc, 06800 Ciudad de México, CDMX, MéxicoTBDL - V 7am - 7 pm",
       "country": "MX,"
     },
     {
-      "raw": "Recibiendo donacionesVerificadoTopos mx (Centro de Acopio 3)Ciudad de México, CDMX, MXIsabel La Católica 542, Álamos, Benito Juárez, 03400 Ciudad de México, CDMX, MéxicoTBDLun-Vie 11 AM - 5 PM",
+      "raw": "Recibiendo donacionesVerificadoTopos mx (Centro de Acopio 3)Ciudad de México, CDMX, MexicoIsabel La Católica 542, Álamos, Benito Juárez, 03400 Ciudad de México, CDMX, MéxicoTBDLun-Vie 11 AM - 5 PM",
       "country": "MX,"
     },
     {
-      "raw": "Recibiendo donacionesVerificadoTopos mx (Centro de Acopio Matriz)Ciudad de México, CDMX, MXMagistrados 75, Apliación el Sifón, Iztapalapa, 09180TBD9 am a 9 pm",
+      "raw": "Recibiendo donacionesVerificadoTopos mx (Centro de Acopio Matriz)Ciudad de México, CDMX, MexicoMagistrados 75, Apliación el Sifón, Iztapalapa, 09180TBD9 am a 9 pm",
       "country": "MX,"
     },
     {
@@ -266,6 +274,14 @@
     {
       "raw": "Recibiendo donacionesVerificadoVitalSlimChandler, Arizona, USA55 East Ray Road, suite 5, Chandler AZ 85225(480) 434-1701closed Monday, opens Tues 9:30AMsplintdrop-offsupplies",
       "country": "USA55"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoWayrapro ArgentinaBuenos Aires, Capital Federal / Buenos Aires, ArgentinaCondarco 4721, 1D[email protected]",
+      "country": "?"
+    },
+    {
+      "raw": "Recibiendo donacionesVerificadoℙIÑA ℂOLADAValencia, Carabobo, VenezuelaPiña Colada, av bolivar norte0424 4620828 / [email protected]Lunes - viernes  9:30 am - 5:30 pm  Sabados  9:30 am - 6:00 pm",
+      "country": "VenezuelaPiña"
     }
   ]
 }
