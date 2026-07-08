@@ -1,4 +1,4 @@
-const CACHE="cqs-ve-202607050705";
+const CACHE="cqs-ve-202607082132";
 const CORE=["./","./index.html","./manifest.webmanifest","./icon-192.png","./icon-512.png",
 "/files/ferulas/ferula-guia-uso.pdf","/files/ferulas/ferula-identificador.pdf","/files/ferulas/ferula-instrucciones-ostec.pdf"];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(CACHE).then(c=>Promise.allSettled(CORE.map(u=>c.add(u)))).then(()=>self.skipWaiting()));});

@@ -181,6 +181,37 @@
   .ve-thanks-cta:hover{filter:brightness(1.06)}
   .ve-thanks-now{margin:10px 0 0;font-size:14px} .ve-thanks-now a{color:var(--mc-orange);font-weight:800}
   .ve-thanks-demand{margin:6px 0 0;font-size:13.5px;font-weight:700;color:var(--mc-red)}
+  /* ===== phase taxonomy ===== */
+  .ve-phasenav{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:24px 0 10px}
+  .ve-phasenav-lbl{font-weight:800;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-right:2px}
+  .ve-phasenav a{font-weight:700;font-size:13px;text-decoration:none;color:var(--ink);border:1.5px solid var(--rule-2);padding:6px 10px;background:var(--paper)}
+  .ve-phasenav a:hover{border-color:var(--ink)}
+  .ve-phase{border:1.5px solid var(--ink);background:var(--paper);margin:12px 0}
+  .ve-phase>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:15px 18px;font-weight:800;font-size:19px}
+  .ve-phase>summary::-webkit-details-marker{display:none}
+  .ve-phase-num{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:34px;background:var(--ink);color:var(--paper);font-size:14px}
+  .ve-phase-t{flex:1;letter-spacing:-.01em}
+  .ve-phase-now{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--mc-orange);padding:4px 9px}
+  .ve-phase-chev{width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-top:9px solid var(--ink);transition:transform .15s}
+  .ve-phase[open]>summary .ve-phase-chev{transform:rotate(180deg)}
+  .ve-phase[open]>summary{border-bottom:1.5px solid var(--rule-2)}
+  .ve-phase:not([open])>summary:hover{background:var(--paper-3)}
+  .ve-phase-body{padding:4px 18px 16px}
+  /* ===== La gran reconstrucción (fab-network hub) ===== */
+  .ve-recon{margin:32px 0}
+  .ve-recon>h2{font-size:24px;margin:0 0 8px}
+  .ve-recon-lead{font-size:16px;line-height:1.5;max-width:72ch;margin:0 0 16px;color:var(--ink)}
+  .ve-recon-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:0 0 6px}
+  .ve-recon-src{font-size:12px;color:var(--ink-soft);margin:0 0 22px}
+  .ve-recon-cat{background:var(--paper-2);border:1.5px solid var(--ink);border-left:7px solid var(--ink);padding:18px 20px;margin:0 0 14px}
+  .ve-recon-cat h3{font-size:19px;margin:0 0 4px;letter-spacing:-.01em}
+  .ve-recon-cl{margin:0 0 12px;color:var(--ink-soft);font-size:14px;line-height:1.45;max-width:76ch}
+  .ve-recon-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+  .ve-recon-slot b{display:block;font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 6px}
+  .ve-recon-chip{display:inline-block;margin:0 6px 6px 0;padding:6px 10px;border:1.5px solid var(--ink);background:var(--paper);color:var(--ink);text-decoration:none;font-weight:700;font-size:13px}
+  .ve-recon-chip:hover{background:var(--ink);color:var(--paper)}
+  .ve-recon-action{margin-top:14px;padding-top:11px;border-top:1.5px dashed var(--rule-2);font-size:14px;line-height:1.45}
+  .ve-recon-action b{display:block;font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 3px}
   .ve-nets-sec{background:var(--paper-2);border:1.5px solid var(--rule-2);padding:20px 22px;margin:26px 0}
   .ve-nets-sec>h2{font-size:22px;margin:0 0 6px}
   .ve-nets{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:14px}
@@ -401,7 +432,7 @@ function veActionBar(){
     </span></div></div>`;
 }
 function veContributeBand(){
-  return `<section class="ve-contribute"><h2><i class="sn">04</i>${esc(ui("contribute_h"))}</h2><p>${esc(ui("contribute_lead"))}</p>
+  return `<section class="ve-contribute"><h2><i class="sn">05</i>${esc(ui("contribute_h"))}</h2><p>${esc(ui("contribute_lead"))}</p>
     <div class="ve-contrib-grid">
       <div class="ve-contrib-card"><h3>${esc(ui("contribute_need_h"))}</h3><p>${esc(ui("contribute_need_desc"))}</p>
         <button class="ve-btn ve-btn-do" data-ev="contribute/needs" onclick="veToggleForm(this,'solution')">${esc(ui("open_form"))} &#9662;</button>
@@ -519,6 +550,28 @@ function veFindLabs(btn){
     }).catch(function(){ out.textContent=ui("fl_err"); });
   }, function(){ out.textContent=ui("fl_geoerr"); }, {timeout:9000,maximumAge:600000});
 }
+function vePhase(id,num,title,open,inner){
+  return `<details class="ve-phase" id="phase-${id}"${open?" open":""}><summary class="ve-phase-sum"><span class="ve-phase-num">${esc(num)}</span><span class="ve-phase-t">${esc(title)}</span>${open?`<span class="ve-phase-now">${esc(ui("phase_now"))}</span>`:""}<span class="ve-phase-chev" aria-hidden="true"></span></summary><div class="ve-phase-body">${inner}</div></details>`;
+}
+function vePhaseNav(){
+  const L=[["recon","03",ui("phase_recon")],["respuesta","02",ui("phase_response")],["emergencia","01",ui("phase_emergency")]];
+  return `<nav class="ve-phasenav"><span class="ve-phasenav-lbl">${esc(ui("phase_where"))}</span>`+L.map(function(x){return `<a href="#phase-${x[0]}" onclick="var d=document.getElementById('phase-'+'${x[0]}');if(d){d.open=true;}">${esc(x[1])} · ${esc(x[2])}</a>`;}).join("")+`</nav>`;
+}
+function veReconstruction(){
+  const R=DATA.venezuela.reconstruction; if(!R) return "";
+  let h=`<section class="ve-recon"><p class="ve-recon-lead">${esc(ui("recon_lead"))}</p>`;
+  if(R.stats&&R.stats.length){
+    h+=`<div class="ve-recon-stats">`+R.stats.map(function(c){return `<a class="ve-stat" href="${esc(c.url)}" target="_blank" rel="noopener"><span class="ve-stat-v">${esc(pick(c,"value"))}</span><span class="ve-stat-n">${esc(pick(c,"note"))}</span></a>`;}).join("")+`</div><div class="ve-recon-src">${esc(ui("recon_src"))}</div>`;
+  }
+  (R.cats||[]).forEach(function(cat){
+    h+=`<article class="ve-recon-cat" style="border-left-color:${esc(cat.accent)}"><h3>${esc(pick(cat,"title"))}</h3><p class="ve-recon-cl">${esc(pick(cat,"lead"))}</p><div class="ve-recon-grid">`;
+    (cat.slots||[]).forEach(function(sl){
+      h+=`<div class="ve-recon-slot"><b>${esc(pick(sl,"l"))}</b><div>`+(sl.chips||[]).map(function(c){return `<a class="ve-recon-chip" href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)} &#8599;</a>`;}).join("")+`</div></div>`;
+    });
+    h+=`</div><div class="ve-recon-action"><b>${esc(ui("recon_step"))}</b> ${esc(pick(cat,"action"))}</div></article>`;
+  });
+  return h+`</section>`;
+}
 function veNetworks(){
   const ns=DATA.venezuela&&DATA.venezuela.networks; if(!ns||!ns.length) return "";
   return `<section class="ve-nets-sec"><h2>${esc(ui("networks_h"))}</h2><p class="vp-lead">${esc(ui("networks_lead"))}</p><div class="ve-nets">`
@@ -530,28 +583,35 @@ function buildVE(){
   let html=`<section class="ve-hero"><div class="ve-kicker">Venezuela</div><p class="ve-lead">${ui("ve_help_lead")}</p></section>`;
   html+=veActionBar();
   html+=veStats();
-  html+=`<h2 class="ve-playbook-h"><i class="sn">01</i>${esc(ui("ve_h_playbook"))}</h2>`;
+  html+=vePhaseNav();
+  // Phase 3 (current): Reconstruction — shown open
+  html+=vePhase("recon","03",ui("recon_h"),true, veReconstruction());
+  // Phase 2: Response — days-after 3D printing (collapsed)
+  let _resp=`<h2 class="ve-playbook-h"><i class="sn">01</i>${esc(ui("ve_h_playbook"))}</h2>`;
   ve.scenarios.forEach(s=>{
-    html+=`<section class="needgroup" data-need="${esc(s.key)}"><h2>${esc(pick(s,"title"))} <span>${s.items.length}</span></h2><p class="ve-note">${esc(pick(s,"note"))}</p>`;
+    _resp+=`<section class="needgroup" data-need="${esc(s.key)}"><h2>${esc(pick(s,"title"))} <span>${s.items.length}</span></h2><p class="ve-note">${esc(pick(s,"note"))}</p>`;
     s.items.forEach(id=>{ const c=byId[id]; if(!c) return;
       const oh=c.open_hardware?`<span class="ohbadge">${esc(ui("crisis_oh"))}${c.oshwa_uid?(" · "+esc(c.oshwa_uid)):""}</span>`:"";
       const src=c.source_url?`<a href="${esc(c.source_url)}" target="_blank" rel="noopener">${esc(c.source)} ↗</a>`:esc(c.source);
-      html+=`<article class="citem"><div class="cviz">${crisisViz(c)}</div><div>`
+      _resp+=`<article class="citem"><div class="cviz">${crisisViz(c)}</div><div>`
         +`<div class="citem-head"><h3>${esc(lcf(c,"title"))}</h3><div class="chips">${oh}</div></div>`
         +`<p class="csum">${esc(lcf(c,"summary"))}</p><div class="csrc">${esc(ui("crisis_src"))}: ${src}</div></div></article>`;
     });
-    html+=`</section>`;
+    _resp+=`</section>`;
   });
-  html+=`<div class="safety">${ui("ve_live")}</div>`;
-  html+=rPrint();
-  html+=rArchive();
+  _resp+=`<div class="safety">${ui("ve_live")}</div>`;
+  _resp+=rPrint();
+  _resp+=rArchive();
+  html+=vePhase("respuesta","02",ui("phase_response"),false,_resp);
+  // Phase 1: Emergency / what happened (collapsed)
+  let _emer=`<section class="ve-reality qp"><h2>${esc(ui("ve_what_h"))}</h2><p>${ui("ve_lead")}</p></section>`;
+  if(ve.context) _emer+=`<div class="ve-context">`+ve.context.map(c=>`<a class="ve-stat" href="${esc(c.url)}" target="_blank" rel="noopener"><span class="ve-stat-v">${esc(pick(c,"value"))}</span><span class="ve-stat-n">${esc(pick(c,"note"))}</span></a>`).join("")+`</div>`;
+  _emer+=`<section class="ve-reality"><h2>${esc(ui("ve_h_reality"))}</h2><p>${ui("ve_reality")}</p><p class="ve-principle">${ui("ve_principle")}</p></section>`;
+  _emer+=`<div class="ve-resources"><b>${esc(ui("ve_resources"))}:</b> `+ve.resources.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>`).join(" &nbsp;·&nbsp; ")+`</div>`;
+  html+=vePhase("emergencia","01",ui("phase_emergency"),false,_emer);
+  // cross-cutting — always visible
   html+=veContributeBand();
   html+=veNetworks();
-  // context moved to the foot — the standalone page leads with action for people living the crisis
-  html+=`<section class="ve-reality qp"><h2><i class="sn">05</i>${esc(ui("ve_what_h"))}</h2><p>${ui("ve_lead")}</p></section>`;
-  if(ve.context) html+=`<div class="ve-context">`+ve.context.map(c=>`<a class="ve-stat" href="${esc(c.url)}" target="_blank" rel="noopener"><span class="ve-stat-v">${esc(pick(c,"value"))}</span><span class="ve-stat-n">${esc(pick(c,"note"))}</span></a>`).join("")+`</div>`;
-  html+=`<section class="ve-reality"><h2>${esc(ui("ve_h_reality"))}</h2><p>${ui("ve_reality")}</p><p class="ve-principle">${ui("ve_principle")}</p></section>`;
-  html+=`<div class="ve-resources"><b>${esc(ui("ve_resources"))}:</b> `+ve.resources.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>`).join(" &nbsp;·&nbsp; ")+`</div>`;
   html+=veOffline();
   document.getElementById("ve-body").innerHTML=html;
   if(!window.__m4vTried){window.__m4vTried=1; try{veRefreshStats();}catch(e){}}

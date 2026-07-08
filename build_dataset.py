@@ -1322,6 +1322,109 @@ _NET_UI = {
 for _lg in ("en","es","id"):
     UI[_lg].update(_NET_UI[_lg])
 
+# --- La gran reconstrucción: the fab-network reconstruction hub (phase 2) ---
+_L_DES={"l":"Open design","l_es":"Diseño abierto","l_id":"Desain terbuka"}
+_L_MAC={"l":"Machine","l_es":"Máquina","l_id":"Mesin"}
+_L_NET={"l":"Network","l_es":"Red","l_id":"Jaringan"}
+_L_SUP={"l":"Support","l_es":"Acompañamiento","l_id":"Pendampingan"}
+_L_OPM={"l":"Open machines","l_es":"Máquinas abiertas","l_id":"Mesin terbuka"}
+_L_PAR={"l":"Partners supporting","l_es":"Fabricantes aliados","l_id":"Produsen mitra"}
+def _slot(lbl, chips): d=dict(lbl); d["chips"]=chips; return d
+
+dataset["venezuela"]["reconstruction"] = {
+ "stats":[
+  {"value":"58,870 buildings","value_es":"58.870 edificios","value_id":"58.870 bangunan",
+   "note":"damaged or destroyed (satellite est.)","note_es":"dañados o destruidos (est. satelital)","note_id":"rusak atau hancur (est. satelit)",
+   "url":"https://www.npr.org/2026/07/01/nx-s1-5877369/venezuela-earthquakes-updates"},
+  {"value":"6.8M affected","value_es":"6,8 M afectadas","value_id":"6,8 jt terdampak",
+   "note":"need shelter, water, health","note_es":"necesitan techo, agua, salud","note_id":"butuh tempat tinggal, air, kesehatan",
+   "url":"https://www.unicef.org/emergencies/venezuela-earthquakes"},
+  {"value":"680,000 children","value_es":"680.000 niñez","value_id":"680.000 anak",
+   "note":"need assistance (UN)","note_es":"necesitan ayuda (ONU)","note_id":"butuh bantuan (PBB)",
+   "url":"https://news.un.org/en/story/2026/06/1167826"},
+  {"value":"1.2M tons debris","value_es":"1,2 M t escombros","value_id":"1,2 jt ton puing",
+   "note":"to clear and recycle","note_es":"por retirar y reciclar","note_id":"untuk dibersihkan & didaur ulang",
+   "url":"https://reliefweb.int/country/ven"},
+ ],
+ "cats":[
+  {"key":"kids","accent":"#E8B21E",
+   "title":"Children & youth: creative minds, hope","title_es":"Niñez y juventud: mente creativa y esperanza","title_id":"Anak & remaja: pikiran kreatif, harapan",
+   "lead":"680,000 children need support. Making — paper circuits, coding, building — helps process trauma, alongside psychosocial care, never instead of it.",
+   "lead_es":"680.000 niñas y niños necesitan apoyo. Hacer —circuitos de papel, programar, construir— ayuda a procesar el trauma, junto al acompañamiento psicosocial, nunca en su lugar.",
+   "lead_id":"680.000 anak butuh dukungan. Membuat — sirkuit kertas, coding, merakit — membantu memproses trauma, bersama pendampingan psikososial, bukan menggantikannya.",
+   "slots":[
+     _slot(_L_DES,[{"name":"Scratch","url":"https://scratch.mit.edu"},{"name":"micro:bit","url":"https://microbit.org"},{"name":"Fab Foundation edu","url":"https://fabfoundation.org"}]),
+     _slot(_L_SUP,[{"name":"Save the Children","url":"https://www.savethechildren.net"},{"name":"UNICEF","url":"https://www.unicef.org/emergencies/venezuela-earthquakes"}]),
+     _slot(_L_NET,[{"name":"Fab labs cerca","url":"https://fablabs.io"},{"name":"Maps of Making","url":"https://mapsofmaking.org"}]),
+   ],
+   "action":"Set up a safe creative corner in a shelter or child-friendly space; start with paper circuits and Scratch, alongside a psychosocial facilitator.",
+   "action_es":"Monta un rincón creativo seguro en un albergue o espacio amigo de la niñez; empieza con circuitos de papel y Scratch, junto a un facilitador psicosocial.",
+   "action_id":"Buat sudut kreatif yang aman di tempat penampungan atau ruang ramah anak; mulai dengan sirkuit kertas dan Scratch, bersama fasilitator psikososial."},
+
+  {"key":"plastic","accent":"#0B7A77",
+   "title":"Recycled plastic: sheets for furniture","title_es":"Plástico reciclado: láminas para mobiliario","title_id":"Plastik daur ulang: lembaran untuk furnitur",
+   "lead":"The 1.2M tons of debris include plastic. Turn it into 1×1 m sheets for tabletops, panels and furniture.",
+   "lead_es":"Los 1,2 millones de toneladas de escombros incluyen plástico. Conviértelo en láminas de 1×1 m para tableros, paneles y mobiliario.",
+   "lead_id":"1,2 juta ton puing termasuk plastik. Ubah menjadi lembaran 1×1 m untuk meja, panel, dan furnitur.",
+   "slots":[
+     _slot(_L_DES,[{"name":"Precious Plastic — sheets","url":"https://bazar.preciousplastic.com/raw-material/sheets/"},{"name":"Sheetpress guide","url":"https://www.onearmy.earth/news/sheetpress"}]),
+     _slot(_L_MAC,[{"name":"Sheetpress","url":"https://www.preciousplastic.com"},{"name":"CNC / laser to cut","url":"https://www.mekanika.io/en"}]),
+     _slot(_L_NET,[{"name":"Precious Plastic community","url":"https://www.preciousplastic.com"},{"name":"Fab labs cerca","url":"https://fablabs.io"}]),
+   ],
+   "action":"Collect and sort PP and PS plastic; access or build a sheetpress; press 1×1 m sheets for tabletops and panels.",
+   "action_es":"Reúne y clasifica plástico PP y PS; accede o construye una prensa de láminas; produce láminas de 1×1 m para tableros y paneles.",
+   "action_id":"Kumpulkan dan pilah plastik PP dan PS; akses atau bangun sheetpress; cetak lembaran 1×1 m untuk meja dan panel."},
+
+  {"key":"furniture","accent":"#B5701A",
+   "title":"Open-source furniture and parts","title_es":"Mobiliario y piezas de código abierto","title_id":"Furnitur & suku cadang sumber terbuka",
+   "lead":"Furnish shelters and repair with parts cut on CNC or laser, or 3D-printed, from open designs.",
+   "lead_es":"Amuebla albergues y repara con piezas cortadas en CNC o láser, o impresas en 3D, a partir de diseños abiertos.",
+   "lead_id":"Lengkapi tempat penampungan dan perbaiki dengan komponen potong CNC/laser atau cetak 3D, dari desain terbuka.",
+   "slots":[
+     _slot(_L_DES,[{"name":"WikiHouse","url":"https://www.wikihouse.cc"},{"name":"Opendesk","url":"https://opendesk.cc"},{"name":"AtFAB","url":"https://atfab.co"}]),
+     _slot(_L_MAC,[{"name":"Mekanika CNC","url":"https://www.mekanika.io/en"},{"name":"laser / 3D print","url":"https://fablabs.io"}]),
+     _slot(_L_NET,[{"name":"Opendesk makers","url":"https://opendesk.cc"},{"name":"Fab City","url":"https://fab.city"},{"name":"Fab labs cerca","url":"https://fablabs.io"}]),
+   ],
+   "action":"Download a flat-pack design; cut it on a local CNC or laser; assemble without hardware where possible.",
+   "action_es":"Descarga un diseño plano; córtalo en un CNC o láser local; ensambla sin herrajes cuando sea posible.",
+   "action_id":"Unduh desain rakitan datar; potong di CNC atau laser lokal; rakit tanpa perangkat keras bila memungkinkan."},
+
+  {"key":"machines","accent":"#0E5FA0",
+   "title":"Digital fabrication machines","title_es":"Máquinas de fabricación digital","title_id":"Mesin fabrikasi digital",
+   "lead":"The toolchain that makes all of the above possible: open machines, plus manufacturers supporting the response.",
+   "lead_es":"La cadena de herramientas que hace posible todo lo anterior: máquinas abiertas y fabricantes que apoyan la respuesta.",
+   "lead_id":"Rantai alat yang memungkinkan semuanya: mesin terbuka, plus produsen yang mendukung respons.",
+   "slots":[
+     _slot(_L_OPM,[{"name":"RepRap","url":"https://reprap.org"},{"name":"Prusa","url":"https://www.prusa3d.com"},{"name":"Voron","url":"https://vorondesign.com"},{"name":"Mekanika","url":"https://www.mekanika.io/en"},{"name":"Precious Plastic","url":"https://www.preciousplastic.com"}]),
+     _slot(_L_PAR,[{"name":"Bambu Lab","url":"https://bambulab.com"},{"name":"Seeed Studio","url":"https://www.seeedstudio.com"},{"name":"xTool","url":"https://www.xtool.com"}]),
+     _slot(_L_NET,[{"name":"Fab labs cerca","url":"https://fablabs.io"},{"name":"Fab Foundation","url":"https://fabfoundation.org"},{"name":"Fab City","url":"https://fab.city"}]),
+   ],
+   "action":"Map the machines you already have; connect to the nearest fab lab; request support from the partner manufacturers.",
+   "action_es":"Mapea las máquinas que ya tienes; conéctate al fab lab más cercano; solicita apoyo a los fabricantes aliados.",
+   "action_id":"Petakan mesin yang sudah kamu miliki; hubungi fab lab terdekat; minta dukungan dari produsen mitra."},
+ ],
+}
+_RECON_UI = {
+ "en":{"recon_h":"The great reconstruction","recon_step":"First step",
+   "recon_lead":"Rescue is ending; rebuilding begins. Fifteen years of digital-fabrication networks converge here: for each need, an open design, a machine that makes it, a network that already knows how, and a first step. Named local nodes are being added — reach out to help place them.",
+   "recon_src":"Sources: UNICEF, Save the Children, UN, NPR, UNDP — estimates, evolving."},
+ "es":{"recon_h":"La gran reconstrucción","recon_step":"Primer paso",
+   "recon_lead":"Termina el rescate; empieza reconstruir. Quince años de redes de fabricación digital convergen aquí: para cada necesidad, un diseño abierto, una máquina que lo hace, una red que ya sabe cómo, y un primer paso. Los nodos locales con nombre se están sumando — escribe para ayudar a ubicarlos.",
+   "recon_src":"Fuentes: UNICEF, Save the Children, ONU, NPR, PNUD — estimaciones, en evolución."},
+ "id":{"recon_h":"Rekonstruksi besar","recon_step":"Langkah pertama",
+   "recon_lead":"Penyelamatan berakhir; pembangunan dimulai. Lima belas tahun jaringan fabrikasi digital bertemu di sini: untuk setiap kebutuhan, desain terbuka, mesin pembuatnya, jaringan yang sudah tahu caranya, dan langkah pertama. Node lokal bernama sedang ditambahkan — hubungi untuk membantu menempatkannya.",
+   "recon_src":"Sumber: UNICEF, Save the Children, PBB, NPR, UNDP — estimasi, terus berkembang."},
+}
+for _lg in ("en","es","id"):
+    UI[_lg].update(_RECON_UI[_lg])
+_PHASE_UI = {
+ "en":{"phase_where":"Where we are","phase_now":"current phase","phase_recon":"Reconstruction","phase_response":"Response · 3D printing","phase_emergency":"Emergency · what happened"},
+ "es":{"phase_where":"¿Dónde estamos?","phase_now":"fase actual","phase_recon":"Reconstrucción","phase_response":"Respuesta · impresión 3D","phase_emergency":"Emergencia · qué pasó"},
+ "id":{"phase_where":"Di mana kita","phase_now":"fase saat ini","phase_recon":"Rekonstruksi","phase_response":"Respons · cetak 3D","phase_emergency":"Darurat · apa yang terjadi"},
+}
+for _lg in ("en","es","id"):
+    UI[_lg].update(_PHASE_UI[_lg])
+
 # --- Standalone /venezuela: action-first hero + "what happened" moved to the foot ---
 VE_FOOT_UI = {
  "en":{"ve_help_lead":"Tools and help for the days after — report, print a part, contribute. What happened and the latest figures are at the foot of the page.",
