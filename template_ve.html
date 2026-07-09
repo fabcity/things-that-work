@@ -181,6 +181,11 @@
   .ve-thanks-cta:hover{filter:brightness(1.06)}
   .ve-thanks-now{margin:10px 0 0;font-size:14px} .ve-thanks-now a{color:var(--mc-orange);font-weight:800}
   .ve-thanks-demand{margin:6px 0 0;font-size:13.5px;font-weight:700;color:var(--mc-red)}
+  /* ===== quake hero image ===== */
+  .ve-quakehero{margin:0 0 18px;border:1.5px solid var(--ink);background:var(--ink)}
+  .ve-quakehero img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;object-position:center}
+  .ve-quakehero figcaption{font-size:12.5px;line-height:1.4;color:var(--ink);padding:9px 13px;background:var(--paper-2);border-top:1.5px solid var(--rule-2)}
+  .ve-quakehero-cr{display:block;margin-top:2px;font-size:11px;color:var(--ink-soft)}
   /* ===== phase taxonomy ===== */
   .ve-phasenav{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:24px 0 10px}
   .ve-phasenav-lbl{font-weight:800;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-right:2px}
@@ -550,6 +555,9 @@ function veFindLabs(btn){
     }).catch(function(){ out.textContent=ui("fl_err"); });
   }, function(){ out.textContent=ui("fl_geoerr"); }, {timeout:9000,maximumAge:600000});
 }
+function veQuakeHero(){
+  return `<figure class="ve-quakehero"><img src="img/quake-sentinel1.jpg" width="1000" height="707" alt="${esc(ui("quake_alt"))}" loading="eager" decoding="async"><figcaption>${esc(ui("quake_cap"))} <span class="ve-quakehero-cr">${esc(ui("quake_credit"))}</span></figcaption></figure>`;
+}
 function vePhase(id,num,title,open,inner){
   return `<details class="ve-phase" id="phase-${id}"${open?" open":""}><summary class="ve-phase-sum"><span class="ve-phase-num">${esc(num)}</span><span class="ve-phase-t">${esc(title)}</span>${open?`<span class="ve-phase-now">${esc(ui("phase_now"))}</span>`:""}<span class="ve-phase-chev" aria-hidden="true"></span></summary><div class="ve-phase-body">${inner}</div></details>`;
 }
@@ -582,12 +590,12 @@ function buildVE(){
   const ve=DATA.venezuela, byId={}; (DATA.crisis||[]).forEach(c=>byId[c.id]=c);
   let html=`<section class="ve-hero"><div class="ve-kicker">Venezuela</div><p class="ve-lead">${ui("ve_help_lead")}</p></section>`;
   html+=veActionBar();
-  html+=veStats();
+  html+=veQuakeHero();
   html+=vePhaseNav();
   // Phase 3 (current): Reconstruction — shown open
   html+=vePhase("recon","03",ui("recon_h"),true, veReconstruction());
   // Phase 2: Response — days-after 3D printing (collapsed)
-  let _resp=`<h2 class="ve-playbook-h"><i class="sn">01</i>${esc(ui("ve_h_playbook"))}</h2>`;
+  let _resp=veStats()+`<h2 class="ve-playbook-h"><i class="sn">01</i>${esc(ui("ve_h_playbook"))}</h2>`;
   ve.scenarios.forEach(s=>{
     _resp+=`<section class="needgroup" data-need="${esc(s.key)}"><h2>${esc(pick(s,"title"))} <span>${s.items.length}</span></h2><p class="ve-note">${esc(pick(s,"note"))}</p>`;
     s.items.forEach(id=>{ const c=byId[id]; if(!c) return;

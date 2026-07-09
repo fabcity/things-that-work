@@ -1424,6 +1424,13 @@ _PHASE_UI = {
 }
 for _lg in ("en","es","id"):
     UI[_lg].update(_PHASE_UI[_lg])
+_QUAKE_UI = {
+ "en":{"quake_alt":"Satellite radar image of the earthquake: ground displacement along the Caracas–La Guaira coast.","quake_cap":"Sentinel-1 from orbit — the footprint of the 24 June earthquake along the La Guaira coast, the worst-hit strip.","quake_credit":"Image: contains modified Copernicus Sentinel data (2026), processed by ESA · CC BY-SA 3.0 IGO"},
+ "es":{"quake_alt":"Imagen de radar satelital del terremoto: desplazamiento del terreno en la costa Caracas–La Guaira.","quake_cap":"Sentinel-1 desde la órbita — la huella del sismo del 24 de junio en la costa de La Guaira, la franja más golpeada.","quake_credit":"Imagen: contiene datos Copernicus Sentinel modificados (2026), procesados por la ESA · CC BY-SA 3.0 IGO"},
+ "id":{"quake_alt":"Citra radar satelit gempa: pergeseran tanah di pesisir Caracas–La Guaira.","quake_cap":"Sentinel-1 dari orbit — jejak gempa 24 Juni di pesisir La Guaira, kawasan paling parah.","quake_credit":"Gambar: berisi data Copernicus Sentinel yang dimodifikasi (2026), diproses oleh ESA · CC BY-SA 3.0 IGO"},
+}
+for _lg in ("en","es","id"):
+    UI[_lg].update(_QUAKE_UI[_lg])
 
 # --- Standalone /venezuela: action-first hero + "what happened" moved to the foot ---
 VE_FOOT_UI = {
