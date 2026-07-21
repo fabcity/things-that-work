@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-02",
+  "updated": "2026-07-21",
   "source": "https://desaparecidos-terremoto-api.theempire.tech/api/metricas",
-  "total": 54371,
-  "sin_contacto": 38793,
-  "localizados": 15578
+  "total": 44304,
+  "sin_contacto": 29905,
+  "localizados": 14399
 }
