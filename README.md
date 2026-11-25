@@ -12,12 +12,8 @@ A project of the **Fab City Foundation**.
 
 ## Why this exists
 
-Two traditions reached the same conclusion from opposite ends. The **Whole Earth
-Catalog** called it *access to tools*. Cut off after the Soviet collapse, Cubans
-practiced what Ernesto Oroza named *technological disobedience*. One pole is abundance
-choosing self‑reliance; the other is scarcity forcing it. Both produce the same
-artifact: **a thing that works, made or kept alive locally.** That is what this
-repository collects — and, since June 2026, puts directly in the hands of Venezuelans
+When the tap is cut, the lights go out or the supply chain stops, what helps is a thing that works, made or kept
+alive locally. That is what this repository collects — and, since June 2026, puts directly in the hands of Venezuelans
 living through an earthquake on top of years of degraded services.
 
 This is not an archive of PDFs. It is a queryable index, tagged by what each solution

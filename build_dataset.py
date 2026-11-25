@@ -419,7 +419,7 @@ UI = {
  "en":{
   "tagline":"Things That Work — a Fab City repository","rev":"rev. ",
   "subtitle":"A repository of access to tools and technological disobedience",
-  "manifesto":'A repository of solutions that <b>actually work for people</b> — built from two traditions that reached the same conclusion from opposite ends. The <b style="color:var(--wec)">Whole Earth Catalog</b> called it <i>access to tools</i>: give people the means and they shape their own world. In Cuba, cut off from supply chains, people practiced what Ernesto Oroza named <b style="color:var(--cuba)">technological disobedience</b>: refusing the designed authority of the industrial object — repairing it, repurposing it, rebuilding it. The more you can make what you need, the freer you are.',
+  "manifesto":'A repository of solutions that <b>actually work for people</b>. Tools you can make, repair, repurpose or rebuild where you are, when the shop is closed and the supply chain is gone. The more you can make what you need, the freer you are.',
   "c_entries":"solutions indexed","c_cuba":"Cuban disobedience","c_wec":"access to tools","c_issues":"Whole Earth issues",
   "tab_repo":"The Repository","tab_index":"Whole Earth Index",
   "search_ph":"Search solutions — try “feed”, “repair”, “water”, “salvage”, “coffee”…",
@@ -438,7 +438,7 @@ UI = {
  "es":{
   "tagline":"Things That Work — un repositorio de Fab City","rev":"rev. ",
   "subtitle":"Un repositorio de acceso a herramientas y desobediencia tecnológica",
-  "manifesto":'Un repositorio de soluciones que <b>de verdad funcionan para la gente</b>, construido desde dos tradiciones que llegaron a la misma conclusión por caminos opuestos. El <b style="color:var(--wec)">Whole Earth Catalog</b> lo llamó <i>acceso a herramientas</i>: dale a la gente los medios y dará forma a su propio mundo. En Cuba, cortada de las cadenas de suministro, la gente practicó lo que Ernesto Oroza llamó <b style="color:var(--cuba)">desobediencia tecnológica</b>: negarse a la autoridad de diseño del objeto industrial — repararlo, reutilizarlo, reconstruirlo. Mientras más puedas hacer lo que necesitas, más libre eres.',
+  "manifesto":'Un repositorio de soluciones que <b>de verdad funcionan para la gente</b>. Herramientas que puedes hacer, reparar, reutilizar o reconstruir donde estás, cuando la tienda está cerrada y la cadena de suministro se cortó. Mientras más puedas hacer lo que necesitas, más libre eres.',
   "c_entries":"soluciones indexadas","c_cuba":"desobediencia cubana","c_wec":"acceso a herramientas","c_issues":"números de Whole Earth",
   "tab_repo":"El repositorio","tab_index":"Índice de Whole Earth",
   "search_ph":"Busca soluciones — prueba “pienso”, “reparar”, “agua”, “chatarra”, “café”…",
@@ -457,7 +457,7 @@ UI = {
  "id":{
   "tagline":"Things That Work — repositori Fab City","rev":"rev. ",
   "subtitle":"Repositori akses ke perkakas dan pembangkangan teknologi",
-  "manifesto":'Sebuah repositori solusi yang <b>benar-benar berhasil untuk masyarakat</b> — dibangun dari dua tradisi yang sampai pada kesimpulan sama dari arah berlawanan. <b style="color:var(--wec)">Whole Earth Catalog</b> menyebutnya <i>akses ke perkakas</i>: beri orang sarananya dan mereka akan membentuk dunianya sendiri. Di Kuba, terputus dari rantai pasok, orang mempraktikkan apa yang dinamai Ernesto Oroza sebagai <b style="color:var(--cuba)">pembangkangan teknologi</b>: menolak otoritas rancangan benda industri — memperbaikinya, mengalihfungsikannya, membangunnya kembali. Semakin banyak yang bisa kamu buat sendiri, semakin bebas kamu.',
+  "manifesto":'Sebuah repositori solusi yang <b>benar-benar berhasil untuk masyarakat</b>. Perkakas yang bisa kamu buat, perbaiki, alihfungsikan atau bangun ulang di tempatmu, saat toko tutup dan rantai pasok terputus. Semakin banyak yang bisa kamu buat sendiri, semakin bebas kamu.',
   "c_entries":"solusi terindeks","c_cuba":"pembangkangan Kuba","c_wec":"akses ke perkakas","c_issues":"terbitan Whole Earth",
   "tab_repo":"Repositori","tab_index":"Indeks Whole Earth",
   "search_ph":"Cari solusi — coba “pakan”, “perbaikan”, “air”, “rongsokan”, “kopi”…",
