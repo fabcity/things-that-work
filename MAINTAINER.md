@@ -15,7 +15,7 @@ fundamental ones to Tomás before touching anything**. Push deploys automaticall
 - Updating earthquake / casualty figures **from official sources** (USGS, UN OCHA, FUNVISIS, PAHO).
 
 **🛑 Stop and check with Tomás first (fundamental):**
-- The **design system** — palette, typography, layout, the Metro de Caracas / Cruz-Diez identity, the sharp-corner style.
+- The **design system** — palette, typography, layout, the colour-stripe identity, the sharp-corner style.
 - The **page structure** — adding, removing, renaming, or reordering sections.
 - The **data model or build pipeline**, or a major new feature (new interactive map embed, forms backend, auth, analytics/tracking).
 - Removing content, changing branding / the footer, or licensing.

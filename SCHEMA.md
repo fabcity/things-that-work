@@ -1,9 +1,9 @@
 # Schema — "Things That Work"
 
-One record = one **thing that works for people**. The schema fuses the Whole Earth
-Catalog's *access to tools* (what is it, what's it made of, where do I get it) with
-Ernesto Oroza's *technological disobedience* (what authority of the object does it
-refuse, and how). The goal is a repository you can query — not a pile of PDFs.
+One record = one **thing that works for people**. It says what the thing is, what it's
+made of and where to get it, and which *technological disobedience* move it makes: what
+authority of the object it refuses, and how. The goal is a repository you can query — not
+a pile of PDFs.
 
 ## Entry object
 

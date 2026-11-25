@@ -19,8 +19,8 @@ DIST = ROOT / "dist"
 DIST.mkdir(exist_ok=True)
 
 # ----------------------------------------------------------------------------
-# Taxonomy — fuses Whole Earth "access to tools" with Oroza's
-# technological-disobedience moves. This is the spine of the repository.
+# Taxonomy — "access to tools" plus the technological-disobedience moves.
+# This is the spine of the repository.
 # ----------------------------------------------------------------------------
 MOVES = [
     ("repair",        "Repair",         "Fix what broke; restore an object to function instead of replacing it."),
