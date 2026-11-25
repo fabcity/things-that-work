@@ -63,11 +63,9 @@ designed to lead people straight to action with dignity. It is **data‑driven**
 `template_ve.html` (design + render JS) + `data/` + `data/i18n/` are compiled into
 `deploy/venezuela/index.html`.
 
-- **Design language** — the graphic world of **Carlos Cruz‑Diez's Maiquetía airport**
-  (the kinetic colour stripe) and **Metro de Caracas / MetroDiseño 1983** (the orange
-  *M* + downward‑chevron *emblema*, colour‑coded stations, Helvetica signage), with
-  **IKEA‑manual** clarity inside (numbered steps, geometric pictograms, lots of air).
-  An icon of progress and hope — not a disaster bulletin.
+- **Design language** — a kinetic colour stripe, an orange mark with a downward chevron,
+  colour-coded stations and clear signage, with numbered steps, geometric pictograms and
+  lots of air inside. An icon of progress and hope — not a disaster bulletin.
 - **Offline / on your phone** — "Descargar esta página" (one self‑contained file to
   share by WhatsApp/Bluetooth), "Instalar como app" (PWA), and a full ZIP with the
   printable files.
